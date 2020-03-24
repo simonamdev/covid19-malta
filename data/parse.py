@@ -94,4 +94,4 @@ for date, cases in cases_by_date.items():
 # print(output_data)
 pprint(output_data)
 with open('data/output.json', 'w') as file:
-    file.write(json.dumps(output_data, indent=4))
+    file.write(json.dumps(output_data, indent=2))
