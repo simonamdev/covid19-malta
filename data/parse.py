@@ -1,7 +1,9 @@
 import os
+import json
 
 from typing import List
 from csv import DictReader
+from pprint import pprint
 
 files: List[str] = os.listdir('data')
 # may need sorting
@@ -16,7 +18,8 @@ data = DictReader(open(latest_file_path))
 
 output_data = {
     'case_count': 0,
-    'cases': []
+    'cases': [],
+    'case_proportion_by_date': {}
 }
 
 
@@ -25,7 +28,7 @@ def data_present(value):
 
 
 def parse_date(date):
-    if date is None or date == '?':
+    if date is None or date == '?' or date == '':
         return None
     day, month, year = date.split('/')
     day = day if len(day) == 2 else f'0{day}'
@@ -54,21 +57,41 @@ for row in data:
             'date_symptom_start': parse_date(data_present(row['Symptom Start Date'])),
             'gender': row['Gender'],
             'age': int(data_present(row['Age'])) if data_present(row['Age']) else None,
-            'case_type': case_type
+            'case_type': case_type,
+            'nationality': data_present(row['Nationality'])
         }
     )
-    break
+    # break
 
-output_data['case_proportion'] = {
-    'Imported': {'count': 0, 'percentage': 0.0},
-    'Local Transmission': {'count': 0, 'percentage': 0.0},
-    'Exposure to Imported Case': {'count': 0, 'percentage': 0.0},
-}
-for case in output_data['cases']:
-    proportion = output_data['case_proportion'][case['case_type']]
-    proportion['count'] += 1
-    # could just calculate once at the end
-    percentage = proportion['count'] / output_data['case_count'] * 100.0
-    proportion['percentage'] = percentage
 
-print(output_data)
+def split_cases_by_date(cases):
+    dates = sorted(list(set([case['date_announced'] for case in cases])))
+    cases_by_date = {}
+    for date in dates:
+        cases_by_date[date] = [
+            case for case in cases if case['date_announced'] == date]
+    return cases_by_date
+
+
+def get_empty_proportion():
+    return {
+        'Imported': {'count': 0, 'percentage': 0.0},
+        'Local Transmission': {'count': 0, 'percentage': 0.0},
+        'Exposure to Imported Case': {'count': 0, 'percentage': 0.0},
+    }
+
+
+cases_by_date = split_cases_by_date(output_data['cases'])
+for date, cases in cases_by_date.items():
+    output_data['case_proportion_by_date'][date] = get_empty_proportion()
+    for case in cases:
+        proportion = output_data['case_proportion_by_date'][date][case['case_type']]
+        proportion['count'] += 1
+        # could just calculate once at the end
+        percentage = proportion['count'] / output_data['case_count'] * 100.0
+        proportion['percentage'] = percentage
+
+# print(output_data)
+pprint(output_data)
+with open('data/output.json', 'w') as file:
+    file.write(json.dumps(output_data, indent=4))
