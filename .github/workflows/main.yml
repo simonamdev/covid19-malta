@@ -16,11 +16,12 @@ jobs:
           GATSBY_PROJECT_PATH: "./c19-malta-vis"
         with:
           gatsby-arg: build
-      - name: Deploy via SSH
-        uses: appleboy/ssh-action@master
+      - name: Copy generated files
+        uses: garygrossgarten/github-action-scp@release
         with:
+          local: c19-malta-vis/public
+          remote: /home/covid19
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
-          key: ${{ secrets.KEY }}
-          port: ${{ secrets.PORT }}
-          script: whoami
+          privateKey: ${{ secrets.KEY }}
+          concurrency: 4
