@@ -24,4 +24,4 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           privateKey: ${{ secrets.KEY }}
-          concurrency: 4
+          concurrency: 1
