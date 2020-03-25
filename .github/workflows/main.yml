@@ -17,12 +17,12 @@ jobs:
         with:
           gatsby-arg: build
       - name: Copy generated files
-        uses: garygrossgarten/github-action-scp@release
+        uses: appleboy/scp-action@master
         with:
-          local: c19-malta-vis/public
-          remote: /home/covid19
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
-          privateKey: ${{ secrets.KEY }}
-          concurrency: 1
-          recursive: true
+          key: ${{ secrets.KEY }}
+          port: ${{ secrets.PORT }}
+          source: "c19-malta-vis/public"
+          target: "/home/covid19"
+          rm: true
