@@ -2,27 +2,27 @@ name: CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   build:
     name: Build Gatsby Site
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - name: Build Gatsby Site
-      uses: jzweifel/gatsby-cli-github-action@master
-      env:
-        GATSBY_PROJECT_PATH: "./c19-malta-vis"
-      with:
-        gatsby-arg: build
+      - uses: actions/checkout@master
+      - name: Build Gatsby Site
+        uses: jzweifel/gatsby-cli-github-action@master
+        env:
+          GATSBY_PROJECT_PATH: "./c19-malta-vis"
+        with:
+          gatsby-arg: build
   deploy:
     name: Deploy to Server
     runs-on: ubuntu-latest
     uses: appleboy/ssh-action@master
-      with:
-        host: ${{ secrets.HOST }}
-        username: ${{ secrets.USERNAME }}
-        key: ${{ secrets.KEY }}
-        port: ${{ secrets.PORT }}
-        script: whoami
+    with:
+      host: ${{ secrets.HOST }}
+      username: ${{ secrets.USERNAME }}
+      key: ${{ secrets.KEY }}
+      port: ${{ secrets.PORT }}
+      script: whoami
