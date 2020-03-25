@@ -2,16 +2,15 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+
+import Data from "../../content/output.json"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="COVID-19 Malta" />
     <h1>Malta Covid-19 Data</h1>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
+    <p>{Data["case_count"]} Cases so far</p>
     <Link to="/page-2/">See Statistics Here</Link>
   </Layout>
 )
