@@ -25,3 +25,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           privateKey: ${{ secrets.KEY }}
           concurrency: 1
+          recursive: true
