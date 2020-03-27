@@ -1,0 +1,29 @@
+[
+  {
+    "date_announced": "2020-03-24",
+    "case_number": 108,
+    "date_symptom_start": "2020-03-22",
+    "gender": "F",
+    "age": 20,
+    "case_type": "Imported",
+    "nationality": "MALTESE"
+  },
+  {
+    "date_announced": "2020-03-24",
+    "case_number": 109,
+    "date_symptom_start": "2020-03-11",
+    "gender": "F",
+    "age": 20,
+    "case_type": "Imported",
+    "nationality": "MALTESE"
+  },
+  {
+    "date_announced": "2020-03-24",
+    "case_number": 110,
+    "date_symptom_start": "2020-03-18",
+    "gender": "M",
+    "age": 49,
+    "case_type": "Imported",
+    "nationality": "AMERICAN"
+  }
+]

@@ -28,13 +28,14 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
+    "build": "yarn run copyfiles && gatsby build",
+    "develop": "yarn run copyfiles && gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "copyfiles": "cp ../data/files/**.* ./content"
   },
   "repository": {
     "type": "git",

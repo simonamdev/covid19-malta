@@ -16,11 +16,13 @@ print(f'Parsing {latest_file_path}')
 
 data = DictReader(open(latest_file_path))
 
-output_data = {
-    'case_count': 0,
-    'cases': [],
-    'case_proportion_by_date': {}
-}
+all_cases = []
+case_proportion_by_date = {}
+
+
+def create_file(file_name, data):
+    with open(os.path.join('.', 'data', 'files', f'{file_name}.json'), 'w') as file:
+        file.write(json.dumps(data, indent=2))
 
 
 def data_present(value):
@@ -38,8 +40,6 @@ def parse_date(date):
 
 
 for row in data:
-    output_data['case_count'] += 1
-
     case_type = None
     imported = row['Imported'] == 'YES'
     local = row['Local'] == 'YES'
@@ -50,7 +50,7 @@ for row in data:
     else:
         case_type = 'Exposure to Imported Case'
 
-    output_data['cases'].append(
+    all_cases.append(
         {
             'date_announced': parse_date(data_present(row['Date Announced'])),
             'case_number': int(row['Case']),
@@ -61,7 +61,6 @@ for row in data:
             'nationality': data_present(row['Nationality'])
         }
     )
-    # break
 
 
 def split_cases_by_date(cases):
@@ -81,17 +80,40 @@ def get_empty_proportion():
     }
 
 
-cases_by_date = split_cases_by_date(output_data['cases'])
+cases_by_date = split_cases_by_date(all_cases)
 for date, cases in cases_by_date.items():
-    output_data['case_proportion_by_date'][date] = get_empty_proportion()
+    case_proportion_by_date[date] = get_empty_proportion()
     for case in cases:
-        proportion = output_data['case_proportion_by_date'][date][case['case_type']]
+        proportion = case_proportion_by_date[date][case['case_type']]
         proportion['count'] += 1
         # could just calculate once at the end
-        percentage = proportion['count'] / output_data['case_count'] * 100.0
+        percentage = proportion['count'] / len(cases) * 100.0
         proportion['percentage'] = percentage
 
+# Gender related
+case_proportion_by_gender = {
+    'male': {'count': 0, 'proportion': 0},
+    'female': {'count': 0, 'proportion': 0},
+    'other': {'count': 0, 'proportion': 0}
+}
+for case in all_cases:
+    if case['gender'] == 'M':
+        case_proportion_by_gender['male']['count'] += 1
+    elif case['gender'] == 'F':
+        case_proportion_by_gender['female']['count'] += 1
+    else:
+        case_proportion_by_gender['other']['count'] += 1
+    case_proportion_by_gender['male']['proportion'] = case_proportion_by_gender['male']['count'] / len(
+        all_cases) * 100.0
+    case_proportion_by_gender['female']['proportion'] = case_proportion_by_gender['female']['count'] / len(
+        all_cases) * 100.0
+    case_proportion_by_gender['other']['proportion'] = case_proportion_by_gender['other']['count'] / len(
+        all_cases) * 100.0
+
+
 # print(output_data)
-pprint(output_data)
-with open('data/output.json', 'w') as file:
-    file.write(json.dumps(output_data, indent=2))
+pprint(cases)
+pprint(case_proportion_by_date)
+create_file('cases', cases)
+create_file('case_proportion_by_date', case_proportion_by_date)
+create_file('case_proportion_by_gender', case_proportion_by_gender)
