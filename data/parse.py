@@ -162,24 +162,25 @@ for date, cases in cases_by_date.items():
 # Source: http://weekly.chinacdc.cn/en/article/id/e53946e2-c6c4-41e9-9a9b-fea8db1a8f51
 # both numbers inclusive
 mortality_rates_by_age_group = [
-    {'low': 0, 'high': 9, 'percentage': 0},
-    {'low': 10, 'high': 19, 'percentage': 0.2},
-    {'low': 20, 'high': 29, 'percentage': 0.2},
-    {'low': 30, 'high': 39, 'percentage': 0.2},
-    {'low': 40, 'high': 49, 'percentage': 0.4},
-    {'low': 50, 'high': 59, 'percentage': 1.3},
-    {'low': 60, 'high': 69, 'percentage': 3.6},
-    {'low': 70, 'high': 79, 'percentage': 8},
+    {'low': 0, 'high': 9, 'risk_percentage': 0},
+    {'low': 10, 'high': 19, 'risk_percentage': 0.2},
+    {'low': 20, 'high': 29, 'risk_percentage': 0.2},
+    {'low': 30, 'high': 39, 'risk_percentage': 0.2},
+    {'low': 40, 'high': 49, 'risk_percentage': 0.4},
+    {'low': 50, 'high': 59, 'risk_percentage': 1.3},
+    {'low': 60, 'high': 69, 'risk_percentage': 3.6},
+    {'low': 70, 'high': 79, 'risk_percentage': 8},
     # marked as 80+, so took a large age to try and cover even the oldest possible patient
-    {'low': 80, 'high': 110, 'percentage': 14.8},
+    {'low': 80, 'high': 110, 'risk_percentage': 14.8},
 
 
 ]
 
 cases_by_age_groups = {}
 case_counts_by_age_group = {}
+
 for rates in mortality_rates_by_age_group:
-    low, high, percentage = rates['low'], rates['high'], rates['percentage']
+    low, high = rates['low'], rates['high']
     cases_by_age_groups[f'{low}-{high}'] = []
     case_counts_by_age_group[f'{low}-{high}'] = []
 
@@ -187,20 +188,39 @@ for rates in mortality_rates_by_age_group:
 for case in all_cases:
     if case['age']:
         for rates in mortality_rates_by_age_group:
-            low, high, percentage = rates['low'], rates['high'], rates['percentage']
+            low, high = rates['low'], rates['high']
             if low <= case['age'] <= high:
                 cases_by_age_groups[f'{low}-{high}'].append(case)
 
 for age_group, cases in cases_by_age_groups.items():
-    case_counts_by_age_group[age_group]
+    case_counts_by_age_group[age_group] = extract_case_type_counts(cases)
 
+at_risk_count_by_age_group = []
+for age_group in mortality_rates_by_age_group:
+    low, high, risk_percentage = age_group['low'], age_group['high'], age_group['risk_percentage']
+    relevant_cases = [case for case in all_cases if case['age']
+                      is not None and low <= case['age'] <= high]
+    case_count = len(relevant_cases)
+    at_risk_count = (risk_percentage / 100.0) * case_count
+    at_risk_count_by_age_group.append(
+        {
+            'low': low,
+            'high': high,
+            'count': case_count,
+            'at_risk_count': at_risk_count,
+            'risk_percentage': risk_percentage
+        }
+    )
 
-# print(output_data)
+    # print(output_data)
 pprint(cases)
 pprint(case_proportion_by_date)
 create_file('cases', all_cases)
 create_file('case_counts', case_counts)
 create_file('cases_by_date', cases_by_date)
+create_file('at_risk_count_by_age_group', at_risk_count_by_age_group)
 create_file('all_case_type_counts', all_case_type_counts)
+create_file('cases_by_age_groups', cases_by_age_groups)
+create_file('case_counts_by_age_group', case_counts_by_age_group)
 create_file('case_proportion_by_date', case_proportion_by_date)
 create_file('case_proportion_by_gender', case_proportion_by_gender)

@@ -1,0 +1,65 @@
+[
+  {
+    "low": 0,
+    "high": 9,
+    "count": 1,
+    "at_risk_count": 0.0,
+    "risk_percentage": 0
+  },
+  {
+    "low": 10,
+    "high": 19,
+    "count": 8,
+    "at_risk_count": 0.016,
+    "risk_percentage": 0.2
+  },
+  {
+    "low": 20,
+    "high": 29,
+    "count": 24,
+    "at_risk_count": 0.048,
+    "risk_percentage": 0.2
+  },
+  {
+    "low": 30,
+    "high": 39,
+    "count": 21,
+    "at_risk_count": 0.042,
+    "risk_percentage": 0.2
+  },
+  {
+    "low": 40,
+    "high": 49,
+    "count": 15,
+    "at_risk_count": 0.06,
+    "risk_percentage": 0.4
+  },
+  {
+    "low": 50,
+    "high": 59,
+    "count": 18,
+    "at_risk_count": 0.234,
+    "risk_percentage": 1.3
+  },
+  {
+    "low": 60,
+    "high": 69,
+    "count": 9,
+    "at_risk_count": 0.32400000000000007,
+    "risk_percentage": 3.6
+  },
+  {
+    "low": 70,
+    "high": 79,
+    "count": 5,
+    "at_risk_count": 0.4,
+    "risk_percentage": 8
+  },
+  {
+    "low": 80,
+    "high": 110,
+    "count": 0,
+    "at_risk_count": 0.0,
+    "risk_percentage": 14.8
+  }
+]

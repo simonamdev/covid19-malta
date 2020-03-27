@@ -17,6 +17,7 @@ const IndexPage = () => (
     <div style={{ display: "flex", flexDirection: "column" }}>
       <Link to="/nationality/">Nationality</Link>
       <Link to="/gender/">Gender</Link>
+      <Link to="/age/">Age</Link>
     </div>
     <div style={{ height: 500 }}>
       <CountOverTimeChart />
