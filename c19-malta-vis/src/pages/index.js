@@ -11,7 +11,10 @@ const IndexPage = () => (
     <SEO title="COVID-19 Malta" />
     <h1>Malta Covid-19 Data</h1>
     <p>{cases.length} Cases so far</p>
-    <Link to="/page-2/">See Statistics Here</Link>
+    <div style={{ display: "flex", flexDirection: "column" }}>
+      <Link to="/nationality/">Nationality</Link>
+      <Link to="/gender/">Gender</Link>
+    </div>
   </Layout>
 )
 

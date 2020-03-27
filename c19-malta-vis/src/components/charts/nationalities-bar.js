@@ -1,15 +1,10 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import { ResponsiveBar } from "@nivo/bar"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import GenderProportionPieChart from "../components/charts/gender-propotion-pie"
+import cases from "../../../content/cases.json"
 
-import cases from "../../content/cases.json"
-
-const SecondPage = () => {
+const NationalityBarChart = () => {
   const countByNationality = {}
   cases.forEach(({ nationality }) => {
     nationality = nationality ? nationality : "Unknown"
@@ -22,16 +17,16 @@ const SecondPage = () => {
   })
   const nationalities = Object.keys(countByNationality)
 
-  const data = nationalities
+  const transformedData = nationalities
     .map(nationality => ({
       nationality,
       count: countByNationality[nationality],
     }))
     .sort((a, b) => (a.count > b.count ? -1 : 1))
 
-  const MyResponsiveBar = ({ data /* see data tab */ }) => (
+  return (
     <ResponsiveBar
-      data={data}
+      data={transformedData}
       keys={["count"]}
       indexBy="nationality"
       margin={{ top: 50, right: 130, bottom: 50, left: 60 }}
@@ -108,20 +103,6 @@ const SecondPage = () => {
       motionDamping={15}
     />
   )
-  return (
-    <Layout>
-      <SEO title="Statistics" />
-      <h1>Gender Proportion of Cases</h1>
-      <div style={{ height: 300 }}>
-        <GenderProportionPieChart />
-      </div>
-      <h1>Nationalities</h1>
-      <div style={{ height: 500 }}>
-        <MyResponsiveBar data={data} />
-      </div>
-      <Link to="/">Go back to the homepage</Link>
-    </Layout>
-  )
 }
 
-export default SecondPage
+export default NationalityBarChart
