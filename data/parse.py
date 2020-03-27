@@ -110,10 +110,48 @@ for case in all_cases:
     case_proportion_by_gender['other']['proportion'] = case_proportion_by_gender['other']['count'] / len(
         all_cases) * 100.0
 
+case_counts = {
+    'total': len(all_cases),
+    'per_day': []
+}
+case_type_cumulative = {
+    'total': 0,
+    'imported': 0,
+    'local': 0,
+    'exposure': 0
+}
+for date, cases in cases_by_date.items():
+    imported_cases = [
+        case for case in cases if case['case_type'] == 'Imported']
+    local_cases = [case for case in cases if case['case_type']
+                   == 'Local Transmission']
+    exposure_cases = [
+        case for case in cases if case['case_type'] == 'Exposure to Imported Case']
+
+    case_type_cumulative['total'] += len(cases)
+    case_type_cumulative['imported'] += len(imported_cases)
+    case_type_cumulative['local'] += len(local_cases)
+    case_type_cumulative['exposure'] += len(exposure_cases)
+    case_counts['per_day'].append(
+        {
+            'date': date,
+            'count': len(cases),
+            'count_cumulative': case_type_cumulative['total'],
+            'count_imported': len(local_cases),
+            'count_imported_cumulative': case_type_cumulative['local'],
+            'count_local': len(local_cases),
+            'count_local_cumulative': case_type_cumulative['local'],
+            'count_exposure': len(exposure_cases),
+            'count_exposure_cumulative': case_type_cumulative['exposure']
+        }
+    )
+
 
 # print(output_data)
 pprint(cases)
 pprint(case_proportion_by_date)
 create_file('cases', all_cases)
+create_file('case_counts', case_counts)
+create_file('case_type_proportion', case_type_cumulative)
 create_file('case_proportion_by_date', case_proportion_by_date)
 create_file('case_proportion_by_gender', case_proportion_by_gender)
