@@ -3,227 +3,307 @@
   "per_day": [
     {
       "date": "2020-03-07",
-      "count": 3,
-      "count_cumulative": 3,
-      "count_active_cumulative": 2,
-      "count_imported": 0,
-      "count_imported_cumulative": 0,
-      "count_local": 0,
-      "count_local_cumulative": 0,
-      "count_exposure": 0,
-      "count_exposure_cumulative": 0,
-      "count_recovered": 1,
-      "count_recovered_cumulative": 1
+      "counts": {
+        "count": 3,
+        "count_recovered": 1,
+        "count_active": 2,
+        "count_imported": 3,
+        "count_local": 0,
+        "count_exposure": 0
+      },
+      "counts_cumulative": {
+        "count": 3,
+        "count_recovered": 1,
+        "count_active": 2,
+        "count_imported": 3,
+        "count_local": 0,
+        "count_exposure": 0
+      }
     },
     {
       "date": "2020-03-10",
-      "count": 2,
-      "count_cumulative": 5,
-      "count_active_cumulative": 4,
-      "count_imported": 0,
-      "count_imported_cumulative": 0,
-      "count_local": 0,
-      "count_local_cumulative": 0,
-      "count_exposure": 0,
-      "count_exposure_cumulative": 0,
-      "count_recovered": 0,
-      "count_recovered_cumulative": 1
+      "counts": {
+        "count": 2,
+        "count_recovered": 0,
+        "count_active": 2,
+        "count_imported": 2,
+        "count_local": 0,
+        "count_exposure": 0
+      },
+      "counts_cumulative": {
+        "count": 5,
+        "count_recovered": 1,
+        "count_active": 4,
+        "count_imported": 5,
+        "count_local": 0,
+        "count_exposure": 0
+      }
     },
     {
       "date": "2020-03-11",
-      "count": 1,
-      "count_cumulative": 6,
-      "count_active_cumulative": 5,
-      "count_imported": 0,
-      "count_imported_cumulative": 0,
-      "count_local": 0,
-      "count_local_cumulative": 0,
-      "count_exposure": 0,
-      "count_exposure_cumulative": 0,
-      "count_recovered": 0,
-      "count_recovered_cumulative": 1
+      "counts": {
+        "count": 1,
+        "count_recovered": 0,
+        "count_active": 1,
+        "count_imported": 1,
+        "count_local": 0,
+        "count_exposure": 0
+      },
+      "counts_cumulative": {
+        "count": 6,
+        "count_recovered": 1,
+        "count_active": 5,
+        "count_imported": 6,
+        "count_local": 0,
+        "count_exposure": 0
+      }
     },
     {
       "date": "2020-03-12",
-      "count": 3,
-      "count_cumulative": 9,
-      "count_active_cumulative": 8,
-      "count_imported": 0,
-      "count_imported_cumulative": 0,
-      "count_local": 0,
-      "count_local_cumulative": 0,
-      "count_exposure": 0,
-      "count_exposure_cumulative": 0,
-      "count_recovered": 0,
-      "count_recovered_cumulative": 1
+      "counts": {
+        "count": 3,
+        "count_recovered": 0,
+        "count_active": 3,
+        "count_imported": 3,
+        "count_local": 0,
+        "count_exposure": 0
+      },
+      "counts_cumulative": {
+        "count": 9,
+        "count_recovered": 1,
+        "count_active": 8,
+        "count_imported": 9,
+        "count_local": 0,
+        "count_exposure": 0
+      }
     },
     {
       "date": "2020-03-13",
-      "count": 3,
-      "count_cumulative": 12,
-      "count_active_cumulative": 11,
-      "count_imported": 0,
-      "count_imported_cumulative": 0,
-      "count_local": 0,
-      "count_local_cumulative": 0,
-      "count_exposure": 0,
-      "count_exposure_cumulative": 0,
-      "count_recovered": 0,
-      "count_recovered_cumulative": 1
+      "counts": {
+        "count": 3,
+        "count_recovered": 0,
+        "count_active": 3,
+        "count_imported": 3,
+        "count_local": 0,
+        "count_exposure": 0
+      },
+      "counts_cumulative": {
+        "count": 12,
+        "count_recovered": 1,
+        "count_active": 11,
+        "count_imported": 12,
+        "count_local": 0,
+        "count_exposure": 0
+      }
     },
     {
       "date": "2020-03-14",
-      "count": 6,
-      "count_cumulative": 18,
-      "count_active_cumulative": 17,
-      "count_imported": 0,
-      "count_imported_cumulative": 0,
-      "count_local": 0,
-      "count_local_cumulative": 0,
-      "count_exposure": 0,
-      "count_exposure_cumulative": 0,
-      "count_recovered": 0,
-      "count_recovered_cumulative": 1
+      "counts": {
+        "count": 6,
+        "count_recovered": 0,
+        "count_active": 6,
+        "count_imported": 6,
+        "count_local": 0,
+        "count_exposure": 0
+      },
+      "counts_cumulative": {
+        "count": 18,
+        "count_recovered": 1,
+        "count_active": 17,
+        "count_imported": 18,
+        "count_local": 0,
+        "count_exposure": 0
+      }
     },
     {
       "date": "2020-03-15",
-      "count": 3,
-      "count_cumulative": 21,
-      "count_active_cumulative": 20,
-      "count_imported": 0,
-      "count_imported_cumulative": 0,
-      "count_local": 0,
-      "count_local_cumulative": 0,
-      "count_exposure": 0,
-      "count_exposure_cumulative": 0,
-      "count_recovered": 0,
-      "count_recovered_cumulative": 1
+      "counts": {
+        "count": 3,
+        "count_recovered": 0,
+        "count_active": 3,
+        "count_imported": 3,
+        "count_local": 0,
+        "count_exposure": 0
+      },
+      "counts_cumulative": {
+        "count": 21,
+        "count_recovered": 1,
+        "count_active": 20,
+        "count_imported": 21,
+        "count_local": 0,
+        "count_exposure": 0
+      }
     },
     {
       "date": "2020-03-16",
-      "count": 9,
-      "count_cumulative": 30,
-      "count_active_cumulative": 29,
-      "count_imported": 0,
-      "count_imported_cumulative": 0,
-      "count_local": 0,
-      "count_local_cumulative": 0,
-      "count_exposure": 4,
-      "count_exposure_cumulative": 4,
-      "count_recovered": 0,
-      "count_recovered_cumulative": 1
+      "counts": {
+        "count": 9,
+        "count_recovered": 0,
+        "count_active": 9,
+        "count_imported": 5,
+        "count_local": 0,
+        "count_exposure": 4
+      },
+      "counts_cumulative": {
+        "count": 30,
+        "count_recovered": 1,
+        "count_active": 29,
+        "count_imported": 26,
+        "count_local": 0,
+        "count_exposure": 4
+      }
     },
     {
       "date": "2020-03-17",
-      "count": 8,
-      "count_cumulative": 38,
-      "count_active_cumulative": 37,
-      "count_imported": 0,
-      "count_imported_cumulative": 0,
-      "count_local": 0,
-      "count_local_cumulative": 0,
-      "count_exposure": 6,
-      "count_exposure_cumulative": 10,
-      "count_recovered": 0,
-      "count_recovered_cumulative": 1
+      "counts": {
+        "count": 8,
+        "count_recovered": 0,
+        "count_active": 8,
+        "count_imported": 2,
+        "count_local": 0,
+        "count_exposure": 6
+      },
+      "counts_cumulative": {
+        "count": 38,
+        "count_recovered": 1,
+        "count_active": 37,
+        "count_imported": 28,
+        "count_local": 0,
+        "count_exposure": 10
+      }
     },
     {
       "date": "2020-03-18",
-      "count": 10,
-      "count_cumulative": 48,
-      "count_active_cumulative": 47,
-      "count_imported": 0,
-      "count_imported_cumulative": 0,
-      "count_local": 0,
-      "count_local_cumulative": 0,
-      "count_exposure": 7,
-      "count_exposure_cumulative": 17,
-      "count_recovered": 0,
-      "count_recovered_cumulative": 1
+      "counts": {
+        "count": 10,
+        "count_recovered": 0,
+        "count_active": 10,
+        "count_imported": 3,
+        "count_local": 0,
+        "count_exposure": 7
+      },
+      "counts_cumulative": {
+        "count": 48,
+        "count_recovered": 1,
+        "count_active": 47,
+        "count_imported": 31,
+        "count_local": 0,
+        "count_exposure": 17
+      }
     },
     {
       "date": "2020-03-19",
-      "count": 5,
-      "count_cumulative": 53,
-      "count_active_cumulative": 52,
-      "count_imported": 0,
-      "count_imported_cumulative": 0,
-      "count_local": 0,
-      "count_local_cumulative": 0,
-      "count_exposure": 1,
-      "count_exposure_cumulative": 18,
-      "count_recovered": 0,
-      "count_recovered_cumulative": 1
+      "counts": {
+        "count": 5,
+        "count_recovered": 0,
+        "count_active": 5,
+        "count_imported": 4,
+        "count_local": 0,
+        "count_exposure": 1
+      },
+      "counts_cumulative": {
+        "count": 53,
+        "count_recovered": 1,
+        "count_active": 52,
+        "count_imported": 35,
+        "count_local": 0,
+        "count_exposure": 18
+      }
     },
     {
       "date": "2020-03-20",
-      "count": 11,
-      "count_cumulative": 64,
-      "count_active_cumulative": 63,
-      "count_imported": 0,
-      "count_imported_cumulative": 0,
-      "count_local": 0,
-      "count_local_cumulative": 0,
-      "count_exposure": 8,
-      "count_exposure_cumulative": 26,
-      "count_recovered": 0,
-      "count_recovered_cumulative": 1
+      "counts": {
+        "count": 11,
+        "count_recovered": 0,
+        "count_active": 11,
+        "count_imported": 3,
+        "count_local": 0,
+        "count_exposure": 8
+      },
+      "counts_cumulative": {
+        "count": 64,
+        "count_recovered": 1,
+        "count_active": 63,
+        "count_imported": 38,
+        "count_local": 0,
+        "count_exposure": 26
+      }
     },
     {
       "date": "2020-03-21",
-      "count": 9,
-      "count_cumulative": 73,
-      "count_active_cumulative": 72,
-      "count_imported": 0,
-      "count_imported_cumulative": 0,
-      "count_local": 0,
-      "count_local_cumulative": 0,
-      "count_exposure": 5,
-      "count_exposure_cumulative": 31,
-      "count_recovered": 0,
-      "count_recovered_cumulative": 1
+      "counts": {
+        "count": 9,
+        "count_recovered": 0,
+        "count_active": 9,
+        "count_imported": 4,
+        "count_local": 0,
+        "count_exposure": 5
+      },
+      "counts_cumulative": {
+        "count": 73,
+        "count_recovered": 1,
+        "count_active": 72,
+        "count_imported": 42,
+        "count_local": 0,
+        "count_exposure": 31
+      }
     },
     {
       "date": "2020-03-22",
-      "count": 17,
-      "count_cumulative": 90,
-      "count_active_cumulative": 89,
-      "count_imported": 0,
-      "count_imported_cumulative": 0,
-      "count_local": 0,
-      "count_local_cumulative": 0,
-      "count_exposure": 10,
-      "count_exposure_cumulative": 41,
-      "count_recovered": 0,
-      "count_recovered_cumulative": 1
+      "counts": {
+        "count": 17,
+        "count_recovered": 0,
+        "count_active": 17,
+        "count_imported": 7,
+        "count_local": 0,
+        "count_exposure": 10
+      },
+      "counts_cumulative": {
+        "count": 90,
+        "count_recovered": 1,
+        "count_active": 89,
+        "count_imported": 49,
+        "count_local": 0,
+        "count_exposure": 41
+      }
     },
     {
       "date": "2020-03-23",
-      "count": 17,
-      "count_cumulative": 107,
-      "count_active_cumulative": 106,
-      "count_imported": 7,
-      "count_imported_cumulative": 7,
-      "count_local": 7,
-      "count_local_cumulative": 7,
-      "count_exposure": 3,
-      "count_exposure_cumulative": 44,
-      "count_recovered": 0,
-      "count_recovered_cumulative": 1
+      "counts": {
+        "count": 17,
+        "count_recovered": 0,
+        "count_active": 17,
+        "count_imported": 7,
+        "count_local": 7,
+        "count_exposure": 3
+      },
+      "counts_cumulative": {
+        "count": 107,
+        "count_recovered": 1,
+        "count_active": 106,
+        "count_imported": 56,
+        "count_local": 7,
+        "count_exposure": 44
+      }
     },
     {
       "date": "2020-03-24",
-      "count": 3,
-      "count_cumulative": 110,
-      "count_active_cumulative": 109,
-      "count_imported": 0,
-      "count_imported_cumulative": 7,
-      "count_local": 0,
-      "count_local_cumulative": 7,
-      "count_exposure": 0,
-      "count_exposure_cumulative": 44,
-      "count_recovered": 0,
-      "count_recovered_cumulative": 1
+      "counts": {
+        "count": 3,
+        "count_recovered": 0,
+        "count_active": 3,
+        "count_imported": 3,
+        "count_local": 0,
+        "count_exposure": 0
+      },
+      "counts_cumulative": {
+        "count": 110,
+        "count_recovered": 1,
+        "count_active": 109,
+        "count_imported": 59,
+        "count_local": 7,
+        "count_exposure": 44
+      }
     }
   ]
 }

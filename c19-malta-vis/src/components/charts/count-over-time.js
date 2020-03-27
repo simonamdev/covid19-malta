@@ -11,7 +11,7 @@ const CountOverTimeChart = () => {
       color: "hsl(212, 70%, 50%)",
       data: caseCounts.per_day.map(dayCounts => ({
         x: dayCounts.date,
-        y: dayCounts.count_cumulative,
+        y: dayCounts.counts_cumulative.count,
       })),
     },
     {
@@ -19,7 +19,7 @@ const CountOverTimeChart = () => {
       color: "hsl(212, 70%, 50%)",
       data: caseCounts.per_day.map(dayCounts => ({
         x: dayCounts.date,
-        y: dayCounts.count_active_cumulative,
+        y: dayCounts.counts_cumulative.count_active,
       })),
     },
     {
@@ -27,7 +27,7 @@ const CountOverTimeChart = () => {
       color: "hsl(0, 70%, 50%)",
       data: caseCounts.per_day.map(dayCounts => ({
         x: dayCounts.date,
-        y: dayCounts.count_imported_cumulative,
+        y: dayCounts.counts_cumulative.count_imported,
       })),
     },
     {
@@ -35,7 +35,7 @@ const CountOverTimeChart = () => {
       color: "hsl(75, 70%, 50%)",
       data: caseCounts.per_day.map(dayCounts => ({
         x: dayCounts.date,
-        y: dayCounts.count_local_cumulative,
+        y: dayCounts.counts_cumulative.count_local,
       })),
     },
     {
@@ -43,7 +43,7 @@ const CountOverTimeChart = () => {
       color: "hsl(125, 70%, 50%)",
       data: caseCounts.per_day.map(dayCounts => ({
         x: dayCounts.date,
-        y: dayCounts.count_exposure_cumulative,
+        y: dayCounts.counts_cumulative.count_exposure,
       })),
     },
     {
@@ -51,7 +51,7 @@ const CountOverTimeChart = () => {
       color: "hsl(180, 40%, 70%)",
       data: caseCounts.per_day.map(dayCounts => ({
         x: dayCounts.date,
-        y: dayCounts.count_recovered_cumulative,
+        y: dayCounts.counts_cumulative.count_recovered,
       })),
     },
   ]
