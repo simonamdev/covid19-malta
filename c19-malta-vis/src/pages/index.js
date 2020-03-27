@@ -10,19 +10,19 @@ import CaseTypeProportionPieChart from "../components/charts/case_type_proportio
 import caseCounts from "../../content/case_counts.json"
 
 const IndexPage = () => (
-  <Layout maxWidth="100%">
+  <Layout maxWidth="100%" hideLinkToHome>
     <SEO title="COVID-19 Malta" />
     <h1>Malta Covid-19 Data</h1>
     <p>{caseCounts.total} Cases so far</p>
+    <div style={{ display: "flex", flexDirection: "column" }}>
+      <Link to="/nationality/">Nationality</Link>
+      <Link to="/gender/">Gender</Link>
+    </div>
     <div style={{ height: 500 }}>
       <CountOverTimeChart />
     </div>
     <div style={{ height: 500 }}>
       <CaseTypeProportionPieChart />
-    </div>
-    <div style={{ display: "flex", flexDirection: "column" }}>
-      <Link to="/nationality/">Nationality</Link>
-      <Link to="/gender/">Gender</Link>
     </div>
   </Layout>
 )

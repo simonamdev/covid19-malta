@@ -14,7 +14,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import "./layout.css"
 
-const Layout = ({ children, maxWidth }) => {
+const Layout = ({ children, maxWidth, hideLinkToHome }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -37,10 +37,8 @@ const Layout = ({ children, maxWidth }) => {
       >
         <main>{children}</main>
         <footer>
-          {window.location.pathname === "/" ? null : (
-            <Link to="/">Go back to the homepage</Link>
-          )}
-          © {new Date().getFullYear()}, Built with
+          {hideLinkToHome ? null : <Link to="/">Go back to the homepage</Link>}©{" "}
+          {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>
