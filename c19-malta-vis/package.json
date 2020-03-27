@@ -36,7 +36,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "copyfiles": "cp ../data/files/**.* ./content"
+    "copyfiles": "rm -rf ./content/**.* && cp ../data/files/**.* ./content"
   },
   "repository": {
     "type": "git",

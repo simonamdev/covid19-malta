@@ -1,0 +1,181 @@
+{
+  "total": 110,
+  "per_day": [
+    {
+      "date": "2020-03-07",
+      "count": 3,
+      "count_cumulative": 3,
+      "count_imported": 0,
+      "count_imported_cumulative": 0,
+      "count_local": 0,
+      "count_local_cumulative": 0,
+      "count_exposure": 0,
+      "count_exposure_cumulative": 0
+    },
+    {
+      "date": "2020-03-10",
+      "count": 2,
+      "count_cumulative": 5,
+      "count_imported": 0,
+      "count_imported_cumulative": 0,
+      "count_local": 0,
+      "count_local_cumulative": 0,
+      "count_exposure": 0,
+      "count_exposure_cumulative": 0
+    },
+    {
+      "date": "2020-03-11",
+      "count": 1,
+      "count_cumulative": 6,
+      "count_imported": 0,
+      "count_imported_cumulative": 0,
+      "count_local": 0,
+      "count_local_cumulative": 0,
+      "count_exposure": 0,
+      "count_exposure_cumulative": 0
+    },
+    {
+      "date": "2020-03-12",
+      "count": 3,
+      "count_cumulative": 9,
+      "count_imported": 0,
+      "count_imported_cumulative": 0,
+      "count_local": 0,
+      "count_local_cumulative": 0,
+      "count_exposure": 0,
+      "count_exposure_cumulative": 0
+    },
+    {
+      "date": "2020-03-13",
+      "count": 3,
+      "count_cumulative": 12,
+      "count_imported": 0,
+      "count_imported_cumulative": 0,
+      "count_local": 0,
+      "count_local_cumulative": 0,
+      "count_exposure": 0,
+      "count_exposure_cumulative": 0
+    },
+    {
+      "date": "2020-03-14",
+      "count": 6,
+      "count_cumulative": 18,
+      "count_imported": 0,
+      "count_imported_cumulative": 0,
+      "count_local": 0,
+      "count_local_cumulative": 0,
+      "count_exposure": 0,
+      "count_exposure_cumulative": 0
+    },
+    {
+      "date": "2020-03-15",
+      "count": 3,
+      "count_cumulative": 21,
+      "count_imported": 0,
+      "count_imported_cumulative": 0,
+      "count_local": 0,
+      "count_local_cumulative": 0,
+      "count_exposure": 0,
+      "count_exposure_cumulative": 0
+    },
+    {
+      "date": "2020-03-16",
+      "count": 9,
+      "count_cumulative": 30,
+      "count_imported": 0,
+      "count_imported_cumulative": 0,
+      "count_local": 0,
+      "count_local_cumulative": 0,
+      "count_exposure": 4,
+      "count_exposure_cumulative": 4
+    },
+    {
+      "date": "2020-03-17",
+      "count": 8,
+      "count_cumulative": 38,
+      "count_imported": 0,
+      "count_imported_cumulative": 0,
+      "count_local": 0,
+      "count_local_cumulative": 0,
+      "count_exposure": 6,
+      "count_exposure_cumulative": 10
+    },
+    {
+      "date": "2020-03-18",
+      "count": 10,
+      "count_cumulative": 48,
+      "count_imported": 0,
+      "count_imported_cumulative": 0,
+      "count_local": 0,
+      "count_local_cumulative": 0,
+      "count_exposure": 7,
+      "count_exposure_cumulative": 17
+    },
+    {
+      "date": "2020-03-19",
+      "count": 5,
+      "count_cumulative": 53,
+      "count_imported": 0,
+      "count_imported_cumulative": 0,
+      "count_local": 0,
+      "count_local_cumulative": 0,
+      "count_exposure": 1,
+      "count_exposure_cumulative": 18
+    },
+    {
+      "date": "2020-03-20",
+      "count": 11,
+      "count_cumulative": 64,
+      "count_imported": 0,
+      "count_imported_cumulative": 0,
+      "count_local": 0,
+      "count_local_cumulative": 0,
+      "count_exposure": 8,
+      "count_exposure_cumulative": 26
+    },
+    {
+      "date": "2020-03-21",
+      "count": 9,
+      "count_cumulative": 73,
+      "count_imported": 0,
+      "count_imported_cumulative": 0,
+      "count_local": 0,
+      "count_local_cumulative": 0,
+      "count_exposure": 5,
+      "count_exposure_cumulative": 31
+    },
+    {
+      "date": "2020-03-22",
+      "count": 17,
+      "count_cumulative": 90,
+      "count_imported": 0,
+      "count_imported_cumulative": 0,
+      "count_local": 0,
+      "count_local_cumulative": 0,
+      "count_exposure": 10,
+      "count_exposure_cumulative": 41
+    },
+    {
+      "date": "2020-03-23",
+      "count": 17,
+      "count_cumulative": 107,
+      "count_imported": 7,
+      "count_imported_cumulative": 7,
+      "count_local": 7,
+      "count_local_cumulative": 7,
+      "count_exposure": 3,
+      "count_exposure_cumulative": 44
+    },
+    {
+      "date": "2020-03-24",
+      "count": 3,
+      "count_cumulative": 110,
+      "count_imported": 0,
+      "count_imported_cumulative": 7,
+      "count_local": 0,
+      "count_local_cumulative": 7,
+      "count_exposure": 0,
+      "count_exposure_cumulative": 44
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "2020-03-07": {
+    "Imported": {
+      "count": 3,
+      "percentage": 100.0
+    },
+    "Local Transmission": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "Exposure to Imported Case": {
+      "count": 0,
+      "percentage": 0.0
+    }
+  },
+  "2020-03-10": {
+    "Imported": {
+      "count": 2,
+      "percentage": 100.0
+    },
+    "Local Transmission": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "Exposure to Imported Case": {
+      "count": 0,
+      "percentage": 0.0
+    }
+  },
+  "2020-03-11": {
+    "Imported": {
+      "count": 1,
+      "percentage": 100.0
+    },
+    "Local Transmission": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "Exposure to Imported Case": {
+      "count": 0,
+      "percentage": 0.0
+    }
+  },
+  "2020-03-12": {
+    "Imported": {
+      "count": 3,
+      "percentage": 100.0
+    },
+    "Local Transmission": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "Exposure to Imported Case": {
+      "count": 0,
+      "percentage": 0.0
+    }
+  },
+  "2020-03-13": {
+    "Imported": {
+      "count": 3,
+      "percentage": 100.0
+    },
+    "Local Transmission": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "Exposure to Imported Case": {
+      "count": 0,
+      "percentage": 0.0
+    }
+  },
+  "2020-03-14": {
+    "Imported": {
+      "count": 6,
+      "percentage": 100.0
+    },
+    "Local Transmission": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "Exposure to Imported Case": {
+      "count": 0,
+      "percentage": 0.0
+    }
+  },
+  "2020-03-15": {
+    "Imported": {
+      "count": 3,
+      "percentage": 100.0
+    },
+    "Local Transmission": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "Exposure to Imported Case": {
+      "count": 0,
+      "percentage": 0.0
+    }
+  },
+  "2020-03-16": {
+    "Imported": {
+      "count": 5,
+      "percentage": 55.55555555555556
+    },
+    "Local Transmission": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "Exposure to Imported Case": {
+      "count": 4,
+      "percentage": 44.44444444444444
+    }
+  },
+  "2020-03-17": {
+    "Imported": {
+      "count": 2,
+      "percentage": 25.0
+    },
+    "Local Transmission": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "Exposure to Imported Case": {
+      "count": 6,
+      "percentage": 75.0
+    }
+  },
+  "2020-03-18": {
+    "Imported": {
+      "count": 3,
+      "percentage": 30.0
+    },
+    "Local Transmission": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "Exposure to Imported Case": {
+      "count": 7,
+      "percentage": 70.0
+    }
+  },
+  "2020-03-19": {
+    "Imported": {
+      "count": 4,
+      "percentage": 80.0
+    },
+    "Local Transmission": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "Exposure to Imported Case": {
+      "count": 1,
+      "percentage": 20.0
+    }
+  },
+  "2020-03-20": {
+    "Imported": {
+      "count": 3,
+      "percentage": 27.27272727272727
+    },
+    "Local Transmission": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "Exposure to Imported Case": {
+      "count": 8,
+      "percentage": 72.72727272727273
+    }
+  },
+  "2020-03-21": {
+    "Imported": {
+      "count": 4,
+      "percentage": 44.44444444444444
+    },
+    "Local Transmission": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "Exposure to Imported Case": {
+      "count": 5,
+      "percentage": 55.55555555555556
+    }
+  },
+  "2020-03-22": {
+    "Imported": {
+      "count": 7,
+      "percentage": 41.17647058823529
+    },
+    "Local Transmission": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "Exposure to Imported Case": {
+      "count": 10,
+      "percentage": 58.82352941176471
+    }
+  },
+  "2020-03-23": {
+    "Imported": {
+      "count": 7,
+      "percentage": 41.17647058823529
+    },
+    "Local Transmission": {
+      "count": 7,
+      "percentage": 41.17647058823529
+    },
+    "Exposure to Imported Case": {
+      "count": 3,
+      "percentage": 17.647058823529413
+    }
+  },
+  "2020-03-24": {
+    "Imported": {
+      "count": 3,
+      "percentage": 100.0
+    },
+    "Local Transmission": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "Exposure to Imported Case": {
+      "count": 0,
+      "percentage": 0.0
+    }
+  }
+}
