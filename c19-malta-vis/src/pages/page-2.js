@@ -7,11 +7,11 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import GenderProportionPieChart from "../components/charts/gender-propotion-pie"
 
-import Data from "../../content/output.json"
+import cases from "../../content/cases.json"
 
 const SecondPage = () => {
   const countByNationality = {}
-  Data["cases"].forEach(({ nationality }) => {
+  cases.forEach(({ nationality }) => {
     nationality = nationality ? nationality : "Unknown"
     nationality = nationality.toUpperCase()
     if (countByNationality[nationality]) {
@@ -108,18 +108,12 @@ const SecondPage = () => {
       motionDamping={15}
     />
   )
-  const genderProportion = { F: 0, M: 0 }
-  Data["cases"].forEach(({ gender }) => {
-    if (gender) {
-      genderProportion[gender] += 1
-    }
-  })
   return (
     <Layout>
       <SEO title="Statistics" />
       <h1>Gender Proportion of Cases</h1>
       <div style={{ height: 300 }}>
-        <GenderProportionPieChart data={genderProportion} />
+        <GenderProportionPieChart />
       </div>
       <h1>Nationalities</h1>
       <div style={{ height: 500 }}>

@@ -2,21 +2,33 @@ import React from "react"
 
 import { ResponsivePie } from "@nivo/pie"
 
-const GenderProportionPieChart = ({ data }) => {
+import genderProportion from "../../../content/case_proportion_by_gender.json"
+
+const GenderProportionPieChart = () => {
+  const male = genderProportion["male"]
+  const female = genderProportion["female"]
+  const other = genderProportion["other"]
   const transformedData = [
     {
-      id: "Female",
+      id: "male",
+      label: "Male",
+      value: male["count"],
+      color: "hsl(155, 70%, 50%)",
+    },
+    {
+      id: "female",
       label: "Female",
-      value: data["F"],
+      value: female["count"],
       color: "hsl(7, 70%, 50%)",
     },
     {
-      id: "Male",
-      label: "Male",
-      value: data["M"],
-      color: "hsl(155, 70%, 50%)",
+      id: "other",
+      label: "Other",
+      value: other["count"],
+      color: "hsl(7, 70%, 50%)",
     },
   ]
+
   return (
     <ResponsivePie
       data={transformedData}

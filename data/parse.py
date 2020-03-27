@@ -114,6 +114,6 @@ for case in all_cases:
 # print(output_data)
 pprint(cases)
 pprint(case_proportion_by_date)
-create_file('cases', cases)
+create_file('cases', all_cases)
 create_file('case_proportion_by_date', case_proportion_by_date)
 create_file('case_proportion_by_gender', case_proportion_by_gender)
