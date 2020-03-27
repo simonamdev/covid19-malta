@@ -55,6 +55,7 @@ for row in data:
             'date_announced': parse_date(data_present(row['Date Announced'])),
             'case_number': int(row['Case']),
             'date_symptom_start': parse_date(data_present(row['Symptom Start Date'])),
+            'date_recovered': parse_date(data_present(row['Date recovered'])),
             'gender': row['Gender'],
             'age': int(data_present(row['Age'])) if data_present(row['Age']) else None,
             'case_type': case_type,
@@ -118,7 +119,8 @@ case_type_cumulative = {
     'total': 0,
     'imported': 0,
     'local': 0,
-    'exposure': 0
+    'exposure': 0,
+    'recovered': 0
 }
 for date, cases in cases_by_date.items():
     imported_cases = [
@@ -127,22 +129,28 @@ for date, cases in cases_by_date.items():
                    == 'Local Transmission']
     exposure_cases = [
         case for case in cases if case['case_type'] == 'Exposure to Imported Case']
+    recovered_cases = [
+        case for case in cases if case['date_recovered'] is not None]
 
     case_type_cumulative['total'] += len(cases)
     case_type_cumulative['imported'] += len(imported_cases)
     case_type_cumulative['local'] += len(local_cases)
     case_type_cumulative['exposure'] += len(exposure_cases)
+    case_type_cumulative['recovered'] += len(recovered_cases)
     case_counts['per_day'].append(
         {
             'date': date,
             'count': len(cases),
             'count_cumulative': case_type_cumulative['total'],
+            'count_active_cumulative': case_type_cumulative['total'] - case_type_cumulative['recovered'],
             'count_imported': len(local_cases),
             'count_imported_cumulative': case_type_cumulative['local'],
             'count_local': len(local_cases),
             'count_local_cumulative': case_type_cumulative['local'],
             'count_exposure': len(exposure_cases),
-            'count_exposure_cumulative': case_type_cumulative['exposure']
+            'count_exposure_cumulative': case_type_cumulative['exposure'],
+            'count_recovered': len(recovered_cases),
+            'count_recovered_cumulative': case_type_cumulative['recovered']
         }
     )
 

@@ -7,7 +7,7 @@ import caseCounts from "../../../content/case_counts.json"
 const CountOverTimeChart = () => {
   const transformedData = [
     {
-      id: "total",
+      id: "Total",
       color: "hsl(212, 70%, 50%)",
       data: caseCounts.per_day.map(dayCounts => ({
         x: dayCounts.date,
@@ -15,7 +15,15 @@ const CountOverTimeChart = () => {
       })),
     },
     {
-      id: "total_imported",
+      id: "Active",
+      color: "hsl(212, 70%, 50%)",
+      data: caseCounts.per_day.map(dayCounts => ({
+        x: dayCounts.date,
+        y: dayCounts.count_active_cumulative,
+      })),
+    },
+    {
+      id: "Imported",
       color: "hsl(0, 70%, 50%)",
       data: caseCounts.per_day.map(dayCounts => ({
         x: dayCounts.date,
@@ -23,7 +31,7 @@ const CountOverTimeChart = () => {
       })),
     },
     {
-      id: "total_local",
+      id: "Local Transmission",
       color: "hsl(75, 70%, 50%)",
       data: caseCounts.per_day.map(dayCounts => ({
         x: dayCounts.date,
@@ -31,11 +39,19 @@ const CountOverTimeChart = () => {
       })),
     },
     {
-      id: "total_travel_related",
+      id: "Travel Related",
       color: "hsl(125, 70%, 50%)",
       data: caseCounts.per_day.map(dayCounts => ({
         x: dayCounts.date,
         y: dayCounts.count_exposure_cumulative,
+      })),
+    },
+    {
+      id: "Recovered",
+      color: "hsl(180, 40%, 70%)",
+      data: caseCounts.per_day.map(dayCounts => ({
+        x: dayCounts.date,
+        y: dayCounts.count_recovered_cumulative,
       })),
     },
   ]
