@@ -2,6 +2,20 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+const HeaderLink = ({ to, title }) => (
+  <h3 style={{ margin: 0 }}>
+    <Link
+      to={to}
+      style={{
+        color: `white`,
+        textDecoration: `none`,
+      }}
+    >
+      {title}
+    </Link>
+  </h3>
+)
+
 const Header = ({ siteTitle }) => (
   <header
     style={{
@@ -12,8 +26,12 @@ const Header = ({ siteTitle }) => (
     <div
       style={{
         margin: `0 auto`,
-        maxWidth: 960,
+        maxWidth: "100%",
         padding: `1.45rem 1.0875rem`,
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "space-around",
+        alignItems: "end",
       }}
     >
       <h1 style={{ margin: 0 }}>
@@ -27,6 +45,10 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <HeaderLink to="/nationality" title="By Nationality" />
+      <HeaderLink to="/gender" title="By Gender" />
+      <HeaderLink to="/age" title="By Age" />
+      <HeaderLink to="/data" title="Source Data" />
     </div>
   </header>
 )
