@@ -1,11 +1,11 @@
 {
   "male": {
-    "count": 63,
-    "proportion": 57.27272727272727
+    "count": 92,
+    "proportion": 58.97435897435898
   },
   "female": {
-    "count": 47,
-    "proportion": 42.72727272727273
+    "count": 64,
+    "proportion": 41.02564102564102
   },
   "other": {
     "count": 0,

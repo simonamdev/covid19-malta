@@ -1098,5 +1098,465 @@
     "age": 49,
     "case_type": "Imported",
     "nationality": "AMERICAN"
+  },
+  {
+    "date_announced": "2020-03-25",
+    "case_number": 111,
+    "date_symptom_start": null,
+    "date_recovered": null,
+    "gender": "F",
+    "age": 47,
+    "case_type": "Imported",
+    "nationality": "MALTESE"
+  },
+  {
+    "date_announced": "2020-03-25",
+    "case_number": 112,
+    "date_symptom_start": null,
+    "date_recovered": null,
+    "gender": "F",
+    "age": 23,
+    "case_type": "Imported",
+    "nationality": "MALTESE"
+  },
+  {
+    "date_announced": "2020-03-25",
+    "case_number": 113,
+    "date_symptom_start": null,
+    "date_recovered": null,
+    "gender": "M",
+    "age": 54,
+    "case_type": "Imported",
+    "nationality": "ENGLISH"
+  },
+  {
+    "date_announced": "2020-03-25",
+    "case_number": 114,
+    "date_symptom_start": null,
+    "date_recovered": null,
+    "gender": "M",
+    "age": 22,
+    "case_type": "Imported",
+    "nationality": "ENGLISH"
+  },
+  {
+    "date_announced": "2020-03-25",
+    "case_number": 115,
+    "date_symptom_start": null,
+    "date_recovered": null,
+    "gender": "F",
+    "age": 40,
+    "case_type": "Imported",
+    "nationality": "SPANISH"
+  },
+  {
+    "date_announced": "2020-03-25",
+    "case_number": 116,
+    "date_symptom_start": null,
+    "date_recovered": null,
+    "gender": "M",
+    "age": 52,
+    "case_type": "Imported",
+    "nationality": null
+  },
+  {
+    "date_announced": "2020-03-25",
+    "case_number": 117,
+    "date_symptom_start": null,
+    "date_recovered": null,
+    "gender": "M",
+    "age": 19,
+    "case_type": "Imported",
+    "nationality": null
+  },
+  {
+    "date_announced": "2020-03-25",
+    "case_number": 118,
+    "date_symptom_start": null,
+    "date_recovered": null,
+    "gender": "F",
+    "age": 56,
+    "case_type": "Imported",
+    "nationality": "MALTESE"
+  },
+  {
+    "date_announced": "2020-03-25",
+    "case_number": 119,
+    "date_symptom_start": null,
+    "date_recovered": null,
+    "gender": "M",
+    "age": 21,
+    "case_type": "Imported",
+    "nationality": "MALTESE"
+  },
+  {
+    "date_announced": "2020-03-25",
+    "case_number": 120,
+    "date_symptom_start": null,
+    "date_recovered": null,
+    "gender": "M",
+    "age": 52,
+    "case_type": "Imported",
+    "nationality": "MALTESE"
+  },
+  {
+    "date_announced": "2020-03-25",
+    "case_number": 121,
+    "date_symptom_start": null,
+    "date_recovered": null,
+    "gender": "M",
+    "age": 36,
+    "case_type": "Imported",
+    "nationality": "MALTESE"
+  },
+  {
+    "date_announced": "2020-03-25",
+    "case_number": 122,
+    "date_symptom_start": null,
+    "date_recovered": null,
+    "gender": "F",
+    "age": 52,
+    "case_type": "Imported",
+    "nationality": "MALTESE"
+  },
+  {
+    "date_announced": "2020-03-25",
+    "case_number": 123,
+    "date_symptom_start": null,
+    "date_recovered": null,
+    "gender": "M",
+    "age": 27,
+    "case_type": "Local Transmission",
+    "nationality": "MALTESE"
+  },
+  {
+    "date_announced": "2020-03-25",
+    "case_number": 124,
+    "date_symptom_start": null,
+    "date_recovered": null,
+    "gender": "M",
+    "age": 38,
+    "case_type": "Local Transmission",
+    "nationality": "ITALIAN"
+  },
+  {
+    "date_announced": "2020-03-25",
+    "case_number": 125,
+    "date_symptom_start": null,
+    "date_recovered": null,
+    "gender": "F",
+    "age": 24,
+    "case_type": "Local Transmission",
+    "nationality": "MALTESE"
+  },
+  {
+    "date_announced": "2020-03-25",
+    "case_number": 126,
+    "date_symptom_start": null,
+    "date_recovered": null,
+    "gender": "M",
+    "age": 23,
+    "case_type": "Local Transmission",
+    "nationality": "CHINESE"
+  },
+  {
+    "date_announced": "2020-03-25",
+    "case_number": 127,
+    "date_symptom_start": null,
+    "date_recovered": null,
+    "gender": "M",
+    "age": 47,
+    "case_type": "Local Transmission",
+    "nationality": "MALTESE"
+  },
+  {
+    "date_announced": "2020-03-25",
+    "case_number": 128,
+    "date_symptom_start": null,
+    "date_recovered": null,
+    "gender": "F",
+    "age": 60,
+    "case_type": "Local Transmission",
+    "nationality": "MALTESE"
+  },
+  {
+    "date_announced": "2020-03-25",
+    "case_number": 129,
+    "date_symptom_start": null,
+    "date_recovered": null,
+    "gender": "M",
+    "age": 81,
+    "case_type": "Local Transmission",
+    "nationality": "MALTESE"
+  },
+  {
+    "date_announced": "2020-03-26",
+    "case_number": 130,
+    "date_symptom_start": "2020-03-20",
+    "date_recovered": null,
+    "gender": "F",
+    "age": 28,
+    "case_type": "Imported",
+    "nationality": "GREEK"
+  },
+  {
+    "date_announced": "2020-03-26",
+    "case_number": 131,
+    "date_symptom_start": null,
+    "date_recovered": null,
+    "gender": "F",
+    "age": 60,
+    "case_type": "Imported",
+    "nationality": "MALTESE"
+  },
+  {
+    "date_announced": "2020-03-26",
+    "case_number": 132,
+    "date_symptom_start": null,
+    "date_recovered": null,
+    "gender": "F",
+    "age": 60,
+    "case_type": "Imported",
+    "nationality": "MALTESE"
+  },
+  {
+    "date_announced": "2020-03-26",
+    "case_number": 133,
+    "date_symptom_start": "2020-03-20",
+    "date_recovered": null,
+    "gender": "M",
+    "age": 23,
+    "case_type": "Local Transmission",
+    "nationality": "MALTESE"
+  },
+  {
+    "date_announced": "2020-03-26",
+    "case_number": 134,
+    "date_symptom_start": "2020-03-20",
+    "date_recovered": null,
+    "gender": "F",
+    "age": 26,
+    "case_type": "Local Transmission",
+    "nationality": "MALTESE"
+  },
+  {
+    "date_announced": "2020-03-27",
+    "case_number": 135,
+    "date_symptom_start": "2020-03-18",
+    "date_recovered": null,
+    "gender": "M",
+    "age": 23,
+    "case_type": "Imported",
+    "nationality": "MALTESE"
+  },
+  {
+    "date_announced": "2020-03-27",
+    "case_number": 136,
+    "date_symptom_start": "2020-03-16",
+    "date_recovered": null,
+    "gender": "M",
+    "age": 23,
+    "case_type": "Imported",
+    "nationality": "MALTESE"
+  },
+  {
+    "date_announced": "2020-03-27",
+    "case_number": 137,
+    "date_symptom_start": null,
+    "date_recovered": null,
+    "gender": "M",
+    "age": 32,
+    "case_type": "Local Transmission",
+    "nationality": "MALTESE"
+  },
+  {
+    "date_announced": "2020-03-27",
+    "case_number": 138,
+    "date_symptom_start": "2020-03-22",
+    "date_recovered": null,
+    "gender": "M",
+    "age": 30,
+    "case_type": "Local Transmission",
+    "nationality": "INDIAN"
+  },
+  {
+    "date_announced": "2020-03-27",
+    "case_number": 139,
+    "date_symptom_start": "2020-03-24",
+    "date_recovered": null,
+    "gender": "M",
+    "age": 23,
+    "case_type": "Local Transmission",
+    "nationality": "GAMBIA"
+  },
+  {
+    "date_announced": "2020-03-28",
+    "case_number": 140,
+    "date_symptom_start": "2020-03-26",
+    "date_recovered": null,
+    "gender": "M",
+    "age": 72,
+    "case_type": "Local Transmission",
+    "nationality": "MALTESE"
+  },
+  {
+    "date_announced": "2020-03-28",
+    "case_number": 141,
+    "date_symptom_start": "2020-03-20",
+    "date_recovered": null,
+    "gender": "F",
+    "age": 40,
+    "case_type": "Imported",
+    "nationality": "PHILIPPINO"
+  },
+  {
+    "date_announced": "2020-03-28",
+    "case_number": 142,
+    "date_symptom_start": "2020-03-19",
+    "date_recovered": null,
+    "gender": "M",
+    "age": 41,
+    "case_type": "Imported",
+    "nationality": "PHILIPPINO"
+  },
+  {
+    "date_announced": "2020-03-28",
+    "case_number": 143,
+    "date_symptom_start": "2020-03-13",
+    "date_recovered": null,
+    "gender": "M",
+    "age": 47,
+    "case_type": "Imported",
+    "nationality": "PHILIPPINO"
+  },
+  {
+    "date_announced": "2020-03-28",
+    "case_number": 144,
+    "date_symptom_start": "2020-03-21",
+    "date_recovered": null,
+    "gender": "M",
+    "age": 59,
+    "case_type": "Imported",
+    "nationality": "ENGLISH"
+  },
+  {
+    "date_announced": "2020-03-28",
+    "case_number": 145,
+    "date_symptom_start": "2020-03-24",
+    "date_recovered": null,
+    "gender": "M",
+    "age": 30,
+    "case_type": "Imported",
+    "nationality": "MALTESE"
+  },
+  {
+    "date_announced": "2020-03-28",
+    "case_number": 146,
+    "date_symptom_start": null,
+    "date_recovered": null,
+    "gender": "F",
+    "age": 34,
+    "case_type": "Local Transmission",
+    "nationality": null
+  },
+  {
+    "date_announced": "2020-03-28",
+    "case_number": 147,
+    "date_symptom_start": "2020-03-22",
+    "date_recovered": null,
+    "gender": "M",
+    "age": 36,
+    "case_type": "Local Transmission",
+    "nationality": "MALTESE"
+  },
+  {
+    "date_announced": "2020-03-28",
+    "case_number": 148,
+    "date_symptom_start": "2020-03-25",
+    "date_recovered": null,
+    "gender": "M",
+    "age": 36,
+    "case_type": "Local Transmission",
+    "nationality": "INDIAN"
+  },
+  {
+    "date_announced": "2020-03-28",
+    "case_number": 149,
+    "date_symptom_start": "2020-03-23",
+    "date_recovered": null,
+    "gender": "M",
+    "age": 31,
+    "case_type": "Local Transmission",
+    "nationality": "INDIAN"
+  },
+  {
+    "date_announced": "2020-03-29",
+    "case_number": 150,
+    "date_symptom_start": "2020-03-24",
+    "date_recovered": null,
+    "gender": "F",
+    "age": 53,
+    "case_type": "Imported",
+    "nationality": "MALTESE"
+  },
+  {
+    "date_announced": "2020-03-29",
+    "case_number": 151,
+    "date_symptom_start": "2020-03-19",
+    "date_recovered": null,
+    "gender": "M",
+    "age": 39,
+    "case_type": "Imported",
+    "nationality": "MALTESE"
+  },
+  {
+    "date_announced": "2020-03-30",
+    "case_number": 152,
+    "date_symptom_start": "2020-03-19",
+    "date_recovered": null,
+    "gender": "M",
+    "age": 30,
+    "case_type": "Imported",
+    "nationality": "MALTESE"
+  },
+  {
+    "date_announced": "2020-03-30",
+    "case_number": 153,
+    "date_symptom_start": "2020-03-24",
+    "date_recovered": null,
+    "gender": "F",
+    "age": 64,
+    "case_type": "Imported",
+    "nationality": "MALTESE"
+  },
+  {
+    "date_announced": "2020-03-30",
+    "case_number": 154,
+    "date_symptom_start": "2020-03-12",
+    "date_recovered": null,
+    "gender": "M",
+    "age": 30,
+    "case_type": "Imported",
+    "nationality": null
+  },
+  {
+    "date_announced": "2020-03-30",
+    "case_number": 155,
+    "date_symptom_start": "2020-03-27",
+    "date_recovered": null,
+    "gender": "F",
+    "age": 35,
+    "case_type": "Local Transmission",
+    "nationality": "MALTESE"
+  },
+  {
+    "date_announced": "2020-03-30",
+    "case_number": 156,
+    "date_symptom_start": "2020-03-22",
+    "date_recovered": null,
+    "gender": "F",
+    "age": 44,
+    "case_type": "Local Transmission",
+    "nationality": "MALTESE"
   }
 ]

@@ -8,67 +8,67 @@
     "count_exposure": 1
   },
   "10-19": {
-    "count": 8,
+    "count": 9,
     "count_recovered": 1,
-    "count_active": 7,
-    "count_imported": 5,
+    "count_active": 8,
+    "count_imported": 6,
     "count_local": 1,
     "count_exposure": 2
   },
   "20-29": {
-    "count": 24,
+    "count": 36,
     "count_recovered": 0,
-    "count_active": 24,
-    "count_imported": 17,
-    "count_local": 1,
+    "count_active": 36,
+    "count_imported": 23,
+    "count_local": 7,
     "count_exposure": 6
   },
   "30-39": {
-    "count": 21,
+    "count": 34,
     "count_recovered": 0,
-    "count_active": 21,
-    "count_imported": 8,
-    "count_local": 3,
+    "count_active": 34,
+    "count_imported": 13,
+    "count_local": 11,
     "count_exposure": 10
   },
   "40-49": {
-    "count": 15,
+    "count": 22,
     "count_recovered": 0,
-    "count_active": 15,
-    "count_imported": 7,
-    "count_local": 1,
+    "count_active": 22,
+    "count_imported": 12,
+    "count_local": 3,
     "count_exposure": 7
   },
   "50-59": {
-    "count": 18,
+    "count": 25,
     "count_recovered": 0,
-    "count_active": 18,
-    "count_imported": 9,
+    "count_active": 25,
+    "count_imported": 16,
     "count_local": 1,
     "count_exposure": 8
   },
   "60-69": {
-    "count": 9,
+    "count": 13,
     "count_recovered": 0,
-    "count_active": 9,
-    "count_imported": 5,
-    "count_local": 0,
+    "count_active": 13,
+    "count_imported": 8,
+    "count_local": 1,
     "count_exposure": 4
   },
   "70-79": {
-    "count": 5,
+    "count": 6,
     "count_recovered": 0,
-    "count_active": 5,
+    "count_active": 6,
     "count_imported": 1,
-    "count_local": 0,
+    "count_local": 1,
     "count_exposure": 4
   },
   "80-110": {
-    "count": 0,
+    "count": 1,
     "count_recovered": 0,
-    "count_active": 0,
+    "count_active": 1,
     "count_imported": 0,
-    "count_local": 0,
+    "count_local": 1,
     "count_exposure": 0
   }
 }
