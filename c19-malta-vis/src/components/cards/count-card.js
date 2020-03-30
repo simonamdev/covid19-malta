@@ -2,7 +2,7 @@ import React from "react"
 
 import CountUp from "react-countup"
 
-const CountCard = ({ count, text }) => (
+const CountCard = ({ count, text, children, style }) => (
   <div
     style={{
       background: "#fff",
@@ -18,6 +18,7 @@ const CountCard = ({ count, text }) => (
       padding: "0.5rem",
       boxShadow: "0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)",
       transition: "all 0.3s cubic-bezier(.25,.8,.25,1)",
+      ...style,
     }}
   >
     <div
@@ -25,12 +26,16 @@ const CountCard = ({ count, text }) => (
         display: "flex",
         flexDirection: "column",
         justifyContent: "space-between",
+        width: "100%",
       }}
     >
-      <h2 style={{ margin: 0 }}>
-        <CountUp end={count} separator="," />
-      </h2>
-      <h5 style={{ margin: 0 }}>{text}</h5>
+      <div>
+        <h2 style={{ margin: 0 }}>
+          <CountUp end={count} separator="," />
+        </h2>
+        <h5 style={{ margin: 0 }}>{text}</h5>
+      </div>
+      {children}
     </div>
   </div>
 )

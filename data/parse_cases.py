@@ -103,6 +103,7 @@ for case in all_cases:
 
 case_counts = {
     'total': len(all_cases),
+    'total_active': len()
     'per_day': []
 }
 
