@@ -8,12 +8,14 @@ from copy import deepcopy
 
 from utils import parse_date, create_file
 
-files: List[str] = os.listdir('data')
+directory = os.path.join('.', 'data', 'input', 'cases')
+files: List[str] = os.listdir(directory)
 # may need sorting
-raw_csv_files: List[str] = [file for file in files if '.raw.csv' in file]
+csv_files: List[str] = sorted(
+    [file for file in files if '.csv' in file], reverse=True)
 
 # take the latest one
-latest_file_path = os.path.join('data', raw_csv_files[0])
+latest_file_path = os.path.join(directory, csv_files[0])
 
 print(f'Parsing {latest_file_path}')
 
@@ -200,8 +202,8 @@ for age_group in mortality_rates_by_age_group:
     )
 
     # print(output_data)
-pprint(cases)
-pprint(case_proportion_by_date)
+# pprint(cases)
+# pprint(case_proportion_by_date)
 create_file('cases', all_cases)
 create_file('case_counts', case_counts)
 create_file('cases_by_date', cases_by_date)
