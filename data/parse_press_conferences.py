@@ -25,4 +25,9 @@ press_conferences = [{'number': int(p['Number']), 'date': parse_date(p['Date']),
                       'link': p['Link']} for p in press_conferences_with_links]
 pprint(press_conferences)
 
-create_file('press_conferences', press_conferences)
+
+def parse_press_conferences():
+    create_file('press_conferences', press_conferences)
+
+
+parse_press_conferences()

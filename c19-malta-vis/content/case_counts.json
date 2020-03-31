@@ -1,5 +1,5 @@
 {
-  "total": 156,
+  "total": 169,
   "per_day": [
     {
       "date": "2020-03-07",
@@ -415,6 +415,25 @@
         "count_recovered": 1,
         "count_active": 155,
         "count_imported": 86,
+        "count_local": 26,
+        "count_exposure": 44
+      }
+    },
+    {
+      "date": "2020-03-31",
+      "counts": {
+        "count": 13,
+        "count_recovered": 0,
+        "count_active": 13,
+        "count_imported": 13,
+        "count_local": 0,
+        "count_exposure": 0
+      },
+      "counts_cumulative": {
+        "count": 169,
+        "count_recovered": 1,
+        "count_active": 168,
+        "count_imported": 99,
         "count_local": 26,
         "count_exposure": 44
       }

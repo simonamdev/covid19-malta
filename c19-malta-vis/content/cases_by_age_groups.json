@@ -9,6 +9,16 @@
       "age": 3,
       "case_type": "Exposure to Imported Case",
       "nationality": "MALTESE"
+    },
+    {
+      "date_announced": "2020-03-31",
+      "case_number": 164,
+      "date_symptom_start": "2020-03-17",
+      "date_recovered": null,
+      "gender": "F",
+      "age": 8,
+      "case_type": "Imported",
+      "nationality": "MALTESE"
     }
   ],
   "10-19": [
@@ -101,6 +111,16 @@
       "age": 19,
       "case_type": "Imported",
       "nationality": null
+    },
+    {
+      "date_announced": "2020-03-31",
+      "case_number": 165,
+      "date_symptom_start": "2020-03-19",
+      "date_recovered": null,
+      "gender": "M",
+      "age": 18,
+      "case_type": "Imported",
+      "nationality": "ENGLISH"
     }
   ],
   "20-29": [
@@ -463,6 +483,56 @@
       "age": 23,
       "case_type": "Local Transmission",
       "nationality": "GAMBIA"
+    },
+    {
+      "date_announced": "2020-03-31",
+      "case_number": 158,
+      "date_symptom_start": "2020-03-20",
+      "date_recovered": null,
+      "gender": "F",
+      "age": 26,
+      "case_type": "Imported",
+      "nationality": "MALTESE"
+    },
+    {
+      "date_announced": "2020-03-31",
+      "case_number": 161,
+      "date_symptom_start": null,
+      "date_recovered": null,
+      "gender": "F",
+      "age": 27,
+      "case_type": "Imported",
+      "nationality": "MALTESE"
+    },
+    {
+      "date_announced": "2020-03-31",
+      "case_number": 166,
+      "date_symptom_start": "2020-03-21",
+      "date_recovered": null,
+      "gender": "M",
+      "age": 21,
+      "case_type": "Imported",
+      "nationality": "ENGLISH"
+    },
+    {
+      "date_announced": "2020-03-31",
+      "case_number": 167,
+      "date_symptom_start": "2020-03-24",
+      "date_recovered": null,
+      "gender": "M",
+      "age": 24,
+      "case_type": "Imported",
+      "nationality": null
+    },
+    {
+      "date_announced": "2020-03-31",
+      "case_number": 168,
+      "date_symptom_start": null,
+      "date_recovered": null,
+      "gender": "M",
+      "age": 21,
+      "case_type": "Imported",
+      "nationality": null
     }
   ],
   "30-39": [
@@ -805,6 +875,16 @@
       "age": 35,
       "case_type": "Local Transmission",
       "nationality": "MALTESE"
+    },
+    {
+      "date_announced": "2020-03-31",
+      "case_number": 157,
+      "date_symptom_start": "2020-03-25",
+      "date_recovered": null,
+      "gender": "F",
+      "age": 30,
+      "case_type": "Imported",
+      "nationality": "MALTESE"
     }
   ],
   "40-49": [
@@ -1027,6 +1107,36 @@
       "age": 44,
       "case_type": "Local Transmission",
       "nationality": "MALTESE"
+    },
+    {
+      "date_announced": "2020-03-31",
+      "case_number": 159,
+      "date_symptom_start": "2020-03-25",
+      "date_recovered": null,
+      "gender": "F",
+      "age": 43,
+      "case_type": "Imported",
+      "nationality": "MALTESE"
+    },
+    {
+      "date_announced": "2020-03-31",
+      "case_number": 160,
+      "date_symptom_start": null,
+      "date_recovered": null,
+      "gender": "M",
+      "age": 41,
+      "case_type": "Imported",
+      "nationality": "MALTESE"
+    },
+    {
+      "date_announced": "2020-03-31",
+      "case_number": 169,
+      "date_symptom_start": "2020-03-20",
+      "date_recovered": null,
+      "gender": "F",
+      "age": 48,
+      "case_type": "Imported",
+      "nationality": null
     }
   ],
   "50-59": [
@@ -1473,6 +1583,26 @@
       "age": 72,
       "case_type": "Local Transmission",
       "nationality": "MALTESE"
+    },
+    {
+      "date_announced": "2020-03-31",
+      "case_number": 162,
+      "date_symptom_start": null,
+      "date_recovered": null,
+      "gender": "F",
+      "age": 72,
+      "case_type": "Imported",
+      "nationality": null
+    },
+    {
+      "date_announced": "2020-03-31",
+      "case_number": 163,
+      "date_symptom_start": null,
+      "date_recovered": null,
+      "gender": "M",
+      "age": 75,
+      "case_type": "Imported",
+      "nationality": null
     }
   ],
   "80-110": [

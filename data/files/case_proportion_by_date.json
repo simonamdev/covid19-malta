@@ -306,5 +306,19 @@
       "count": 0,
       "percentage": 0.0
     }
+  },
+  "2020-03-31": {
+    "Imported": {
+      "count": 13,
+      "percentage": 100.0
+    },
+    "Local Transmission": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "Exposure to Imported Case": {
+      "count": 0,
+      "percentage": 0.0
+    }
   }
 }

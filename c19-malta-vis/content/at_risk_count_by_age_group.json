@@ -2,36 +2,36 @@
   {
     "low": 0,
     "high": 9,
-    "count": 1,
+    "count": 2,
     "at_risk_count": 0.0,
     "risk_percentage": 0
   },
   {
     "low": 10,
     "high": 19,
-    "count": 9,
-    "at_risk_count": 0.018000000000000002,
+    "count": 10,
+    "at_risk_count": 0.02,
     "risk_percentage": 0.2
   },
   {
     "low": 20,
     "high": 29,
-    "count": 36,
-    "at_risk_count": 0.07200000000000001,
+    "count": 41,
+    "at_risk_count": 0.082,
     "risk_percentage": 0.2
   },
   {
     "low": 30,
     "high": 39,
-    "count": 34,
-    "at_risk_count": 0.068,
+    "count": 35,
+    "at_risk_count": 0.07,
     "risk_percentage": 0.2
   },
   {
     "low": 40,
     "high": 49,
-    "count": 22,
-    "at_risk_count": 0.088,
+    "count": 25,
+    "at_risk_count": 0.1,
     "risk_percentage": 0.4
   },
   {
@@ -51,8 +51,8 @@
   {
     "low": 70,
     "high": 79,
-    "count": 6,
-    "at_risk_count": 0.48,
+    "count": 8,
+    "at_risk_count": 0.64,
     "risk_percentage": 8
   },
   {

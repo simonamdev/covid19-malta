@@ -103,7 +103,6 @@ for case in all_cases:
 
 case_counts = {
     'total': len(all_cases),
-    'total_active': len()
     'per_day': []
 }
 
@@ -205,12 +204,18 @@ for age_group in mortality_rates_by_age_group:
     # print(output_data)
 # pprint(cases)
 # pprint(case_proportion_by_date)
-create_file('cases', all_cases)
-create_file('case_counts', case_counts)
-create_file('cases_by_date', cases_by_date)
-create_file('at_risk_count_by_age_group', at_risk_count_by_age_group)
-create_file('all_case_type_counts', all_case_type_counts)
-create_file('cases_by_age_groups', cases_by_age_groups)
-create_file('case_counts_by_age_group', case_counts_by_age_group)
-create_file('case_proportion_by_date', case_proportion_by_date)
-create_file('case_proportion_by_gender', case_proportion_by_gender)
+
+
+def parse_cases():
+    create_file('cases', all_cases)
+    create_file('case_counts', case_counts)
+    create_file('cases_by_date', cases_by_date)
+    create_file('at_risk_count_by_age_group', at_risk_count_by_age_group)
+    create_file('all_case_type_counts', all_case_type_counts)
+    create_file('cases_by_age_groups', cases_by_age_groups)
+    create_file('case_counts_by_age_group', case_counts_by_age_group)
+    create_file('case_proportion_by_date', case_proportion_by_date)
+    create_file('case_proportion_by_gender', case_proportion_by_gender)
+
+
+parse_cases()
