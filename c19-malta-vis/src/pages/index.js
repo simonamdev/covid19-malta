@@ -8,6 +8,7 @@ import CountGraphCard from "../components/cards/count-graph-card"
 
 import CountOverTimeChart from "../components/charts/count-over-time"
 import CaseTypeProportionPieChart from "../components/charts/case_type_proportion_pie"
+import CaseLocationsOverTimeLineChart from "../components/charts/case-locations-line"
 
 import allCaseTypeCounts from "../../content/all_case_type_counts.json"
 import caseCounts from "../../content/case_counts.json"
@@ -46,6 +47,9 @@ const IndexPage = () => {
 
       <div style={{ height: 500 }}>
         <CountOverTimeChart />
+      </div>
+      <div style={{ height: 500 }}>
+        <CaseLocationsOverTimeLineChart />
       </div>
     </Layout>
   )
