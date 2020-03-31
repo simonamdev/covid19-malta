@@ -4,30 +4,30 @@ import { ResponsiveLine } from "@nivo/line"
 
 import caseCounts from "../../../content/case_counts.json"
 
-const CountOverTimeChart = () => {
+const CaseTypeOverTimeLineChart = () => {
   const transformedData = [
     {
-      id: "Total",
-      color: "hsl(212, 70%, 50%)",
+      id: "Imported",
+      color: "hsl(0, 70%, 50%)",
       data: caseCounts.per_day.map(dayCounts => ({
         x: dayCounts.date,
-        y: dayCounts.counts_cumulative.count,
+        y: dayCounts.counts_cumulative.count_imported,
       })),
     },
     {
-      id: "Active",
-      color: "hsl(212, 70%, 50%)",
+      id: "Local Transmission",
+      color: "hsl(75, 70%, 50%)",
       data: caseCounts.per_day.map(dayCounts => ({
         x: dayCounts.date,
-        y: dayCounts.counts_cumulative.count_active,
+        y: dayCounts.counts_cumulative.count_local,
       })),
     },
     {
-      id: "Recovered",
-      color: "hsl(180, 40%, 70%)",
+      id: "Travel Related",
+      color: "hsl(125, 70%, 50%)",
       data: caseCounts.per_day.map(dayCounts => ({
         x: dayCounts.date,
-        y: dayCounts.counts_cumulative.count_recovered,
+        y: dayCounts.counts_cumulative.count_exposure,
       })),
     },
   ]
@@ -35,13 +35,13 @@ const CountOverTimeChart = () => {
   return (
     <ResponsiveLine
       data={transformedData}
-      margin={{ top: 50, right: 110, bottom: 50, left: 60 }}
+      margin={{ top: 50, right: 150, bottom: 50, left: 60 }}
       xScale={{ type: "point" }}
       yScale={{
         type: "linear",
         min: "auto",
         max: "auto",
-        stacked: false,
+        stacked: true,
         reverse: false,
       }}
       axisTop={null}
@@ -62,12 +62,11 @@ const CountOverTimeChart = () => {
         legendPosition: "middle",
       }}
       colors={{ scheme: "nivo" }}
-      pointSize={10}
       pointColor={{ theme: "background" }}
       pointBorderWidth={2}
       pointBorderColor={{ from: "serieColor" }}
-      pointLabel="y"
-      pointLabelYOffset={-12}
+      enableArea={true}
+      areaOpacity={1}
       useMesh={true}
       legends={[
         {
@@ -81,7 +80,7 @@ const CountOverTimeChart = () => {
           itemWidth: 80,
           itemHeight: 20,
           itemOpacity: 0.75,
-          symbolSize: 12,
+          symbolSize: 10,
           symbolShape: "circle",
           symbolBorderColor: "rgba(0, 0, 0, .5)",
           effects: [
@@ -99,4 +98,4 @@ const CountOverTimeChart = () => {
   )
 }
 
-export default CountOverTimeChart
+export default CaseTypeOverTimeLineChart

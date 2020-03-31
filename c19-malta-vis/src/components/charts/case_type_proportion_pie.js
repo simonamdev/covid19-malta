@@ -2,10 +2,14 @@ import React from "react"
 
 import { ResponsivePie } from "@nivo/pie"
 
-import caseTypeProportion from "../../../content/case_type_proportion.json"
+import allCaseTypeCounts from "../../../content/all_case_type_counts.json"
 
 const CaseTypeProportionPieChart = () => {
-  const { imported, local, exposure } = caseTypeProportion
+  const {
+    count_imported: imported,
+    count_local: local,
+    count_exposure: exposure,
+  } = allCaseTypeCounts
   const transformedData = [
     {
       id: "imported",
