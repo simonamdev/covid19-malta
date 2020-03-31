@@ -14,20 +14,21 @@ const CaseTypeOverTimeLineChart = () => {
         y: dayCounts.counts_cumulative.count_imported,
       })),
     },
-    {
-      id: "Local Transmission",
-      color: "hsl(75, 70%, 50%)",
-      data: caseCounts.per_day.map(dayCounts => ({
-        x: dayCounts.date,
-        y: dayCounts.counts_cumulative.count_local,
-      })),
-    },
+
     {
       id: "Travel Related",
       color: "hsl(125, 70%, 50%)",
       data: caseCounts.per_day.map(dayCounts => ({
         x: dayCounts.date,
         y: dayCounts.counts_cumulative.count_exposure,
+      })),
+    },
+    {
+      id: "Local Transmission",
+      color: "hsl(75, 70%, 50%)",
+      data: caseCounts.per_day.map(dayCounts => ({
+        x: dayCounts.date,
+        y: dayCounts.counts_cumulative.count_local,
       })),
     },
   ]
