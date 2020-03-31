@@ -1,0 +1,186 @@
+{
+  "2020-03-07": {
+    "total": 3,
+    "recovered": 0,
+    "active": 3,
+    "arrived": 2,
+    "symptom_start": 1,
+    "died": 0
+  },
+  "2020-03-10": {
+    "total": 5,
+    "recovered": 0,
+    "active": 5,
+    "arrived": 12,
+    "symptom_start": 3,
+    "died": 0
+  },
+  "2020-03-11": {
+    "total": 6,
+    "recovered": 0,
+    "active": 6,
+    "arrived": 15,
+    "symptom_start": 11,
+    "died": 0
+  },
+  "2020-03-12": {
+    "total": 9,
+    "recovered": 0,
+    "active": 9,
+    "arrived": 15,
+    "symptom_start": 15,
+    "died": 0
+  },
+  "2020-03-13": {
+    "total": 12,
+    "recovered": 0,
+    "active": 12,
+    "arrived": 24,
+    "symptom_start": 23,
+    "died": 0
+  },
+  "2020-03-14": {
+    "total": 18,
+    "recovered": 1,
+    "active": 17,
+    "arrived": 27,
+    "symptom_start": 32,
+    "died": 0
+  },
+  "2020-03-15": {
+    "total": 21,
+    "recovered": 1,
+    "active": 20,
+    "arrived": 30,
+    "symptom_start": 42,
+    "died": 0
+  },
+  "2020-03-16": {
+    "total": 30,
+    "recovered": 1,
+    "active": 29,
+    "arrived": 31,
+    "symptom_start": 46,
+    "died": 0
+  },
+  "2020-03-17": {
+    "total": 38,
+    "recovered": 1,
+    "active": 37,
+    "arrived": 35,
+    "symptom_start": 54,
+    "died": 0
+  },
+  "2020-03-18": {
+    "total": 48,
+    "recovered": 1,
+    "active": 47,
+    "arrived": 38,
+    "symptom_start": 59,
+    "died": 0
+  },
+  "2020-03-19": {
+    "total": 53,
+    "recovered": 1,
+    "active": 52,
+    "arrived": 43,
+    "symptom_start": 68,
+    "died": 0
+  },
+  "2020-03-20": {
+    "total": 64,
+    "recovered": 1,
+    "active": 63,
+    "arrived": 45,
+    "symptom_start": 77,
+    "died": 0
+  },
+  "2020-03-21": {
+    "total": 73,
+    "recovered": 1,
+    "active": 72,
+    "arrived": 45,
+    "symptom_start": 79,
+    "died": 0
+  },
+  "2020-03-22": {
+    "total": 90,
+    "recovered": 1,
+    "active": 89,
+    "arrived": 45,
+    "symptom_start": 84,
+    "died": 0
+  },
+  "2020-03-23": {
+    "total": 107,
+    "recovered": 1,
+    "active": 106,
+    "arrived": 45,
+    "symptom_start": 85,
+    "died": 0
+  },
+  "2020-03-24": {
+    "total": 110,
+    "recovered": 1,
+    "active": 109,
+    "arrived": 45,
+    "symptom_start": 90,
+    "died": 0
+  },
+  "2020-03-25": {
+    "total": 129,
+    "recovered": 1,
+    "active": 128,
+    "arrived": 45,
+    "symptom_start": 93,
+    "died": 0
+  },
+  "2020-03-26": {
+    "total": 134,
+    "recovered": 1,
+    "active": 133,
+    "arrived": 45,
+    "symptom_start": 94,
+    "died": 0
+  },
+  "2020-03-27": {
+    "total": 139,
+    "recovered": 1,
+    "active": 138,
+    "arrived": 45,
+    "symptom_start": 95,
+    "died": 0
+  },
+  "2020-03-28": {
+    "total": 149,
+    "recovered": 1,
+    "active": 148,
+    "arrived": 45,
+    "symptom_start": 95,
+    "died": 0
+  },
+  "2020-03-29": {
+    "total": 151,
+    "recovered": 1,
+    "active": 150,
+    "arrived": 45,
+    "symptom_start": 95,
+    "died": 0
+  },
+  "2020-03-30": {
+    "total": 156,
+    "recovered": 1,
+    "active": 155,
+    "arrived": 45,
+    "symptom_start": 95,
+    "died": 0
+  },
+  "2020-03-31": {
+    "total": 169,
+    "recovered": 1,
+    "active": 168,
+    "arrived": 45,
+    "symptom_start": 95,
+    "died": 0
+  }
+}

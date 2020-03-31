@@ -15,7 +15,7 @@ case_proportion_by_date = {}
 
 
 def data_present(value):
-    return value if not value == '?' or value == '' else None
+    return value if not value == '?' or value == '' or 'N/A' in value else None
 
 
 for row in data:
@@ -32,8 +32,9 @@ for row in data:
     all_cases.append(
         {
             'date_announced': parse_date(data_present(row['Date Announced'])),
-            'case_number': int(row['Case']),
+            'date_arrived': parse_date(data_present(row['Arrival Date'])),
             'date_symptom_start': parse_date(data_present(row['Symptom Start Date'])),
+            'case_number': int(row['Case']),
             'date_recovered': parse_date(data_present(row['Date recovered'])),
             'gender': row['Gender'],
             'age': int(data_present(row['Age'])) if data_present(row['Age']) else None,
@@ -90,11 +91,6 @@ for case in all_cases:
     case_proportion_by_gender['other']['proportion'] = case_proportion_by_gender['other']['count'] / len(
         all_cases) * 100.0
 
-case_counts = {
-    'total': len(all_cases),
-    'per_day': []
-}
-
 
 def extract_case_type_counts(cases):
     imported_cases = [
@@ -103,39 +99,104 @@ def extract_case_type_counts(cases):
                    == 'Local Transmission']
     exposure_cases = [
         case for case in cases if case['case_type'] == 'Exposure to Imported Case']
-    recovered_cases = [
-        case for case in cases if case['date_recovered'] is not None]
+    # case for case in cases if case['date_recovered'] is not None]
     return {
         'count': len(cases),
-        'count_recovered': len(recovered_cases),
-        'count_active': len(cases) - len(recovered_cases),
+        # 'count_recovered': len(recovered_cases),
+        # 'count_active': len(cases) - len(recovered_cases),
         'count_imported': len(imported_cases),
         'count_local': len(local_cases),
         'count_exposure': len(exposure_cases),
     }
 
 
+def extract_case_date_counts(cases):
+    arrived_cases = [
+        case for case in cases if case['date_arrived'] is not None]
+    symptom_started_cases = [
+        case for case in cases if case['date_symptom_start'] is not None]
+    return {
+        'count_arrived': len(arrived_cases),
+        'count_symptom_start': len(symptom_started_cases),
+    }
+
+
 all_case_type_counts = extract_case_type_counts(all_cases)
+
+total_recovered = len(
+    [case for case in all_cases if case['date_recovered'] is not None])
+case_counts = {
+    'total': len(all_cases),
+    'total_recovered': total_recovered,
+    'total_active': len(all_cases) - total_recovered,
+    'per_day': []
+}
 
 cumulative_counts = {
     'count': 0,
-    'count_recovered': 0,
-    'count_active': 0,
     'count_imported': 0,
     'count_local': 0,
     'count_exposure': 0,
 }
+
 for date, cases in cases_by_date.items():
     date_case_type_counts = extract_case_type_counts(cases)
     for count in cumulative_counts.keys():
         cumulative_counts[count] += date_case_type_counts[count]
+    # date_case_date_counts = extract_case_date_counts(cases)
+    # for count in date_case_type_counts.keys():
+    #     cumulative_counts[count] += date_case_type_counts[count]
     case_counts['per_day'].append(
         {
             'date': date,
             'counts': deepcopy(date_case_type_counts),
-            'counts_cumulative': deepcopy(cumulative_counts)
+            'counts_cumulative': deepcopy(cumulative_counts),
+            # 'counts_of_dates': deepcopy(date_case_date_counts)
         }
     )
+
+# Trying to answer the question: How many happened on this specific day?
+
+
+def get_default_on_date_counts():
+    return {
+        'total': 0,
+        'recovered': 0,
+        'active': 0,
+        'arrived': 0,
+        'symptom_start': 0,
+        'died': 0
+    }
+
+
+def extract_counts_on_date(date, cases):
+    on_date_counts = deepcopy(get_default_on_date_counts())
+    on_date_counts['total'] = len(
+        [case for case in cases if case['date_announced'] == date])
+    on_date_counts['recovered'] = len(
+        [case for case in cases if case['date_recovered'] == date])
+    on_date_counts['active'] = on_date_counts['total'] - \
+        on_date_counts['recovered']
+    on_date_counts['arrived'] = len(
+        [case for case in cases if case['date_arrived'] == date])
+    on_date_counts['symptom_start'] = len(
+        [case for case in cases if case['date_symptom_start'] == date])
+    return on_date_counts
+
+
+all_on_date_counts = {}
+for date in cases_by_date.keys():
+    all_on_date_counts[date] = extract_counts_on_date(date, all_cases)
+
+
+cumulative_date_counter = get_default_on_date_counts()
+cumulative_counts_by_date = {}
+for date, cases in cases_by_date.items():
+    current_date_all_case_counts = extract_counts_on_date(date, all_cases)
+    for key in cumulative_date_counter.keys():
+        cumulative_date_counter[key] += current_date_all_case_counts[key]
+    cumulative_counts_by_date[date] = deepcopy(cumulative_date_counter)
+
 
 # Source: http://weekly.chinacdc.cn/en/article/id/e53946e2-c6c4-41e9-9a9b-fea8db1a8f51
 # both numbers inclusive
@@ -205,6 +266,8 @@ def parse_cases():
     create_file('case_counts_by_age_group', case_counts_by_age_group)
     create_file('case_proportion_by_date', case_proportion_by_date)
     create_file('case_proportion_by_gender', case_proportion_by_gender)
+    create_file('all_on_date_counts', all_on_date_counts)
+    create_file('cumulative_counts_by_date', cumulative_counts_by_date)
 
 
 parse_cases()

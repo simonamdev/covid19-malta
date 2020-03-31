@@ -6,6 +6,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "@nivo/bar": "^0.61.1",
+    "@nivo/calendar": "^0.61.1",
     "@nivo/heatmap": "^0.61.0",
     "@nivo/line": "^0.61.1",
     "@nivo/pie": "^0.61.1",

@@ -1,6 +1,5 @@
 import React from "react"
 
-import CountCard from "../count-card"
 import CountGraphCard from "../count-graph-card"
 
 import caseCounts from "../../../../content/case_counts.json"
@@ -12,10 +11,7 @@ const TotalCountCard = () => {
   }))
   const total = caseCounts.total
   return (
-    <>
-      <CountCard count={total} text="Total Cases" />
-      <CountGraphCard count={total} text="Total Cases" data={totalCountData} />
-    </>
+    <CountGraphCard count={total} text="Total Cases" data={totalCountData} />
   )
 }
 

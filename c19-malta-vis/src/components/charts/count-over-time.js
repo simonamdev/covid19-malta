@@ -2,32 +2,38 @@ import React from "react"
 
 import { ResponsiveLine } from "@nivo/line"
 
-import caseCounts from "../../../content/case_counts.json"
+import cumulativeCountsByDate from "../../../content/cumulative_counts_by_date.json"
 
 const CountOverTimeChart = () => {
+  const cumulativeCounts = Object.keys(cumulativeCountsByDate).map(date => ({
+    date,
+    total: cumulativeCountsByDate[date].total,
+    recovered: cumulativeCountsByDate[date].recovered,
+    active: cumulativeCountsByDate[date].active,
+  }))
   const transformedData = [
     {
       id: "Total",
       color: "hsl(212, 70%, 50%)",
-      data: caseCounts.per_day.map(dayCounts => ({
+      data: cumulativeCounts.map(dayCounts => ({
         x: dayCounts.date,
-        y: dayCounts.counts_cumulative.count,
+        y: dayCounts.total,
       })),
     },
     {
       id: "Active",
       color: "hsl(212, 70%, 50%)",
-      data: caseCounts.per_day.map(dayCounts => ({
+      data: cumulativeCounts.map(dayCounts => ({
         x: dayCounts.date,
-        y: dayCounts.counts_cumulative.count_active,
+        y: dayCounts.active,
       })),
     },
     {
       id: "Recovered",
       color: "hsl(180, 40%, 70%)",
-      data: caseCounts.per_day.map(dayCounts => ({
+      data: cumulativeCounts.map(dayCounts => ({
         x: dayCounts.date,
-        y: dayCounts.counts_cumulative.count_recovered,
+        y: dayCounts.recovered,
       })),
     },
   ]

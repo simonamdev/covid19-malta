@@ -3,16 +3,16 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import CountCard from "../components/cards/count-card"
-
 import TotalCountCard from "../components/cards/stats/total-count-card"
+import TotalActiveCountCard from "../components/cards/stats/total-active-card"
+import TotalRecoveredCountCard from "../components/cards/stats/total-recovered-card"
 
 import CountOverTimeChart from "../components/charts/count-over-time"
 import CaseTypeProportionPieChart from "../components/charts/case_type_proportion_pie"
 import CaseTypeOverTimeLineChart from "../components/charts/case-type-over-time-line"
 import CaseLocationsOverTimeLineChart from "../components/charts/case-locations-line"
-
-import allCaseTypeCounts from "../../content/all_case_type_counts.json"
+import ArrivalDateCalendar from "../components/charts/arrival-date-calendar"
+import SymptomDateCalendar from "../components/charts/symptom-date-calendar"
 
 const IndexPage = () => {
   return (
@@ -26,11 +26,8 @@ const IndexPage = () => {
         }}
       >
         <TotalCountCard />
-        <CountCard count={allCaseTypeCounts.count_active} text="Active Cases" />
-        <CountCard
-          count={allCaseTypeCounts.count_recovered}
-          text="Recovered Cases"
-        />
+        <TotalRecoveredCountCard />
+        <TotalActiveCountCard />
       </div>
 
       <div style={{ height: 500 }}>
@@ -46,6 +43,12 @@ const IndexPage = () => {
       </div>
       <div style={{ height: 500 }}>
         <CaseLocationsOverTimeLineChart />
+      </div>
+      <div style={{ height: 500 }}>
+        <ArrivalDateCalendar />
+      </div>
+      <div style={{ height: 500 }}>
+        <SymptomDateCalendar />
       </div>
     </Layout>
   )

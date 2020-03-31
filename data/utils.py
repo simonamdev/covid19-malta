@@ -6,7 +6,7 @@ from csv import DictReader
 
 
 def parse_date(date):
-    if date is None or date == '?' or date == '':
+    if date is None or date == '?' or date == '' or date == 'N/A':
         return None
     day, month, year = date.split('/')
     day = day if len(day) == 2 else f'0{day}'
