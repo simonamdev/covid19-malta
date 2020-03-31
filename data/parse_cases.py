@@ -1,25 +1,14 @@
 import os
 import json
 
-from typing import List
-from csv import DictReader
 from pprint import pprint
 from copy import deepcopy
 
-from utils import parse_date, create_file
+from utils import parse_date, create_file, get_latest_csv_data
 
 directory = os.path.join('.', 'data', 'input', 'cases')
-files: List[str] = os.listdir(directory)
-# may need sorting
-csv_files: List[str] = sorted(
-    [file for file in files if '.csv' in file], reverse=True)
 
-# take the latest one
-latest_file_path = os.path.join(directory, csv_files[0])
-
-print(f'Parsing {latest_file_path}')
-
-data = DictReader(open(latest_file_path))
+data = get_latest_csv_data(directory)
 
 all_cases = []
 case_proportion_by_date = {}
