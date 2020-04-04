@@ -320,5 +320,47 @@
       "count": 0,
       "percentage": 0.0
     }
+  },
+  "2020-04-01": {
+    "Imported": {
+      "count": 5,
+      "percentage": 26.31578947368421
+    },
+    "Local Transmission": {
+      "count": 14,
+      "percentage": 73.68421052631578
+    },
+    "Exposure to Imported Case": {
+      "count": 0,
+      "percentage": 0.0
+    }
+  },
+  "2020-04-02": {
+    "Imported": {
+      "count": 1,
+      "percentage": 14.285714285714285
+    },
+    "Local Transmission": {
+      "count": 6,
+      "percentage": 85.71428571428571
+    },
+    "Exposure to Imported Case": {
+      "count": 0,
+      "percentage": 0.0
+    }
+  },
+  "2020-04-03": {
+    "Imported": {
+      "count": 4,
+      "percentage": 57.14285714285714
+    },
+    "Local Transmission": {
+      "count": 3,
+      "percentage": 42.857142857142854
+    },
+    "Exposure to Imported Case": {
+      "count": 0,
+      "percentage": 0.0
+    }
   }
 }
