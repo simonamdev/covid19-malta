@@ -1,7 +1,7 @@
 {
-  "total": 169,
+  "total": 202,
   "total_recovered": 1,
-  "total_active": 168,
+  "total_active": 201,
   "per_day": [
     {
       "date": "2020-03-07",
@@ -345,6 +345,51 @@
         "count": 169,
         "count_imported": 99,
         "count_local": 26,
+        "count_exposure": 44
+      }
+    },
+    {
+      "date": "2020-04-01",
+      "counts": {
+        "count": 19,
+        "count_imported": 5,
+        "count_local": 14,
+        "count_exposure": 0
+      },
+      "counts_cumulative": {
+        "count": 188,
+        "count_imported": 104,
+        "count_local": 40,
+        "count_exposure": 44
+      }
+    },
+    {
+      "date": "2020-04-02",
+      "counts": {
+        "count": 7,
+        "count_imported": 1,
+        "count_local": 6,
+        "count_exposure": 0
+      },
+      "counts_cumulative": {
+        "count": 195,
+        "count_imported": 105,
+        "count_local": 46,
+        "count_exposure": 44
+      }
+    },
+    {
+      "date": "2020-04-03",
+      "counts": {
+        "count": 7,
+        "count_imported": 4,
+        "count_local": 3,
+        "count_exposure": 0
+      },
+      "counts_cumulative": {
+        "count": 202,
+        "count_imported": 109,
+        "count_local": 49,
         "count_exposure": 44
       }
     }
