@@ -1,3 +1,4 @@
 *.raw.csv
 __pycache__
 data/
+!data/.gitkeep
