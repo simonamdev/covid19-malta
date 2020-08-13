@@ -1,9 +1,10 @@
 import React from 'react'
+import { graphql } from 'gatsby'
 import Link from 'gatsby-link'
 import '../../node_modules/react-vis/dist/style.css';
 import {
-  XYPlot, LineSeries,
-
+  FlexibleXYPlot,
+  LineSeries,
   XAxis,
   YAxis,
   HorizontalGridLines,
@@ -44,34 +45,26 @@ interface IndexPageProps {
   }
 }
 
-export default class extends React.Component<IndexPageProps, {}> {
-  constructor(props: IndexPageProps, context: any) {
-    super(props, context)
-  }
-  public render() {
+export default (props: IndexPageProps) => {
+  return (<div style={{ width: '100%', height: '100%' }}>
+    <h1>Hi people</h1>
+    <p>
+      Welcome to your new{' '}
+      <strong>{props.data.site.siteMetadata.title}</strong> site.
+    </p>
+    <p>Now go build something great.</p>
+    <div style={{ width: '100%', height: 1000 }}>
+      <FlexibleXYPlot margin={50} xType="time">
+        <HorizontalGridLines />
+        <VerticalGridLines />
+        <XAxis title="Date" />
+        <YAxis title="Total Cases" />
+        <LineSeries data={data} />
+      </FlexibleXYPlot>
+    </div>
 
-
-
-    return (
-      <div>
-        <h1>Hi people</h1>
-        <p>
-          Welcome to your new{' '}
-          <strong>{this.props.data.site.siteMetadata.title}</strong> site.
-        </p>
-        <p>Now go build something great.</p>
-        <XYPlot margin={50} xType="time" height={300} width={600}>
-          <HorizontalGridLines />
-          <VerticalGridLines />
-          <XAxis title="Date" />
-          <YAxis title="Total Cases" />
-          <LineSeries data={data} />
-        </XYPlot>
-
-        <Link to="/page-2/">Go to page 2</Link>
-      </div>
-    )
-  }
+    <Link to="/page-2/">Go to page 2</Link>
+  </div>)
 }
 
 export const pageQuery = graphql`
