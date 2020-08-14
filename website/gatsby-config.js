@@ -4,6 +4,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-no-sourcemaps`,
     `gatsby-plugin-webpack-size`
     // Add typescript stack into webpack
   ],
