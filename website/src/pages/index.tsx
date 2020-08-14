@@ -9,9 +9,13 @@ import {
   YAxis,
   HorizontalGridLines,
   VerticalGridLines,
+  LineSeriesPoint,
 } from 'react-vis';
+import MultipleCountChart from '../components/MultipleCountChart'
 
 import latestData from '../../../data/latest_data.json';
+import { CountChartData, CountChart } from '../components/types';
+import ControllableMultipleCountChart from '../components/ControllableMultipleCountChart';
 
 interface CaseData {
   date: Date;
@@ -48,33 +52,23 @@ interface IndexPageProps {
   }
 }
 
-interface GraphSettings {
-  showTotalCases: boolean;
-  showActiveCases: boolean;
-  showRecoveryCases: boolean;
-  showDeathsData: boolean;
-}
+const data: CountChartData[] = [
+  { title: CountChart.ACTIVE_CASES, data: activeCasesData },
+  { title: CountChart.RECOVERIES, data: recoveriesData },
+  { title: CountChart.TOTAL_CASES, data: totalCasesData },
+  { title: CountChart.DEATHS, data: deathsData },
+]
 
 export default (props: IndexPageProps) => {
-  const [settings, setSettings] = useState<GraphSettings>({ showActiveCases: true, showDeathsData: true, showRecoveryCases: true, showTotalCases: true });
-  return (<div style={{ width: '100%', height: '80vh', margin: 0, padding: 0 }}>
-    <FlexibleXYPlot margin={50} xType="time">
-      <HorizontalGridLines />
-      <VerticalGridLines />
-      <XAxis title="Date" />
-      <YAxis />
-      {settings.showTotalCases && <LineSeries data={totalCasesData} />}
-      {settings.showActiveCases && <LineSeries data={activeCasesData} />}
-      {settings.showRecoveryCases && <LineSeries data={recoveriesData} />}
-      {settings.showDeathsData && <LineSeries data={deathsData} />}
-    </FlexibleXYPlot>
-    <Link to="/page-2/">Go to page 2</Link>
+  return (<div style={{ width: '100%', height: '100%', margin: 0, padding: 0 }}>
+    <h1>Covid-19 in Malta</h1>
     <div>
-      <button onClick={() => setSettings({ ...settings, showTotalCases: !settings.showTotalCases })}>Total Cases</button>
-      <button onClick={() => setSettings({ ...settings, showActiveCases: !settings.showActiveCases })}>Active Cases</button>
-      <button onClick={() => setSettings({ ...settings, showDeathsData: !settings.showDeathsData })}>Deaths</button>
-      <button onClick={() => setSettings({ ...settings, showRecoveryCases: !settings.showRecoveryCases })}>Recovered Cases</button>
+      <p>Website by <a href="https://simonam.dev">Simon Agius Muscat</a>. Data retrieved from the <a href="https://github.com/COVID19-Malta/COVID19-Cases">Public Health Open Dataset</a></p>
     </div>
+    <div style={{ height: '80vh' }}>
+      <ControllableMultipleCountChart countChartData={data} />
+    </div>
+    {/* <Link to="/active-cases/">Active Cases</Link> */}
   </div>)
 }
 

@@ -9,6 +9,7 @@
     "gatsby": "^2.24.47",
     "gatsby-link": "^2.4.13",
     "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-plugin-webpack-size": "^1.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-typography": "^0.16.19",
