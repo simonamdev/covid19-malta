@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { graphql } from 'gatsby'
 import Link from 'gatsby-link'
 import '../../node_modules/react-vis/dist/style.css';
@@ -30,7 +30,10 @@ const parsedData: CaseData[] = latestData.map((d) => {
   }
 })
 
-const data = parsedData.map((d) => ({ x: d.date.getTime(), y: d.total_cases }))
+const totalCasesData = parsedData.map((d) => ({ x: d.date.getTime(), y: d.total_cases }))
+const activeCasesData = parsedData.map((d) => ({ x: d.date.getTime(), y: d.active_cases }))
+const recoveriesData = parsedData.map((d) => ({ x: d.date.getTime(), y: d.recovered }))
+const deathsData = parsedData.map((d) => ({ x: d.date.getTime(), y: d.deaths }))
 
 
 // Please note that you can use https://github.com/dotansimha/graphql-code-generator
@@ -45,25 +48,33 @@ interface IndexPageProps {
   }
 }
 
-export default (props: IndexPageProps) => {
-  return (<div style={{ width: '100%', height: '100%' }}>
-    <h1>Hi people</h1>
-    <p>
-      Welcome to your new{' '}
-      <strong>{props.data.site.siteMetadata.title}</strong> site.
-    </p>
-    <p>Now go build something great.</p>
-    <div style={{ width: '100%', height: 1000 }}>
-      <FlexibleXYPlot margin={50} xType="time">
-        <HorizontalGridLines />
-        <VerticalGridLines />
-        <XAxis title="Date" />
-        <YAxis title="Total Cases" />
-        <LineSeries data={data} />
-      </FlexibleXYPlot>
-    </div>
+interface GraphSettings {
+  showTotalCases: boolean;
+  showActiveCases: boolean;
+  showRecoveryCases: boolean;
+  showDeathsData: boolean;
+}
 
+export default (props: IndexPageProps) => {
+  const [settings, setSettings] = useState<GraphSettings>({ showActiveCases: true, showDeathsData: true, showRecoveryCases: true, showTotalCases: true });
+  return (<div style={{ width: '100%', height: '80vh', margin: 0, padding: 0 }}>
+    <FlexibleXYPlot margin={50} xType="time">
+      <HorizontalGridLines />
+      <VerticalGridLines />
+      <XAxis title="Date" />
+      <YAxis />
+      {settings.showTotalCases && <LineSeries data={totalCasesData} />}
+      {settings.showActiveCases && <LineSeries data={activeCasesData} />}
+      {settings.showRecoveryCases && <LineSeries data={recoveriesData} />}
+      {settings.showDeathsData && <LineSeries data={deathsData} />}
+    </FlexibleXYPlot>
     <Link to="/page-2/">Go to page 2</Link>
+    <div>
+      <button onClick={() => setSettings({ ...settings, showTotalCases: !settings.showTotalCases })}>Total Cases</button>
+      <button onClick={() => setSettings({ ...settings, showActiveCases: !settings.showActiveCases })}>Active Cases</button>
+      <button onClick={() => setSettings({ ...settings, showDeathsData: !settings.showDeathsData })}>Deaths</button>
+      <button onClick={() => setSettings({ ...settings, showRecoveryCases: !settings.showRecoveryCases })}>Recovered Cases</button>
+    </div>
   </div>)
 }
 

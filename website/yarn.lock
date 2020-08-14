@@ -1649,13 +1649,6 @@
     "@types/history" "*"
     "@types/react" "*"
 
-"@types/react-dom@0.14.23":
-  version "0.14.23"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-0.14.23.tgz#cecfcfad754b4c2765fe5d29b81b301889ad6c2e"
-  integrity sha1-zs/PrXVLTCdl/l0puBswGImtbC4=
-  dependencies:
-    "@types/react" "*"
-
 "@types/react-vis@^1.11.2":
   version "1.11.2"
   resolved "https://registry.yarnpkg.com/@types/react-vis/-/react-vis-1.11.2.tgz#4239a100bbec8e78c0e8ebe94060df7875ae042f"
@@ -1670,11 +1663,6 @@
   dependencies:
     "@types/prop-types" "*"
     csstype "^3.0.2"
-
-"@types/react@15.0.21":
-  version "15.0.21"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-15.0.21.tgz#29d849427237c1463abfb7b370755ee3e5b5b375"
-  integrity sha1-KdhJQnI3wUY6v7ezcHVe4+W1s3U=
 
 "@types/recharts@^1.8.14":
   version "1.8.14"
