@@ -1,4 +1,5 @@
 *.raw.csv
 __pycache__
-data/
 !data/.gitkeep
+!data/latest_data.json
+data/
