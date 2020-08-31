@@ -1294,5 +1294,141 @@
     "recovered": 762,
     "deaths": 9,
     "active_cases": 505
+  },
+  {
+    "date": "15-Aug-2020",
+    "new_cases": 72,
+    "total_cases": 1348,
+    "recovered": 782,
+    "deaths": 9,
+    "active_cases": 557
+  },
+  {
+    "date": "16-Aug-2020",
+    "new_cases": 63,
+    "total_cases": 1306,
+    "recovered": 749,
+    "deaths": 9,
+    "active_cases": 548
+  },
+  {
+    "date": "17-Aug-2020",
+    "new_cases": 69,
+    "total_cases": 1375,
+    "recovered": 759,
+    "deaths": 9,
+    "active_cases": 607
+  },
+  {
+    "date": "18-Aug-2020",
+    "new_cases": 48,
+    "total_cases": 1423,
+    "recovered": 766,
+    "deaths": 9,
+    "active_cases": 648
+  },
+  {
+    "date": "19-Aug-2020",
+    "new_cases": 47,
+    "total_cases": 1470,
+    "recovered": 784,
+    "deaths": 9,
+    "active_cases": 677
+  },
+  {
+    "date": "20-Aug-2020",
+    "new_cases": 40,
+    "total_cases": 1510,
+    "recovered": 802,
+    "deaths": 9,
+    "active_cases": 699
+  },
+  {
+    "date": "21-Aug-2020",
+    "new_cases": 36,
+    "total_cases": 1546,
+    "recovered": 854,
+    "deaths": 10,
+    "active_cases": 682
+  },
+  {
+    "date": "22-Aug-2020",
+    "new_cases": 31,
+    "total_cases": 1577,
+    "recovered": 901,
+    "deaths": 10,
+    "active_cases": 666
+  },
+  {
+    "date": "23-Aug-2020",
+    "new_cases": 35,
+    "total_cases": 1612,
+    "recovered": 934,
+    "deaths": 10,
+    "active_cases": 668
+  },
+  {
+    "date": "24-Aug-2020",
+    "new_cases": 55,
+    "total_cases": 1667,
+    "recovered": 977,
+    "deaths": 10,
+    "active_cases": 680
+  },
+  {
+    "date": "25-Aug-2020",
+    "new_cases": 38,
+    "total_cases": 1705,
+    "recovered": 1029,
+    "deaths": 10,
+    "active_cases": 666
+  },
+  {
+    "date": "26-Aug-2020",
+    "new_cases": 46,
+    "total_cases": 1751,
+    "recovered": 1077,
+    "deaths": 10,
+    "active_cases": 664
+  },
+  {
+    "date": "27-Aug-2020",
+    "new_cases": 37,
+    "total_cases": 1788,
+    "recovered": 1121,
+    "deaths": 10,
+    "active_cases": 657
+  },
+  {
+    "date": "28-Aug-2020",
+    "new_cases": 32,
+    "total_cases": 1820,
+    "recovered": 1186,
+    "deaths": 10,
+    "active_cases": 624
+  },
+  {
+    "date": "29-Aug-2020",
+    "new_cases": 27,
+    "total_cases": 1847,
+    "recovered": 1224,
+    "deaths": 10,
+    "active_cases": 593
+  },
+  {
+    "date": "30-Aug-2020",
+    "new_cases": 15,
+    "total_cases": 1862,
+    "recovered": 1313,
+    "deaths": 11,
+    "active_cases": 538
+  },
+  {
+    "date": "31-Aug-2020",
+    "new_cases": 21,
+    "total_cases": 1883,
+    "recovered": 1400,
+    "deaths": 12,
+    "active_cases": 471
   }
 ]
