@@ -1,0 +1,74 @@
+[
+    {
+        "date": "2020/03/23",
+        "measures": [
+            "Non-essential retail closed, €3,000 fine attached",
+            "Health Care services restricted",
+            "Groups in public limited to 4"
+        ]
+    },
+    {
+        "date": "2020/05/04",
+        "measures": [
+            "Non-essential retail measures relaxed",
+            "Children's Vaccinations and Cancer related screenings resume",
+            "Masks must be worn within shops and on public transport"
+        ]
+    },
+    {
+        "date": "2020/05/22",
+        "measures": [
+            "More Healthcare services resume",
+            "Groups of 6 allowed in public",
+            "Individual sports allowed, with restrictions",
+            "Funeral Mass allowed with restrictions",
+            "Restaurants can reopen, with restrictions",
+            "Hairdressers and related services can reopen, with restrictions"
+        ]
+    },
+    {
+        "date": "2020/06/05",
+        "measures": [
+            "Establishments including gyms, childcare centres and courts can reopen"
+        ]
+    },
+    {
+        "date": "2020/07/01",
+        "measures": [
+            "Airport reopens to a restricted set of destinations"
+        ]
+    },
+    {
+        "date": "2020/07/15",
+        "measures": [
+            "End of public health emergency",
+            "Airport destination restrictions nearly completely removed",
+        ]
+    },
+    {
+        "date": "2020/08/10",
+        "measures": [
+            "New measures announced to tackle spike in cases",
+            "€50 fine for not wearining masks on Gozo ferry or in shops",
+            "Ban on events involving >100 people indoors or >300 outdoors",
+            "Visits to residential homes restricted",
+            "Dance floors shut down"
+        ]
+    },
+    {
+        "date": "2020/08/19",
+        "measures": [
+            "Nightclubs closed",
+            "Bars restricted to serving to patrons sitting at tables only",
+            "Boat parties banned",
+            "Gatherings restricted to 15 people maximum",
+            "Mandatory use of masks in all closed public spaces"
+        ]
+    },
+    {
+        "date": "2020/08/21",
+        "measures": [
+            "Travel Amber list introduced"
+        ]
+    }
+]
