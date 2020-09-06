@@ -14,7 +14,8 @@ import {
 import MultipleCountChart from '../components/MultipleCountChart'
 
 import latestData from '../../../data/latest_data.json';
-import { CountChartData, CountChart } from '../components/types';
+import measuresData from '../../../data/measures.json';
+import { CountChartData, CountChart, MeasuresData } from '../components/types';
 import ControllableMultipleCountChart from '../components/ControllableMultipleCountChart';
 
 interface CaseData {
@@ -24,6 +25,11 @@ interface CaseData {
   recovered: number;
   deaths: number;
   active_cases: number;
+}
+
+interface RawMeasuresData {
+  date: string;
+  measures: string[];
 }
 
 const parsedData: CaseData[] = latestData.map((d) => {
@@ -39,6 +45,7 @@ const activeCasesData = parsedData.map((d) => ({ x: d.date.getTime(), y: d.activ
 const recoveriesData = parsedData.map((d) => ({ x: d.date.getTime(), y: d.recovered }))
 const deathsData = parsedData.map((d) => ({ x: d.date.getTime(), y: d.deaths }))
 
+const parsedMeasuresData: MeasuresData[] = (measuresData as RawMeasuresData[]).map((md) => ({ date: new Date(`${md.date} 12:00:00 GMT+2`), measures: md.measures }))
 
 // Please note that you can use https://github.com/dotansimha/graphql-code-generator
 // to generate all types from graphQL schema
@@ -66,7 +73,7 @@ export default (props: IndexPageProps) => {
       <p>Website by <a href="https://simonam.dev">Simon Agius Muscat</a>. Data retrieved from the <a href="https://github.com/COVID19-Malta/COVID19-Cases">Public Health Open Dataset</a></p>
     </div>
     <div style={{ height: '80vh' }}>
-      <ControllableMultipleCountChart countChartData={data} />
+      <ControllableMultipleCountChart countChartData={data} measuresData={parsedMeasuresData} />
     </div>
     {/* <Link to="/active-cases/">Active Cases</Link> */}
   </div>)

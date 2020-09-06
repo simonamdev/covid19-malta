@@ -11,3 +11,8 @@ export interface CountChartData {
     title: CountChart;
     data: LineSeriesPoint[];
 }
+
+export interface MeasuresData {
+    date: Date;
+    measures: string[];
+}
