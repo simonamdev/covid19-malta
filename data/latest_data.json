@@ -1430,5 +1430,45 @@
     "recovered": 1400,
     "deaths": 12,
     "active_cases": 471
+  },
+  {
+    "date": "01-Sep-2020",
+    "new_cases": 26,
+    "total_cases": 1909,
+    "recovered": 1453,
+    "deaths": 12,
+    "active_cases": 444
+  },
+  {
+    "date": "02-Sep-2020",
+    "new_cases": 22,
+    "total_cases": 1931,
+    "recovered": 1490,
+    "deaths": 13,
+    "active_cases": 428
+  },
+  {
+    "date": "03-Sep-2020",
+    "new_cases": 34,
+    "total_cases": 1965,
+    "recovered": 1528,
+    "deaths": 13,
+    "active_cases": 424
+  },
+  {
+    "date": "04-Sep-2020",
+    "new_cases": 19,
+    "total_cases": 1984,
+    "recovered": 1565,
+    "deaths": 13,
+    "active_cases": 406
+  },
+  {
+    "date": "05-Sep-2020",
+    "new_cases": 30,
+    "total_cases": 2014,
+    "recovered": 1601,
+    "deaths": 14,
+    "active_cases": 399
   }
 ]
