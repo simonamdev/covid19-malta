@@ -1470,5 +1470,21 @@
     "recovered": 1601,
     "deaths": 14,
     "active_cases": 399
+  },
+  {
+    "date": "06-Sep-2020",
+    "new_cases": 25,
+    "total_cases": 2039,
+    "recovered": 1627,
+    "deaths": 14,
+    "active_cases": 398
+  },
+  {
+    "date": "07-Sep-2020",
+    "new_cases": 37,
+    "total_cases": 2076,
+    "recovered": 1690,
+    "deaths": 14,
+    "active_cases": 372
   }
 ]
