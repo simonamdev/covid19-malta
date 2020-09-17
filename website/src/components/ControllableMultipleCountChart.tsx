@@ -12,7 +12,7 @@ const allCharts = [CountChart.ACTIVE_CASES, CountChart.DEATHS, CountChart.RECOVE
 
 
 export default ({ countChartData, measuresData }: ControllableMultipleCountChartProps) => {
-    const [visibleCharts, setVisibleCharts] = useState<CountChart[]>([...allCharts]);
+    const [visibleCharts, setVisibleCharts] = useState<CountChart[]>([...[CountChart.ACTIVE_CASES, CountChart.DEATHS,]]);
     const toggleChart = (chart: CountChart) =>
         visibleCharts.includes(chart) ?
             setVisibleCharts(visibleCharts.filter((c) => c !== chart)) :
