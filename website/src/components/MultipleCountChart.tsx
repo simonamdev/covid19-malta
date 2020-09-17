@@ -28,8 +28,7 @@ const chartMeasuresData: Record<number, string[]> = {};
 export default ({ countChartData, measuresData }: CaseCountChartProps) => {
     const [measuresInEffect, setMeasuresInEffect] = useState<Measure[]>([]);
     useEffect(() => {
-        console.log('Parsed');
-
+        // console.log('Parsed');
         measuresData.forEach((md) => {
             chartMeasuresData[md.date.getTime()] = md.measures;
         });
@@ -44,8 +43,7 @@ export default ({ countChartData, measuresData }: CaseCountChartProps) => {
                 {countChartData.map((data, i) => <LineSeries key={data.title} data={data.data} onNearestX={(value, { index }) => {
                     // Only apply the crosshair to the top line series to avoid duplicates
                     if (i === 0) {
-                        console.log('Triggered');
-
+                        // console.log('Triggered');
                         const measureExists = value.x in chartMeasuresData;
                         if (measureExists) {
                             setMeasuresInEffect(chartMeasuresData[value.x].map((cmd) => ({ x: value.x, y: cmd })));
