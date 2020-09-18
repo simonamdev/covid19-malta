@@ -1566,5 +1566,13 @@
     "recovered": 1978,
     "deaths": 16,
     "active_cases": 601
+  },
+  {
+    "date": "18-Sep-2020",
+    "new_cases": 39,
+    "total_cases": 2634,
+    "recovered": 1996,
+    "deaths": 17,
+    "active_cases": 621
   }
 ]
