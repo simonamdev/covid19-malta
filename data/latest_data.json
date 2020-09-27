@@ -1622,5 +1622,21 @@
     "recovered": 2191,
     "deaths": 27,
     "active_cases": 680
+  },
+  {
+    "date": "25-Sep-2020",
+    "new_cases": 31,
+    "total_cases": 2929,
+    "recovered": 2261,
+    "deaths": 29,
+    "active_cases": 639
+  },
+  {
+    "date": "26-Sep-2020",
+    "new_cases": 29,
+    "total_cases": 2958,
+    "recovered": 2304,
+    "deaths": 31,
+    "active_cases": 623
   }
 ]
