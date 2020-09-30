@@ -1,0 +1,30 @@
+name: update
+
+on:
+  schedule:
+    - cron:  '0 21 * * *'
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@master
+      with:
+        ref: master
+    - name: setup python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Execute Download Script
+      run: |
+        python download_latest.py
+    - name: Set current date as env variable
+        run: echo "::set-env name=NOW::$(date +'%Y-%m-%dT%H:%M:%S')"
+    - name: push
+      uses: github-actions-x/commit@v2.7
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: 'master'
+        commit-message: 'Update for $NOW'
+        force-add: 'true'
