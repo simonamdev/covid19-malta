@@ -20,11 +20,11 @@ jobs:
       run: |
         python download_latest.py
     - name: Set current date as env variable
-        run: echo "::set-env name=NOW::$(date +'%Y-%m-%dT%H:%M:%S')"
+      run: echo "::set-env name=NOW::$(date +'%Y-%m-%dT%H:%M:%S')"
     - name: push
       uses: github-actions-x/commit@v2.7
       with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
+        github-token: ${{ secrets.PUSH_TOKEN }}
         push-branch: 'master'
         commit-message: 'Update for $NOW'
         force-add: 'true'
