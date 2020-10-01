@@ -23,6 +23,9 @@ jobs:
     - name: Execute Download Script
       run: |
         python download_latest.py
+    - name: Execute Conversion Script
+      run: |
+        python convert_latest.py
     - name: Set current date as env variable
       run: echo "::set-env name=NOW::$(date +'%Y-%m-%dT%H:%M:%S')"
     - name: push
