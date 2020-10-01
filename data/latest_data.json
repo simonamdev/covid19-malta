@@ -1638,5 +1638,45 @@
     "recovered": 2304,
     "deaths": 31,
     "active_cases": 623
+  },
+  {
+    "date": "27-Sep-2020",
+    "new_cases": 21,
+    "total_cases": 2979,
+    "recovered": 2358,
+    "deaths": 31,
+    "active_cases": 590
+  },
+  {
+    "date": "28-Sep-2020",
+    "new_cases": 27,
+    "total_cases": 3006,
+    "recovered": 2399,
+    "deaths": 32,
+    "active_cases": 575
+  },
+  {
+    "date": "29-Sep-2020",
+    "new_cases": 29,
+    "total_cases": 3035,
+    "recovered": 2484,
+    "deaths": 34,
+    "active_cases": 517
+  },
+  {
+    "date": "30-Sep-2020",
+    "new_cases": 23,
+    "total_cases": 3058,
+    "recovered": 2562,
+    "deaths": 34,
+    "active_cases": 462
+  },
+  {
+    "date": "01-Oct-2020",
+    "new_cases": 37,
+    "total_cases": 3095,
+    "recovered": 2605,
+    "deaths": 35,
+    "active_cases": 455
   }
 ]
