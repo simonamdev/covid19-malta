@@ -1,4 +1,4 @@
-name: update
+name: Daily Data Update
 
 on:
   schedule:
@@ -8,11 +8,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: checkout
+    - name: Checkout Branch
       uses: actions/checkout@master
       with:
         ref: master
-    - name: setup python
+    - name: Setup Python 3
       uses: actions/setup-python@v2
       with:
         python-version: 3.8
@@ -28,10 +28,10 @@ jobs:
         python convert_latest.py
     - name: Set current date as env variable
       run: echo "::set-env name=NOW::$(date +'%Y-%m-%dT%H:%M:%S')"
-    - name: push
-      uses: github-actions-x/commit@v2.7
+    - name: Commit & Push latest data to master
+      uses: actions/checkout@v2
       with:
-        github-token: ${{ secrets.PUSH_TOKEN }}
-        push-branch: 'master'
-        commit-message: 'Update for $NOW'
-        force-add: 'true'
+        token: ${{ secrets.PUSH_TOKEN }}
+      run: |
+        git commit -am "Update for $NOW"
+        git push
