@@ -6,12 +6,8 @@ on:
   # schedule:
   #   - cron:  '0 13 * * *'
 
-strategy:
-  max-parallel: 1
-
 jobs:
   GenerateData:
-
     runs-on: ubuntu-latest
     steps:
     - name: Checkout Branch
@@ -38,6 +34,7 @@ jobs:
         name: latest_data.json
         path: ./data/latest_data.json
   UpdateMaster:
+    needs: [GenerateData]
     runs-on: ubuntu-latest
     steps:
     - name: Download latest data
