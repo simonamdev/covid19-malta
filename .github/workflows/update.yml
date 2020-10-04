@@ -28,12 +28,12 @@ jobs:
     - name: Execute Conversion Script
       run: |
         python convert_latest.py
-    - name: Set current date as env variable
-      run: echo "::set-env name=NOW::$(date +'%Y-%m-%dT%H:%M:%S')"
     - name: Commit & Push latest data to master
       uses: actions/checkout@v2
       with:
         token: ${{ secrets.PUSH_TOKEN }}
     - run: |
-        git commit -am "Update for $NOW"
+        git config --global user.email "simon@agius-muscat.net"
+        git config --global user.name "C19 Bot"
+        git commit -am "Updated: `date +'%Y-%m-%d %H:%M:%S'`"
         git push
