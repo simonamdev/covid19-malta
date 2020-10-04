@@ -7,7 +7,7 @@ on:
   #   - cron:  '0 13 * * *'
     
 jobs:
-  'Generate Latest Data':
+  GenerateData:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout Branch
@@ -33,7 +33,7 @@ jobs:
       with:
         name: latest_data.json
         path: ./data/latest_data.json
-  'Update Master with latest data':
+  UpdateMaster:
     runs-on: ubuntu-latest
     steps:
     - name: Download latest data
