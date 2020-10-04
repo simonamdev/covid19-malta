@@ -5,11 +5,13 @@ on:
     branches: [master]
   # schedule:
   #   - cron:  '0 13 * * *'
-    
+
+strategy:
+  max-parallel: 1
+
 jobs:
   GenerateData:
-    strategy:
-      max-parallel: 1
+
     runs-on: ubuntu-latest
     steps:
     - name: Checkout Branch
@@ -36,8 +38,6 @@ jobs:
         name: latest_data.json
         path: ./data/latest_data.json
   UpdateMaster:
-    strategy:
-      max-parallel: 1
     runs-on: ubuntu-latest
     steps:
     - name: Download latest data
