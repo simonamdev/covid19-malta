@@ -1,8 +1,10 @@
-name: Daily Data Update
+name: DailyDataUpdate
 
 on:
-  schedule:
-    - cron:  '0 13 * * *'
+  push:
+    branches: [master]
+  # schedule:
+  #   - cron:  '0 13 * * *'
     
 jobs:
   build:
@@ -32,6 +34,6 @@ jobs:
       uses: actions/checkout@v2
       with:
         token: ${{ secrets.PUSH_TOKEN }}
-      run: |
+    - run: |
         git commit -am "Update for $NOW"
         git push
