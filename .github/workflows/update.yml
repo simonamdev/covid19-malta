@@ -37,14 +37,14 @@ jobs:
     needs: [GenerateData]
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout Master
+      uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.PUSH_TOKEN }}
     - name: Download latest data
       uses: actions/download-artifact@v2
       with:
         name: latest_data.json
-    - name: Commit & Push latest data to master
-      uses: actions/checkout@v2
-      with:
-        token: ${{ secrets.PUSH_TOKEN }}
     - run: |
         git config --global user.email "simon@agius-muscat.net"
         git config --global user.name "C19 Bot"
