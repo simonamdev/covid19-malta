@@ -45,9 +45,13 @@ jobs:
       uses: actions/download-artifact@v2
       with:
         name: latest_data.json
+    - name: Move downloaded artifact to folder
+      run: |
+        mv latest_data.json ./data/latest_data.json
+    - name: Commit and Push updated data to master
     - run: |
         git config --global user.email "simon@agius-muscat.net"
         git config --global user.name "C19 Bot"
-        git add latest_data.json
-        git commit -am "Updated: `date +'%Y-%m-%d %H:%M:%S'`"
+        git add ./data/latest_data.json
+        git commit -am "Updated with data for date: `date +'%Y-%m-%d %H:%M:%S'`"
         git push
