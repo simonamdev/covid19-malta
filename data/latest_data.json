@@ -1702,5 +1702,13 @@
     "recovered": 2758,
     "deaths": 39,
     "active_cases": 473
+  },
+  {
+    "date": "05-Oct-2020",
+    "new_cases": 57,
+    "total_cases": 3327,
+    "recovered": 2770,
+    "deaths": 39,
+    "active_cases": 518
   }
 ]
