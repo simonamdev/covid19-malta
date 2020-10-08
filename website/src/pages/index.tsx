@@ -1,17 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { graphql } from 'gatsby'
-import Link from 'gatsby-link'
 import '../../node_modules/react-vis/dist/style.css';
-import {
-  FlexibleXYPlot,
-  LineSeries,
-  XAxis,
-  YAxis,
-  HorizontalGridLines,
-  VerticalGridLines,
-  LineSeriesPoint,
-} from 'react-vis';
-import MultipleCountChart from '../components/MultipleCountChart'
 
 import latestData from '../../../data/latest_data.json';
 import measuresData from '../../../data/measures.json';
@@ -56,6 +45,9 @@ interface IndexPageProps {
         title: string
       }
     }
+    currentBuildDate: {
+      currentDate: string
+    }
   }
 }
 
@@ -71,7 +63,7 @@ export default (props: IndexPageProps) => {
     <h1>Covid-19 in Malta</h1>
     <div>
       <p>Website by <a href="https://simonam.dev">Simon Agius Muscat</a>. Data retrieved from the <a href="https://github.com/COVID19-Malta/COVID19-Cases">Public Health Open Dataset</a></p>
-      <p>Last updated: {new Date().toTimeString()}</p>
+      <p>Last updated: {new Date(props.data.currentBuildDate.currentDate).toLocaleDateString()} {new Date(props.data.currentBuildDate.currentDate).toLocaleTimeString()}</p>
     </div>
     <div style={{ height: '80vh' }}>
       <ControllableMultipleCountChart countChartData={data} measuresData={parsedMeasuresData} />
@@ -86,6 +78,9 @@ export const pageQuery = graphql`
       siteMetadata {
         title
       }
+    }
+    currentBuildDate {
+      currentDate
     }
   }
 `

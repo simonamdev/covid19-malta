@@ -45,10 +45,10 @@ class DefaultLayout extends React.PureComponent<DefaultLayoutProps, void> {
     return (
       <div>
         <Helmet
-          title="Gatsby Default Starter"
+          title="C19"
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            { name: 'description', content: 'C19' },
+            { name: 'keywords', content: 'Covid, Malta' },
           ]}
         />
         <Header />
