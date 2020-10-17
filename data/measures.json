@@ -82,5 +82,30 @@
         "measures": [
             "Travel Amber list introduced"
         ]
+    },
+    {
+        "date": "2020/09/25",
+        "measures": [
+            "School start date postponed to October 14th"
+        ]
+    },
+    {
+        "date": "2020/10/14",
+        "measures": [
+            "All students back to school"
+        ]
+    },
+    {
+        "date": "2020/10/17",
+        "measures": [
+            "Measure enforcement increased",
+            "Masks become mandatory everywhere except at home"
+        ]
+    },
+    {
+        "date": "2020/10/19",
+        "measures": [
+            "Bars forced to close at 23:00"
+        ]
     }
 ]
