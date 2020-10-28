@@ -2,7 +2,7 @@ name: DailyDataUpdate
 
 on:
   schedule:
-    - cron:  '30 11 * * *'
+    - cron:  '00 13 * * *'
 
 jobs:
   GenerateData:
