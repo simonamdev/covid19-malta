@@ -107,5 +107,18 @@
         "measures": [
             "Bars forced to close at 23:00"
         ]
+    },
+    {
+        "date": "2020/10/26",
+        "measures": [
+            "Bars & Kazini forced to close till December 1st",
+            "Public Gatherings restricted to 6 people maximum"
+        ]
+    },
+    {
+        "date": "2020/10/27",
+        "measures": [
+            "Several non-emergencies postponed. Surgical Staff redeployed to ITU"
+        ]
     }
 ]
