@@ -40,7 +40,7 @@ export default ({ countChartData, measuresData }: CaseCountChartProps) => {
                 <VerticalGridLines />
                 <XAxis title="Date" />
                 <YAxis />
-                {countChartData.map((data, i) => <LineSeries key={data.title} data={data.data} onNearestX={(value, { index }) => {
+                {countChartData.map((data, i) => <LineSeries key={data.title} data={data.data} color={data.colour} onNearestX={(value, { index }) => {
                     // Only apply the crosshair to the top line series to avoid duplicates
                     if (i === 0) {
                         // console.log('Triggered');

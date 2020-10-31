@@ -1894,5 +1894,21 @@
     "recovered": 3789,
     "deaths": 56,
     "active_cases": 1915
+  },
+  {
+    "date": "29-Oct-2020",
+    "new_cases": 106,
+    "total_cases": 5866,
+    "recovered": 3880,
+    "deaths": 59,
+    "active_cases": 1927
+  },
+  {
+    "date": "30-Oct-2020",
+    "new_cases": 76,
+    "total_cases": 5942,
+    "recovered": 3990,
+    "deaths": 61,
+    "active_cases": 1891
   }
 ]

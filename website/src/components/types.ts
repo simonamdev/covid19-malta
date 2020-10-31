@@ -10,6 +10,7 @@ export enum CountChart {
 export interface CountChartData {
     title: CountChart;
     data: LineSeriesPoint[];
+    colour?: string;
 }
 
 export interface MeasuresData {

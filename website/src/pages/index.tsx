@@ -6,6 +6,8 @@ import latestData from '../../../data/latest_data.json';
 import measuresData from '../../../data/measures.json';
 import { CountChartData, CountChart, MeasuresData } from '../components/types';
 import ControllableMultipleCountChart from '../components/ControllableMultipleCountChart';
+import MultipleCountChart from '../components/MultipleCountChart';
+import Counters from '../components/Counters';
 
 interface CaseData {
   date: Date;
@@ -52,21 +54,24 @@ interface IndexPageProps {
 }
 
 const data: CountChartData[] = [
-  { title: CountChart.ACTIVE_CASES, data: activeCasesData },
-  { title: CountChart.RECOVERIES, data: recoveriesData },
-  { title: CountChart.TOTAL_CASES, data: totalCasesData },
-  { title: CountChart.DEATHS, data: deathsData },
+  { title: CountChart.ACTIVE_CASES, data: activeCasesData, colour: '#1261a0' },
+  // { title: CountChart.RECOVERIES, data: recoveriesData },
+  // { title: CountChart.TOTAL_CASES, data: totalCasesData },
+  { title: CountChart.DEATHS, data: deathsData, colour: '#b53737' },
 ]
 
 export default (props: IndexPageProps) => {
   return (<div style={{ width: '100%', height: '100%', margin: 0, padding: 0 }}>
-    <h1>Covid-19 in Malta</h1>
-    <div>
-      <p>Website by <a href="https://simonam.dev">Simon Agius Muscat</a>. Data retrieved from the <a href="https://github.com/COVID19-Malta/COVID19-Cases">Public Health Open Dataset</a></p>
-      <p>Last updated: {new Date(props.data.currentBuildDate.currentDate).toLocaleDateString()} {new Date(props.data.currentBuildDate.currentDate).toLocaleTimeString()}</p>
+    <div style={{ height: '10vh' }}>
+      <h1>Covid-19 in Malta</h1>
+      <div>
+        <p style={{ margin: 0 }}>Website by <a href="https://simonam.dev">Simon Agius Muscat</a>. Data retrieved from the <a href="https://github.com/COVID19-Malta/COVID19-Cases">Public Health Open Dataset</a>. Last updated: {new Date(props.data.currentBuildDate.currentDate).toLocaleDateString()} {new Date(props.data.currentBuildDate.currentDate).toLocaleTimeString()}</p>
+      </div>
+      <Counters activeCasesData={activeCasesData} />
     </div>
-    <div style={{ height: '80vh' }}>
-      <ControllableMultipleCountChart countChartData={data} measuresData={parsedMeasuresData} />
+    <div style={{ height: '85vh' }}>
+      <MultipleCountChart countChartData={data} measuresData={parsedMeasuresData} />
+      {/* <ControllableMultipleCountChart countChartData={data} measuresData={parsedMeasuresData} /> */}
     </div>
     {/* <Link to="/active-cases/">Active Cases</Link> */}
   </div>)
