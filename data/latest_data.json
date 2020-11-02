@@ -1926,5 +1926,13 @@
     "recovered": 4286,
     "deaths": 64,
     "active_cases": 1832
+  },
+  {
+    "date": "02-Nov-2020",
+    "new_cases": 218,
+    "total_cases": 6400,
+    "recovered": 4397,
+    "deaths": 64,
+    "active_cases": 1939
   }
 ]
