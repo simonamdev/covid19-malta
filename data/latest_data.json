@@ -1942,5 +1942,13 @@
     "recovered": 4505,
     "deaths": 64,
     "active_cases": 1937
+  },
+  {
+    "date": "04-Nov-2020",
+    "new_cases": 84,
+    "total_cases": 6590,
+    "recovered": 4672,
+    "deaths": 65,
+    "active_cases": 1853
   }
 ]
