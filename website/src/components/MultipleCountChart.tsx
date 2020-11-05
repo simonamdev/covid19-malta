@@ -8,49 +8,68 @@ import {
     HorizontalGridLines,
     VerticalGridLines,
     MarkSeries,
-    Crosshair
+    LineSeriesPoint,
+    MarkSeriesPoint,
+    Hint,
 } from 'react-vis';
-import { CountChartData, MeasuresData } from './types';
+import { CountChart, CountChartData, MeasuresData } from './types';
+
 
 interface CaseCountChartProps {
     countChartData: CountChartData[];
     measuresData: MeasuresData[];
 }
 
-interface Measure {
-    x: number;
-    y: string;
-}
 
 const chartMeasuresData: Record<number, string[]> = {};
 
 
 export default ({ countChartData, measuresData }: CaseCountChartProps) => {
-    const [measuresInEffect, setMeasuresInEffect] = useState<Measure[]>([]);
+    const [measurePoints, setMeasurePoints] = useState<LineSeriesPoint[]>([]);
+    const [nearestPoint, setNearestPoint] = useState<MarkSeriesPoint | undefined>(undefined);
     useEffect(() => {
-        // console.log('Parsed');
         measuresData.forEach((md) => {
             chartMeasuresData[md.date.getTime()] = md.measures;
         });
+        const activeCaseData: CountChartData | undefined = countChartData.find((ccd) => ccd.title === CountChart.ACTIVE_CASES);
+        if (activeCaseData) {
+            const daysWithMeasures = Object.keys(chartMeasuresData).map((date) => parseInt(date));
+            const parsedMeasurePoints = activeCaseData.data.filter((point) => daysWithMeasures.includes(point.x));
+            setMeasurePoints(parsedMeasurePoints);
+        }
     }, [])
     return (
         <>
-            <FlexibleXYPlot margin={50} xType="time" onMouseLeave={() => setMeasuresInEffect([])}>
+            <FlexibleXYPlot margin={50} xType="time" onMouseLeave={() => setNearestPoint(undefined)}>
                 <HorizontalGridLines />
                 <VerticalGridLines />
                 <XAxis title="Date" />
                 <YAxis />
-                {countChartData.map((data, i) => <LineSeries key={data.title} data={data.data} color={data.colour} onNearestX={(value, { index }) => {
-                    // Only apply the crosshair to the top line series to avoid duplicates
-                    if (i === 0) {
-                        // console.log('Triggered');
-                        const measureExists = value.x in chartMeasuresData;
-                        if (measureExists) {
-                            setMeasuresInEffect(chartMeasuresData[value.x].map((cmd) => ({ x: value.x, y: cmd })));
-                        }
-                    }
-                }} />)}
-                <Crosshair values={measuresInEffect} titleFormat={(d) => ({ title: 'Date', value: new Date(d[0].x).toISOString().split('T')[0] })} />
+                {countChartData.map((data) => <LineSeries key={data.title} data={data.data} color={data.colour} />)}
+                <MarkSeries data={measurePoints} strokeWidth={0.5} color="#00b300" onNearestX={(p) => setNearestPoint(p)} />
+                {
+                    nearestPoint &&
+                    <LineSeries
+                        key={`measure-${nearestPoint.x}-${nearestPoint.y}`}
+                        data={[{ x: nearestPoint.x as number, y: nearestPoint.y as number }, { x: nearestPoint.x as number, y: 0 }]}
+                        color="black"
+                        stroke="black"
+                    />
+                }
+                {
+                    nearestPoint &&
+                    <Hint
+                        value={nearestPoint}
+                    >
+                        <div className="rv-hint__content">
+                            <p>{new Date(nearestPoint.x).toLocaleDateString()} ({Math.floor((new Date().getTime() - new Date(nearestPoint.x).getTime()) / (1000 * 3600 * 24))} days ago).</p>
+                            <p>{nearestPoint.y} Active Cases</p>
+                            <ul>
+                                {chartMeasuresData[nearestPoint.x as number].map((measure, i) => <li key={`m-list-${i}`} style={{ margin: 0, padding: 0 }}>{measure}</li>)}
+                            </ul>
+                        </div>
+                    </Hint>
+                }
             </FlexibleXYPlot>
         </>
     )

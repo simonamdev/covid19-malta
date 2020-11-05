@@ -5,7 +5,7 @@ import '../../node_modules/react-vis/dist/style.css';
 import latestData from '../../../data/latest_data.json';
 import measuresData from '../../../data/measures.json';
 import { CountChartData, CountChart, MeasuresData } from '../components/types';
-import ControllableMultipleCountChart from '../components/ControllableMultipleCountChart';
+// import ControllableMultipleCountChart from '../components/ControllableMultipleCountChart';
 import MultipleCountChart from '../components/MultipleCountChart';
 import Counters from '../components/Counters';
 
@@ -31,9 +31,9 @@ const parsedData: CaseData[] = latestData.map((d) => {
   }
 })
 
-const totalCasesData = parsedData.map((d) => ({ x: d.date.getTime(), y: d.total_cases }))
+// const totalCasesData = parsedData.map((d) => ({ x: d.date.getTime(), y: d.total_cases }))
 const activeCasesData = parsedData.map((d) => ({ x: d.date.getTime(), y: d.active_cases }))
-const recoveriesData = parsedData.map((d) => ({ x: d.date.getTime(), y: d.recovered }))
+// const recoveriesData = parsedData.map((d) => ({ x: d.date.getTime(), y: d.recovered }))
 const deathsData = parsedData.map((d) => ({ x: d.date.getTime(), y: d.deaths }))
 
 const parsedMeasuresData: MeasuresData[] = (measuresData as RawMeasuresData[]).map((md) => ({ date: new Date(`${md.date} 12:00:00 GMT+2`), measures: md.measures }))
