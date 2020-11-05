@@ -1950,5 +1950,13 @@
     "recovered": 4672,
     "deaths": 65,
     "active_cases": 1853
+  },
+  {
+    "date": "05-Nov-2020",
+    "new_cases": 174,
+    "total_cases": 6764,
+    "recovered": 4765,
+    "deaths": 70,
+    "active_cases": 1929
   }
 ]
