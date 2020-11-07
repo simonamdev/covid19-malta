@@ -1966,5 +1966,13 @@
     "recovered": 4832,
     "deaths": 73,
     "active_cases": 1988
+  },
+  {
+    "date": "07-Nov-2020",
+    "new_cases": 146,
+    "total_cases": 7039,
+    "recovered": 5000,
+    "deaths": 74,
+    "active_cases": 1965
   }
 ]
