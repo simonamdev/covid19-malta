@@ -1974,5 +1974,13 @@
     "recovered": 5000,
     "deaths": 74,
     "active_cases": 1965
+  },
+  {
+    "date": "08-Nov-20202",
+    "new_cases": 102,
+    "total_cases": 7141,
+    "recovered": 5103,
+    "deaths": 76,
+    "active_cases": 1962
   }
 ]
