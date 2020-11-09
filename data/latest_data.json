@@ -1976,11 +1976,19 @@
     "active_cases": 1965
   },
   {
-    "date": "08-Nov-20202",
+    "date": "08-Nov-2020",
     "new_cases": 102,
     "total_cases": 7141,
     "recovered": 5103,
     "deaths": 76,
     "active_cases": 1962
+  },
+  {
+    "date": "09-Nov-2020",
+    "new_cases": 102,
+    "total_cases": 7243,
+    "recovered": 5185,
+    "deaths": 78,
+    "active_cases": 1980
   }
 ]
