@@ -1990,5 +1990,13 @@
     "recovered": 5185,
     "deaths": 78,
     "active_cases": 1980
+  },
+  {
+    "date": "10-Nov-2020",
+    "new_cases": 153,
+    "total_cases": 7396,
+    "recovered": 5274,
+    "deaths": 81,
+    "active_cases": 2041
   }
 ]
