@@ -1998,5 +1998,13 @@
     "recovered": 5274,
     "deaths": 81,
     "active_cases": 2041
+  },
+  {
+    "date": "11-Nov-2020",
+    "new_cases": 141,
+    "total_cases": 753,
+    "recovered": 5371,
+    "deaths": 85,
+    "active_cases": 2081
   }
 ]
