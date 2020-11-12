@@ -8,6 +8,7 @@ import { CountChartData, CountChart, MeasuresData } from '../components/types';
 // import ControllableMultipleCountChart from '../components/ControllableMultipleCountChart';
 import MultipleCountChart from '../components/MultipleCountChart';
 import Counters from '../components/Counters';
+import { LineSeriesPoint } from 'react-vis';
 
 interface CaseData {
   date: Date;
@@ -16,6 +17,7 @@ interface CaseData {
   recovered: number;
   deaths: number;
   active_cases: number;
+  seven_day_moving_average: number;
 }
 
 interface RawMeasuresData {
@@ -35,6 +37,7 @@ const parsedData: CaseData[] = latestData.map((d) => {
 const activeCasesData = parsedData.map((d) => ({ x: d.date.getTime(), y: d.active_cases }))
 // const recoveriesData = parsedData.map((d) => ({ x: d.date.getTime(), y: d.recovered }))
 const deathsData = parsedData.map((d) => ({ x: d.date.getTime(), y: d.deaths }))
+const sevenDayMovingAverageData: LineSeriesPoint[] = parsedData.map((d) => ({ x: d.date.getTime(), y: d.seven_day_moving_average }))
 
 const parsedMeasuresData: MeasuresData[] = (measuresData as RawMeasuresData[]).map((md) => ({ date: new Date(`${md.date} 12:00:00 GMT+2`), measures: md.measures }))
 
@@ -67,10 +70,10 @@ export default (props: IndexPageProps) => {
       <div>
         <p style={{ margin: 0 }}>Website by <a href="https://simonam.dev">Simon Agius Muscat</a>. Data retrieved from the <a href="https://github.com/COVID19-Malta/COVID19-Cases">Public Health Open Dataset</a>. Last updated: {new Date(props.data.currentBuildDate.currentDate).toLocaleDateString()} {new Date(props.data.currentBuildDate.currentDate).toLocaleTimeString()}</p>
       </div>
-      <Counters activeCasesData={activeCasesData} />
+      <Counters activeCasesData={activeCasesData} deathsData={deathsData} />
     </div>
     <div style={{ height: '85vh' }}>
-      <MultipleCountChart countChartData={data} measuresData={parsedMeasuresData} />
+      <MultipleCountChart countChartData={data} sevenDayMovingAverageData={sevenDayMovingAverageData} measuresData={parsedMeasuresData} />
       {/* <ControllableMultipleCountChart countChartData={data} measuresData={parsedMeasuresData} /> */}
     </div>
     {/* <Link to="/active-cases/">Active Cases</Link> */}
