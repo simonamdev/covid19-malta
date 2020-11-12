@@ -2002,9 +2002,17 @@
   {
     "date": "11-Nov-2020",
     "new_cases": 141,
-    "total_cases": 753,
+    "total_cases": 7537,
     "recovered": 5371,
     "deaths": 85,
     "active_cases": 2081
+  },
+  {
+    "date": "12-Nov-2020",
+    "new_cases": 109,
+    "total_cases": 7646,
+    "recovered": 5479,
+    "deaths": 88,
+    "active_cases": 2079
   }
 ]
