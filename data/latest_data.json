@@ -5,7 +5,8 @@
     "total_cases": 1,
     "recovered": 0,
     "deaths": 0,
-    "active_cases": 1
+    "active_cases": 1,
+    "seven_day_moving_average": 0
   },
   {
     "date": "07-Mar-2020",
@@ -13,7 +14,8 @@
     "total_cases": 3,
     "recovered": 0,
     "deaths": 0,
-    "active_cases": 3
+    "active_cases": 3,
+    "seven_day_moving_average": 1
   },
   {
     "date": "08-Mar-2020",
@@ -21,7 +23,8 @@
     "total_cases": 3,
     "recovered": 0,
     "deaths": 0,
-    "active_cases": 3
+    "active_cases": 3,
+    "seven_day_moving_average": 1
   },
   {
     "date": "09-Mar-2020",
@@ -29,7 +32,8 @@
     "total_cases": 4,
     "recovered": 0,
     "deaths": 0,
-    "active_cases": 4
+    "active_cases": 4,
+    "seven_day_moving_average": 1
   },
   {
     "date": "10-Mar-2020",
@@ -37,7 +41,8 @@
     "total_cases": 5,
     "recovered": 0,
     "deaths": 0,
-    "active_cases": 5
+    "active_cases": 5,
+    "seven_day_moving_average": 1
   },
   {
     "date": "11-Mar-2020",
@@ -45,7 +50,8 @@
     "total_cases": 7,
     "recovered": 0,
     "deaths": 0,
-    "active_cases": 7
+    "active_cases": 7,
+    "seven_day_moving_average": 1
   },
   {
     "date": "12-Mar-2020",
@@ -53,7 +59,8 @@
     "total_cases": 12,
     "recovered": 0,
     "deaths": 0,
-    "active_cases": 12
+    "active_cases": 12,
+    "seven_day_moving_average": 1
   },
   {
     "date": "13-Mar-2020",
@@ -61,7 +68,8 @@
     "total_cases": 13,
     "recovered": 1,
     "deaths": 0,
-    "active_cases": 12
+    "active_cases": 12,
+    "seven_day_moving_average": 1
   },
   {
     "date": "14-Mar-2020",
@@ -69,7 +77,8 @@
     "total_cases": 18,
     "recovered": 1,
     "deaths": 0,
-    "active_cases": 17
+    "active_cases": 17,
+    "seven_day_moving_average": 1
   },
   {
     "date": "15-Mar-2020",
@@ -77,7 +86,8 @@
     "total_cases": 21,
     "recovered": 2,
     "deaths": 0,
-    "active_cases": 19
+    "active_cases": 19,
+    "seven_day_moving_average": 2
   },
   {
     "date": "16-Mar-2020",
@@ -85,7 +95,8 @@
     "total_cases": 30,
     "recovered": 2,
     "deaths": 0,
-    "active_cases": 28
+    "active_cases": 28,
+    "seven_day_moving_average": 2
   },
   {
     "date": "17-Mar-2020",
@@ -93,7 +104,8 @@
     "total_cases": 38,
     "recovered": 2,
     "deaths": 0,
-    "active_cases": 36
+    "active_cases": 36,
+    "seven_day_moving_average": 3
   },
   {
     "date": "18-Mar-2020",
@@ -101,7 +113,8 @@
     "total_cases": 48,
     "recovered": 2,
     "deaths": 0,
-    "active_cases": 46
+    "active_cases": 46,
+    "seven_day_moving_average": 4
   },
   {
     "date": "19-Mar-2020",
@@ -109,7 +122,8 @@
     "total_cases": 53,
     "recovered": 2,
     "deaths": 0,
-    "active_cases": 51
+    "active_cases": 51,
+    "seven_day_moving_average": 5
   },
   {
     "date": "20-Mar-2020",
@@ -117,7 +131,8 @@
     "total_cases": 64,
     "recovered": 2,
     "deaths": 0,
-    "active_cases": 62
+    "active_cases": 62,
+    "seven_day_moving_average": 5
   },
   {
     "date": "21-Mar-2020",
@@ -125,7 +140,8 @@
     "total_cases": 73,
     "recovered": 2,
     "deaths": 0,
-    "active_cases": 71
+    "active_cases": 71,
+    "seven_day_moving_average": 7
   },
   {
     "date": "22-Mar-2020",
@@ -133,7 +149,8 @@
     "total_cases": 90,
     "recovered": 2,
     "deaths": 0,
-    "active_cases": 88
+    "active_cases": 88,
+    "seven_day_moving_average": 7
   },
   {
     "date": "23-Mar-2020",
@@ -141,7 +158,8 @@
     "total_cases": 107,
     "recovered": 2,
     "deaths": 0,
-    "active_cases": 105
+    "active_cases": 105,
+    "seven_day_moving_average": 9
   },
   {
     "date": "24-Mar-2020",
@@ -149,7 +167,8 @@
     "total_cases": 110,
     "recovered": 2,
     "deaths": 0,
-    "active_cases": 108
+    "active_cases": 108,
+    "seven_day_moving_average": 11
   },
   {
     "date": "25-Mar-2020",
@@ -157,7 +176,8 @@
     "total_cases": 129,
     "recovered": 2,
     "deaths": 0,
-    "active_cases": 127
+    "active_cases": 127,
+    "seven_day_moving_average": 10
   },
   {
     "date": "26-Mar-2020",
@@ -165,7 +185,8 @@
     "total_cases": 134,
     "recovered": 2,
     "deaths": 0,
-    "active_cases": 132
+    "active_cases": 132,
+    "seven_day_moving_average": 11
   },
   {
     "date": "27-Mar-2020",
@@ -173,7 +194,8 @@
     "total_cases": 139,
     "recovered": 2,
     "deaths": 0,
-    "active_cases": 137
+    "active_cases": 137,
+    "seven_day_moving_average": 11
   },
   {
     "date": "28-Mar-2020",
@@ -181,7 +203,8 @@
     "total_cases": 149,
     "recovered": 2,
     "deaths": 0,
-    "active_cases": 147
+    "active_cases": 147,
+    "seven_day_moving_average": 10
   },
   {
     "date": "29-Mar-2020",
@@ -189,7 +212,8 @@
     "total_cases": 151,
     "recovered": 2,
     "deaths": 0,
-    "active_cases": 149
+    "active_cases": 149,
+    "seven_day_moving_average": 10
   },
   {
     "date": "30-Mar-2020",
@@ -197,7 +221,8 @@
     "total_cases": 156,
     "recovered": 2,
     "deaths": 0,
-    "active_cases": 154
+    "active_cases": 154,
+    "seven_day_moving_average": 8
   },
   {
     "date": "31-Mar-2020",
@@ -205,7 +230,8 @@
     "total_cases": 169,
     "recovered": 2,
     "deaths": 0,
-    "active_cases": 167
+    "active_cases": 167,
+    "seven_day_moving_average": 7
   },
   {
     "date": "01-Apr-2020",
@@ -213,7 +239,8 @@
     "total_cases": 188,
     "recovered": 2,
     "deaths": 0,
-    "active_cases": 186
+    "active_cases": 186,
+    "seven_day_moving_average": 8
   },
   {
     "date": "02-Apr-2020",
@@ -221,7 +248,8 @@
     "total_cases": 195,
     "recovered": 2,
     "deaths": 0,
-    "active_cases": 193
+    "active_cases": 193,
+    "seven_day_moving_average": 8
   },
   {
     "date": "03-Apr-2020",
@@ -229,7 +257,8 @@
     "total_cases": 202,
     "recovered": 2,
     "deaths": 0,
-    "active_cases": 200
+    "active_cases": 200,
+    "seven_day_moving_average": 8
   },
   {
     "date": "04-Apr-2020",
@@ -237,7 +266,8 @@
     "total_cases": 213,
     "recovered": 2,
     "deaths": 0,
-    "active_cases": 211
+    "active_cases": 211,
+    "seven_day_moving_average": 9
   },
   {
     "date": "05-Apr-2020",
@@ -245,7 +275,8 @@
     "total_cases": 227,
     "recovered": 5,
     "deaths": 0,
-    "active_cases": 222
+    "active_cases": 222,
+    "seven_day_moving_average": 9
   },
   {
     "date": "06-Apr-2020",
@@ -253,7 +284,8 @@
     "total_cases": 241,
     "recovered": 5,
     "deaths": 0,
-    "active_cases": 236
+    "active_cases": 236,
+    "seven_day_moving_average": 10
   },
   {
     "date": "07-Apr-2020",
@@ -261,7 +293,8 @@
     "total_cases": 293,
     "recovered": 5,
     "deaths": 0,
-    "active_cases": 288
+    "active_cases": 288,
+    "seven_day_moving_average": 12
   },
   {
     "date": "08-Apr-2020",
@@ -269,7 +302,8 @@
     "total_cases": 299,
     "recovered": 16,
     "deaths": 1,
-    "active_cases": 282
+    "active_cases": 282,
+    "seven_day_moving_average": 17
   },
   {
     "date": "09-Apr-2020",
@@ -277,7 +311,8 @@
     "total_cases": 337,
     "recovered": 16,
     "deaths": 2,
-    "active_cases": 319
+    "active_cases": 319,
+    "seven_day_moving_average": 15
   },
   {
     "date": "10-Apr-2020",
@@ -285,7 +320,8 @@
     "total_cases": 350,
     "recovered": 16,
     "deaths": 2,
-    "active_cases": 332
+    "active_cases": 332,
+    "seven_day_moving_average": 20
   },
   {
     "date": "11-Apr-2020",
@@ -293,7 +329,8 @@
     "total_cases": 370,
     "recovered": 16,
     "deaths": 3,
-    "active_cases": 351
+    "active_cases": 351,
+    "seven_day_moving_average": 21
   },
   {
     "date": "12-Apr-2020",
@@ -301,7 +338,8 @@
     "total_cases": 378,
     "recovered": 44,
     "deaths": 3,
-    "active_cases": 331
+    "active_cases": 331,
+    "seven_day_moving_average": 22
   },
   {
     "date": "13-Apr-2020",
@@ -309,7 +347,8 @@
     "total_cases": 386,
     "recovered": 44,
     "deaths": 3,
-    "active_cases": 337
+    "active_cases": 337,
+    "seven_day_moving_average": 21
   },
   {
     "date": "14-Apr-2020",
@@ -317,7 +356,8 @@
     "total_cases": 393,
     "recovered": 44,
     "deaths": 3,
-    "active_cases": 346
+    "active_cases": 346,
+    "seven_day_moving_average": 20
   },
   {
     "date": "15-Apr-2020",
@@ -325,7 +365,8 @@
     "total_cases": 399,
     "recovered": 44,
     "deaths": 3,
-    "active_cases": 352
+    "active_cases": 352,
+    "seven_day_moving_average": 14
   },
   {
     "date": "16-Apr-2020",
@@ -333,7 +374,8 @@
     "total_cases": 412,
     "recovered": 82,
     "deaths": 3,
-    "active_cases": 327
+    "active_cases": 327,
+    "seven_day_moving_average": 14
   },
   {
     "date": "17-Apr-2020",
@@ -341,7 +383,8 @@
     "total_cases": 422,
     "recovered": 91,
     "deaths": 3,
-    "active_cases": 328
+    "active_cases": 328,
+    "seven_day_moving_average": 10
   },
   {
     "date": "18-Apr-2020",
@@ -349,7 +392,8 @@
     "total_cases": 426,
     "recovered": 99,
     "deaths": 3,
-    "active_cases": 324
+    "active_cases": 324,
+    "seven_day_moving_average": 10
   },
   {
     "date": "19-Apr-2020",
@@ -357,7 +401,8 @@
     "total_cases": 427,
     "recovered": 118,
     "deaths": 3,
-    "active_cases": 306
+    "active_cases": 306,
+    "seven_day_moving_average": 8
   },
   {
     "date": "20-Apr-2020",
@@ -365,7 +410,8 @@
     "total_cases": 431,
     "recovered": 126,
     "deaths": 3,
-    "active_cases": 302
+    "active_cases": 302,
+    "seven_day_moving_average": 7
   },
   {
     "date": "21-Apr-2020",
@@ -373,7 +419,8 @@
     "total_cases": 443,
     "recovered": 150,
     "deaths": 3,
-    "active_cases": 290
+    "active_cases": 290,
+    "seven_day_moving_average": 6
   },
   {
     "date": "22-Apr-2020",
@@ -381,7 +428,8 @@
     "total_cases": 444,
     "recovered": 165,
     "deaths": 3,
-    "active_cases": 276
+    "active_cases": 276,
+    "seven_day_moving_average": 7
   },
   {
     "date": "23-Apr-2020",
@@ -389,7 +437,8 @@
     "total_cases": 445,
     "recovered": 204,
     "deaths": 3,
-    "active_cases": 238
+    "active_cases": 238,
+    "seven_day_moving_average": 6
   },
   {
     "date": "24-Apr-2020",
@@ -397,7 +446,8 @@
     "total_cases": 447,
     "recovered": 223,
     "deaths": 3,
-    "active_cases": 221
+    "active_cases": 221,
+    "seven_day_moving_average": 4
   },
   {
     "date": "25-Apr-2020",
@@ -405,7 +455,8 @@
     "total_cases": 448,
     "recovered": 249,
     "deaths": 4,
-    "active_cases": 195
+    "active_cases": 195,
+    "seven_day_moving_average": 3
   },
   {
     "date": "26-Apr-2020",
@@ -413,7 +464,8 @@
     "total_cases": 448,
     "recovered": 282,
     "deaths": 4,
-    "active_cases": 162
+    "active_cases": 162,
+    "seven_day_moving_average": 3
   },
   {
     "date": "27-Apr-2020",
@@ -421,7 +473,8 @@
     "total_cases": 450,
     "recovered": 286,
     "deaths": 4,
-    "active_cases": 160
+    "active_cases": 160,
+    "seven_day_moving_average": 3
   },
   {
     "date": "28-Apr-2020",
@@ -429,7 +482,8 @@
     "total_cases": 458,
     "recovered": 303,
     "deaths": 4,
-    "active_cases": 151
+    "active_cases": 151,
+    "seven_day_moving_average": 2
   },
   {
     "date": "29-Apr-2020",
@@ -437,7 +491,8 @@
     "total_cases": 463,
     "recovered": 339,
     "deaths": 4,
-    "active_cases": 120
+    "active_cases": 120,
+    "seven_day_moving_average": 2
   },
   {
     "date": "30-Apr-2020",
@@ -445,7 +500,8 @@
     "total_cases": 465,
     "recovered": 351,
     "deaths": 4,
-    "active_cases": 110
+    "active_cases": 110,
+    "seven_day_moving_average": 2
   },
   {
     "date": "01-May-2020",
@@ -453,7 +509,8 @@
     "total_cases": 467,
     "recovered": 367,
     "deaths": 4,
-    "active_cases": 96
+    "active_cases": 96,
+    "seven_day_moving_average": 2
   },
   {
     "date": "02-May-2020",
@@ -461,7 +518,8 @@
     "total_cases": 468,
     "recovered": 379,
     "deaths": 4,
-    "active_cases": 85
+    "active_cases": 85,
+    "seven_day_moving_average": 2
   },
   {
     "date": "03-May-2020",
@@ -469,7 +527,8 @@
     "total_cases": 477,
     "recovered": 392,
     "deaths": 4,
-    "active_cases": 81
+    "active_cases": 81,
+    "seven_day_moving_average": 2
   },
   {
     "date": "04-May-2020",
@@ -477,7 +536,8 @@
     "total_cases": 480,
     "recovered": 399,
     "deaths": 4,
-    "active_cases": 77
+    "active_cases": 77,
+    "seven_day_moving_average": 4
   },
   {
     "date": "05-May-2020",
@@ -485,7 +545,8 @@
     "total_cases": 482,
     "recovered": 403,
     "deaths": 5,
-    "active_cases": 74
+    "active_cases": 74,
+    "seven_day_moving_average": 4
   },
   {
     "date": "06-May-2020",
@@ -493,7 +554,8 @@
     "total_cases": 484,
     "recovered": 407,
     "deaths": 5,
-    "active_cases": 72
+    "active_cases": 72,
+    "seven_day_moving_average": 3
   },
   {
     "date": "07-May-2020",
@@ -501,7 +563,8 @@
     "total_cases": 486,
     "recovered": 413,
     "deaths": 5,
-    "active_cases": 68
+    "active_cases": 68,
+    "seven_day_moving_average": 3
   },
   {
     "date": "08-May-2020",
@@ -509,7 +572,8 @@
     "total_cases": 489,
     "recovered": 419,
     "deaths": 5,
-    "active_cases": 65
+    "active_cases": 65,
+    "seven_day_moving_average": 3
   },
   {
     "date": "09-May-2020",
@@ -517,7 +581,8 @@
     "total_cases": 490,
     "recovered": 427,
     "deaths": 5,
-    "active_cases": 58
+    "active_cases": 58,
+    "seven_day_moving_average": 3
   },
   {
     "date": "10-May-2020",
@@ -525,7 +590,8 @@
     "total_cases": 496,
     "recovered": 433,
     "deaths": 5,
-    "active_cases": 58
+    "active_cases": 58,
+    "seven_day_moving_average": 3
   },
   {
     "date": "11-May-2020",
@@ -533,7 +599,8 @@
     "total_cases": 503,
     "recovered": 434,
     "deaths": 5,
-    "active_cases": 64
+    "active_cases": 64,
+    "seven_day_moving_average": 2
   },
   {
     "date": "12-May-2020",
@@ -541,7 +608,8 @@
     "total_cases": 506,
     "recovered": 434,
     "deaths": 5,
-    "active_cases": 67
+    "active_cases": 67,
+    "seven_day_moving_average": 3
   },
   {
     "date": "13-May-2020",
@@ -549,7 +617,8 @@
     "total_cases": 508,
     "recovered": 436,
     "deaths": 6,
-    "active_cases": 66
+    "active_cases": 66,
+    "seven_day_moving_average": 3
   },
   {
     "date": "14-May-2020",
@@ -557,7 +626,8 @@
     "total_cases": 522,
     "recovered": 443,
     "deaths": 6,
-    "active_cases": 73
+    "active_cases": 73,
+    "seven_day_moving_average": 3
   },
   {
     "date": "15-May-2020",
@@ -565,7 +635,8 @@
     "total_cases": 532,
     "recovered": 448,
     "deaths": 6,
-    "active_cases": 78
+    "active_cases": 78,
+    "seven_day_moving_average": 5
   },
   {
     "date": "16-May-2020",
@@ -573,7 +644,8 @@
     "total_cases": 546,
     "recovered": 450,
     "deaths": 6,
-    "active_cases": 90
+    "active_cases": 90,
+    "seven_day_moving_average": 6
   },
   {
     "date": "17-May-2020",
@@ -581,7 +653,8 @@
     "total_cases": 553,
     "recovered": 454,
     "deaths": 6,
-    "active_cases": 93
+    "active_cases": 93,
+    "seven_day_moving_average": 8
   },
   {
     "date": "18-May-2020",
@@ -589,7 +662,8 @@
     "total_cases": 558,
     "recovered": 456,
     "deaths": 6,
-    "active_cases": 96
+    "active_cases": 96,
+    "seven_day_moving_average": 8
   },
   {
     "date": "19-May-2020",
@@ -597,7 +671,8 @@
     "total_cases": 569,
     "recovered": 460,
     "deaths": 6,
-    "active_cases": 103
+    "active_cases": 103,
+    "seven_day_moving_average": 7
   },
   {
     "date": "20-May-2020",
@@ -605,7 +680,8 @@
     "total_cases": 584,
     "recovered": 465,
     "deaths": 6,
-    "active_cases": 113
+    "active_cases": 113,
+    "seven_day_moving_average": 9
   },
   {
     "date": "21-May-2020",
@@ -613,7 +689,8 @@
     "total_cases": 599,
     "recovered": 468,
     "deaths": 6,
-    "active_cases": 125
+    "active_cases": 125,
+    "seven_day_moving_average": 10
   },
   {
     "date": "22-May-2020",
@@ -621,7 +698,8 @@
     "total_cases": 600,
     "recovered": 469,
     "deaths": 6,
-    "active_cases": 125
+    "active_cases": 125,
+    "seven_day_moving_average": 11
   },
   {
     "date": "23-May-2020",
@@ -629,7 +707,8 @@
     "total_cases": 609,
     "recovered": 473,
     "deaths": 6,
-    "active_cases": 130
+    "active_cases": 130,
+    "seven_day_moving_average": 9
   },
   {
     "date": "24-May-2020",
@@ -637,7 +716,8 @@
     "total_cases": 610,
     "recovered": 476,
     "deaths": 6,
-    "active_cases": 128
+    "active_cases": 128,
+    "seven_day_moving_average": 9
   },
   {
     "date": "25-May-2020",
@@ -645,7 +725,8 @@
     "total_cases": 611,
     "recovered": 485,
     "deaths": 6,
-    "active_cases": 120
+    "active_cases": 120,
+    "seven_day_moving_average": 8
   },
   {
     "date": "26-May-2020",
@@ -653,7 +734,8 @@
     "total_cases": 611,
     "recovered": 485,
     "deaths": 6,
-    "active_cases": 120
+    "active_cases": 120,
+    "seven_day_moving_average": 7
   },
   {
     "date": "27-May-2020",
@@ -661,7 +743,8 @@
     "total_cases": 612,
     "recovered": 491,
     "deaths": 7,
-    "active_cases": 114
+    "active_cases": 114,
+    "seven_day_moving_average": 6
   },
   {
     "date": "28-May-2020",
@@ -669,7 +752,8 @@
     "total_cases": 616,
     "recovered": 501,
     "deaths": 7,
-    "active_cases": 108
+    "active_cases": 108,
+    "seven_day_moving_average": 4
   },
   {
     "date": "29-May-2020",
@@ -677,7 +761,8 @@
     "total_cases": 616,
     "recovered": 514,
     "deaths": 8,
-    "active_cases": 94
+    "active_cases": 94,
+    "seven_day_moving_average": 2
   },
   {
     "date": "30-May-2020",
@@ -685,7 +770,8 @@
     "total_cases": 618,
     "recovered": 525,
     "deaths": 9,
-    "active_cases": 84
+    "active_cases": 84,
+    "seven_day_moving_average": 2
   },
   {
     "date": "31-May-2020",
@@ -693,7 +779,8 @@
     "total_cases": 618,
     "recovered": 534,
     "deaths": 9,
-    "active_cases": 75
+    "active_cases": 75,
+    "seven_day_moving_average": 1
   },
   {
     "date": "01-Jun-2020",
@@ -701,7 +788,8 @@
     "total_cases": 619,
     "recovered": 537,
     "deaths": 9,
-    "active_cases": 73
+    "active_cases": 73,
+    "seven_day_moving_average": 1
   },
   {
     "date": "02-Jun-2020",
@@ -709,7 +797,8 @@
     "total_cases": 620,
     "recovered": 554,
     "deaths": 9,
-    "active_cases": 57
+    "active_cases": 57,
+    "seven_day_moving_average": 1
   },
   {
     "date": "03-Jun-2020",
@@ -717,7 +806,8 @@
     "total_cases": 622,
     "recovered": 562,
     "deaths": 9,
-    "active_cases": 51
+    "active_cases": 51,
+    "seven_day_moving_average": 1
   },
   {
     "date": "04-Jun-2020",
@@ -725,7 +815,8 @@
     "total_cases": 622,
     "recovered": 574,
     "deaths": 9,
-    "active_cases": 37
+    "active_cases": 37,
+    "seven_day_moving_average": 1
   },
   {
     "date": "05-Jun-2020",
@@ -733,7 +824,8 @@
     "total_cases": 625,
     "recovered": 583,
     "deaths": 9,
-    "active_cases": 33
+    "active_cases": 33,
+    "seven_day_moving_average": 0
   },
   {
     "date": "06-Jun-2020",
@@ -741,7 +833,8 @@
     "total_cases": 627,
     "recovered": 596,
     "deaths": 9,
-    "active_cases": 22
+    "active_cases": 22,
+    "seven_day_moving_average": 1
   },
   {
     "date": "07-Jun-2020",
@@ -749,7 +842,8 @@
     "total_cases": 629,
     "recovered": 596,
     "deaths": 9,
-    "active_cases": 24
+    "active_cases": 24,
+    "seven_day_moving_average": 1
   },
   {
     "date": "08-Jun-2020",
@@ -757,7 +851,8 @@
     "total_cases": 630,
     "recovered": 596,
     "deaths": 9,
-    "active_cases": 25
+    "active_cases": 25,
+    "seven_day_moving_average": 1
   },
   {
     "date": "09-Jun-2020",
@@ -765,7 +860,8 @@
     "total_cases": 632,
     "recovered": 597,
     "deaths": 9,
-    "active_cases": 26
+    "active_cases": 26,
+    "seven_day_moving_average": 1
   },
   {
     "date": "10-Jun-2020",
@@ -773,7 +869,8 @@
     "total_cases": 635,
     "recovered": 597,
     "deaths": 9,
-    "active_cases": 29
+    "active_cases": 29,
+    "seven_day_moving_average": 1
   },
   {
     "date": "11-Jun-2020",
@@ -781,7 +878,8 @@
     "total_cases": 640,
     "recovered": 600,
     "deaths": 9,
-    "active_cases": 31
+    "active_cases": 31,
+    "seven_day_moving_average": 1
   },
   {
     "date": "12-Jun-2020",
@@ -789,7 +887,8 @@
     "total_cases": 645,
     "recovered": 600,
     "deaths": 9,
-    "active_cases": 36
+    "active_cases": 36,
+    "seven_day_moving_average": 2
   },
   {
     "date": "13-Jun-2020",
@@ -797,7 +896,8 @@
     "total_cases": 646,
     "recovered": 601,
     "deaths": 9,
-    "active_cases": 36
+    "active_cases": 36,
+    "seven_day_moving_average": 2
   },
   {
     "date": "14-Jun-2020",
@@ -805,7 +905,8 @@
     "total_cases": 649,
     "recovered": 603,
     "deaths": 9,
-    "active_cases": 37
+    "active_cases": 37,
+    "seven_day_moving_average": 2
   },
   {
     "date": "15-Jun-2020",
@@ -813,7 +914,8 @@
     "total_cases": 650,
     "recovered": 603,
     "deaths": 9,
-    "active_cases": 38
+    "active_cases": 38,
+    "seven_day_moving_average": 2
   },
   {
     "date": "16-Jun-2020",
@@ -821,7 +923,8 @@
     "total_cases": 656,
     "recovered": 608,
     "deaths": 9,
-    "active_cases": 39
+    "active_cases": 39,
+    "seven_day_moving_average": 2
   },
   {
     "date": "17-Jun-2020",
@@ -829,7 +932,8 @@
     "total_cases": 662,
     "recovered": 610,
     "deaths": 9,
-    "active_cases": 43
+    "active_cases": 43,
+    "seven_day_moving_average": 3
   },
   {
     "date": "18-Jun-2020",
@@ -837,7 +941,8 @@
     "total_cases": 663,
     "recovered": 610,
     "deaths": 9,
-    "active_cases": 44
+    "active_cases": 44,
+    "seven_day_moving_average": 3
   },
   {
     "date": "19-Jun-2020",
@@ -845,7 +950,8 @@
     "total_cases": 663,
     "recovered": 613,
     "deaths": 9,
-    "active_cases": 41
+    "active_cases": 41,
+    "seven_day_moving_average": 3
   },
   {
     "date": "20-Jun-2020",
@@ -853,7 +959,8 @@
     "total_cases": 664,
     "recovered": 616,
     "deaths": 9,
-    "active_cases": 39
+    "active_cases": 39,
+    "seven_day_moving_average": 2
   },
   {
     "date": "21-Jun-2020",
@@ -861,7 +968,8 @@
     "total_cases": 665,
     "recovered": 616,
     "deaths": 9,
-    "active_cases": 40
+    "active_cases": 40,
+    "seven_day_moving_average": 2
   },
   {
     "date": "22-Jun-2020",
@@ -869,7 +977,8 @@
     "total_cases": 665,
     "recovered": 617,
     "deaths": 9,
-    "active_cases": 39
+    "active_cases": 39,
+    "seven_day_moving_average": 2
   },
   {
     "date": "23-Jun-2020",
@@ -877,7 +986,8 @@
     "total_cases": 665,
     "recovered": 618,
     "deaths": 9,
-    "active_cases": 38
+    "active_cases": 38,
+    "seven_day_moving_average": 2
   },
   {
     "date": "24-Jun-2020",
@@ -885,7 +995,8 @@
     "total_cases": 665,
     "recovered": 624,
     "deaths": 9,
-    "active_cases": 32
+    "active_cases": 32,
+    "seven_day_moving_average": 1
   },
   {
     "date": "25-Jun-2020",
@@ -893,7 +1004,8 @@
     "total_cases": 668,
     "recovered": 627,
     "deaths": 9,
-    "active_cases": 32
+    "active_cases": 32,
+    "seven_day_moving_average": 0
   },
   {
     "date": "26-Jun-2020",
@@ -901,7 +1013,8 @@
     "total_cases": 670,
     "recovered": 632,
     "deaths": 9,
-    "active_cases": 29
+    "active_cases": 29,
+    "seven_day_moving_average": 0
   },
   {
     "date": "27-Jun-2020",
@@ -909,7 +1022,8 @@
     "total_cases": 670,
     "recovered": 635,
     "deaths": 9,
-    "active_cases": 26
+    "active_cases": 26,
+    "seven_day_moving_average": 1
   },
   {
     "date": "28-Jun-2020",
@@ -917,7 +1031,8 @@
     "total_cases": 670,
     "recovered": 636,
     "deaths": 9,
-    "active_cases": 25
+    "active_cases": 25,
+    "seven_day_moving_average": 0
   },
   {
     "date": "29-Jun-2020",
@@ -925,7 +1040,8 @@
     "total_cases": 670,
     "recovered": 639,
     "deaths": 9,
-    "active_cases": 22
+    "active_cases": 22,
+    "seven_day_moving_average": 0
   },
   {
     "date": "30-Jun-2020",
@@ -933,7 +1049,8 @@
     "total_cases": 670,
     "recovered": 640,
     "deaths": 9,
-    "active_cases": 21
+    "active_cases": 21,
+    "seven_day_moving_average": 0
   },
   {
     "date": "01-Jul-2020",
@@ -941,7 +1058,8 @@
     "total_cases": 671,
     "recovered": 647,
     "deaths": 9,
-    "active_cases": 15
+    "active_cases": 15,
+    "seven_day_moving_average": 0
   },
   {
     "date": "02-Jul-2020",
@@ -949,7 +1067,8 @@
     "total_cases": 671,
     "recovered": 649,
     "deaths": 9,
-    "active_cases": 13
+    "active_cases": 13,
+    "seven_day_moving_average": 0
   },
   {
     "date": "03-Jul-2020",
@@ -957,7 +1076,8 @@
     "total_cases": 672,
     "recovered": 650,
     "deaths": 9,
-    "active_cases": 13
+    "active_cases": 13,
+    "seven_day_moving_average": 0
   },
   {
     "date": "04-Jul-2020",
@@ -965,7 +1085,8 @@
     "total_cases": 672,
     "recovered": 651,
     "deaths": 9,
-    "active_cases": 12
+    "active_cases": 12,
+    "seven_day_moving_average": 0
   },
   {
     "date": "05-Jul-2020",
@@ -973,7 +1094,8 @@
     "total_cases": 672,
     "recovered": 652,
     "deaths": 9,
-    "active_cases": 11
+    "active_cases": 11,
+    "seven_day_moving_average": 0
   },
   {
     "date": "06-Jul-2020",
@@ -981,7 +1103,8 @@
     "total_cases": 672,
     "recovered": 652,
     "deaths": 9,
-    "active_cases": 11
+    "active_cases": 11,
+    "seven_day_moving_average": 0
   },
   {
     "date": "07-Jul-2020",
@@ -989,7 +1112,8 @@
     "total_cases": 673,
     "recovered": 653,
     "deaths": 9,
-    "active_cases": 11
+    "active_cases": 11,
+    "seven_day_moving_average": 0
   },
   {
     "date": "08-Jul-2020",
@@ -997,7 +1121,8 @@
     "total_cases": 673,
     "recovered": 654,
     "deaths": 9,
-    "active_cases": 10
+    "active_cases": 10,
+    "seven_day_moving_average": 0
   },
   {
     "date": "09-Jul-2020",
@@ -1005,7 +1130,8 @@
     "total_cases": 674,
     "recovered": 656,
     "deaths": 9,
-    "active_cases": 9
+    "active_cases": 9,
+    "seven_day_moving_average": 0
   },
   {
     "date": "10-Jul-2020",
@@ -1013,7 +1139,8 @@
     "total_cases": 674,
     "recovered": 658,
     "deaths": 9,
-    "active_cases": 7
+    "active_cases": 7,
+    "seven_day_moving_average": 0
   },
   {
     "date": "11-Jul-2020",
@@ -1021,7 +1148,8 @@
     "total_cases": 674,
     "recovered": 658,
     "deaths": 9,
-    "active_cases": 7
+    "active_cases": 7,
+    "seven_day_moving_average": 0
   },
   {
     "date": "12-Jul-2020",
@@ -1029,7 +1157,8 @@
     "total_cases": 674,
     "recovered": 660,
     "deaths": 9,
-    "active_cases": 5
+    "active_cases": 5,
+    "seven_day_moving_average": 0
   },
   {
     "date": "13-Jul-2020",
@@ -1037,7 +1166,8 @@
     "total_cases": 674,
     "recovered": 660,
     "deaths": 9,
-    "active_cases": 5
+    "active_cases": 5,
+    "seven_day_moving_average": 0
   },
   {
     "date": "14-Jul-2020",
@@ -1045,7 +1175,8 @@
     "total_cases": 674,
     "recovered": 660,
     "deaths": 9,
-    "active_cases": 5
+    "active_cases": 5,
+    "seven_day_moving_average": 0
   },
   {
     "date": "15-Jul-2020",
@@ -1053,7 +1184,8 @@
     "total_cases": 674,
     "recovered": 661,
     "deaths": 9,
-    "active_cases": 4
+    "active_cases": 4,
+    "seven_day_moving_average": 0
   },
   {
     "date": "16-Jul-2020",
@@ -1061,7 +1193,8 @@
     "total_cases": 674,
     "recovered": 661,
     "deaths": 9,
-    "active_cases": 4
+    "active_cases": 4,
+    "seven_day_moving_average": 0
   },
   {
     "date": "17-Jul-2020",
@@ -1069,7 +1202,8 @@
     "total_cases": 674,
     "recovered": 662,
     "deaths": 9,
-    "active_cases": 3
+    "active_cases": 3,
+    "seven_day_moving_average": 0
   },
   {
     "date": "18-Jul-2020",
@@ -1077,7 +1211,8 @@
     "total_cases": 675,
     "recovered": 662,
     "deaths": 9,
-    "active_cases": 4
+    "active_cases": 4,
+    "seven_day_moving_average": 0
   },
   {
     "date": "19-Jul-2020",
@@ -1085,7 +1220,8 @@
     "total_cases": 676,
     "recovered": 662,
     "deaths": 9,
-    "active_cases": 5
+    "active_cases": 5,
+    "seven_day_moving_average": 0
   },
   {
     "date": "20-Jul-2020",
@@ -1093,7 +1229,8 @@
     "total_cases": 677,
     "recovered": 664,
     "deaths": 9,
-    "active_cases": 4
+    "active_cases": 4,
+    "seven_day_moving_average": 0
   },
   {
     "date": "21-Jul-2020",
@@ -1101,7 +1238,8 @@
     "total_cases": 677,
     "recovered": 664,
     "deaths": 9,
-    "active_cases": 4
+    "active_cases": 4,
+    "seven_day_moving_average": 0
   },
   {
     "date": "22-Jul-2020",
@@ -1109,7 +1247,8 @@
     "total_cases": 679,
     "recovered": 665,
     "deaths": 9,
-    "active_cases": 5
+    "active_cases": 5,
+    "seven_day_moving_average": 0
   },
   {
     "date": "23-Jul-2020",
@@ -1117,7 +1256,8 @@
     "total_cases": 680,
     "recovered": 665,
     "deaths": 9,
-    "active_cases": 6
+    "active_cases": 6,
+    "seven_day_moving_average": 0
   },
   {
     "date": "24-Jul-2020",
@@ -1125,7 +1265,8 @@
     "total_cases": 686,
     "recovered": 665,
     "deaths": 9,
-    "active_cases": 12
+    "active_cases": 12,
+    "seven_day_moving_average": 0
   },
   {
     "date": "25-Jul-2020",
@@ -1133,7 +1274,8 @@
     "total_cases": 686,
     "recovered": 665,
     "deaths": 9,
-    "active_cases": 12
+    "active_cases": 12,
+    "seven_day_moving_average": 1
   },
   {
     "date": "26-Jul-2020",
@@ -1141,7 +1283,8 @@
     "total_cases": 700,
     "recovered": 665,
     "deaths": 9,
-    "active_cases": 26
+    "active_cases": 26,
+    "seven_day_moving_average": 1
   },
   {
     "date": "27-Jul-2020",
@@ -1149,7 +1292,8 @@
     "total_cases": 701,
     "recovered": 665,
     "deaths": 9,
-    "active_cases": 27
+    "active_cases": 27,
+    "seven_day_moving_average": 3
   },
   {
     "date": "28-Jul-2020",
@@ -1157,7 +1301,8 @@
     "total_cases": 708,
     "recovered": 665,
     "deaths": 9,
-    "active_cases": 34
+    "active_cases": 34,
+    "seven_day_moving_average": 3
   },
   {
     "date": "29-Jul-2020",
@@ -1165,7 +1310,8 @@
     "total_cases": 720,
     "recovered": 665,
     "deaths": 9,
-    "active_cases": 46
+    "active_cases": 46,
+    "seven_day_moving_average": 4
   },
   {
     "date": "30-Jul-2020",
@@ -1173,7 +1319,8 @@
     "total_cases": 814,
     "recovered": 665,
     "deaths": 9,
-    "active_cases": 140
+    "active_cases": 140,
+    "seven_day_moving_average": 5
   },
   {
     "date": "31-Jul-2020",
@@ -1181,7 +1328,8 @@
     "total_cases": 824,
     "recovered": 665,
     "deaths": 9,
-    "active_cases": 150
+    "active_cases": 150,
+    "seven_day_moving_average": 19
   },
   {
     "date": "01-Aug-2020",
@@ -1189,7 +1337,8 @@
     "total_cases": 845,
     "recovered": 665,
     "deaths": 9,
-    "active_cases": 171
+    "active_cases": 171,
+    "seven_day_moving_average": 19
   },
   {
     "date": "02-Aug-2020",
@@ -1197,7 +1346,8 @@
     "total_cases": 860,
     "recovered": 666,
     "deaths": 9,
-    "active_cases": 185
+    "active_cases": 185,
+    "seven_day_moving_average": 22
   },
   {
     "date": "03-Aug-2020",
@@ -1205,7 +1355,8 @@
     "total_cases": 874,
     "recovered": 666,
     "deaths": 9,
-    "active_cases": 199
+    "active_cases": 199,
+    "seven_day_moving_average": 22
   },
   {
     "date": "04-Aug-2020",
@@ -1213,7 +1364,8 @@
     "total_cases": 890,
     "recovered": 668,
     "deaths": 9,
-    "active_cases": 213
+    "active_cases": 213,
+    "seven_day_moving_average": 24
   },
   {
     "date": "05-Aug-2020",
@@ -1221,7 +1373,8 @@
     "total_cases": 926,
     "recovered": 668,
     "deaths": 9,
-    "active_cases": 249
+    "active_cases": 249,
+    "seven_day_moving_average": 26
   },
   {
     "date": "06-Aug-2020",
@@ -1229,7 +1382,8 @@
     "total_cases": 946,
     "recovered": 670,
     "deaths": 9,
-    "active_cases": 267
+    "active_cases": 267,
+    "seven_day_moving_average": 29
   },
   {
     "date": "07-Aug-2020",
@@ -1237,7 +1391,8 @@
     "total_cases": 995,
     "recovered": 675,
     "deaths": 9,
-    "active_cases": 311
+    "active_cases": 311,
+    "seven_day_moving_average": 18
   },
   {
     "date": "08-Aug-2020",
@@ -1245,7 +1400,8 @@
     "total_cases": 1035,
     "recovered": 675,
     "deaths": 9,
-    "active_cases": 351
+    "active_cases": 351,
+    "seven_day_moving_average": 24
   },
   {
     "date": "09-Aug-2020",
@@ -1253,7 +1409,8 @@
     "total_cases": 1089,
     "recovered": 684,
     "deaths": 9,
-    "active_cases": 396
+    "active_cases": 396,
+    "seven_day_moving_average": 27
   },
   {
     "date": "10-Aug-2020",
@@ -1261,7 +1418,8 @@
     "total_cases": 1112,
     "recovered": 688,
     "deaths": 9,
-    "active_cases": 415
+    "active_cases": 415,
+    "seven_day_moving_average": 32
   },
   {
     "date": "11-Aug-2020",
@@ -1269,7 +1427,8 @@
     "total_cases": 1141,
     "recovered": 692,
     "deaths": 9,
-    "active_cases": 440
+    "active_cases": 440,
+    "seven_day_moving_average": 34
   },
   {
     "date": "12-Aug-2020",
@@ -1277,7 +1436,8 @@
     "total_cases": 1190,
     "recovered": 695,
     "deaths": 9,
-    "active_cases": 486
+    "active_cases": 486,
+    "seven_day_moving_average": 35
   },
   {
     "date": "13-Aug-2020",
@@ -1285,7 +1445,8 @@
     "total_cases": 1245,
     "recovered": 708,
     "deaths": 9,
-    "active_cases": 528
+    "active_cases": 528,
+    "seven_day_moving_average": 37
   },
   {
     "date": "14-Aug-2020",
@@ -1293,7 +1454,8 @@
     "total_cases": 1276,
     "recovered": 762,
     "deaths": 9,
-    "active_cases": 505
+    "active_cases": 505,
+    "seven_day_moving_average": 42
   },
   {
     "date": "15-Aug-2020",
@@ -1301,7 +1463,8 @@
     "total_cases": 1348,
     "recovered": 782,
     "deaths": 9,
-    "active_cases": 557
+    "active_cases": 557,
+    "seven_day_moving_average": 40
   },
   {
     "date": "16-Aug-2020",
@@ -1309,7 +1472,8 @@
     "total_cases": 1306,
     "recovered": 749,
     "deaths": 9,
-    "active_cases": 548
+    "active_cases": 548,
+    "seven_day_moving_average": 44
   },
   {
     "date": "17-Aug-2020",
@@ -1317,7 +1481,8 @@
     "total_cases": 1375,
     "recovered": 759,
     "deaths": 9,
-    "active_cases": 607
+    "active_cases": 607,
+    "seven_day_moving_average": 46
   },
   {
     "date": "18-Aug-2020",
@@ -1325,7 +1490,8 @@
     "total_cases": 1423,
     "recovered": 766,
     "deaths": 9,
-    "active_cases": 648
+    "active_cases": 648,
+    "seven_day_moving_average": 52
   },
   {
     "date": "19-Aug-2020",
@@ -1333,7 +1499,8 @@
     "total_cases": 1470,
     "recovered": 784,
     "deaths": 9,
-    "active_cases": 677
+    "active_cases": 677,
+    "seven_day_moving_average": 55
   },
   {
     "date": "20-Aug-2020",
@@ -1341,7 +1508,8 @@
     "total_cases": 1510,
     "recovered": 802,
     "deaths": 9,
-    "active_cases": 699
+    "active_cases": 699,
+    "seven_day_moving_average": 55
   },
   {
     "date": "21-Aug-2020",
@@ -1349,7 +1517,8 @@
     "total_cases": 1546,
     "recovered": 854,
     "deaths": 10,
-    "active_cases": 682
+    "active_cases": 682,
+    "seven_day_moving_average": 52
   },
   {
     "date": "22-Aug-2020",
@@ -1357,7 +1526,8 @@
     "total_cases": 1577,
     "recovered": 901,
     "deaths": 10,
-    "active_cases": 666
+    "active_cases": 666,
+    "seven_day_moving_average": 53
   },
   {
     "date": "23-Aug-2020",
@@ -1365,7 +1535,8 @@
     "total_cases": 1612,
     "recovered": 934,
     "deaths": 10,
-    "active_cases": 668
+    "active_cases": 668,
+    "seven_day_moving_average": 47
   },
   {
     "date": "24-Aug-2020",
@@ -1373,7 +1544,8 @@
     "total_cases": 1667,
     "recovered": 977,
     "deaths": 10,
-    "active_cases": 680
+    "active_cases": 680,
+    "seven_day_moving_average": 43
   },
   {
     "date": "25-Aug-2020",
@@ -1381,7 +1553,8 @@
     "total_cases": 1705,
     "recovered": 1029,
     "deaths": 10,
-    "active_cases": 666
+    "active_cases": 666,
+    "seven_day_moving_average": 41
   },
   {
     "date": "26-Aug-2020",
@@ -1389,7 +1562,8 @@
     "total_cases": 1751,
     "recovered": 1077,
     "deaths": 10,
-    "active_cases": 664
+    "active_cases": 664,
+    "seven_day_moving_average": 40
   },
   {
     "date": "27-Aug-2020",
@@ -1397,7 +1571,8 @@
     "total_cases": 1788,
     "recovered": 1121,
     "deaths": 10,
-    "active_cases": 657
+    "active_cases": 657,
+    "seven_day_moving_average": 40
   },
   {
     "date": "28-Aug-2020",
@@ -1405,7 +1580,8 @@
     "total_cases": 1820,
     "recovered": 1186,
     "deaths": 10,
-    "active_cases": 624
+    "active_cases": 624,
+    "seven_day_moving_average": 39
   },
   {
     "date": "29-Aug-2020",
@@ -1413,7 +1589,8 @@
     "total_cases": 1847,
     "recovered": 1224,
     "deaths": 10,
-    "active_cases": 593
+    "active_cases": 593,
+    "seven_day_moving_average": 39
   },
   {
     "date": "30-Aug-2020",
@@ -1421,7 +1598,8 @@
     "total_cases": 1862,
     "recovered": 1313,
     "deaths": 11,
-    "active_cases": 538
+    "active_cases": 538,
+    "seven_day_moving_average": 38
   },
   {
     "date": "31-Aug-2020",
@@ -1429,7 +1607,8 @@
     "total_cases": 1883,
     "recovered": 1400,
     "deaths": 12,
-    "active_cases": 471
+    "active_cases": 471,
+    "seven_day_moving_average": 35
   },
   {
     "date": "01-Sep-2020",
@@ -1437,7 +1616,8 @@
     "total_cases": 1909,
     "recovered": 1453,
     "deaths": 12,
-    "active_cases": 444
+    "active_cases": 444,
+    "seven_day_moving_average": 30
   },
   {
     "date": "02-Sep-2020",
@@ -1445,7 +1625,8 @@
     "total_cases": 1931,
     "recovered": 1490,
     "deaths": 13,
-    "active_cases": 428
+    "active_cases": 428,
+    "seven_day_moving_average": 29
   },
   {
     "date": "03-Sep-2020",
@@ -1453,7 +1634,8 @@
     "total_cases": 1965,
     "recovered": 1528,
     "deaths": 13,
-    "active_cases": 424
+    "active_cases": 424,
+    "seven_day_moving_average": 25
   },
   {
     "date": "04-Sep-2020",
@@ -1461,7 +1643,8 @@
     "total_cases": 1984,
     "recovered": 1565,
     "deaths": 13,
-    "active_cases": 406
+    "active_cases": 406,
+    "seven_day_moving_average": 25
   },
   {
     "date": "05-Sep-2020",
@@ -1469,7 +1652,8 @@
     "total_cases": 2014,
     "recovered": 1601,
     "deaths": 14,
-    "active_cases": 399
+    "active_cases": 399,
+    "seven_day_moving_average": 23
   },
   {
     "date": "06-Sep-2020",
@@ -1477,7 +1661,8 @@
     "total_cases": 2039,
     "recovered": 1627,
     "deaths": 14,
-    "active_cases": 398
+    "active_cases": 398,
+    "seven_day_moving_average": 23
   },
   {
     "date": "07-Sep-2020",
@@ -1485,7 +1670,8 @@
     "total_cases": 2076,
     "recovered": 1690,
     "deaths": 14,
-    "active_cases": 372
+    "active_cases": 372,
+    "seven_day_moving_average": 25
   },
   {
     "date": "08-Sep-2020",
@@ -1493,7 +1679,8 @@
     "total_cases": 2099,
     "recovered": 1729,
     "deaths": 14,
-    "active_cases": 356
+    "active_cases": 356,
+    "seven_day_moving_average": 27
   },
   {
     "date": "09-Sep-2020",
@@ -1501,7 +1688,8 @@
     "total_cases": 2162,
     "recovered": 1760,
     "deaths": 14,
-    "active_cases": 388
+    "active_cases": 388,
+    "seven_day_moving_average": 27
   },
   {
     "date": "10-Sep-2020",
@@ -1509,7 +1697,8 @@
     "total_cases": 2204,
     "recovered": 1803,
     "deaths": 14,
-    "active_cases": 387
+    "active_cases": 387,
+    "seven_day_moving_average": 33
   },
   {
     "date": "11-Sep-2020",
@@ -1517,7 +1706,8 @@
     "total_cases": 2247,
     "recovered": 1833,
     "deaths": 15,
-    "active_cases": 399
+    "active_cases": 399,
+    "seven_day_moving_average": 34
   },
   {
     "date": "12-Sep-2020",
@@ -1525,7 +1715,8 @@
     "total_cases": 2274,
     "recovered": 1850,
     "deaths": 15,
-    "active_cases": 409
+    "active_cases": 409,
+    "seven_day_moving_average": 37
   },
   {
     "date": "13-Sep-2020",
@@ -1533,7 +1724,8 @@
     "total_cases": 2352,
     "recovered": 1872,
     "deaths": 15,
-    "active_cases": 465
+    "active_cases": 465,
+    "seven_day_moving_average": 37
   },
   {
     "date": "14-Sep-2020",
@@ -1541,7 +1733,8 @@
     "total_cases": 2405,
     "recovered": 1890,
     "deaths": 16,
-    "active_cases": 499
+    "active_cases": 499,
+    "seven_day_moving_average": 44
   },
   {
     "date": "15-Sep-2020",
@@ -1549,7 +1742,8 @@
     "total_cases": 2454,
     "recovered": 1931,
     "deaths": 16,
-    "active_cases": 507
+    "active_cases": 507,
+    "seven_day_moving_average": 47
   },
   {
     "date": "16-Sep-2020",
@@ -1557,7 +1751,8 @@
     "total_cases": 2560,
     "recovered": 1953,
     "deaths": 16,
-    "active_cases": 591
+    "active_cases": 591,
+    "seven_day_moving_average": 50
   },
   {
     "date": "17-Sep-2020",
@@ -1565,7 +1760,8 @@
     "total_cases": 2595,
     "recovered": 1978,
     "deaths": 16,
-    "active_cases": 601
+    "active_cases": 601,
+    "seven_day_moving_average": 56
   },
   {
     "date": "18-Sep-2020",
@@ -1573,7 +1769,8 @@
     "total_cases": 2634,
     "recovered": 1996,
     "deaths": 17,
-    "active_cases": 621
+    "active_cases": 621,
+    "seven_day_moving_average": 55
   },
   {
     "date": "19-Sep-2020",
@@ -1581,7 +1778,8 @@
     "total_cases": 2699,
     "recovered": 2017,
     "deaths": 19,
-    "active_cases": 663
+    "active_cases": 663,
+    "seven_day_moving_average": 55
   },
   {
     "date": "20-Sep-2020",
@@ -1589,7 +1787,8 @@
     "total_cases": 2731,
     "recovered": 2047,
     "deaths": 20,
-    "active_cases": 664
+    "active_cases": 664,
+    "seven_day_moving_average": 60
   },
   {
     "date": "21-Sep-2020",
@@ -1597,7 +1796,8 @@
     "total_cases": 2776,
     "recovered": 2079,
     "deaths": 21,
-    "active_cases": 676
+    "active_cases": 676,
+    "seven_day_moving_average": 54
   },
   {
     "date": "22-Sep-2020",
@@ -1605,7 +1805,8 @@
     "total_cases": 2814,
     "recovered": 2113,
     "deaths": 23,
-    "active_cases": 678
+    "active_cases": 678,
+    "seven_day_moving_average": 53
   },
   {
     "date": "23-Sep-2020",
@@ -1613,7 +1814,8 @@
     "total_cases": 2856,
     "recovered": 2173,
     "deaths": 25,
-    "active_cases": 658
+    "active_cases": 658,
+    "seven_day_moving_average": 51
   },
   {
     "date": "24-Sep-2020",
@@ -1621,7 +1823,8 @@
     "total_cases": 2898,
     "recovered": 2191,
     "deaths": 27,
-    "active_cases": 680
+    "active_cases": 680,
+    "seven_day_moving_average": 42
   },
   {
     "date": "25-Sep-2020",
@@ -1629,7 +1832,8 @@
     "total_cases": 2929,
     "recovered": 2261,
     "deaths": 29,
-    "active_cases": 639
+    "active_cases": 639,
+    "seven_day_moving_average": 43
   },
   {
     "date": "26-Sep-2020",
@@ -1637,7 +1841,8 @@
     "total_cases": 2958,
     "recovered": 2304,
     "deaths": 31,
-    "active_cases": 623
+    "active_cases": 623,
+    "seven_day_moving_average": 42
   },
   {
     "date": "27-Sep-2020",
@@ -1645,7 +1850,8 @@
     "total_cases": 2979,
     "recovered": 2358,
     "deaths": 31,
-    "active_cases": 590
+    "active_cases": 590,
+    "seven_day_moving_average": 37
   },
   {
     "date": "28-Sep-2020",
@@ -1653,7 +1859,8 @@
     "total_cases": 3006,
     "recovered": 2399,
     "deaths": 32,
-    "active_cases": 575
+    "active_cases": 575,
+    "seven_day_moving_average": 35
   },
   {
     "date": "29-Sep-2020",
@@ -1661,7 +1868,8 @@
     "total_cases": 3035,
     "recovered": 2484,
     "deaths": 34,
-    "active_cases": 517
+    "active_cases": 517,
+    "seven_day_moving_average": 32
   },
   {
     "date": "30-Sep-2020",
@@ -1669,7 +1877,8 @@
     "total_cases": 3058,
     "recovered": 2562,
     "deaths": 34,
-    "active_cases": 462
+    "active_cases": 462,
+    "seven_day_moving_average": 31
   },
   {
     "date": "01-Oct-2020",
@@ -1677,7 +1886,8 @@
     "total_cases": 3095,
     "recovered": 2605,
     "deaths": 35,
-    "active_cases": 455
+    "active_cases": 455,
+    "seven_day_moving_average": 28
   },
   {
     "date": "02-Oct-2020",
@@ -1685,7 +1895,8 @@
     "total_cases": 3139,
     "recovered": 2668,
     "deaths": 37,
-    "active_cases": 434
+    "active_cases": 434,
+    "seven_day_moving_average": 28
   },
   {
     "date": "03-Oct-2020",
@@ -1693,7 +1904,8 @@
     "total_cases": 3204,
     "recovered": 2711,
     "deaths": 38,
-    "active_cases": 455
+    "active_cases": 455,
+    "seven_day_moving_average": 30
   },
   {
     "date": "04-Oct-2020",
@@ -1701,7 +1913,8 @@
     "total_cases": 3270,
     "recovered": 2758,
     "deaths": 39,
-    "active_cases": 473
+    "active_cases": 473,
+    "seven_day_moving_average": 35
   },
   {
     "date": "05-Oct-2020",
@@ -1709,7 +1922,8 @@
     "total_cases": 3327,
     "recovered": 2770,
     "deaths": 39,
-    "active_cases": 518
+    "active_cases": 518,
+    "seven_day_moving_average": 41
   },
   {
     "date": "06-Oct-2020",
@@ -1717,7 +1931,8 @@
     "total_cases": 3374,
     "recovered": 2812,
     "deaths": 40,
-    "active_cases": 522
+    "active_cases": 522,
+    "seven_day_moving_average": 45
   },
   {
     "date": "07-Oct-2020",
@@ -1725,7 +1940,8 @@
     "total_cases": 3442,
     "recovered": 2865,
     "deaths": 41,
-    "active_cases": 536
+    "active_cases": 536,
+    "seven_day_moving_average": 48
   },
   {
     "date": "08-Oct-2020",
@@ -1733,7 +1949,8 @@
     "total_cases": 3506,
     "recovered": 2884,
     "deaths": 41,
-    "active_cases": 581
+    "active_cases": 581,
+    "seven_day_moving_average": 54
   },
   {
     "date": "09-Oct-2020",
@@ -1741,7 +1958,8 @@
     "total_cases": 3581,
     "recovered": 2915,
     "deaths": 41,
-    "active_cases": 625
+    "active_cases": 625,
+    "seven_day_moving_average": 58
   },
   {
     "date": "10-Oct-2020",
@@ -1749,7 +1967,8 @@
     "total_cases": 3681,
     "recovered": 2937,
     "deaths": 41,
-    "active_cases": 703
+    "active_cases": 703,
+    "seven_day_moving_average": 63
   },
   {
     "date": "11-Oct-2020",
@@ -1757,7 +1976,8 @@
     "total_cases": 3776,
     "recovered": 2967,
     "deaths": 41,
-    "active_cases": 768
+    "active_cases": 768,
+    "seven_day_moving_average": 68
   },
   {
     "date": "12-Oct-2020",
@@ -1765,7 +1985,8 @@
     "total_cases": 3844,
     "recovered": 2981,
     "deaths": 43,
-    "active_cases": 820
+    "active_cases": 820,
+    "seven_day_moving_average": 72
   },
   {
     "date": "13-Oct-2020",
@@ -1773,7 +1994,8 @@
     "total_cases": 3937,
     "recovered": 3012,
     "deaths": 44,
-    "active_cases": 881
+    "active_cases": 881,
+    "seven_day_moving_average": 73
   },
   {
     "date": "14-Oct-2020",
@@ -1781,7 +2003,8 @@
     "total_cases": 4048,
     "recovered": 3064,
     "deaths": 44,
-    "active_cases": 940
+    "active_cases": 940,
+    "seven_day_moving_average": 80
   },
   {
     "date": "15-Oct-2020",
@@ -1789,7 +2012,8 @@
     "total_cases": 4160,
     "recovered": 3106,
     "deaths": 45,
-    "active_cases": 1009
+    "active_cases": 1009,
+    "seven_day_moving_average": 86
   },
   {
     "date": "16-Oct-2020",
@@ -1797,7 +2021,8 @@
     "total_cases": 4282,
     "recovered": 3142,
     "deaths": 45,
-    "active_cases": 1095
+    "active_cases": 1095,
+    "seven_day_moving_average": 93
   },
   {
     "date": "17-Oct-2020",
@@ -1805,7 +2030,8 @@
     "total_cases": 4486,
     "recovered": 3184,
     "deaths": 45,
-    "active_cases": 1257
+    "active_cases": 1257,
+    "seven_day_moving_average": 100
   },
   {
     "date": "18-Oct-2020",
@@ -1813,7 +2039,8 @@
     "total_cases": 4628,
     "recovered": 3236,
     "deaths": 45,
-    "active_cases": 1347
+    "active_cases": 1347,
+    "seven_day_moving_average": 115
   },
   {
     "date": "19-Oct-2020",
@@ -1821,7 +2048,8 @@
     "total_cases": 4737,
     "recovered": 3242,
     "deaths": 45,
-    "active_cases": 1450
+    "active_cases": 1450,
+    "seven_day_moving_average": 121
   },
   {
     "date": "20-Oct-2020",
@@ -1829,7 +2057,8 @@
     "total_cases": 4871,
     "recovered": 3282,
     "deaths": 46,
-    "active_cases": 1543
+    "active_cases": 1543,
+    "seven_day_moving_average": 127
   },
   {
     "date": "21-Oct-2020",
@@ -1837,7 +2066,8 @@
     "total_cases": 5026,
     "recovered": 3331,
     "deaths": 46,
-    "active_cases": 1649
+    "active_cases": 1649,
+    "seven_day_moving_average": 133
   },
   {
     "date": "22-Oct-2020",
@@ -1845,7 +2075,8 @@
     "total_cases": 5137,
     "recovered": 3384,
     "deaths": 49,
-    "active_cases": 1704
+    "active_cases": 1704,
+    "seven_day_moving_average": 139
   },
   {
     "date": "23-Oct-2020",
@@ -1853,7 +2084,8 @@
     "total_cases": 5258,
     "recovered": 3439,
     "deaths": 49,
-    "active_cases": 1770
+    "active_cases": 1770,
+    "seven_day_moving_average": 139
   },
   {
     "date": "24-Oct-2020",
@@ -1861,7 +2093,8 @@
     "total_cases": 5373,
     "recovered": 3478,
     "deaths": 50,
-    "active_cases": 1845
+    "active_cases": 1845,
+    "seven_day_moving_average": 139
   },
   {
     "date": "25-Oct-2020",
@@ -1869,7 +2102,8 @@
     "total_cases": 5498,
     "recovered": 3567,
     "deaths": 51,
-    "active_cases": 1880
+    "active_cases": 1880,
+    "seven_day_moving_average": 126
   },
   {
     "date": "26-Oct-2020",
@@ -1877,7 +2111,8 @@
     "total_cases": 5578,
     "recovered": 3630,
     "deaths": 53,
-    "active_cases": 1895
+    "active_cases": 1895,
+    "seven_day_moving_average": 124
   },
   {
     "date": "27-Oct-2020",
@@ -1885,7 +2120,8 @@
     "total_cases": 5685,
     "recovered": 3715,
     "deaths": 55,
-    "active_cases": 1915
+    "active_cases": 1915,
+    "seven_day_moving_average": 120
   },
   {
     "date": "28-Oct-2020",
@@ -1893,7 +2129,8 @@
     "total_cases": 5760,
     "recovered": 3789,
     "deaths": 56,
-    "active_cases": 1915
+    "active_cases": 1915,
+    "seven_day_moving_average": 116
   },
   {
     "date": "29-Oct-2020",
@@ -1901,7 +2138,8 @@
     "total_cases": 5866,
     "recovered": 3880,
     "deaths": 59,
-    "active_cases": 1927
+    "active_cases": 1927,
+    "seven_day_moving_average": 104
   },
   {
     "date": "30-Oct-2020",
@@ -1909,7 +2147,8 @@
     "total_cases": 5942,
     "recovered": 3990,
     "deaths": 61,
-    "active_cases": 1891
+    "active_cases": 1891,
+    "seven_day_moving_average": 104
   },
   {
     "date": "31-Oct-2020",
@@ -1917,7 +2156,8 @@
     "total_cases": 6042,
     "recovered": 4155,
     "deaths": 62,
-    "active_cases": 1825
+    "active_cases": 1825,
+    "seven_day_moving_average": 97
   },
   {
     "date": "01-Nov-2020",
@@ -1925,7 +2165,8 @@
     "total_cases": 6182,
     "recovered": 4286,
     "deaths": 64,
-    "active_cases": 1832
+    "active_cases": 1832,
+    "seven_day_moving_average": 95
   },
   {
     "date": "02-Nov-2020",
@@ -1933,7 +2174,8 @@
     "total_cases": 6400,
     "recovered": 4397,
     "deaths": 64,
-    "active_cases": 1939
+    "active_cases": 1939,
+    "seven_day_moving_average": 97
   },
   {
     "date": "03-Nov-2020",
@@ -1941,7 +2183,8 @@
     "total_cases": 6506,
     "recovered": 4505,
     "deaths": 64,
-    "active_cases": 1937
+    "active_cases": 1937,
+    "seven_day_moving_average": 117
   },
   {
     "date": "04-Nov-2020",
@@ -1949,7 +2192,8 @@
     "total_cases": 6590,
     "recovered": 4672,
     "deaths": 65,
-    "active_cases": 1853
+    "active_cases": 1853,
+    "seven_day_moving_average": 117
   },
   {
     "date": "05-Nov-2020",
@@ -1957,7 +2201,8 @@
     "total_cases": 6764,
     "recovered": 4765,
     "deaths": 70,
-    "active_cases": 1929
+    "active_cases": 1929,
+    "seven_day_moving_average": 118
   },
   {
     "date": "06-Nov-2020",
@@ -1965,7 +2210,8 @@
     "total_cases": 6893,
     "recovered": 4832,
     "deaths": 73,
-    "active_cases": 1988
+    "active_cases": 1988,
+    "seven_day_moving_average": 128
   },
   {
     "date": "07-Nov-2020",
@@ -1973,7 +2219,8 @@
     "total_cases": 7039,
     "recovered": 5000,
     "deaths": 74,
-    "active_cases": 1965
+    "active_cases": 1965,
+    "seven_day_moving_average": 135
   },
   {
     "date": "08-Nov-2020",
@@ -1981,7 +2228,8 @@
     "total_cases": 7141,
     "recovered": 5103,
     "deaths": 76,
-    "active_cases": 1962
+    "active_cases": 1962,
+    "seven_day_moving_average": 142
   },
   {
     "date": "09-Nov-2020",
@@ -1989,7 +2237,8 @@
     "total_cases": 7243,
     "recovered": 5185,
     "deaths": 78,
-    "active_cases": 1980
+    "active_cases": 1980,
+    "seven_day_moving_average": 137
   },
   {
     "date": "10-Nov-2020",
@@ -1997,7 +2246,8 @@
     "total_cases": 7396,
     "recovered": 5274,
     "deaths": 81,
-    "active_cases": 2041
+    "active_cases": 2041,
+    "seven_day_moving_average": 120
   },
   {
     "date": "11-Nov-2020",
@@ -2005,7 +2255,8 @@
     "total_cases": 7537,
     "recovered": 5371,
     "deaths": 85,
-    "active_cases": 2081
+    "active_cases": 2081,
+    "seven_day_moving_average": 127
   },
   {
     "date": "12-Nov-2020",
@@ -2013,6 +2264,7 @@
     "total_cases": 7646,
     "recovered": 5479,
     "deaths": 88,
-    "active_cases": 2079
+    "active_cases": 2079,
+    "seven_day_moving_average": 135
   }
 ]
