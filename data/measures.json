@@ -84,6 +84,12 @@
         ]
     },
     {
+        "date": "2020/09/18",
+        "measures": [
+            "Covid Alert Malta App launched"
+        ]
+    },
+    {
         "date": "2020/09/25",
         "measures": [
             "School start date postponed to October 14th"
@@ -119,6 +125,54 @@
         "date": "2020/10/27",
         "measures": [
             "Several non-emergencies postponed. Surgical Staff redeployed to ITU"
+        ]
+    },
+    {
+        "date": "2020/10/28",
+        "measures": [
+            "Two new Covid-19 swabbing centres announced"
+        ]
+    },
+    {
+        "date": "2020/10/30",
+        "measures": [
+            "President's Fun Run cancelled"
+        ]
+    },
+    {
+        "date": "2020/10/31",
+        "measures": [
+            "Halloween"
+        ]
+    },
+    {
+        "date": "2020/11/05",
+        "measures": [
+            "University of Malta & MCAST postpone Graduation Ceremonies"
+        ]
+    },
+    {
+        "date": "2020/11/05",
+        "measures": [
+            "Prime Minister Robert Abela rules out a total lockdown"
+        ]
+    },
+    {
+        "date": "2020/11/08",
+        "measures": [
+            "Virus case numbers likely to 'rise significantly' - Health Minister Chirs Fearne, Sunday Times Interview"
+        ]
+    },
+    {
+        "date": "2020/11/09",
+        "measures": [
+            "Christmas in the City announced, will start on November 20th"
+        ]
+    },
+    {
+        "date": "2020/11/13",
+        "measures": [
+            "Youngest victim dies aged 46"
         ]
     }
 ]
