@@ -13,10 +13,10 @@ export default ({ activeCasesData, deathsData }: CountersProps) => {
     const deathsIsUp = diffDeathCount > 0;
     return (
         <div style={{ display: 'flex', flexDirection: 'row', width: '100%', }}>
-            <h3>{activeCasesData[activeCasesData.length - 1].y} Active Cases</h3>
-            <h4>, {Math.abs(diffCount)} {isUp ? 'more' : 'less'} cases than yesterday.</h4>{' '}
+            <h3>{activeCasesData[activeCasesData.length - 1].y.toLocaleString()} Active Cases</h3>
+            <h4>, {Math.abs(diffCount)} {isUp ? 'more' : 'less'} case{Math.abs(diffCount) > 1 ? 's' : ''} than yesterday.</h4>{' '}
             <h3 style={{ paddingLeft: '0.25em' }}>{deathsData[deathsData.length - 1].y} Deaths</h3>
-            <h4>, {Math.abs(diffDeathCount)} {deathsIsUp ? 'more' : 'less'} deaths than yesterday.</h4>
+            <h4>, {Math.abs(diffDeathCount)} {deathsIsUp ? 'more' : 'less'} death{Math.abs(diffDeathCount) > 1 ? 's' : ''} than yesterday.</h4>
         </div>
     )
 }

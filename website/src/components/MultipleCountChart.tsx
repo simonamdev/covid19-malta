@@ -67,9 +67,9 @@ export default ({ countChartData, sevenDayMovingAverageData, measuresData }: Cas
                         value={nearestPoint}
                     >
                         <div className="rv-hint__content">
-                            <p>{new Date(nearestPoint.x).toLocaleDateString()} ({Math.floor((new Date().getTime() - new Date(nearestPoint.x).getTime()) / (1000 * 3600 * 24))} days ago).</p>
-                            <p>{nearestPoint.y} Active Cases</p>
-                            <p>Seven Day Moving Average: {chartSevenDayMovingAverageData[nearestPoint.x as number]} Cases</p>
+                            <p>{new Date(nearestPoint.x).toLocaleDateString()} ({Math.floor((new Date().getTime() - new Date(nearestPoint.x).getTime()) / (1000 * 3600 * 24))} day/s ago).</p>
+                            <p>{nearestPoint.y.toLocaleString()} Active Cases</p>
+                            <p>Seven Day Moving Average: {chartSevenDayMovingAverageData[nearestPoint.x as number].toLocaleString()} Cases</p>
                             <ul>
                                 {chartMeasuresData[nearestPoint.x as number].map((measure, i) => <li key={`m-list-${i}`} style={{ margin: 0, padding: 0 }}>{measure}</li>)}
                             </ul>
