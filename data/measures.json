@@ -166,13 +166,21 @@
     {
         "date": "2020/11/09",
         "measures": [
-            "Christmas in the City announced, will start on November 20th"
+            "Christmas in the City announced, will start on November 20th",
+            "Pfizer & BioNTech announce vaccine with 90% effectiveness"
         ]
     },
     {
         "date": "2020/11/13",
         "measures": [
             "Youngest victim dies aged 46"
+        ]
+    },
+    {
+        "date": "2020/11/16",
+        "measures": [
+            "Malta's Death Toll passes 100",
+            "Moderna announce vaccine with 94.5% effectiveness"
         ]
     }
 ]
