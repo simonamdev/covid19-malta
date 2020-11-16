@@ -2275,5 +2275,32 @@
     "deaths": 92,
     "active_cases": 2124,
     "seven_day_moving_average": 126
+  },
+  {
+    "date": "14-Nov-2020",
+    "new_cases": 121,
+    "total_cases": 7917,
+    "recovered": 5702,
+    "deaths": 95,
+    "active_cases": 2120,
+    "seven_day_moving_average": 129
+  },
+  {
+    "date": "15-Nov-2020",
+    "new_cases": 117,
+    "total_cases": 8034,
+    "recovered": 5765,
+    "deaths": 97,
+    "active_cases": 2172,
+    "seven_day_moving_average": 125
+  },
+  {
+    "date": "16-Nov-2020",
+    "new_cases": 103,
+    "total_cases": 8137,
+    "recovered": 5888,
+    "deaths": 98,
+    "active_cases": 2151,
+    "seven_day_moving_average": 127
   }
 ]
