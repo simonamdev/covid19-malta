@@ -2410,5 +2410,14 @@
     "deaths": 132,
     "active_cases": 2059,
     "seven_day_moving_average": 117
+  },
+  {
+    "date": "29-Nov-2020",
+    "new_cases": 143,
+    "total_cases": 9752,
+    "recovered": 7557,
+    "deaths": 133,
+    "active_cases": 2062,
+    "seven_day_moving_average": 112
   }
 ]
