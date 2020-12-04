@@ -2446,5 +2446,23 @@
     "deaths": 146,
     "active_cases": 2068,
     "seven_day_moving_average": 119
+  },
+  {
+    "date": "03-Dec-2020",
+    "new_cases": 96,
+    "total_cases": 10197,
+    "recovered": 8015,
+    "deaths": 148,
+    "active_cases": 2034,
+    "seven_day_moving_average": 121
+  },
+  {
+    "date": "04-Dec-2020",
+    "new_cases": 123,
+    "total_cases": 10320,
+    "recovered": 8120,
+    "deaths": 149,
+    "active_cases": 2051,
+    "seven_day_moving_average": 113
   }
 ]
