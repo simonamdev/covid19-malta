@@ -234,5 +234,11 @@
             "System introduced to allow for online Covid-19 test requests",
             "Stay within your own household for Christmas lunch - Professor Charmaine Gauci"
         ]
+    },
+    {
+        "date": "2020/12/17",
+        "measures": [
+            "European Commission President Ursula von der Leyen tweets that vaccinations across the EU will start on the 27th, 28th and 29th December"
+        ]
     }
 ]
