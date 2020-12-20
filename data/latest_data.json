@@ -2302,5 +2302,311 @@
     "deaths": 98,
     "active_cases": 2151,
     "seven_day_moving_average": 127
+  },
+  {
+    "date": "17-Nov-2020",
+    "new_cases": 110,
+    "total_cases": 8247,
+    "recovered": 6049,
+    "deaths": 101,
+    "active_cases": 2097,
+    "seven_day_moving_average": 127
+  },
+  {
+    "date": "18-Nov-2020",
+    "new_cases": 173,
+    "total_cases": 8420,
+    "recovered": 6184,
+    "deaths": 103,
+    "active_cases": 2133,
+    "seven_day_moving_average": 121
+  },
+  {
+    "date": "19-Nov-2020",
+    "new_cases": 140,
+    "total_cases": 8560,
+    "recovered": 6301,
+    "deaths": 104,
+    "active_cases": 2155,
+    "seven_day_moving_average": 126
+  },
+  {
+    "date": "20-Nov-2020",
+    "new_cases": 121,
+    "total_cases": 8681,
+    "recovered": 6406,
+    "deaths": 108,
+    "active_cases": 2167,
+    "seven_day_moving_average": 130
+  },
+  {
+    "date": "21-Nov-2020",
+    "new_cases": 141,
+    "total_cases": 8822,
+    "recovered": 6565,
+    "deaths": 111,
+    "active_cases": 2146,
+    "seven_day_moving_average": 126
+  },
+  {
+    "date": "22-Nov-2020",
+    "new_cases": 102,
+    "total_cases": 8924,
+    "recovered": 6654,
+    "deaths": 111,
+    "active_cases": 2159,
+    "seven_day_moving_average": 129
+  },
+  {
+    "date": "23-Nov-2020",
+    "new_cases": 80,
+    "total_cases": 9004,
+    "recovered": 6831,
+    "deaths": 113,
+    "active_cases": 2060,
+    "seven_day_moving_average": 127
+  },
+  {
+    "date": "24-Nov-2020",
+    "new_cases": 133,
+    "total_cases": 9137,
+    "recovered": 6938,
+    "deaths": 117,
+    "active_cases": 2082,
+    "seven_day_moving_average": 123
+  },
+  {
+    "date": "25-Nov-2020",
+    "new_cases": 116,
+    "total_cases": 9253,
+    "recovered": 7062,
+    "deaths": 122,
+    "active_cases": 2069,
+    "seven_day_moving_average": 127
+  },
+  {
+    "date": "26-Nov-2020",
+    "new_cases": 152,
+    "total_cases": 9405,
+    "recovered": 7165,
+    "deaths": 125,
+    "active_cases": 2115,
+    "seven_day_moving_average": 119
+  },
+  {
+    "date": "27-Nov-2020",
+    "new_cases": 96,
+    "total_cases": 9501,
+    "recovered": 7297,
+    "deaths": 128,
+    "active_cases": 2076,
+    "seven_day_moving_average": 120
+  },
+  {
+    "date": "28-Nov-2020",
+    "new_cases": 108,
+    "total_cases": 9609,
+    "recovered": 7418,
+    "deaths": 132,
+    "active_cases": 2059,
+    "seven_day_moving_average": 117
+  },
+  {
+    "date": "29-Nov-2020",
+    "new_cases": 143,
+    "total_cases": 9752,
+    "recovered": 7557,
+    "deaths": 133,
+    "active_cases": 2062,
+    "seven_day_moving_average": 112
+  },
+  {
+    "date": "30-Nov-2020",
+    "new_cases": 121,
+    "total_cases": 9873,
+    "recovered": 7665,
+    "deaths": 137,
+    "active_cases": 2071,
+    "seven_day_moving_average": 118
+  },
+  {
+    "date": "01-Dec-2020",
+    "new_cases": 102,
+    "total_cases": 9975,
+    "recovered": 7748,
+    "deaths": 141,
+    "active_cases": 2086,
+    "seven_day_moving_average": 124
+  },
+  {
+    "date": "02-Dec-2020",
+    "new_cases": 126,
+    "total_cases": 10101,
+    "recovered": 7887,
+    "deaths": 146,
+    "active_cases": 2068,
+    "seven_day_moving_average": 119
+  },
+  {
+    "date": "03-Dec-2020",
+    "new_cases": 96,
+    "total_cases": 10197,
+    "recovered": 8015,
+    "deaths": 148,
+    "active_cases": 2034,
+    "seven_day_moving_average": 121
+  },
+  {
+    "date": "04-Dec-2020",
+    "new_cases": 123,
+    "total_cases": 10320,
+    "recovered": 8120,
+    "deaths": 149,
+    "active_cases": 2051,
+    "seven_day_moving_average": 113
+  },
+  {
+    "date": "05-Dec-2020",
+    "new_cases": 103,
+    "total_cases": 10423,
+    "recovered": 8289,
+    "deaths": 149,
+    "active_cases": 1985,
+    "seven_day_moving_average": 117
+  },
+  {
+    "date": "06-Dec-2020",
+    "new_cases": 97,
+    "total_cases": 10520,
+    "recovered": 8396,
+    "deaths": 151,
+    "active_cases": 1985,
+    "seven_day_moving_average": 116
+  },
+  {
+    "date": "07-Dec-2020",
+    "new_cases": 139,
+    "total_cases": 10659,
+    "recovered": 8497,
+    "deaths": 155,
+    "active_cases": 2007,
+    "seven_day_moving_average": 109
+  },
+  {
+    "date": "08-Dec-2020",
+    "new_cases": 40,
+    "total_cases": 10699,
+    "recovered": 8641,
+    "deaths": 157,
+    "active_cases": 1901,
+    "seven_day_moving_average": 112
+  },
+  {
+    "date": "09-Dec-2020",
+    "new_cases": 79,
+    "total_cases": 10778,
+    "recovered": 8720,
+    "deaths": 160,
+    "active_cases": 1898,
+    "seven_day_moving_average": 103
+  },
+  {
+    "date": "10-Dec-2020",
+    "new_cases": 106,
+    "total_cases": 10884,
+    "recovered": 8848,
+    "deaths": 164,
+    "active_cases": 1872,
+    "seven_day_moving_average": 96
+  },
+  {
+    "date": "11-Dec-2020",
+    "new_cases": 96,
+    "total_cases": 10980,
+    "recovered": 8935,
+    "deaths": 166,
+    "active_cases": 1879,
+    "seven_day_moving_average": 98
+  },
+  {
+    "date": "12-Dec-2020",
+    "new_cases": 121,
+    "total_cases": 11101,
+    "recovered": 9079,
+    "deaths": 166,
+    "active_cases": 1856,
+    "seven_day_moving_average": 94
+  },
+  {
+    "date": "13-Dec-2020",
+    "new_cases": 52,
+    "total_cases": 11153,
+    "recovered": 9169,
+    "deaths": 169,
+    "active_cases": 1815,
+    "seven_day_moving_average": 96
+  },
+  {
+    "date": "14-Dec-2020",
+    "new_cases": 101,
+    "total_cases": 11254,
+    "recovered": 9319,
+    "deaths": 174,
+    "active_cases": 1761,
+    "seven_day_moving_average": 90
+  },
+  {
+    "date": "15-Dec-2020",
+    "new_cases": 49,
+    "total_cases": 11303,
+    "recovered": 9420,
+    "deaths": 177,
+    "active_cases": 1706,
+    "seven_day_moving_average": 85
+  },
+  {
+    "date": "16-Dec-2020",
+    "new_cases": 112,
+    "total_cases": 11415,
+    "recovered": 9516,
+    "deaths": 180,
+    "active_cases": 1719,
+    "seven_day_moving_average": 86
+  },
+  {
+    "date": "17-Dec-2020",
+    "new_cases": 60,
+    "total_cases": 11475,
+    "recovered": 9670,
+    "deaths": 182,
+    "active_cases": 1623,
+    "seven_day_moving_average": 91
+  },
+  {
+    "date": "18-Dec-2020",
+    "new_cases": 94,
+    "total_cases": 11569,
+    "recovered": 9780,
+    "deaths": 183,
+    "active_cases": 1606,
+    "seven_day_moving_average": 84
+  },
+  {
+    "date": "19-Dec-2020",
+    "new_cases": 52,
+    "total_cases": 11621,
+    "recovered": 9881,
+    "deaths": 187,
+    "active_cases": 1553,
+    "seven_day_moving_average": 84
+  },
+  {
+    "date": "20-Dec-2020",
+    "new_cases": 93,
+    "total_cases": 11714,
+    "recovered": 9978,
+    "deaths": 190,
+    "active_cases": 1546,
+    "seven_day_moving_average": 74
   }
 ]

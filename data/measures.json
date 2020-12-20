@@ -182,5 +182,63 @@
             "Malta's Death Toll passes 100",
             "Moderna announce vaccine with 94.5% effectiveness"
         ]
+    },
+    {
+        "date": "2020/11/25",
+        "measures": [
+            "Prime Minister Robert Abela announces bar closure will be extended for the 'coming weeks'",
+            "Superintendent of Public Health Profs. Gauci confirms bars will remain closed throughout all of December"
+        ]
+    },
+    {
+        "date": "2020/11/26",
+        "measures": [
+            "Amber List Expanded"
+        ]
+    },
+    {
+        "date": "2020/11/27",
+        "measures": [
+            "Black Friday"
+        ]
+    },
+    {
+        "date": "2020/11/29",
+        "measures": [
+            "‘By May I want us to be back to business as usual’ - Prime Minister Robert Abela"
+        ]
+    },
+    {
+        "date": "2020/12/29",
+        "measures": [
+            "Covid Vaccination Strategy unveiled in Parliament by Health Minister Chris Fearne"
+        ]
+    },
+    {
+        "date": "2020/12/09",
+        "measures": [
+            "Richmond Foundation launches fundraiser for mental health services helpline"
+        ]
+    },
+    {
+        "date": "2020/12/09",
+        "measures": [
+            "Richmond Foundation launches fundraiser for mental health services helpline"
+        ]
+    },
+    {
+        "date": "2020/12/11",
+        "measures": [
+            "Amber List extended to 41 countries",
+            "Backdated COVID-19 wage supplement announced for performing artists",
+            "System introduced to allow for online Covid-19 test requests",
+            "Stay within your own household for Christmas lunch - Professor Charmaine Gauci"
+        ]
+    },
+    {
+        "date": "2020/12/17",
+        "measures": [
+            "European Commission President Ursula von der Leyen tweets that vaccinations across the EU will start on the 27th, 28th and 29th December"
+        ]
     }
 ]
