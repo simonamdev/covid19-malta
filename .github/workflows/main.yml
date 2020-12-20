@@ -21,7 +21,7 @@ jobs:
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
-          key: ${{ secrets.KEY }}
+          key: ${{ secrets.PRIVKEY }}
           port: ${{ secrets.PORT }}
           source: "website/public"
           target: "/home/covid19"
