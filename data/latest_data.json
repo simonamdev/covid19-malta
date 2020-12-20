@@ -2599,5 +2599,14 @@
     "deaths": 187,
     "active_cases": 1553,
     "seven_day_moving_average": 84
+  },
+  {
+    "date": "20-Dec-2020",
+    "new_cases": 93,
+    "total_cases": 11714,
+    "recovered": 9978,
+    "deaths": 190,
+    "active_cases": 1546,
+    "seven_day_moving_average": 74
   }
 ]
