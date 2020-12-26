@@ -31,6 +31,7 @@
   },
   "devDependencies": {
     "@types/chart.js": "^2.9.23",
+    "@types/react-helmet": "^6.1.0",
     "@types/recharts": "^1.8.14",
     "prettier": "^1.8.2"
   },
