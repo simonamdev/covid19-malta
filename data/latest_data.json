@@ -2680,5 +2680,32 @@
     "deaths": 215,
     "active_cases": 1420,
     "seven_day_moving_average": 87
+  },
+  {
+    "date": "29-Dec-2020",
+    "new_cases": 115,
+    "total_cases": 12541,
+    "recovered": 10919,
+    "deaths": 215,
+    "active_cases": 1407,
+    "seven_day_moving_average": 89
+  },
+  {
+    "date": "30-Dec-2020",
+    "new_cases": 124,
+    "total_cases": 12665,
+    "recovered": 11057,
+    "deaths": 216,
+    "active_cases": 1392,
+    "seven_day_moving_average": 90
+  },
+  {
+    "date": "31-Dec-2020",
+    "new_cases": 109,
+    "total_cases": 12774,
+    "recovered": 11121,
+    "deaths": 219,
+    "active_cases": 1434,
+    "seven_day_moving_average": 96
   }
 ]
