@@ -24,29 +24,6 @@ def extract_seven_day_average(last_seven_days):
     return sum([x['new_cases'] for x in last_seven_days]) // len(last_seven_days)
 
 
-output_data = []
-first_line_skipped = False
-with open(f'./data/{latest_file}', 'r') as file:
-    last_seven_days = []
-    for line in file:
-        if not first_line_skipped:
-            first_line_skipped = True
-            continue
-        date, year, new_cases, total_cases, recovered, deaths, active_cases = line.strip().split(',')
-        data = {
-            'date': f'{date}-{year}',
-            'new_cases': int(new_cases),
-            'total_cases': int(total_cases),
-            'recovered': int(recovered),
-            'deaths': int(deaths),
-            'active_cases': int(active_cases),
-            'seven_day_moving_average': int(extract_seven_day_average(last_seven_days=last_seven_days))
-        }
-        last_seven_days.append(data)
-        if len(last_seven_days) > 7:
-            last_seven_days.pop(0)
-        output_data.append(data)
-
 month_number_name_map = {
     '01': 'Jan',
     '02': 'Feb',
@@ -61,6 +38,40 @@ month_number_name_map = {
     '11': 'Nov',
     '12': 'Dec'
 }
+
+output_data = []
+first_line_skipped = False
+with open(f'./data/{latest_file}', 'r') as file:
+    print(latest_file)
+    last_seven_days = []
+    for line in file:
+        if not first_line_skipped:
+            first_line_skipped = True
+            continue
+        # newest version encodes year in the date
+        comma_count = len(line.strip().split(','))
+        new_version = comma_count == 6
+        if new_version:
+            date, new_cases, total_cases, recovered, deaths, active_cases = line.strip().split(',')
+            day, month, year = date.split('/')
+            date = f'{day}-{month_number_name_map[month]}-{year}'
+        else:
+            date, year, new_cases, total_cases, recovered, deaths, active_cases = line.strip().split(',')
+            date = f'{date}-{year}'
+        data = {
+            'date': date,
+            'new_cases': int(new_cases),
+            'total_cases': int(total_cases),
+            'recovered': int(recovered),
+            'deaths': int(deaths),
+            'active_cases': int(active_cases),
+            'seven_day_moving_average': int(extract_seven_day_average(last_seven_days=last_seven_days))
+        }
+        last_seven_days.append(data)
+        if len(last_seven_days) > 7:
+            last_seven_days.pop(0)
+        output_data.append(data)
+
 
 # Get swabs data and append
 first_line_skipped = False
