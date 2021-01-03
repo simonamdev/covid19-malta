@@ -3277,7 +3277,7 @@
     "seven_day_moving_average": 96
   },
   {
-    "date": "01-Jan-2020",
+    "date": "01-Jan-2021",
     "new_cases": 135,
     "total_cases": 12909,
     "recovered": 11178,
@@ -3286,12 +3286,21 @@
     "seven_day_moving_average": 101
   },
   {
-    "date": "02-Jan-2020",
+    "date": "02-Jan-2021",
     "new_cases": 88,
     "total_cases": 12997,
     "recovered": 11211,
     "deaths": 220,
     "active_cases": 1566,
     "seven_day_moving_average": 113
+  },
+  {
+    "date": "03-Jan-2021",
+    "new_cases": 85,
+    "total_cases": 13082,
+    "recovered": 11275,
+    "deaths": 220,
+    "active_cases": 1587,
+    "seven_day_moving_average": 108
   }
 ]
