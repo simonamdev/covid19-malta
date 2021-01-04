@@ -209,7 +209,7 @@
         ]
     },
     {
-        "date": "2020/12/29",
+        "date": "2020/12/07",
         "measures": [
             "Covid Vaccination Strategy unveiled in Parliament by Health Minister Chris Fearne"
         ]
@@ -232,7 +232,7 @@
             "Amber List extended to 41 countries",
             "Backdated COVID-19 wage supplement announced for performing artists",
             "System introduced to allow for online Covid-19 test requests",
-            "Stay within your own household for Christmas lunch - Professor Charmaine Gauci"
+            "\"Stay within your own household for Christmas lunch\" - Professor Charmaine Gauci"
         ]
     },
     {
@@ -245,6 +245,24 @@
         "date": "2020/12/22",
         "measures": [
             "Malta suspends all flights from the UK due to a new highly infectious strain"
+        ]
+    },
+    {
+        "date": "2020/12/25",
+        "measures": [
+            "Christmas Day"
+        ]
+    },
+    {
+        "date": "2020/12/26",
+        "measures": [
+            "First batch of Covid-19 Vaccines arrive in Malta"
+        ]
+    },
+    {
+        "date": "2020/12/29",
+        "measures": [
+            "Mater Dei Nurse receives first Covid-19 Vaccine in Malta"
         ]
     }
 ]
