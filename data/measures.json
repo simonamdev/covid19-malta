@@ -264,5 +264,18 @@
         "measures": [
             "Mater Dei Nurse receives first Covid-19 Vaccine in Malta"
         ]
+    },
+        {
+        "date": "2020/12/30",
+        "measures": [
+            "Bars & Clubs closure extended to 1st February"
+        ]
+    },
+        },
+        {
+        "date": "2021/01/01",
+        "measures": [
+            "New Year's Day"
+        ]
     }
 ]
