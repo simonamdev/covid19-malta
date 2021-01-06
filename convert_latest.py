@@ -49,15 +49,15 @@ with open(f'./data/{latest_file}', 'r') as file:
             first_line_skipped = True
             continue
         # newest version encodes year in the date
-        comma_count = len(line.strip().split(','))
-        new_version = comma_count == 6
-        if new_version:
-            date, new_cases, total_cases, recovered, deaths, active_cases = line.strip().split(',')
-            day, month, year = date.split('/')
-            date = f'{day}-{month_number_name_map[month]}-{year}'
-        else:
-            date, year, new_cases, total_cases, recovered, deaths, active_cases = line.strip().split(',')
-            date = f'{date}-{year}'
+#         comma_count = len(line.strip().split(','))
+#         new_version = comma_count == 6
+#         if new_version:
+        date, new_cases, total_cases, recovered, deaths, active_cases = line.strip().split(',')
+        day, month, year = date.split('/')
+        date = f'{day}-{month_number_name_map[month]}-{year}'
+#         else:
+#             date, year, new_cases, total_cases, recovered, deaths, active_cases = line.strip().split(',')
+#             date = f'{date}-{year}'
         data = {
             'date': date,
             'new_cases': int(new_cases),
