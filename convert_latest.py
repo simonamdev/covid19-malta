@@ -48,6 +48,9 @@ with open(f'./data/{latest_file}', 'r') as file:
         if not first_line_skipped:
             first_line_skipped = True
             continue
+        # Skip empty lines
+        if len(line.split()) == 0:
+            continue
         # newest version encodes year in the date
 #         comma_count = len(line.strip().split(','))
 #         new_version = comma_count == 6
@@ -79,6 +82,9 @@ with open(f'./data/{latest_swabs_file}', 'r') as file:
     for line in file:
         if not first_line_skipped:
             first_line_skipped = True
+            continue
+        # Skip empty lines
+        if len(line.split()) == 0:
             continue
         entity, isocode, date, source_url, change_cumulative_total, _, _, _, _ = line.strip().split(',')
         day, month, year = date.split(' ')[0].split('/')
