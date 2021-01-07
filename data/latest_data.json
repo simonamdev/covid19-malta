@@ -3130,7 +3130,9 @@
     "recovered": 9420,
     "deaths": 177,
     "active_cases": 1706,
-    "seven_day_moving_average": 85
+    "seven_day_moving_average": 85,
+    "swab_count": 3049,
+    "positivity_rate": 1.6070842899311248
   },
   {
     "date": "16-Dec-2020",
@@ -3139,7 +3141,9 @@
     "recovered": 9516,
     "deaths": 180,
     "active_cases": 1719,
-    "seven_day_moving_average": 86
+    "seven_day_moving_average": 86,
+    "swab_count": 2637,
+    "positivity_rate": 4.247250663632916
   },
   {
     "date": "17-Dec-2020",
@@ -3148,7 +3152,9 @@
     "recovered": 9670,
     "deaths": 182,
     "active_cases": 1623,
-    "seven_day_moving_average": 91
+    "seven_day_moving_average": 91,
+    "swab_count": 3557,
+    "positivity_rate": 1.686814731515322
   },
   {
     "date": "18-Dec-2020",
@@ -3157,7 +3163,9 @@
     "recovered": 9780,
     "deaths": 183,
     "active_cases": 1606,
-    "seven_day_moving_average": 84
+    "seven_day_moving_average": 84,
+    "swab_count": 2612,
+    "positivity_rate": 3.5987748851454824
   },
   {
     "date": "19-Dec-2020",
@@ -3166,7 +3174,9 @@
     "recovered": 9881,
     "deaths": 187,
     "active_cases": 1553,
-    "seven_day_moving_average": 84
+    "seven_day_moving_average": 84,
+    "swab_count": 3941,
+    "positivity_rate": 1.319462065465618
   },
   {
     "date": "20-Dec-2020",
@@ -3175,7 +3185,9 @@
     "recovered": 9978,
     "deaths": 190,
     "active_cases": 1546,
-    "seven_day_moving_average": 74
+    "seven_day_moving_average": 74,
+    "swab_count": 2868,
+    "positivity_rate": 3.2426778242677825
   },
   {
     "date": "21-Dec-2020",
@@ -3184,7 +3196,9 @@
     "recovered": 10115,
     "deaths": 194,
     "active_cases": 1493,
-    "seven_day_moving_average": 80
+    "seven_day_moving_average": 80,
+    "swab_count": 2788,
+    "positivity_rate": 3.1563845050215207
   },
   {
     "date": "22-Dec-2020",
@@ -3193,7 +3207,9 @@
     "recovered": 10161,
     "deaths": 196,
     "active_cases": 1553,
-    "seven_day_moving_average": 78
+    "seven_day_moving_average": 78,
+    "swab_count": 2610,
+    "positivity_rate": 4.137931034482759
   },
   {
     "date": "23-Dec-2020",
@@ -3202,7 +3218,9 @@
     "recovered": 10293,
     "deaths": 201,
     "active_cases": 1498,
-    "seven_day_moving_average": 86
+    "seven_day_moving_average": 86,
+    "swab_count": 2928,
+    "positivity_rate": 2.800546448087432
   },
   {
     "date": "24-Dec-2020",
@@ -3211,7 +3229,9 @@
     "recovered": 10423,
     "deaths": 203,
     "active_cases": 1436,
-    "seven_day_moving_average": 82
+    "seven_day_moving_average": 82,
+    "swab_count": 2495,
+    "positivity_rate": 2.80561122244489
   },
   {
     "date": "25-Dec-2020",
@@ -3220,7 +3240,9 @@
     "recovered": 10547,
     "deaths": 203,
     "active_cases": 1362,
-    "seven_day_moving_average": 83
+    "seven_day_moving_average": 83,
+    "swab_count": 2071,
+    "positivity_rate": 2.4142926122646067
   },
   {
     "date": "26-Dec-2020",
@@ -3229,7 +3251,9 @@
     "recovered": 10550,
     "deaths": 206,
     "active_cases": 1485,
-    "seven_day_moving_average": 77
+    "seven_day_moving_average": 77,
+    "swab_count": 2249,
+    "positivity_rate": 5.735882614495331
   },
   {
     "date": "27-Dec-2020",
@@ -3238,7 +3262,9 @@
     "recovered": 10668,
     "deaths": 210,
     "active_cases": 1447,
-    "seven_day_moving_average": 88
+    "seven_day_moving_average": 88,
+    "swab_count": 2399,
+    "positivity_rate": 3.5014589412255104
   },
   {
     "date": "28-Dec-2020",
@@ -3247,7 +3273,9 @@
     "recovered": 10791,
     "deaths": 215,
     "active_cases": 1420,
-    "seven_day_moving_average": 87
+    "seven_day_moving_average": 87,
+    "swab_count": 2797,
+    "positivity_rate": 3.6110117983553804
   },
   {
     "date": "29-Dec-2020",
@@ -3256,7 +3284,9 @@
     "recovered": 10919,
     "deaths": 215,
     "active_cases": 1407,
-    "seven_day_moving_average": 89
+    "seven_day_moving_average": 89,
+    "swab_count": 3043,
+    "positivity_rate": 3.7791652974038774
   },
   {
     "date": "30-Dec-2020",
@@ -3265,7 +3295,9 @@
     "recovered": 11057,
     "deaths": 216,
     "active_cases": 1392,
-    "seven_day_moving_average": 90
+    "seven_day_moving_average": 90,
+    "swab_count": 2858,
+    "positivity_rate": 4.338698390482855
   },
   {
     "date": "31-Dec-2020",
@@ -3274,7 +3306,9 @@
     "recovered": 11121,
     "deaths": 219,
     "active_cases": 1434,
-    "seven_day_moving_average": 96
+    "seven_day_moving_average": 96,
+    "swab_count": 2779,
+    "positivity_rate": 3.922274199352285
   },
   {
     "date": "01-Jan-2021",
@@ -3283,7 +3317,9 @@
     "recovered": 11178,
     "deaths": 219,
     "active_cases": 1512,
-    "seven_day_moving_average": 101
+    "seven_day_moving_average": 101,
+    "swab_count": 1810,
+    "positivity_rate": 7.458563535911603
   },
   {
     "date": "02-Jan-2021",
@@ -3292,7 +3328,9 @@
     "recovered": 11211,
     "deaths": 220,
     "active_cases": 1566,
-    "seven_day_moving_average": 113
+    "seven_day_moving_average": 113,
+    "swab_count": 1995,
+    "positivity_rate": 4.4110275689223055
   },
   {
     "date": "03-Jan-2021",
@@ -3301,7 +3339,9 @@
     "recovered": 11275,
     "deaths": 220,
     "active_cases": 1587,
-    "seven_day_moving_average": 108
+    "seven_day_moving_average": 108,
+    "swab_count": 2915,
+    "positivity_rate": 2.9159519725557463
   },
   {
     "date": "04-Jan-2021",
@@ -3310,7 +3350,9 @@
     "recovered": 11386,
     "deaths": 222,
     "active_cases": 1622,
-    "seven_day_moving_average": 108
+    "seven_day_moving_average": 108,
+    "swab_count": 2600,
+    "positivity_rate": 5.6923076923076925
   },
   {
     "date": "05-Jan-2021",
@@ -3320,5 +3362,23 @@
     "deaths": 226,
     "active_cases": 1702,
     "seven_day_moving_average": 114
+  },
+  {
+    "date": "06-Jan-2021",
+    "new_cases": 224,
+    "total_cases": 13612,
+    "recovered": 11540,
+    "deaths": 227,
+    "active_cases": 1845,
+    "seven_day_moving_average": 121
+  },
+  {
+    "date": "07-Jan-2021",
+    "new_cases": 164,
+    "total_cases": 13776,
+    "recovered": 11613,
+    "deaths": 228,
+    "active_cases": 1935,
+    "seven_day_moving_average": 135
   }
 ]
