@@ -3389,5 +3389,32 @@
     "deaths": 230,
     "active_cases": 2047,
     "seven_day_moving_average": 143
+  },
+  {
+    "date": "09-Jan-2021",
+    "new_cases": 245,
+    "total_cases": 14212,
+    "recovered": 11759,
+    "deaths": 232,
+    "active_cases": 2221,
+    "seven_day_moving_average": 151
+  },
+  {
+    "date": "10-Jan-2021",
+    "new_cases": 184,
+    "total_cases": 14396,
+    "recovered": 11841,
+    "deaths": 233,
+    "active_cases": 2322,
+    "seven_day_moving_average": 173
+  },
+  {
+    "date": "11-Jan-2021",
+    "new_cases": 133,
+    "total_cases": 14529,
+    "recovered": 11936,
+    "deaths": 233,
+    "active_cases": 2360,
+    "seven_day_moving_average": 187
   }
 ]
