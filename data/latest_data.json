@@ -3470,5 +3470,14 @@
     "deaths": 239,
     "active_cases": 2753,
     "seven_day_moving_average": 176
+  },
+  {
+    "date": "18-Jan-2021",
+    "new_cases": 154,
+    "total_cases": 15742,
+    "recovered": 12717,
+    "deaths": 241,
+    "active_cases": 2784,
+    "seven_day_moving_average": 170
   }
 ]
