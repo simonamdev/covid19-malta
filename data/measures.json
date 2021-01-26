@@ -295,5 +295,17 @@
             "Church Schools announce online learning till Monday Jan 11th",
             "MUT announce two day strike for teachers unless lessons are held online"
         ]
+    },
+        {
+        "date": "2021/01/25",
+        "measures": [
+            "Malta declared one of the least strict EU Countries in terms of Covid-19 restrictions by a study of Oxford University"
+        ]
+    },
+    {
+        "date": "2021/01/26",
+        "measures": [
+            "Prime Minister Robert Abela confirms Bar closure will be extended"
+        ]
     }
 ]
