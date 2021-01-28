@@ -420,7 +420,7 @@
   {
     "date": "13-Apr-2020",
     "new_cases": 6,
-    "total_cases": 386,
+    "total_cases": 384,
     "recovered": 44,
     "deaths": 3,
     "active_cases": 337,
@@ -3589,6 +3589,15 @@
     "recovered": 14252,
     "deaths": 258,
     "active_cases": 2682,
+    "seven_day_moving_average": 151
+  },
+  {
+    "date": "28-Jan-2021",
+    "new_cases": 208,
+    "total_cases": 17400,
+    "recovered": 14452,
+    "deaths": 261,
+    "active_cases": 2687,
     "seven_day_moving_average": 151
   }
 ]
