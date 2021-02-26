@@ -3526,7 +3526,9 @@
     "recovered": 13054,
     "deaths": 244,
     "active_cases": 2831,
-    "seven_day_moving_average": 167
+    "seven_day_moving_average": 167,
+    "swab_count": 3208,
+    "positivity_rate": 5.829177057356608
   },
   {
     "date": "21-Jan-2021",
@@ -3535,7 +3537,9 @@
     "recovered": 13234,
     "deaths": 245,
     "active_cases": 2801,
-    "seven_day_moving_average": 167
+    "seven_day_moving_average": 167,
+    "swab_count": 3111,
+    "positivity_rate": 4.853744776599164
   },
   {
     "date": "22-Jan-2021",
@@ -3544,7 +3548,9 @@
     "recovered": 13435,
     "deaths": 248,
     "active_cases": 2740,
-    "seven_day_moving_average": 171
+    "seven_day_moving_average": 171,
+    "swab_count": 2571,
+    "positivity_rate": 5.562038117464022
   },
   {
     "date": "23-Jan-2021",
@@ -3553,7 +3559,9 @@
     "recovered": 13646,
     "deaths": 250,
     "active_cases": 2646,
-    "seven_day_moving_average": 164
+    "seven_day_moving_average": 164,
+    "swab_count": 3111,
+    "positivity_rate": 3.825136612021858
   },
   {
     "date": "24-Jan-2021",
@@ -3562,7 +3570,9 @@
     "recovered": 13801,
     "deaths": 251,
     "active_cases": 2606,
-    "seven_day_moving_average": 156
+    "seven_day_moving_average": 156,
+    "swab_count": 3345,
+    "positivity_rate": 3.4678624813153958
   },
   {
     "date": "25-Jan-2021",
@@ -3571,7 +3581,9 @@
     "recovered": 13976,
     "deaths": 253,
     "active_cases": 2632,
-    "seven_day_moving_average": 152
+    "seven_day_moving_average": 152,
+    "swab_count": 3248,
+    "positivity_rate": 6.25
   },
   {
     "date": "26-Jan-2021",
@@ -3580,7 +3592,9 @@
     "recovered": 14104,
     "deaths": 255,
     "active_cases": 2640,
-    "seven_day_moving_average": 159
+    "seven_day_moving_average": 159,
+    "swab_count": 3324,
+    "positivity_rate": 4.1516245487364625
   },
   {
     "date": "27-Jan-2021",
@@ -3589,7 +3603,9 @@
     "recovered": 14252,
     "deaths": 258,
     "active_cases": 2682,
-    "seven_day_moving_average": 151
+    "seven_day_moving_average": 151,
+    "swab_count": 3565,
+    "positivity_rate": 5.41374474053296
   },
   {
     "date": "28-Jan-2021",
@@ -3598,7 +3614,9 @@
     "recovered": 14452,
     "deaths": 261,
     "active_cases": 2687,
-    "seven_day_moving_average": 151
+    "seven_day_moving_average": 151,
+    "swab_count": 3280,
+    "positivity_rate": 6.341463414634147
   },
   {
     "date": "29-Jan-2021",
@@ -3607,7 +3625,9 @@
     "recovered": 14626,
     "deaths": 264,
     "active_cases": 2695,
-    "seven_day_moving_average": 160
+    "seven_day_moving_average": 160,
+    "swab_count": 3429,
+    "positivity_rate": 5.395158938466025
   },
   {
     "date": "30-Jan-2021",
@@ -3616,7 +3636,9 @@
     "recovered": 14775,
     "deaths": 265,
     "active_cases": 2681,
-    "seven_day_moving_average": 166
+    "seven_day_moving_average": 166,
+    "swab_count": 2843,
+    "positivity_rate": 4.783679212099894
   },
   {
     "date": "31-Jan-2021",
@@ -3625,7 +3647,9 @@
     "recovered": 14960,
     "deaths": 267,
     "active_cases": 2676,
-    "seven_day_moving_average": 168
+    "seven_day_moving_average": 168,
+    "swab_count": 3037,
+    "positivity_rate": 5.992756009219625
   },
   {
     "date": "01-Feb-2021",
@@ -3634,7 +3658,9 @@
     "recovered": 15101,
     "deaths": 269,
     "active_cases": 2657,
-    "seven_day_moving_average": 177
+    "seven_day_moving_average": 177,
+    "swab_count": 2836,
+    "positivity_rate": 4.372355430183357
   },
   {
     "date": "02-Feb-2021",
@@ -3643,7 +3669,9 @@
     "recovered": 15233,
     "deaths": 270,
     "active_cases": 2665,
-    "seven_day_moving_average": 166
+    "seven_day_moving_average": 166,
+    "swab_count": 2972,
+    "positivity_rate": 4.744279946164199
   },
   {
     "date": "03-Feb-2021",
@@ -3652,7 +3680,9 @@
     "recovered": 15423,
     "deaths": 273,
     "active_cases": 2610,
-    "seven_day_moving_average": 167
+    "seven_day_moving_average": 167,
+    "swab_count": 2944,
+    "positivity_rate": 4.6875
   },
   {
     "date": "04-Feb-2021",
@@ -3661,7 +3691,9 @@
     "recovered": 15567,
     "deaths": 273,
     "active_cases": 2545,
-    "seven_day_moving_average": 159
+    "seven_day_moving_average": 159,
+    "swab_count": 3237,
+    "positivity_rate": 2.4405313561940067
   },
   {
     "date": "05-Feb-2021",
@@ -3670,7 +3702,9 @@
     "recovered": 15701,
     "deaths": 277,
     "active_cases": 2464,
-    "seven_day_moving_average": 140
+    "seven_day_moving_average": 140,
+    "swab_count": 2772,
+    "positivity_rate": 2.0562770562770565
   },
   {
     "date": "06-Feb-2021",
@@ -3679,7 +3713,9 @@
     "recovered": 15896,
     "deaths": 279,
     "active_cases": 2401,
-    "seven_day_moving_average": 122
+    "seven_day_moving_average": 122,
+    "swab_count": 3084,
+    "positivity_rate": 4.345006485084306
   },
   {
     "date": "07-Feb-2021",
@@ -3688,7 +3724,9 @@
     "recovered": 16053,
     "deaths": 282,
     "active_cases": 2341,
-    "seven_day_moving_average": 122
+    "seven_day_moving_average": 122,
+    "swab_count": 3266,
+    "positivity_rate": 3.061849357011635
   },
   {
     "date": "08-Feb-2021",
@@ -3697,7 +3735,9 @@
     "recovered": 16179,
     "deaths": 282,
     "active_cases": 2352,
-    "seven_day_moving_average": 110
+    "seven_day_moving_average": 110,
+    "swab_count": 3206,
+    "positivity_rate": 4.273237679351216
   },
   {
     "date": "09-Feb-2021",
@@ -3706,7 +3746,9 @@
     "recovered": 16325,
     "deaths": 284,
     "active_cases": 2406,
-    "seven_day_moving_average": 112
+    "seven_day_moving_average": 112,
+    "swab_count": 2217,
+    "positivity_rate": 9.111411817771764
   },
   {
     "date": "10-Feb-2021",
@@ -3715,7 +3757,9 @@
     "recovered": 16490,
     "deaths": 286,
     "active_cases": 2406,
-    "seven_day_moving_average": 121
+    "seven_day_moving_average": 121,
+    "swab_count": 3491,
+    "positivity_rate": 4.78372959037525
   },
   {
     "date": "11-Feb-2021",
@@ -3724,7 +3768,9 @@
     "recovered": 16646,
     "deaths": 286,
     "active_cases": 2401,
-    "seven_day_moving_average": 125
+    "seven_day_moving_average": 125,
+    "swab_count": 2872,
+    "positivity_rate": 5.257660167130919
   },
   {
     "date": "12-Feb-2021",
@@ -3733,7 +3779,9 @@
     "recovered": 16811,
     "deaths": 288,
     "active_cases": 2398,
-    "seven_day_moving_average": 135
+    "seven_day_moving_average": 135,
+    "swab_count": 2639,
+    "positivity_rate": 6.214475179992421
   },
   {
     "date": "13-Feb-2021",
@@ -3742,7 +3790,9 @@
     "recovered": 17017,
     "deaths": 290,
     "active_cases": 2344,
-    "seven_day_moving_average": 150
+    "seven_day_moving_average": 150,
+    "swab_count": 2830,
+    "positivity_rate": 5.4416961130742045
   },
   {
     "date": "14-Feb-2021",
@@ -3751,7 +3801,9 @@
     "recovered": 17126,
     "deaths": 293,
     "active_cases": 2370,
-    "seven_day_moving_average": 153
+    "seven_day_moving_average": 153,
+    "swab_count": 2817,
+    "positivity_rate": 4.898828541001065
   },
   {
     "date": "15-Feb-2021",
@@ -3760,7 +3812,9 @@
     "recovered": 17310,
     "deaths": 295,
     "active_cases": 2340,
-    "seven_day_moving_average": 159
+    "seven_day_moving_average": 159,
+    "swab_count": 2115,
+    "positivity_rate": 7.375886524822695
   },
   {
     "date": "16-Feb-2021",
@@ -3769,7 +3823,9 @@
     "recovered": 17434,
     "deaths": 297,
     "active_cases": 2316,
-    "seven_day_moving_average": 161
+    "seven_day_moving_average": 161,
+    "swab_count": 3207,
+    "positivity_rate": 3.1805425631431246
   },
   {
     "date": "17-Feb-2021",
@@ -3778,7 +3834,9 @@
     "recovered": 17523,
     "deaths": 298,
     "active_cases": 2425,
-    "seven_day_moving_average": 147
+    "seven_day_moving_average": 147,
+    "swab_count": 3209,
+    "positivity_rate": 6.201308818946712
   },
   {
     "date": "18-Feb-2021",
@@ -3787,7 +3845,9 @@
     "recovered": 17679,
     "deaths": 301,
     "active_cases": 2429,
-    "seven_day_moving_average": 152
+    "seven_day_moving_average": 152,
+    "swab_count": 3282,
+    "positivity_rate": 4.966483851310176
   },
   {
     "date": "19-Feb-2021",
@@ -3796,7 +3856,9 @@
     "recovered": 17827,
     "deaths": 301,
     "active_cases": 2435,
-    "seven_day_moving_average": 153
+    "seven_day_moving_average": 153,
+    "swab_count": 3099,
+    "positivity_rate": 4.969344949983865
   },
   {
     "date": "20-Feb-2021",
@@ -3805,7 +3867,9 @@
     "recovered": 17933,
     "deaths": 303,
     "active_cases": 2526,
-    "seven_day_moving_average": 152
+    "seven_day_moving_average": 152,
+    "swab_count": 2660,
+    "positivity_rate": 7.481203007518797
   },
   {
     "date": "21-Feb-2021",
@@ -3814,7 +3878,9 @@
     "recovered": 18067,
     "deaths": 304,
     "active_cases": 2521,
-    "seven_day_moving_average": 158
+    "seven_day_moving_average": 158,
+    "swab_count": 2781,
+    "positivity_rate": 4.674577490111471
   },
   {
     "date": "22-Feb-2021",
@@ -3823,7 +3889,9 @@
     "recovered": 18309,
     "deaths": 305,
     "active_cases": 2471,
-    "seven_day_moving_average": 157
+    "seven_day_moving_average": 157,
+    "swab_count": 2924,
+    "positivity_rate": 6.600547195622434
   },
   {
     "date": "23-Feb-2021",
@@ -3832,7 +3900,9 @@
     "recovered": 18500,
     "deaths": 306,
     "active_cases": 2500,
-    "seven_day_moving_average": 162
+    "seven_day_moving_average": 162,
+    "swab_count": 2324,
+    "positivity_rate": 9.50946643717728
   },
   {
     "date": "24-Feb-2021",
@@ -3841,7 +3911,9 @@
     "recovered": 18720,
     "deaths": 308,
     "active_cases": 2504,
-    "seven_day_moving_average": 179
+    "seven_day_moving_average": 179,
+    "swab_count": 3296,
+    "positivity_rate": 6.856796116504854
   },
   {
     "date": "25-Feb-2021",
@@ -3851,5 +3923,14 @@
     "deaths": 311,
     "active_cases": 2508,
     "seven_day_moving_average": 183
+  },
+  {
+    "date": "26-Feb-2021",
+    "new_cases": 258,
+    "total_cases": 21982,
+    "recovered": 19087,
+    "deaths": 313,
+    "active_cases": 2582,
+    "seven_day_moving_average": 187
   }
 ]
