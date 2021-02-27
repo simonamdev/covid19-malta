@@ -26,6 +26,7 @@ export default (props: SituationDataProps) => {
           day/s ago).
         </p>
         <p>{nearestPoint.y.toLocaleString()} Active Cases</p>
+        <p>{data?.swab_count.toLocaleString() || "N/A"} Swabs</p>
         <p>{data?.positivity_rate.toFixed(1) || "N/A"}% Positivity Rate</p>
         <p>{data?.deaths || "N/A"} Deaths</p>
         <p>
