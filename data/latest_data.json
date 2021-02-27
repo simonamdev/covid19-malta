@@ -3932,5 +3932,14 @@
     "deaths": 313,
     "active_cases": 2582,
     "seven_day_moving_average": 187
+  },
+  {
+    "date": "27-Feb-2021",
+    "new_cases": 237,
+    "total_cases": 22219,
+    "recovered": 19255,
+    "deaths": 313,
+    "active_cases": 2651,
+    "seven_day_moving_average": 202
   }
 ]
