@@ -8,7 +8,7 @@ print('Downloading Case Data...')
 response = requests.get(cases_url)
 
 if response.status_code == 200:
-    filename = '{0:%Y-%m-%d_%H:%M:%S}_data.csv'.format(datetime.now())
+    filename = '{0:%Y-%m-%d_%H:%M:%S}_cases_data.csv'.format(datetime.now())
     with open(f'./data/{filename}', 'w') as file:
         file.write(response.text)
 else:
@@ -25,5 +25,19 @@ if response.status_code == 200:
         file.write(response.text)
 else:
     print(f'Non 200 status code for case data: {response.status_code}')
+
+
+vaccines_url = 'https://raw.githubusercontent.com/COVID19-Malta/COVID19-Cases/master/COVID-19%20Malta%20-%20Vaccination%20Data.csv'
+
+print('Downloading Vaccines...')
+response = requests.get(vaccines_url)
+
+if response.status_code == 200:
+    filename = '{0:%Y-%m-%d_%H:%M:%S}_vaccines_data.csv'.format(datetime.now())
+    with open(f'./data/{filename}', 'w') as file:
+        file.write(response.text)
+else:
+    print(f'Non 200 status code for case data: {response.status_code}')
+
 
 print('Done :)')

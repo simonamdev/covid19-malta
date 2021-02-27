@@ -35,8 +35,6 @@ const parsedData: CaseData[] = latestData.map((d) => {
   return {
     ...d,
     date,
-    first_dose_vaccinations: 0, // TODO
-    second_dose_vaccinations: 0, // TODO
     events:
       parsedMeasuresData.find((pmd) => pmd.date.getTime() === date.getTime())
         ?.measures || [],

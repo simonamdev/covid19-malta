@@ -26,7 +26,9 @@ export interface CaseData {
   deaths: number;
   active_cases: number;
   seven_day_moving_average: number;
-  first_dose_vaccinations: number;
-  second_dose_vaccinations: number;
+  first_dose_count?: number;
+  second_dose_count?: number;
+  swab_count?: number;
+  positivity_rate?: number;
   events: string[];
 }

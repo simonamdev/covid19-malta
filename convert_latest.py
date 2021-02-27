@@ -3,7 +3,7 @@ import json
 
 files = os.listdir("data")
 files = sorted(
-    [file for file in files if file.endswith('csv') and not 'swabs' in file], reverse=True)
+    [file for file in files if file.endswith('csv') and 'cases' in file], reverse=True)
 if len(files) == 0:
     print('Error: no files found')
     exit(1)
@@ -16,6 +16,18 @@ if len(files) == 0:
     print('Error: no swab files found')
     exit(1)
 latest_swabs_file = files[0]
+
+files = os.listdir("data")
+files = sorted(
+    [file for file in files if file.endswith('csv') and 'vaccines' in file], reverse=True)
+if len(files) == 0:
+    print('Error: no vaccines files found')
+    exit(1)
+latest_vaccines_file = files[0]
+
+print(latest_file)
+print(latest_swabs_file)
+print(latest_vaccines_file)
 
 
 def extract_seven_day_average(last_seven_days):
@@ -96,6 +108,26 @@ with open(f'./data/{latest_swabs_file}', 'r') as file:
                 output_data[i]['swab_count'] = int(change_cumulative_total)
                 output_data[i]['positivity_rate'] = (
                     new_case_count / int(change_cumulative_total)) * 100.0
+
+
+# Get vaccine data and append
+first_line_skipped = False
+with open(f'./data/{latest_vaccines_file}', 'r') as file:
+    for line in file:
+        if not first_line_skipped:
+            first_line_skipped = True
+            continue
+        # Skip empty lines
+        if len(line.split()) == 0:
+            continue
+        date, first_dose_count, second_dose_count = line.strip().split(',')
+        day, month, year = date.split('/')
+        month_name = month_number_name_map[month]
+        formatted_date = f'{day}-{month_name}-{year}'
+        for i, data in enumerate(output_data):
+            if data['date'] == formatted_date:
+                output_data[i]['first_dose_count'] = int(first_dose_count)
+                output_data[i]['second_dose_count'] = int(second_dose_count)
 
 
 print(output_data)

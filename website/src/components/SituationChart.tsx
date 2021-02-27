@@ -13,22 +13,11 @@ import {
   Hint,
 } from "react-vis";
 import { CaseData } from "./types";
+import SituationData from "./SituationData";
 
 interface CaseCountChartProps {
   caseData: CaseData[];
 }
-
-const getSevenDayMovingAverage = (data: CaseData[], date: Date): string =>
-  data
-    .find((d) => d.date.getTime() === date.getTime())
-    ?.seven_day_moving_average.toString() || "N/A";
-
-const getEvents = (data: CaseData[], date: Date): string[] =>
-  data.find((d) => d.date.getTime() === date.getTime())?.events || [];
-
-const getDeaths = (data: CaseData[], date: Date): string =>
-  data.find((d) => d.date.getTime() === date.getTime())?.deaths.toString() ||
-  "N/A";
 
 export default ({ caseData }: CaseCountChartProps) => {
   const [] = useState<LineSeriesPoint[]>([]);
@@ -84,34 +73,7 @@ export default ({ caseData }: CaseCountChartProps) => {
           />
         )}
         {nearestPoint && (
-          <Hint value={nearestPoint}>
-            <div className="rv-hint__content">
-              <p>
-                {new Date(nearestPoint.x).toLocaleDateString()} (
-                {Math.floor(
-                  (new Date().getTime() - new Date(nearestPoint.x).getTime()) /
-                    (1000 * 3600 * 24)
-                )}{" "}
-                day/s ago).
-              </p>
-              <p>{nearestPoint.y.toLocaleString()} Active Cases</p>
-              <p>{getDeaths(caseData, nearestPoint.x as Date)} Deaths</p>
-              <p>
-                Seven Day Moving Average:{" "}
-                {getSevenDayMovingAverage(caseData, nearestPoint.x as Date)}{" "}
-                Cases
-              </p>
-              <ul>
-                {getEvents(caseData, nearestPoint.x as Date).map(
-                  (measure, i) => (
-                    <li key={`m-list-${i}`} style={{ margin: 0, padding: 0 }}>
-                      {measure}
-                    </li>
-                  )
-                )}
-              </ul>
-            </div>
-          </Hint>
+          <SituationData caseData={caseData} nearestPoint={nearestPoint} />
         )}
       </FlexibleXYPlot>
     </>

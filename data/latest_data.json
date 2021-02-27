@@ -3495,7 +3495,9 @@
     "active_cases": 2753,
     "seven_day_moving_average": 176,
     "swab_count": 3239,
-    "positivity_rate": 4.353195430688484
+    "positivity_rate": 4.353195430688484,
+    "first_dose_count": 11705,
+    "second_dose_count": 0
   },
   {
     "date": "18-Jan-2021",
@@ -3506,7 +3508,9 @@
     "active_cases": 2784,
     "seven_day_moving_average": 170,
     "swab_count": 3481,
-    "positivity_rate": 4.424016087331227
+    "positivity_rate": 4.424016087331227,
+    "first_dose_count": 13002,
+    "second_dose_count": 0
   },
   {
     "date": "19-Jan-2021",
@@ -3517,7 +3521,9 @@
     "active_cases": 2835,
     "seven_day_moving_average": 173,
     "swab_count": 3879,
-    "positivity_rate": 5.155968032998196
+    "positivity_rate": 5.155968032998196,
+    "first_dose_count": 14276,
+    "second_dose_count": 0
   },
   {
     "date": "20-Jan-2021",
@@ -3528,7 +3534,9 @@
     "active_cases": 2831,
     "seven_day_moving_average": 167,
     "swab_count": 3208,
-    "positivity_rate": 5.829177057356608
+    "positivity_rate": 5.829177057356608,
+    "first_dose_count": 15316,
+    "second_dose_count": 0
   },
   {
     "date": "21-Jan-2021",
@@ -3539,7 +3547,9 @@
     "active_cases": 2801,
     "seven_day_moving_average": 167,
     "swab_count": 3111,
-    "positivity_rate": 4.853744776599164
+    "positivity_rate": 4.853744776599164,
+    "first_dose_count": 16531,
+    "second_dose_count": 0
   },
   {
     "date": "22-Jan-2021",
@@ -3550,7 +3560,9 @@
     "active_cases": 2740,
     "seven_day_moving_average": 171,
     "swab_count": 2571,
-    "positivity_rate": 5.562038117464022
+    "positivity_rate": 5.562038117464022,
+    "first_dose_count": 17767,
+    "second_dose_count": 0
   },
   {
     "date": "23-Jan-2021",
@@ -3561,7 +3573,9 @@
     "active_cases": 2646,
     "seven_day_moving_average": 164,
     "swab_count": 3111,
-    "positivity_rate": 3.825136612021858
+    "positivity_rate": 3.825136612021858,
+    "first_dose_count": 18930,
+    "second_dose_count": 0
   },
   {
     "date": "24-Jan-2021",
@@ -3572,7 +3586,9 @@
     "active_cases": 2606,
     "seven_day_moving_average": 156,
     "swab_count": 3345,
-    "positivity_rate": 3.4678624813153958
+    "positivity_rate": 3.4678624813153958,
+    "first_dose_count": 19981,
+    "second_dose_count": 1198
   },
   {
     "date": "25-Jan-2021",
@@ -3583,7 +3599,9 @@
     "active_cases": 2632,
     "seven_day_moving_average": 152,
     "swab_count": 3248,
-    "positivity_rate": 6.25
+    "positivity_rate": 6.25,
+    "first_dose_count": 21172,
+    "second_dose_count": 1463
   },
   {
     "date": "26-Jan-2021",
@@ -3594,7 +3612,9 @@
     "active_cases": 2640,
     "seven_day_moving_average": 159,
     "swab_count": 3324,
-    "positivity_rate": 4.1516245487364625
+    "positivity_rate": 4.1516245487364625,
+    "first_dose_count": 22371,
+    "second_dose_count": 1694
   },
   {
     "date": "27-Jan-2021",
@@ -3605,7 +3625,9 @@
     "active_cases": 2682,
     "seven_day_moving_average": 151,
     "swab_count": 3565,
-    "positivity_rate": 5.41374474053296
+    "positivity_rate": 5.41374474053296,
+    "first_dose_count": 23512,
+    "second_dose_count": 2095
   },
   {
     "date": "28-Jan-2021",
@@ -3616,7 +3638,9 @@
     "active_cases": 2687,
     "seven_day_moving_average": 151,
     "swab_count": 3280,
-    "positivity_rate": 6.341463414634147
+    "positivity_rate": 6.341463414634147,
+    "first_dose_count": 24680,
+    "second_dose_count": 2518
   },
   {
     "date": "29-Jan-2021",
@@ -3627,7 +3651,9 @@
     "active_cases": 2695,
     "seven_day_moving_average": 160,
     "swab_count": 3429,
-    "positivity_rate": 5.395158938466025
+    "positivity_rate": 5.395158938466025,
+    "first_dose_count": 25822,
+    "second_dose_count": 2969
   },
   {
     "date": "30-Jan-2021",
@@ -3638,7 +3664,9 @@
     "active_cases": 2681,
     "seven_day_moving_average": 166,
     "swab_count": 2843,
-    "positivity_rate": 4.783679212099894
+    "positivity_rate": 4.783679212099894,
+    "first_dose_count": 26847,
+    "second_dose_count": 3456
   },
   {
     "date": "31-Jan-2021",
@@ -3649,7 +3677,9 @@
     "active_cases": 2676,
     "seven_day_moving_average": 168,
     "swab_count": 3037,
-    "positivity_rate": 5.992756009219625
+    "positivity_rate": 5.992756009219625,
+    "first_dose_count": 27759,
+    "second_dose_count": 3948
   },
   {
     "date": "01-Feb-2021",
@@ -3660,7 +3690,9 @@
     "active_cases": 2657,
     "seven_day_moving_average": 177,
     "swab_count": 2836,
-    "positivity_rate": 4.372355430183357
+    "positivity_rate": 4.372355430183357,
+    "first_dose_count": 29002,
+    "second_dose_count": 4476
   },
   {
     "date": "02-Feb-2021",
@@ -3671,7 +3703,9 @@
     "active_cases": 2665,
     "seven_day_moving_average": 166,
     "swab_count": 2972,
-    "positivity_rate": 4.744279946164199
+    "positivity_rate": 4.744279946164199,
+    "first_dose_count": 30252,
+    "second_dose_count": 4891
   },
   {
     "date": "03-Feb-2021",
@@ -3682,7 +3716,9 @@
     "active_cases": 2610,
     "seven_day_moving_average": 167,
     "swab_count": 2944,
-    "positivity_rate": 4.6875
+    "positivity_rate": 4.6875,
+    "first_dose_count": 31633,
+    "second_dose_count": 5410
   },
   {
     "date": "04-Feb-2021",
@@ -3693,7 +3729,9 @@
     "active_cases": 2545,
     "seven_day_moving_average": 159,
     "swab_count": 3237,
-    "positivity_rate": 2.4405313561940067
+    "positivity_rate": 2.4405313561940067,
+    "first_dose_count": 33477,
+    "second_dose_count": 6457
   },
   {
     "date": "05-Feb-2021",
@@ -3704,7 +3742,9 @@
     "active_cases": 2464,
     "seven_day_moving_average": 140,
     "swab_count": 2772,
-    "positivity_rate": 2.0562770562770565
+    "positivity_rate": 2.0562770562770565,
+    "first_dose_count": 35676,
+    "second_dose_count": 7594
   },
   {
     "date": "06-Feb-2021",
@@ -3715,7 +3755,9 @@
     "active_cases": 2401,
     "seven_day_moving_average": 122,
     "swab_count": 3084,
-    "positivity_rate": 4.345006485084306
+    "positivity_rate": 4.345006485084306,
+    "first_dose_count": 37586,
+    "second_dose_count": 8749
   },
   {
     "date": "07-Feb-2021",
@@ -3726,7 +3768,9 @@
     "active_cases": 2341,
     "seven_day_moving_average": 122,
     "swab_count": 3266,
-    "positivity_rate": 3.061849357011635
+    "positivity_rate": 3.061849357011635,
+    "first_dose_count": 39257,
+    "second_dose_count": 9918
   },
   {
     "date": "08-Feb-2021",
@@ -3737,7 +3781,9 @@
     "active_cases": 2352,
     "seven_day_moving_average": 110,
     "swab_count": 3206,
-    "positivity_rate": 4.273237679351216
+    "positivity_rate": 4.273237679351216,
+    "first_dose_count": 41285,
+    "second_dose_count": 11050
   },
   {
     "date": "09-Feb-2021",
@@ -3748,7 +3794,9 @@
     "active_cases": 2406,
     "seven_day_moving_average": 112,
     "swab_count": 2217,
-    "positivity_rate": 9.111411817771764
+    "positivity_rate": 9.111411817771764,
+    "first_dose_count": 43337,
+    "second_dose_count": 12135
   },
   {
     "date": "10-Feb-2021",
@@ -3759,7 +3807,9 @@
     "active_cases": 2406,
     "seven_day_moving_average": 121,
     "swab_count": 3491,
-    "positivity_rate": 4.78372959037525
+    "positivity_rate": 4.78372959037525,
+    "first_dose_count": 44598,
+    "second_dose_count": 12928
   },
   {
     "date": "11-Feb-2021",
@@ -3770,7 +3820,9 @@
     "active_cases": 2401,
     "seven_day_moving_average": 125,
     "swab_count": 2872,
-    "positivity_rate": 5.257660167130919
+    "positivity_rate": 5.257660167130919,
+    "first_dose_count": 46344,
+    "second_dose_count": 13820
   },
   {
     "date": "12-Feb-2021",
@@ -3781,7 +3833,9 @@
     "active_cases": 2398,
     "seven_day_moving_average": 135,
     "swab_count": 2639,
-    "positivity_rate": 6.214475179992421
+    "positivity_rate": 6.214475179992421,
+    "first_dose_count": 48474,
+    "second_dose_count": 14739
   },
   {
     "date": "13-Feb-2021",
@@ -3792,7 +3846,9 @@
     "active_cases": 2344,
     "seven_day_moving_average": 150,
     "swab_count": 2830,
-    "positivity_rate": 5.4416961130742045
+    "positivity_rate": 5.4416961130742045,
+    "first_dose_count": 50175,
+    "second_dose_count": 15601
   },
   {
     "date": "14-Feb-2021",
@@ -3803,7 +3859,9 @@
     "active_cases": 2370,
     "seven_day_moving_average": 153,
     "swab_count": 2817,
-    "positivity_rate": 4.898828541001065
+    "positivity_rate": 4.898828541001065,
+    "first_dose_count": 51641,
+    "second_dose_count": 16265
   },
   {
     "date": "15-Feb-2021",
@@ -3814,7 +3872,9 @@
     "active_cases": 2340,
     "seven_day_moving_average": 159,
     "swab_count": 2115,
-    "positivity_rate": 7.375886524822695
+    "positivity_rate": 7.375886524822695,
+    "first_dose_count": 53647,
+    "second_dose_count": 17102
   },
   {
     "date": "16-Feb-2021",
@@ -3825,7 +3885,9 @@
     "active_cases": 2316,
     "seven_day_moving_average": 161,
     "swab_count": 3207,
-    "positivity_rate": 3.1805425631431246
+    "positivity_rate": 3.1805425631431246,
+    "first_dose_count": 55709,
+    "second_dose_count": 17843
   },
   {
     "date": "17-Feb-2021",
@@ -3836,7 +3898,9 @@
     "active_cases": 2425,
     "seven_day_moving_average": 147,
     "swab_count": 3209,
-    "positivity_rate": 6.201308818946712
+    "positivity_rate": 6.201308818946712,
+    "first_dose_count": 57683,
+    "second_dose_count": 18536
   },
   {
     "date": "18-Feb-2021",
@@ -3847,7 +3911,9 @@
     "active_cases": 2429,
     "seven_day_moving_average": 152,
     "swab_count": 3282,
-    "positivity_rate": 4.966483851310176
+    "positivity_rate": 4.966483851310176,
+    "first_dose_count": 59702,
+    "second_dose_count": 19199
   },
   {
     "date": "19-Feb-2021",
@@ -3858,7 +3924,9 @@
     "active_cases": 2435,
     "seven_day_moving_average": 153,
     "swab_count": 3099,
-    "positivity_rate": 4.969344949983865
+    "positivity_rate": 4.969344949983865,
+    "first_dose_count": 62059,
+    "second_dose_count": 19828
   },
   {
     "date": "20-Feb-2021",
@@ -3869,7 +3937,9 @@
     "active_cases": 2526,
     "seven_day_moving_average": 152,
     "swab_count": 2660,
-    "positivity_rate": 7.481203007518797
+    "positivity_rate": 7.481203007518797,
+    "first_dose_count": 63308,
+    "second_dose_count": 20189
   },
   {
     "date": "21-Feb-2021",
@@ -3880,7 +3950,9 @@
     "active_cases": 2521,
     "seven_day_moving_average": 158,
     "swab_count": 2781,
-    "positivity_rate": 4.674577490111471
+    "positivity_rate": 4.674577490111471,
+    "first_dose_count": 64419,
+    "second_dose_count": 20531
   },
   {
     "date": "22-Feb-2021",
@@ -3891,7 +3963,9 @@
     "active_cases": 2471,
     "seven_day_moving_average": 157,
     "swab_count": 2924,
-    "positivity_rate": 6.600547195622434
+    "positivity_rate": 6.600547195622434,
+    "first_dose_count": 66334,
+    "second_dose_count": 21160
   },
   {
     "date": "23-Feb-2021",
@@ -3902,7 +3976,9 @@
     "active_cases": 2500,
     "seven_day_moving_average": 162,
     "swab_count": 2324,
-    "positivity_rate": 9.50946643717728
+    "positivity_rate": 9.50946643717728,
+    "first_dose_count": 68779,
+    "second_dose_count": 21767
   },
   {
     "date": "24-Feb-2021",
@@ -3913,7 +3989,9 @@
     "active_cases": 2504,
     "seven_day_moving_average": 179,
     "swab_count": 3296,
-    "positivity_rate": 6.856796116504854
+    "positivity_rate": 6.856796116504854,
+    "first_dose_count": 71562,
+    "second_dose_count": 22501
   },
   {
     "date": "25-Feb-2021",
@@ -3922,7 +4000,9 @@
     "recovered": 18905,
     "deaths": 311,
     "active_cases": 2508,
-    "seven_day_moving_average": 183
+    "seven_day_moving_average": 183,
+    "first_dose_count": 73644,
+    "second_dose_count": 23395
   },
   {
     "date": "26-Feb-2021",
