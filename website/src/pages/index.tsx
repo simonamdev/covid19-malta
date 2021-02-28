@@ -1,6 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
 import { LineSeriesPoint } from "react-vis";
+import { Helmet } from "react-helmet";
 
 import "../../node_modules/react-vis/dist/style.css";
 
@@ -81,6 +82,11 @@ const data: CountChartData[] = [
 export default (props: IndexPageProps) => {
   return (
     <div style={{ width: "100%", height: "100%", margin: 0, padding: 0 }}>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>{props.data.site.siteMetadata.title}</title>
+        <link rel="canonical" href="https://c19.mt" />
+      </Helmet>
       <div style={{ height: "10vh" }}>
         <h1>Covid-19 in Malta</h1>
         <div>
