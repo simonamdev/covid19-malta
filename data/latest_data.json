@@ -8,7 +8,8 @@
     "active_cases": 1,
     "seven_day_moving_average": 0,
     "swab_count": 63,
-    "positivity_rate": 1.5873015873015872
+    "positivity_rate": 1.5873015873015872,
+    "seven_day_moving_average_positivity": 0.0
   },
   {
     "date": "07-Mar-2020",
@@ -19,7 +20,8 @@
     "active_cases": 3,
     "seven_day_moving_average": 1,
     "swab_count": 98,
-    "positivity_rate": 2.0408163265306123
+    "positivity_rate": 2.0408163265306123,
+    "seven_day_moving_average_positivity": 0.0
   },
   {
     "date": "08-Mar-2020",
@@ -30,7 +32,8 @@
     "active_cases": 3,
     "seven_day_moving_average": 1,
     "swab_count": 118,
-    "positivity_rate": 0.0
+    "positivity_rate": 0.0,
+    "seven_day_moving_average_positivity": 0.0
   },
   {
     "date": "09-Mar-2020",
@@ -41,7 +44,8 @@
     "active_cases": 4,
     "seven_day_moving_average": 1,
     "swab_count": 83,
-    "positivity_rate": 1.2048192771084338
+    "positivity_rate": 1.2048192771084338,
+    "seven_day_moving_average_positivity": 0.0
   },
   {
     "date": "10-Mar-2020",
@@ -52,7 +56,8 @@
     "active_cases": 5,
     "seven_day_moving_average": 1,
     "swab_count": 65,
-    "positivity_rate": 1.5384615384615385
+    "positivity_rate": 1.5384615384615385,
+    "seven_day_moving_average_positivity": 0.0
   },
   {
     "date": "11-Mar-2020",
@@ -63,7 +68,8 @@
     "active_cases": 7,
     "seven_day_moving_average": 1,
     "swab_count": 162,
-    "positivity_rate": 1.2345679012345678
+    "positivity_rate": 1.2345679012345678,
+    "seven_day_moving_average_positivity": 0.0
   },
   {
     "date": "12-Mar-2020",
@@ -74,7 +80,8 @@
     "active_cases": 12,
     "seven_day_moving_average": 1,
     "swab_count": 188,
-    "positivity_rate": 2.6595744680851063
+    "positivity_rate": 2.6595744680851063,
+    "seven_day_moving_average_positivity": 0.0
   },
   {
     "date": "13-Mar-2020",
@@ -85,7 +92,8 @@
     "active_cases": 12,
     "seven_day_moving_average": 1,
     "swab_count": 148,
-    "positivity_rate": 0.6756756756756757
+    "positivity_rate": 0.6756756756756757,
+    "seven_day_moving_average_positivity": 1.466505871245978
   },
   {
     "date": "14-Mar-2020",
@@ -96,7 +104,8 @@
     "active_cases": 17,
     "seven_day_moving_average": 1,
     "swab_count": 154,
-    "positivity_rate": 3.2467532467532463
+    "positivity_rate": 3.2467532467532463,
+    "seven_day_moving_average_positivity": 1.336273598156562
   },
   {
     "date": "15-Mar-2020",
@@ -107,7 +116,8 @@
     "active_cases": 19,
     "seven_day_moving_average": 2,
     "swab_count": 130,
-    "positivity_rate": 2.307692307692308
+    "positivity_rate": 2.307692307692308,
+    "seven_day_moving_average_positivity": 1.50855030104551
   },
   {
     "date": "16-Mar-2020",
@@ -118,7 +128,8 @@
     "active_cases": 28,
     "seven_day_moving_average": 2,
     "swab_count": 141,
-    "positivity_rate": 6.382978723404255
+    "positivity_rate": 6.382978723404255,
+    "seven_day_moving_average_positivity": 1.8382206307158397
   },
   {
     "date": "17-Mar-2020",
@@ -129,7 +140,8 @@
     "active_cases": 36,
     "seven_day_moving_average": 3,
     "swab_count": 160,
-    "positivity_rate": 5.0
+    "positivity_rate": 5.0,
+    "seven_day_moving_average_positivity": 2.5779576944723854
   },
   {
     "date": "18-Mar-2020",
@@ -140,7 +152,8 @@
     "active_cases": 46,
     "seven_day_moving_average": 4,
     "swab_count": 302,
-    "positivity_rate": 3.3112582781456954
+    "positivity_rate": 3.3112582781456954,
+    "seven_day_moving_average_positivity": 3.07246318897788
   },
   {
     "date": "19-Mar-2020",
@@ -151,7 +164,8 @@
     "active_cases": 51,
     "seven_day_moving_average": 5,
     "swab_count": 276,
-    "positivity_rate": 1.8115942028985508
+    "positivity_rate": 1.8115942028985508,
+    "seven_day_moving_average_positivity": 3.369133242822327
   },
   {
     "date": "20-Mar-2020",
@@ -162,7 +176,8 @@
     "active_cases": 62,
     "seven_day_moving_average": 5,
     "swab_count": 259,
-    "positivity_rate": 4.247104247104247
+    "positivity_rate": 4.247104247104247,
+    "seven_day_moving_average_positivity": 3.2479932049385325
   },
   {
     "date": "21-Mar-2020",
@@ -173,7 +188,8 @@
     "active_cases": 71,
     "seven_day_moving_average": 7,
     "swab_count": 296,
-    "positivity_rate": 3.040540540540541
+    "positivity_rate": 3.040540540540541,
+    "seven_day_moving_average_positivity": 3.7581972865711855
   },
   {
     "date": "22-Mar-2020",
@@ -184,7 +200,8 @@
     "active_cases": 88,
     "seven_day_moving_average": 7,
     "swab_count": 309,
-    "positivity_rate": 5.501618122977346
+    "positivity_rate": 5.501618122977346,
+    "seven_day_moving_average_positivity": 3.7287383285407993
   },
   {
     "date": "23-Mar-2020",
@@ -195,7 +212,8 @@
     "active_cases": 105,
     "seven_day_moving_average": 9,
     "swab_count": 311,
-    "positivity_rate": 5.466237942122187
+    "positivity_rate": 5.466237942122187,
+    "seven_day_moving_average_positivity": 4.185013445010091
   },
   {
     "date": "24-Mar-2020",
@@ -206,7 +224,8 @@
     "active_cases": 108,
     "seven_day_moving_average": 11,
     "swab_count": 488,
-    "positivity_rate": 0.6147540983606558
+    "positivity_rate": 0.6147540983606558,
+    "seven_day_moving_average_positivity": 4.05405047625551
   },
   {
     "date": "25-Mar-2020",
@@ -217,7 +236,8 @@
     "active_cases": 127,
     "seven_day_moving_average": 10,
     "swab_count": 405,
-    "positivity_rate": 4.691358024691358
+    "positivity_rate": 4.691358024691358,
+    "seven_day_moving_average_positivity": 3.4275867760213177
   },
   {
     "date": "26-Mar-2020",
@@ -228,7 +248,8 @@
     "active_cases": 132,
     "seven_day_moving_average": 11,
     "swab_count": 454,
-    "positivity_rate": 1.1013215859030838
+    "positivity_rate": 1.1013215859030838,
+    "seven_day_moving_average_positivity": 3.6247438826706975
   },
   {
     "date": "27-Mar-2020",
@@ -239,7 +260,8 @@
     "active_cases": 137,
     "seven_day_moving_average": 11,
     "swab_count": 518,
-    "positivity_rate": 0.9652509652509652
+    "positivity_rate": 0.9652509652509652,
+    "seven_day_moving_average_positivity": 3.5232763659570594
   },
   {
     "date": "28-Mar-2020",
@@ -250,7 +272,8 @@
     "active_cases": 147,
     "seven_day_moving_average": 10,
     "swab_count": 599,
-    "positivity_rate": 1.669449081803005
+    "positivity_rate": 1.669449081803005,
+    "seven_day_moving_average_positivity": 3.054440182835162
   },
   {
     "date": "29-Mar-2020",
@@ -261,7 +284,8 @@
     "active_cases": 149,
     "seven_day_moving_average": 10,
     "swab_count": 631,
-    "positivity_rate": 0.31695721077654515
+    "positivity_rate": 0.31695721077654515,
+    "seven_day_moving_average_positivity": 2.858569974444086
   },
   {
     "date": "30-Mar-2020",
@@ -272,7 +296,8 @@
     "active_cases": 154,
     "seven_day_moving_average": 8,
     "swab_count": 564,
-    "positivity_rate": 0.8865248226950355
+    "positivity_rate": 0.8865248226950355,
+    "seven_day_moving_average_positivity": 2.1179041298439714
   },
   {
     "date": "31-Mar-2020",
@@ -283,7 +308,8 @@
     "active_cases": 167,
     "seven_day_moving_average": 7,
     "swab_count": 625,
-    "positivity_rate": 2.08
+    "positivity_rate": 2.08,
+    "seven_day_moving_average_positivity": 1.4636593984972355
   },
   {
     "date": "01-Apr-2020",
@@ -294,7 +320,8 @@
     "active_cases": 186,
     "seven_day_moving_average": 8,
     "swab_count": 737,
-    "positivity_rate": 2.578018995929444
+    "positivity_rate": 2.578018995929444,
+    "seven_day_moving_average_positivity": 1.6729802415885704
   },
   {
     "date": "02-Apr-2020",
@@ -305,7 +332,8 @@
     "active_cases": 193,
     "seven_day_moving_average": 8,
     "swab_count": 747,
-    "positivity_rate": 0.9370816599732262
+    "positivity_rate": 0.9370816599732262,
+    "seven_day_moving_average_positivity": 1.371074666051154
   },
   {
     "date": "03-Apr-2020",
@@ -316,7 +344,8 @@
     "active_cases": 200,
     "seven_day_moving_average": 8,
     "swab_count": 660,
-    "positivity_rate": 1.0606060606060608
+    "positivity_rate": 1.0606060606060608,
+    "seven_day_moving_average_positivity": 1.3476118194897457
   },
   {
     "date": "04-Apr-2020",
@@ -327,7 +356,8 @@
     "active_cases": 211,
     "seven_day_moving_average": 9,
     "swab_count": 654,
-    "positivity_rate": 1.6819571865443423
+    "positivity_rate": 1.6819571865443423,
+    "seven_day_moving_average_positivity": 1.361233975969045
   },
   {
     "date": "05-Apr-2020",
@@ -338,7 +368,8 @@
     "active_cases": 222,
     "seven_day_moving_average": 9,
     "swab_count": 555,
-    "positivity_rate": 2.5225225225225225
+    "positivity_rate": 2.5225225225225225,
+    "seven_day_moving_average_positivity": 1.3630208480749506
   },
   {
     "date": "06-Apr-2020",
@@ -349,7 +380,8 @@
     "active_cases": 236,
     "seven_day_moving_average": 10,
     "swab_count": 817,
-    "positivity_rate": 1.7135862913096693
+    "positivity_rate": 1.7135862913096693,
+    "seven_day_moving_average_positivity": 1.6781016068958046
   },
   {
     "date": "07-Apr-2020",
@@ -360,7 +392,8 @@
     "active_cases": 288,
     "seven_day_moving_average": 12,
     "swab_count": 991,
-    "positivity_rate": 5.247225025227043
+    "positivity_rate": 5.247225025227043,
+    "seven_day_moving_average_positivity": 1.7962532452693234
   },
   {
     "date": "08-Apr-2020",
@@ -371,7 +404,8 @@
     "active_cases": 282,
     "seven_day_moving_average": 17,
     "swab_count": 1001,
-    "positivity_rate": 0.5994005994005994
+    "positivity_rate": 0.5994005994005994,
+    "seven_day_moving_average_positivity": 2.2487139631589015
   },
   {
     "date": "09-Apr-2020",
@@ -382,7 +416,8 @@
     "active_cases": 319,
     "seven_day_moving_average": 15,
     "swab_count": 995,
-    "positivity_rate": 3.819095477386935
+    "positivity_rate": 3.819095477386935,
+    "seven_day_moving_average_positivity": 1.9660541922262091
   },
   {
     "date": "10-Apr-2020",
@@ -393,7 +428,8 @@
     "active_cases": 332,
     "seven_day_moving_average": 20,
     "swab_count": 1200,
-    "positivity_rate": 1.0833333333333335
+    "positivity_rate": 1.0833333333333335,
+    "seven_day_moving_average_positivity": 2.377770451856739
   },
   {
     "date": "11-Apr-2020",
@@ -404,7 +440,8 @@
     "active_cases": 351,
     "seven_day_moving_average": 21,
     "swab_count": 1024,
-    "positivity_rate": 1.953125
+    "positivity_rate": 1.953125,
+    "seven_day_moving_average_positivity": 2.381017205103492
   },
   {
     "date": "12-Apr-2020",
@@ -415,7 +452,8 @@
     "active_cases": 331,
     "seven_day_moving_average": 22,
     "swab_count": 948,
-    "positivity_rate": 0.8438818565400843
+    "positivity_rate": 0.8438818565400843,
+    "seven_day_moving_average_positivity": 2.419755464168586
   },
   {
     "date": "13-Apr-2020",
@@ -426,7 +464,8 @@
     "active_cases": 337,
     "seven_day_moving_average": 21,
     "swab_count": 1047,
-    "positivity_rate": 0.5730659025787965
+    "positivity_rate": 0.5730659025787965,
+    "seven_day_moving_average_positivity": 2.1799496547425234
   },
   {
     "date": "14-Apr-2020",
@@ -437,7 +476,8 @@
     "active_cases": 346,
     "seven_day_moving_average": 20,
     "swab_count": 1062,
-    "positivity_rate": 0.847457627118644
+    "positivity_rate": 0.847457627118644,
+    "seven_day_moving_average_positivity": 2.017018170638113
   },
   {
     "date": "15-Apr-2020",
@@ -448,7 +488,8 @@
     "active_cases": 352,
     "seven_day_moving_average": 14,
     "swab_count": 1029,
-    "positivity_rate": 0.5830903790087464
+    "positivity_rate": 0.5830903790087464,
+    "seven_day_moving_average_positivity": 1.388479970908342
   },
   {
     "date": "16-Apr-2020",
@@ -459,7 +500,8 @@
     "active_cases": 327,
     "seven_day_moving_average": 14,
     "swab_count": 1076,
-    "positivity_rate": 1.20817843866171
+    "positivity_rate": 1.20817843866171,
+    "seven_day_moving_average_positivity": 1.3861499394237915
   },
   {
     "date": "17-Apr-2020",
@@ -470,7 +512,8 @@
     "active_cases": 328,
     "seven_day_moving_average": 10,
     "swab_count": 979,
-    "positivity_rate": 1.0214504596527068
+    "positivity_rate": 1.0214504596527068,
+    "seven_day_moving_average_positivity": 1.0131617910344735
   },
   {
     "date": "18-Apr-2020",
@@ -481,7 +524,8 @@
     "active_cases": 324,
     "seven_day_moving_average": 10,
     "swab_count": 783,
-    "positivity_rate": 0.5108556832694764
+    "positivity_rate": 0.5108556832694764,
+    "seven_day_moving_average_positivity": 1.0043213805086697
   },
   {
     "date": "19-Apr-2020",
@@ -492,7 +536,8 @@
     "active_cases": 306,
     "seven_day_moving_average": 8,
     "swab_count": 572,
-    "positivity_rate": 0.17482517482517482
+    "positivity_rate": 0.17482517482517482,
+    "seven_day_moving_average_positivity": 0.7982829066900236
   },
   {
     "date": "20-Apr-2020",
@@ -503,7 +548,8 @@
     "active_cases": 302,
     "seven_day_moving_average": 7,
     "swab_count": 705,
-    "positivity_rate": 0.5673758865248227
+    "positivity_rate": 0.5673758865248227,
+    "seven_day_moving_average_positivity": 0.7027033807307507
   },
   {
     "date": "21-Apr-2020",
@@ -514,7 +560,8 @@
     "active_cases": 290,
     "seven_day_moving_average": 6,
     "swab_count": 810,
-    "positivity_rate": 1.4814814814814816
+    "positivity_rate": 1.4814814814814816,
+    "seven_day_moving_average_positivity": 0.7018905212944688
   },
   {
     "date": "22-Apr-2020",
@@ -525,7 +572,8 @@
     "active_cases": 276,
     "seven_day_moving_average": 7,
     "swab_count": 640,
-    "positivity_rate": 0.15625
+    "positivity_rate": 0.15625,
+    "seven_day_moving_average_positivity": 0.7924653576320171
   },
   {
     "date": "23-Apr-2020",
@@ -536,7 +584,8 @@
     "active_cases": 238,
     "seven_day_moving_average": 6,
     "swab_count": 609,
-    "positivity_rate": 0.16420361247947454
+    "positivity_rate": 0.16420361247947454,
+    "seven_day_moving_average_positivity": 0.7314881606307674
   },
   {
     "date": "24-Apr-2020",
@@ -547,7 +596,8 @@
     "active_cases": 221,
     "seven_day_moving_average": 4,
     "swab_count": 555,
-    "positivity_rate": 0.36036036036036034
+    "positivity_rate": 0.36036036036036034,
+    "seven_day_moving_average_positivity": 0.582348899747591
   },
   {
     "date": "25-Apr-2020",
@@ -558,7 +608,8 @@
     "active_cases": 195,
     "seven_day_moving_average": 3,
     "swab_count": 614,
-    "positivity_rate": 0.16286644951140067
+    "positivity_rate": 0.16286644951140067,
+    "seven_day_moving_average_positivity": 0.4879074569915414
   },
   {
     "date": "26-Apr-2020",
@@ -569,7 +620,8 @@
     "active_cases": 162,
     "seven_day_moving_average": 3,
     "swab_count": 698,
-    "positivity_rate": 0.0
+    "positivity_rate": 0.0,
+    "seven_day_moving_average_positivity": 0.4381947093118163
   },
   {
     "date": "27-Apr-2020",
@@ -580,7 +632,8 @@
     "active_cases": 160,
     "seven_day_moving_average": 3,
     "swab_count": 1068,
-    "positivity_rate": 0.18726591760299627
+    "positivity_rate": 0.18726591760299627,
+    "seven_day_moving_average_positivity": 0.4132196843367914
   },
   {
     "date": "28-Apr-2020",
@@ -591,7 +644,8 @@
     "active_cases": 151,
     "seven_day_moving_average": 2,
     "swab_count": 1207,
-    "positivity_rate": 0.6628003314001657
+    "positivity_rate": 0.6628003314001657,
+    "seven_day_moving_average_positivity": 0.3589182602051019
   },
   {
     "date": "29-Apr-2020",
@@ -602,7 +656,8 @@
     "active_cases": 120,
     "seven_day_moving_average": 2,
     "swab_count": 1243,
-    "positivity_rate": 0.4022526146419952
+    "positivity_rate": 0.4022526146419952,
+    "seven_day_moving_average_positivity": 0.24196381019348534
   },
   {
     "date": "30-Apr-2020",
@@ -613,7 +668,8 @@
     "active_cases": 110,
     "seven_day_moving_average": 2,
     "swab_count": 1181,
-    "positivity_rate": 0.1693480101608806
+    "positivity_rate": 0.1693480101608806,
+    "seven_day_moving_average_positivity": 0.2771070408566275
   },
   {
     "date": "01-May-2020",
@@ -624,7 +680,8 @@
     "active_cases": 96,
     "seven_day_moving_average": 2,
     "swab_count": 1008,
-    "positivity_rate": 0.1984126984126984
+    "positivity_rate": 0.1984126984126984,
+    "seven_day_moving_average_positivity": 0.2778419548111141
   },
   {
     "date": "02-May-2020",
@@ -635,7 +692,8 @@
     "active_cases": 85,
     "seven_day_moving_average": 2,
     "swab_count": 1070,
-    "positivity_rate": 0.09345794392523366
+    "positivity_rate": 0.09345794392523366,
+    "seven_day_moving_average_positivity": 0.25470657453287665
   },
   {
     "date": "03-May-2020",
@@ -646,7 +704,8 @@
     "active_cases": 81,
     "seven_day_moving_average": 2,
     "swab_count": 731,
-    "positivity_rate": 1.231190150478796
+    "positivity_rate": 1.231190150478796,
+    "seven_day_moving_average_positivity": 0.24479107373485284
   },
   {
     "date": "04-May-2020",
@@ -657,7 +716,8 @@
     "active_cases": 77,
     "seven_day_moving_average": 4,
     "swab_count": 1214,
-    "positivity_rate": 0.2471169686985173
+    "positivity_rate": 0.2471169686985173,
+    "seven_day_moving_average_positivity": 0.42067538094610946
   },
   {
     "date": "05-May-2020",
@@ -668,7 +728,8 @@
     "active_cases": 74,
     "seven_day_moving_average": 4,
     "swab_count": 1394,
-    "positivity_rate": 0.1434720229555237
+    "positivity_rate": 0.1434720229555237,
+    "seven_day_moving_average_positivity": 0.4292255311026124
   },
   {
     "date": "06-May-2020",
@@ -679,7 +740,8 @@
     "active_cases": 72,
     "seven_day_moving_average": 3,
     "swab_count": 1009,
-    "positivity_rate": 0.19821605550049554
+    "positivity_rate": 0.19821605550049554,
+    "seven_day_moving_average_positivity": 0.35503577275337783
   },
   {
     "date": "07-May-2020",
@@ -690,7 +752,8 @@
     "active_cases": 68,
     "seven_day_moving_average": 3,
     "swab_count": 1135,
-    "positivity_rate": 0.1762114537444934
+    "positivity_rate": 0.1762114537444934,
+    "seven_day_moving_average_positivity": 0.32588769287602076
   },
   {
     "date": "08-May-2020",
@@ -701,7 +764,8 @@
     "active_cases": 65,
     "seven_day_moving_average": 3,
     "swab_count": 1005,
-    "positivity_rate": 0.2985074626865672
+    "positivity_rate": 0.2985074626865672,
+    "seven_day_moving_average_positivity": 0.3268681848165369
   },
   {
     "date": "09-May-2020",
@@ -712,7 +776,8 @@
     "active_cases": 58,
     "seven_day_moving_average": 3,
     "swab_count": 1107,
-    "positivity_rate": 0.09033423667570009
+    "positivity_rate": 0.09033423667570009,
+    "seven_day_moving_average_positivity": 0.341167436855661
   },
   {
     "date": "10-May-2020",
@@ -723,7 +788,8 @@
     "active_cases": 58,
     "seven_day_moving_average": 3,
     "swab_count": 775,
-    "positivity_rate": 0.7741935483870968
+    "positivity_rate": 0.7741935483870968,
+    "seven_day_moving_average_positivity": 0.3407211929628705
   },
   {
     "date": "11-May-2020",
@@ -734,7 +800,8 @@
     "active_cases": 64,
     "seven_day_moving_average": 2,
     "swab_count": 1238,
-    "positivity_rate": 0.5654281098546041
+    "positivity_rate": 0.5654281098546041,
+    "seven_day_moving_average_positivity": 0.2754359640926277
   },
   {
     "date": "12-May-2020",
@@ -745,7 +812,8 @@
     "active_cases": 67,
     "seven_day_moving_average": 3,
     "swab_count": 1132,
-    "positivity_rate": 0.26501766784452296
+    "positivity_rate": 0.26501766784452296,
+    "seven_day_moving_average_positivity": 0.32090898425778297
   },
   {
     "date": "13-May-2020",
@@ -756,7 +824,8 @@
     "active_cases": 66,
     "seven_day_moving_average": 3,
     "swab_count": 1316,
-    "positivity_rate": 0.1519756838905775
+    "positivity_rate": 0.1519756838905775,
+    "seven_day_moving_average_positivity": 0.3382726478133543
   },
   {
     "date": "14-May-2020",
@@ -767,7 +836,8 @@
     "active_cases": 73,
     "seven_day_moving_average": 3,
     "swab_count": 1495,
-    "positivity_rate": 0.9364548494983277
+    "positivity_rate": 0.9364548494983277,
+    "seven_day_moving_average_positivity": 0.33166688044050885
   },
   {
     "date": "15-May-2020",
@@ -778,7 +848,8 @@
     "active_cases": 78,
     "seven_day_moving_average": 5,
     "swab_count": 1719,
-    "positivity_rate": 0.5817335660267597
+    "positivity_rate": 0.5817335660267597,
+    "seven_day_moving_average_positivity": 0.4402730798339137
   },
   {
     "date": "16-May-2020",
@@ -789,7 +860,8 @@
     "active_cases": 90,
     "seven_day_moving_average": 6,
     "swab_count": 1425,
-    "positivity_rate": 0.9824561403508772
+    "positivity_rate": 0.9824561403508772,
+    "seven_day_moving_average_positivity": 0.48073395173965555
   },
   {
     "date": "17-May-2020",
@@ -800,7 +872,8 @@
     "active_cases": 93,
     "seven_day_moving_average": 8,
     "swab_count": 1011,
-    "positivity_rate": 0.6923837784371909
+    "positivity_rate": 0.6923837784371909,
+    "seven_day_moving_average_positivity": 0.6081799379789666
   },
   {
     "date": "18-May-2020",
@@ -811,7 +884,8 @@
     "active_cases": 96,
     "seven_day_moving_average": 8,
     "swab_count": 1514,
-    "positivity_rate": 0.33025099075297226
+    "positivity_rate": 0.33025099075297226,
+    "seven_day_moving_average_positivity": 0.5964928279861229
   },
   {
     "date": "19-May-2020",
@@ -822,7 +896,8 @@
     "active_cases": 103,
     "seven_day_moving_average": 7,
     "swab_count": 1661,
-    "positivity_rate": 0.6622516556291391
+    "positivity_rate": 0.6622516556291391,
+    "seven_day_moving_average_positivity": 0.5628960966858898
   },
   {
     "date": "20-May-2020",
@@ -833,7 +908,8 @@
     "active_cases": 113,
     "seven_day_moving_average": 9,
     "swab_count": 1367,
-    "positivity_rate": 1.097293343087052
+    "positivity_rate": 1.097293343087052,
+    "seven_day_moving_average_positivity": 0.6196438092265492
   },
   {
     "date": "21-May-2020",
@@ -844,7 +920,8 @@
     "active_cases": 125,
     "seven_day_moving_average": 10,
     "swab_count": 1546,
-    "positivity_rate": 0.9702457956015523
+    "positivity_rate": 0.9702457956015523,
+    "seven_day_moving_average_positivity": 0.7546891891117599
   },
   {
     "date": "22-May-2020",
@@ -855,7 +932,8 @@
     "active_cases": 125,
     "seven_day_moving_average": 11,
     "swab_count": 1717,
-    "positivity_rate": 0.05824111822947001
+    "positivity_rate": 0.05824111822947001,
+    "seven_day_moving_average_positivity": 0.7595164671265061
   },
   {
     "date": "23-May-2020",
@@ -866,7 +944,8 @@
     "active_cases": 130,
     "seven_day_moving_average": 9,
     "swab_count": 1286,
-    "positivity_rate": 0.6998444790046656
+    "positivity_rate": 0.6998444790046656,
+    "seven_day_moving_average_positivity": 0.6847318317268934
   },
   {
     "date": "24-May-2020",
@@ -877,7 +956,8 @@
     "active_cases": 128,
     "seven_day_moving_average": 9,
     "swab_count": 816,
-    "positivity_rate": 0.12254901960784313
+    "positivity_rate": 0.12254901960784313,
+    "seven_day_moving_average_positivity": 0.6443587372488632
   },
   {
     "date": "25-May-2020",
@@ -888,7 +968,8 @@
     "active_cases": 120,
     "seven_day_moving_average": 8,
     "swab_count": 1467,
-    "positivity_rate": 0.0681663258350375
+    "positivity_rate": 0.0681663258350375,
+    "seven_day_moving_average_positivity": 0.5629537717018135
   },
   {
     "date": "26-May-2020",
@@ -899,7 +980,8 @@
     "active_cases": 120,
     "seven_day_moving_average": 7,
     "swab_count": 1248,
-    "positivity_rate": 0.0
+    "positivity_rate": 0.0,
+    "seven_day_moving_average_positivity": 0.5255131052849656
   },
   {
     "date": "27-May-2020",
@@ -910,7 +992,8 @@
     "active_cases": 114,
     "seven_day_moving_average": 6,
     "swab_count": 1224,
-    "positivity_rate": 0.08169934640522876
+    "positivity_rate": 0.08169934640522876,
+    "seven_day_moving_average_positivity": 0.43090572590937437
   },
   {
     "date": "28-May-2020",
@@ -921,7 +1004,8 @@
     "active_cases": 108,
     "seven_day_moving_average": 4,
     "swab_count": 1192,
-    "positivity_rate": 0.33557046979865773
+    "positivity_rate": 0.33557046979865773,
+    "seven_day_moving_average_positivity": 0.2858208692405425
   },
   {
     "date": "29-May-2020",
@@ -932,7 +1016,8 @@
     "active_cases": 94,
     "seven_day_moving_average": 2,
     "swab_count": 1367,
-    "positivity_rate": 0.0
+    "positivity_rate": 0.0,
+    "seven_day_moving_average_positivity": 0.19515296555441466
   },
   {
     "date": "30-May-2020",
@@ -943,7 +1028,8 @@
     "active_cases": 84,
     "seven_day_moving_average": 2,
     "swab_count": 985,
-    "positivity_rate": 0.20304568527918782
+    "positivity_rate": 0.20304568527918782,
+    "seven_day_moving_average_positivity": 0.18683280580734754
   },
   {
     "date": "31-May-2020",
@@ -954,7 +1040,8 @@
     "active_cases": 75,
     "seven_day_moving_average": 1,
     "swab_count": 593,
-    "positivity_rate": 0.0
+    "positivity_rate": 0.0,
+    "seven_day_moving_average_positivity": 0.1158615495608507
   },
   {
     "date": "01-Jun-2020",
@@ -965,7 +1052,8 @@
     "active_cases": 73,
     "seven_day_moving_average": 1,
     "swab_count": 1015,
-    "positivity_rate": 0.09852216748768472
+    "positivity_rate": 0.09852216748768472,
+    "seven_day_moving_average_positivity": 0.09835454675973025
   },
   {
     "date": "02-Jun-2020",
@@ -976,7 +1064,8 @@
     "active_cases": 57,
     "seven_day_moving_average": 1,
     "swab_count": 945,
-    "positivity_rate": 0.10582010582010583
+    "positivity_rate": 0.10582010582010583,
+    "seven_day_moving_average_positivity": 0.1026910955672513
   },
   {
     "date": "03-Jun-2020",
@@ -987,7 +1076,8 @@
     "active_cases": 51,
     "seven_day_moving_average": 1,
     "swab_count": 905,
-    "positivity_rate": 0.22099447513812157
+    "positivity_rate": 0.22099447513812157,
+    "seven_day_moving_average_positivity": 0.11780825354155212
   },
   {
     "date": "04-Jun-2020",
@@ -998,7 +1088,8 @@
     "active_cases": 37,
     "seven_day_moving_average": 1,
     "swab_count": 977,
-    "positivity_rate": 0.0
+    "positivity_rate": 0.0,
+    "seven_day_moving_average_positivity": 0.1377075576462511
   },
   {
     "date": "05-Jun-2020",
@@ -1009,7 +1100,8 @@
     "active_cases": 33,
     "seven_day_moving_average": 0,
     "swab_count": 877,
-    "positivity_rate": 0.34207525655644244
+    "positivity_rate": 0.34207525655644244,
+    "seven_day_moving_average_positivity": 0.08976891910358571
   },
   {
     "date": "06-Jun-2020",
@@ -1020,7 +1112,8 @@
     "active_cases": 22,
     "seven_day_moving_average": 1,
     "swab_count": 905,
-    "positivity_rate": 0.22099447513812157
+    "positivity_rate": 0.22099447513812157,
+    "seven_day_moving_average_positivity": 0.1386368128973632
   },
   {
     "date": "07-Jun-2020",
@@ -1031,7 +1124,8 @@
     "active_cases": 24,
     "seven_day_moving_average": 1,
     "swab_count": 507,
-    "positivity_rate": 0.39447731755424065
+    "positivity_rate": 0.39447731755424065,
+    "seven_day_moving_average_positivity": 0.14120092573435372
   },
   {
     "date": "08-Jun-2020",
@@ -1042,7 +1136,8 @@
     "active_cases": 25,
     "seven_day_moving_average": 1,
     "swab_count": 1152,
-    "positivity_rate": 0.08680555555555555
+    "positivity_rate": 0.08680555555555555,
+    "seven_day_moving_average_positivity": 0.19755482824210238
   },
   {
     "date": "09-Jun-2020",
@@ -1053,7 +1148,8 @@
     "active_cases": 26,
     "seven_day_moving_average": 1,
     "swab_count": 851,
-    "positivity_rate": 0.23501762632197415
+    "positivity_rate": 0.23501762632197415,
+    "seven_day_moving_average_positivity": 0.19588102653751252
   },
   {
     "date": "10-Jun-2020",
@@ -1064,7 +1160,8 @@
     "active_cases": 29,
     "seven_day_moving_average": 1,
     "swab_count": 902,
-    "positivity_rate": 0.3325942350332594
+    "positivity_rate": 0.3325942350332594,
+    "seven_day_moving_average_positivity": 0.21433781518063655
   },
   {
     "date": "11-Jun-2020",
@@ -1075,7 +1172,8 @@
     "active_cases": 31,
     "seven_day_moving_average": 1,
     "swab_count": 1130,
-    "positivity_rate": 0.4424778761061947
+    "positivity_rate": 0.4424778761061947,
+    "seven_day_moving_average_positivity": 0.23028063802279908
   },
   {
     "date": "12-Jun-2020",
@@ -1086,7 +1184,8 @@
     "active_cases": 36,
     "seven_day_moving_average": 2,
     "swab_count": 1042,
-    "positivity_rate": 0.47984644913627633
+    "positivity_rate": 0.47984644913627633,
+    "seven_day_moving_average_positivity": 0.29349176318082687
   },
   {
     "date": "13-Jun-2020",
@@ -1097,7 +1196,8 @@
     "active_cases": 36,
     "seven_day_moving_average": 2,
     "swab_count": 1310,
-    "positivity_rate": 0.07633587786259542
+    "positivity_rate": 0.07633587786259542,
+    "seven_day_moving_average_positivity": 0.31317336212080316
   },
   {
     "date": "14-Jun-2020",
@@ -1108,7 +1208,8 @@
     "active_cases": 37,
     "seven_day_moving_average": 2,
     "swab_count": 554,
-    "positivity_rate": 0.5415162454873645
+    "positivity_rate": 0.5415162454873645,
+    "seven_day_moving_average_positivity": 0.2925078482242994
   },
   {
     "date": "15-Jun-2020",
@@ -1119,7 +1220,8 @@
     "active_cases": 38,
     "seven_day_moving_average": 2,
     "swab_count": 1236,
-    "positivity_rate": 0.08090614886731393
+    "positivity_rate": 0.08090614886731393,
+    "seven_day_moving_average_positivity": 0.31351340935760286
   },
   {
     "date": "16-Jun-2020",
@@ -1130,7 +1232,8 @@
     "active_cases": 39,
     "seven_day_moving_average": 2,
     "swab_count": 911,
-    "positivity_rate": 0.6586169045005488
+    "positivity_rate": 0.6586169045005488,
+    "seven_day_moving_average_positivity": 0.3126706369735683
   },
   {
     "date": "17-Jun-2020",
@@ -1141,7 +1244,8 @@
     "active_cases": 43,
     "seven_day_moving_average": 3,
     "swab_count": 860,
-    "positivity_rate": 0.6976744186046512
+    "positivity_rate": 0.6976744186046512,
+    "seven_day_moving_average_positivity": 0.3731848195705076
   },
   {
     "date": "18-Jun-2020",
@@ -1152,7 +1256,8 @@
     "active_cases": 44,
     "seven_day_moving_average": 3,
     "swab_count": 852,
-    "positivity_rate": 0.11737089201877934
+    "positivity_rate": 0.11737089201877934,
+    "seven_day_moving_average_positivity": 0.4253391315092778
   },
   {
     "date": "19-Jun-2020",
@@ -1163,7 +1268,8 @@
     "active_cases": 41,
     "seven_day_moving_average": 3,
     "swab_count": 786,
-    "positivity_rate": 0.0
+    "positivity_rate": 0.0,
+    "seven_day_moving_average_positivity": 0.3788952766396471
   },
   {
     "date": "20-Jun-2020",
@@ -1174,7 +1280,8 @@
     "active_cases": 39,
     "seven_day_moving_average": 2,
     "swab_count": 768,
-    "positivity_rate": 0.13020833333333331
+    "positivity_rate": 0.13020833333333331,
+    "seven_day_moving_average_positivity": 0.31034578390589335
   },
   {
     "date": "21-Jun-2020",
@@ -1185,7 +1292,8 @@
     "active_cases": 40,
     "seven_day_moving_average": 2,
     "swab_count": 464,
-    "positivity_rate": 0.21551724137931033
+    "positivity_rate": 0.21551724137931033,
+    "seven_day_moving_average_positivity": 0.31804184897314164
   },
   {
     "date": "22-Jun-2020",
@@ -1196,7 +1304,8 @@
     "active_cases": 39,
     "seven_day_moving_average": 2,
     "swab_count": 927,
-    "positivity_rate": 0.0
+    "positivity_rate": 0.0,
+    "seven_day_moving_average_positivity": 0.27147056267199093
   },
   {
     "date": "23-Jun-2020",
@@ -1207,7 +1316,8 @@
     "active_cases": 38,
     "seven_day_moving_average": 2,
     "swab_count": 923,
-    "positivity_rate": 0.0
+    "positivity_rate": 0.0,
+    "seven_day_moving_average_positivity": 0.25991254140523185
   },
   {
     "date": "24-Jun-2020",
@@ -1218,7 +1328,8 @@
     "active_cases": 32,
     "seven_day_moving_average": 1,
     "swab_count": 1027,
-    "positivity_rate": 0.0
+    "positivity_rate": 0.0,
+    "seven_day_moving_average_positivity": 0.16582441219086771
   },
   {
     "date": "25-Jun-2020",
@@ -1229,7 +1340,8 @@
     "active_cases": 32,
     "seven_day_moving_average": 0,
     "swab_count": 946,
-    "positivity_rate": 0.3171247357293869
+    "positivity_rate": 0.3171247357293869,
+    "seven_day_moving_average_positivity": 0.066156638104489
   },
   {
     "date": "26-Jun-2020",
@@ -1240,7 +1352,8 @@
     "active_cases": 29,
     "seven_day_moving_average": 0,
     "swab_count": 870,
-    "positivity_rate": 0.22988505747126436
+    "positivity_rate": 0.22988505747126436,
+    "seven_day_moving_average_positivity": 0.09469290149171863
   },
   {
     "date": "27-Jun-2020",
@@ -1251,7 +1364,8 @@
     "active_cases": 26,
     "seven_day_moving_average": 1,
     "swab_count": 661,
-    "positivity_rate": 0.0
+    "positivity_rate": 0.0,
+    "seven_day_moving_average_positivity": 0.12753362398761353
   },
   {
     "date": "28-Jun-2020",
@@ -1262,7 +1376,8 @@
     "active_cases": 25,
     "seven_day_moving_average": 0,
     "swab_count": 516,
-    "positivity_rate": 0.0
+    "positivity_rate": 0.0,
+    "seven_day_moving_average_positivity": 0.10893243351142308
   },
   {
     "date": "29-Jun-2020",
@@ -1273,7 +1388,8 @@
     "active_cases": 22,
     "seven_day_moving_average": 0,
     "swab_count": 567,
-    "positivity_rate": 0.0
+    "positivity_rate": 0.0,
+    "seven_day_moving_average_positivity": 0.07814425617152161
   },
   {
     "date": "30-Jun-2020",
@@ -1284,7 +1400,8 @@
     "active_cases": 21,
     "seven_day_moving_average": 0,
     "swab_count": 1135,
-    "positivity_rate": 0.0
+    "positivity_rate": 0.0,
+    "seven_day_moving_average_positivity": 0.07814425617152161
   },
   {
     "date": "01-Jul-2020",
@@ -1295,7 +1412,8 @@
     "active_cases": 15,
     "seven_day_moving_average": 0,
     "swab_count": 892,
-    "positivity_rate": 0.11210762331838565
+    "positivity_rate": 0.11210762331838565,
+    "seven_day_moving_average_positivity": 0.07814425617152161
   },
   {
     "date": "02-Jul-2020",
@@ -1306,7 +1424,8 @@
     "active_cases": 13,
     "seven_day_moving_average": 0,
     "swab_count": 981,
-    "positivity_rate": 0.0
+    "positivity_rate": 0.0,
+    "seven_day_moving_average_positivity": 0.09415963093129098
   },
   {
     "date": "03-Jul-2020",
@@ -1317,7 +1436,8 @@
     "active_cases": 13,
     "seven_day_moving_average": 0,
     "swab_count": 987,
-    "positivity_rate": 0.10131712259371835
+    "positivity_rate": 0.10131712259371835,
+    "seven_day_moving_average_positivity": 0.04885609725566429
   },
   {
     "date": "04-Jul-2020",
@@ -1328,7 +1448,8 @@
     "active_cases": 12,
     "seven_day_moving_average": 0,
     "swab_count": 771,
-    "positivity_rate": 0.0
+    "positivity_rate": 0.0,
+    "seven_day_moving_average_positivity": 0.030489249416014857
   },
   {
     "date": "05-Jul-2020",
@@ -1339,7 +1460,8 @@
     "active_cases": 11,
     "seven_day_moving_average": 0,
     "swab_count": 457,
-    "positivity_rate": 0.0
+    "positivity_rate": 0.0,
+    "seven_day_moving_average_positivity": 0.030489249416014857
   },
   {
     "date": "06-Jul-2020",
@@ -1350,7 +1472,8 @@
     "active_cases": 11,
     "seven_day_moving_average": 0,
     "swab_count": 930,
-    "positivity_rate": 0.0
+    "positivity_rate": 0.0,
+    "seven_day_moving_average_positivity": 0.030489249416014857
   },
   {
     "date": "07-Jul-2020",
@@ -1361,7 +1484,8 @@
     "active_cases": 11,
     "seven_day_moving_average": 0,
     "swab_count": 775,
-    "positivity_rate": 0.12903225806451613
+    "positivity_rate": 0.12903225806451613,
+    "seven_day_moving_average_positivity": 0.030489249416014857
   },
   {
     "date": "08-Jul-2020",
@@ -1372,7 +1496,8 @@
     "active_cases": 10,
     "seven_day_moving_average": 0,
     "swab_count": 809,
-    "positivity_rate": 0.0
+    "positivity_rate": 0.0,
+    "seven_day_moving_average_positivity": 0.048922429139517165
   },
   {
     "date": "09-Jul-2020",
@@ -1383,7 +1508,8 @@
     "active_cases": 9,
     "seven_day_moving_average": 0,
     "swab_count": 775,
-    "positivity_rate": 0.12903225806451613
+    "positivity_rate": 0.12903225806451613,
+    "seven_day_moving_average_positivity": 0.03290705437974778
   },
   {
     "date": "10-Jul-2020",
@@ -1394,7 +1520,8 @@
     "active_cases": 7,
     "seven_day_moving_average": 0,
     "swab_count": 742,
-    "positivity_rate": 0.0
+    "positivity_rate": 0.0,
+    "seven_day_moving_average_positivity": 0.05134023410325008
   },
   {
     "date": "11-Jul-2020",
@@ -1405,7 +1532,8 @@
     "active_cases": 7,
     "seven_day_moving_average": 0,
     "swab_count": 741,
-    "positivity_rate": 0.0
+    "positivity_rate": 0.0,
+    "seven_day_moving_average_positivity": 0.03686635944700461
   },
   {
     "date": "12-Jul-2020",
@@ -1416,7 +1544,8 @@
     "active_cases": 5,
     "seven_day_moving_average": 0,
     "swab_count": 456,
-    "positivity_rate": 0.0
+    "positivity_rate": 0.0,
+    "seven_day_moving_average_positivity": 0.03686635944700461
   },
   {
     "date": "13-Jul-2020",
@@ -1427,7 +1556,8 @@
     "active_cases": 5,
     "seven_day_moving_average": 0,
     "swab_count": 931,
-    "positivity_rate": 0.0
+    "positivity_rate": 0.0,
+    "seven_day_moving_average_positivity": 0.03686635944700461
   },
   {
     "date": "14-Jul-2020",
@@ -1438,7 +1568,8 @@
     "active_cases": 5,
     "seven_day_moving_average": 0,
     "swab_count": 985,
-    "positivity_rate": 0.0
+    "positivity_rate": 0.0,
+    "seven_day_moving_average_positivity": 0.03686635944700461
   },
   {
     "date": "15-Jul-2020",
@@ -1449,7 +1580,8 @@
     "active_cases": 4,
     "seven_day_moving_average": 0,
     "swab_count": 1087,
-    "positivity_rate": 0.0
+    "positivity_rate": 0.0,
+    "seven_day_moving_average_positivity": 0.018433179723502304
   },
   {
     "date": "16-Jul-2020",
@@ -1460,7 +1592,8 @@
     "active_cases": 4,
     "seven_day_moving_average": 0,
     "swab_count": 930,
-    "positivity_rate": 0.0
+    "positivity_rate": 0.0,
+    "seven_day_moving_average_positivity": 0.018433179723502304
   },
   {
     "date": "17-Jul-2020",
@@ -1471,7 +1604,8 @@
     "active_cases": 3,
     "seven_day_moving_average": 0,
     "swab_count": 848,
-    "positivity_rate": 0.0
+    "positivity_rate": 0.0,
+    "seven_day_moving_average_positivity": 0.0
   },
   {
     "date": "18-Jul-2020",
@@ -1482,7 +1616,8 @@
     "active_cases": 4,
     "seven_day_moving_average": 0,
     "swab_count": 834,
-    "positivity_rate": 0.1199040767386091
+    "positivity_rate": 0.1199040767386091,
+    "seven_day_moving_average_positivity": 0.0
   },
   {
     "date": "19-Jul-2020",
@@ -1493,7 +1628,8 @@
     "active_cases": 5,
     "seven_day_moving_average": 0,
     "swab_count": 583,
-    "positivity_rate": 0.17152658662092624
+    "positivity_rate": 0.17152658662092624,
+    "seven_day_moving_average_positivity": 0.0171291538198013
   },
   {
     "date": "20-Jul-2020",
@@ -1504,7 +1640,8 @@
     "active_cases": 4,
     "seven_day_moving_average": 0,
     "swab_count": 959,
-    "positivity_rate": 0.10427528675703858
+    "positivity_rate": 0.10427528675703858,
+    "seven_day_moving_average_positivity": 0.04163295190850504
   },
   {
     "date": "21-Jul-2020",
@@ -1515,7 +1652,8 @@
     "active_cases": 4,
     "seven_day_moving_average": 0,
     "swab_count": 1016,
-    "positivity_rate": 0.0
+    "positivity_rate": 0.0,
+    "seven_day_moving_average_positivity": 0.05652942144522484
   },
   {
     "date": "22-Jul-2020",
@@ -1526,7 +1664,8 @@
     "active_cases": 5,
     "seven_day_moving_average": 0,
     "swab_count": 1114,
-    "positivity_rate": 0.17953321364452424
+    "positivity_rate": 0.17953321364452424,
+    "seven_day_moving_average_positivity": 0.05652942144522484
   },
   {
     "date": "23-Jul-2020",
@@ -1537,7 +1676,8 @@
     "active_cases": 6,
     "seven_day_moving_average": 0,
     "swab_count": 931,
-    "positivity_rate": 0.10741138560687433
+    "positivity_rate": 0.10741138560687433,
+    "seven_day_moving_average_positivity": 0.08217702339444258
   },
   {
     "date": "24-Jul-2020",
@@ -1548,7 +1688,8 @@
     "active_cases": 12,
     "seven_day_moving_average": 0,
     "swab_count": 1085,
-    "positivity_rate": 0.5529953917050692
+    "positivity_rate": 0.5529953917050692,
+    "seven_day_moving_average_positivity": 0.09752150705256749
   },
   {
     "date": "25-Jul-2020",
@@ -1559,7 +1700,8 @@
     "active_cases": 12,
     "seven_day_moving_average": 1,
     "swab_count": 1220,
-    "positivity_rate": 0.0
+    "positivity_rate": 0.0,
+    "seven_day_moving_average_positivity": 0.17652084872472024
   },
   {
     "date": "26-Jul-2020",
@@ -1570,7 +1712,8 @@
     "active_cases": 26,
     "seven_day_moving_average": 1,
     "swab_count": 850,
-    "positivity_rate": 1.647058823529412
+    "positivity_rate": 1.647058823529412,
+    "seven_day_moving_average_positivity": 0.15939169490491895
   },
   {
     "date": "27-Jul-2020",
@@ -1581,7 +1724,8 @@
     "active_cases": 27,
     "seven_day_moving_average": 3,
     "swab_count": 1353,
-    "positivity_rate": 0.07390983000739099
+    "positivity_rate": 0.07390983000739099,
+    "seven_day_moving_average_positivity": 0.37018201446327403
   },
   {
     "date": "28-Jul-2020",
@@ -1592,7 +1736,8 @@
     "active_cases": 34,
     "seven_day_moving_average": 3,
     "swab_count": 1615,
-    "positivity_rate": 0.43343653250773995
+    "positivity_rate": 0.43343653250773995,
+    "seven_day_moving_average_positivity": 0.3658440920704672
   },
   {
     "date": "29-Jul-2020",
@@ -1603,7 +1748,8 @@
     "active_cases": 46,
     "seven_day_moving_average": 4,
     "swab_count": 1722,
-    "positivity_rate": 0.6968641114982579
+    "positivity_rate": 0.6968641114982579,
+    "seven_day_moving_average_positivity": 0.42776359671443004
   },
   {
     "date": "30-Jul-2020",
@@ -1614,7 +1760,8 @@
     "active_cases": 140,
     "seven_day_moving_average": 5,
     "swab_count": 1314,
-    "positivity_rate": 7.15372907153729
+    "positivity_rate": 7.15372907153729,
+    "seven_day_moving_average_positivity": 0.5016680106935348
   },
   {
     "date": "31-Jul-2020",
@@ -1625,7 +1772,8 @@
     "active_cases": 150,
     "seven_day_moving_average": 19,
     "swab_count": 1748,
-    "positivity_rate": 0.5720823798627002
+    "positivity_rate": 0.5720823798627002,
+    "seven_day_moving_average_positivity": 1.5082848229693084
   },
   {
     "date": "01-Aug-2020",
@@ -1636,7 +1784,8 @@
     "active_cases": 171,
     "seven_day_moving_average": 19,
     "swab_count": 1416,
-    "positivity_rate": 1.4830508474576272
+    "positivity_rate": 1.4830508474576272,
+    "seven_day_moving_average_positivity": 1.5110115355632558
   },
   {
     "date": "02-Aug-2020",
@@ -1647,7 +1796,8 @@
     "active_cases": 185,
     "seven_day_moving_average": 22,
     "swab_count": 1437,
-    "positivity_rate": 1.0438413361169103
+    "positivity_rate": 1.0438413361169103,
+    "seven_day_moving_average_positivity": 1.7228759423429167
   },
   {
     "date": "03-Aug-2020",
@@ -1658,7 +1808,8 @@
     "active_cases": 199,
     "seven_day_moving_average": 22,
     "swab_count": 1501,
-    "positivity_rate": 0.9327115256495668
+    "positivity_rate": 0.9327115256495668,
+    "seven_day_moving_average_positivity": 1.636702015569702
   },
   {
     "date": "04-Aug-2020",
@@ -1669,7 +1820,8 @@
     "active_cases": 213,
     "seven_day_moving_average": 24,
     "swab_count": 1839,
-    "positivity_rate": 0.8700380641653072
+    "positivity_rate": 0.8700380641653072,
+    "seven_day_moving_average_positivity": 1.759387972090013
   },
   {
     "date": "05-Aug-2020",
@@ -1680,7 +1832,8 @@
     "active_cases": 249,
     "seven_day_moving_average": 26,
     "swab_count": 1769,
-    "positivity_rate": 2.035048049745619
+    "positivity_rate": 2.035048049745619,
+    "seven_day_moving_average_positivity": 1.8217596194696657
   },
   {
     "date": "06-Aug-2020",
@@ -1691,7 +1844,8 @@
     "active_cases": 267,
     "seven_day_moving_average": 29,
     "swab_count": 1717,
-    "positivity_rate": 1.1648223645894
+    "positivity_rate": 1.1648223645894,
+    "seven_day_moving_average_positivity": 2.0129287535050033
   },
   {
     "date": "07-Aug-2020",
@@ -1702,7 +1856,8 @@
     "active_cases": 311,
     "seven_day_moving_average": 18,
     "swab_count": 1548,
-    "positivity_rate": 3.1653746770025837
+    "positivity_rate": 3.1653746770025837,
+    "seven_day_moving_average_positivity": 1.1573706525124472
   },
   {
     "date": "08-Aug-2020",
@@ -1713,7 +1868,8 @@
     "active_cases": 351,
     "seven_day_moving_average": 24,
     "swab_count": 1789,
-    "positivity_rate": 2.235885969815539
+    "positivity_rate": 2.235885969815539,
+    "seven_day_moving_average_positivity": 1.5278409806752877
   },
   {
     "date": "09-Aug-2020",
@@ -1724,7 +1880,8 @@
     "active_cases": 396,
     "seven_day_moving_average": 27,
     "swab_count": 1617,
-    "positivity_rate": 3.339517625231911
+    "positivity_rate": 3.339517625231911,
+    "seven_day_moving_average_positivity": 1.6353888552978468
   },
   {
     "date": "10-Aug-2020",
@@ -1735,7 +1892,8 @@
     "active_cases": 415,
     "seven_day_moving_average": 32,
     "swab_count": 1881,
-    "positivity_rate": 1.2227538543328018
+    "positivity_rate": 1.2227538543328018,
+    "seven_day_moving_average_positivity": 1.963342610885704
   },
   {
     "date": "11-Aug-2020",
@@ -1746,7 +1904,8 @@
     "active_cases": 440,
     "seven_day_moving_average": 34,
     "swab_count": 2144,
-    "positivity_rate": 1.3526119402985073
+    "positivity_rate": 1.3526119402985073,
+    "seven_day_moving_average_positivity": 2.004777229269023
   },
   {
     "date": "12-Aug-2020",
@@ -1757,7 +1916,8 @@
     "active_cases": 486,
     "seven_day_moving_average": 35,
     "swab_count": 2483,
-    "positivity_rate": 1.973419250906162
+    "positivity_rate": 1.973419250906162,
+    "seven_day_moving_average_positivity": 2.0737163544309087
   },
   {
     "date": "13-Aug-2020",
@@ -1768,7 +1928,8 @@
     "active_cases": 528,
     "seven_day_moving_average": 37,
     "swab_count": 2191,
-    "positivity_rate": 2.5102692834322227
+    "positivity_rate": 2.5102692834322227,
+    "seven_day_moving_average_positivity": 2.0649122403109863
   },
   {
     "date": "14-Aug-2020",
@@ -1779,7 +1940,8 @@
     "active_cases": 505,
     "seven_day_moving_average": 42,
     "swab_count": 2434,
-    "positivity_rate": 1.2736236647493837
+    "positivity_rate": 1.2736236647493837,
+    "seven_day_moving_average_positivity": 2.2571189430028182
   },
   {
     "date": "15-Aug-2020",
@@ -1790,7 +1952,8 @@
     "active_cases": 557,
     "seven_day_moving_average": 40,
     "swab_count": 2140,
-    "positivity_rate": 3.364485981308411
+    "positivity_rate": 3.364485981308411,
+    "seven_day_moving_average_positivity": 1.986868798395218
   },
   {
     "date": "16-Aug-2020",
@@ -1801,7 +1964,8 @@
     "active_cases": 548,
     "seven_day_moving_average": 44,
     "swab_count": 2270,
-    "positivity_rate": 2.7753303964757707
+    "positivity_rate": 2.7753303964757707,
+    "seven_day_moving_average_positivity": 2.1480973714656284
   },
   {
     "date": "17-Aug-2020",
@@ -1812,7 +1976,8 @@
     "active_cases": 607,
     "seven_day_moving_average": 46,
     "swab_count": 2123,
-    "positivity_rate": 3.2501177578897784
+    "positivity_rate": 3.2501177578897784,
+    "seven_day_moving_average_positivity": 2.067499195929037
   },
   {
     "date": "18-Aug-2020",
@@ -1823,7 +1988,8 @@
     "active_cases": 648,
     "seven_day_moving_average": 52,
     "swab_count": 2260,
-    "positivity_rate": 2.1238938053097343
+    "positivity_rate": 2.1238938053097343,
+    "seven_day_moving_average_positivity": 2.357122610722891
   },
   {
     "date": "19-Aug-2020",
@@ -1834,7 +2000,8 @@
     "active_cases": 677,
     "seven_day_moving_average": 55,
     "swab_count": 3029,
-    "positivity_rate": 1.5516672169032684
+    "positivity_rate": 1.5516672169032684,
+    "seven_day_moving_average_positivity": 2.4673057342959233
   },
   {
     "date": "20-Aug-2020",
@@ -1845,7 +2012,8 @@
     "active_cases": 699,
     "seven_day_moving_average": 55,
     "swab_count": 2445,
-    "positivity_rate": 1.6359918200409
+    "positivity_rate": 1.6359918200409,
+    "seven_day_moving_average_positivity": 2.4070554437240816
   },
   {
     "date": "21-Aug-2020",
@@ -1856,7 +2024,8 @@
     "active_cases": 682,
     "seven_day_moving_average": 52,
     "swab_count": 2310,
-    "positivity_rate": 1.5584415584415585
+    "positivity_rate": 1.5584415584415585,
+    "seven_day_moving_average_positivity": 2.2821586632396067
   },
   {
     "date": "22-Aug-2020",
@@ -1867,7 +2036,8 @@
     "active_cases": 666,
     "seven_day_moving_average": 53,
     "swab_count": 2173,
-    "positivity_rate": 1.4265991716520938
+    "positivity_rate": 1.4265991716520938,
+    "seven_day_moving_average_positivity": 2.3228469337670603
   },
   {
     "date": "23-Aug-2020",
@@ -1878,7 +2048,8 @@
     "active_cases": 668,
     "seven_day_moving_average": 47,
     "swab_count": 2194,
-    "positivity_rate": 1.5952597994530537
+    "positivity_rate": 1.5952597994530537,
+    "seven_day_moving_average_positivity": 2.0460059609590147
   },
   {
     "date": "24-Aug-2020",
@@ -1889,7 +2060,8 @@
     "active_cases": 680,
     "seven_day_moving_average": 43,
     "swab_count": 2047,
-    "positivity_rate": 2.68685881778212
+    "positivity_rate": 2.68685881778212,
+    "seven_day_moving_average_positivity": 1.8774244470986265
   },
   {
     "date": "25-Aug-2020",
@@ -1900,7 +2072,8 @@
     "active_cases": 666,
     "seven_day_moving_average": 41,
     "swab_count": 2185,
-    "positivity_rate": 1.7391304347826086
+    "positivity_rate": 1.7391304347826086,
+    "seven_day_moving_average_positivity": 1.796958884226104
   },
   {
     "date": "26-Aug-2020",
@@ -1911,7 +2084,8 @@
     "active_cases": 664,
     "seven_day_moving_average": 40,
     "swab_count": 2542,
-    "positivity_rate": 1.8095987411487018
+    "positivity_rate": 1.8095987411487018,
+    "seven_day_moving_average_positivity": 1.7419926884365147
   },
   {
     "date": "27-Aug-2020",
@@ -1922,7 +2096,8 @@
     "active_cases": 657,
     "seven_day_moving_average": 40,
     "swab_count": 2109,
-    "positivity_rate": 1.7543859649122806
+    "positivity_rate": 1.7543859649122806,
+    "seven_day_moving_average_positivity": 1.7788400490430054
   },
   {
     "date": "28-Aug-2020",
@@ -1933,7 +2108,8 @@
     "active_cases": 624,
     "seven_day_moving_average": 39,
     "swab_count": 2290,
-    "positivity_rate": 1.3973799126637554
+    "positivity_rate": 1.3973799126637554,
+    "seven_day_moving_average_positivity": 1.7957534983103456
   },
   {
     "date": "29-Aug-2020",
@@ -1944,7 +2120,8 @@
     "active_cases": 593,
     "seven_day_moving_average": 39,
     "swab_count": 1909,
-    "positivity_rate": 1.4143530644316398
+    "positivity_rate": 1.4143530644316398,
+    "seven_day_moving_average_positivity": 1.772744691770659
   },
   {
     "date": "30-Aug-2020",
@@ -1955,7 +2132,8 @@
     "active_cases": 538,
     "seven_day_moving_average": 38,
     "swab_count": 2040,
-    "positivity_rate": 0.7352941176470588
+    "positivity_rate": 0.7352941176470588,
+    "seven_day_moving_average_positivity": 1.770995247882023
   },
   {
     "date": "31-Aug-2020",
@@ -1966,7 +2144,8 @@
     "active_cases": 471,
     "seven_day_moving_average": 35,
     "swab_count": 1915,
-    "positivity_rate": 1.0966057441253265
+    "positivity_rate": 1.0966057441253265,
+    "seven_day_moving_average_positivity": 1.6481430076240235
   },
   {
     "date": "01-Sep-2020",
@@ -1977,7 +2156,8 @@
     "active_cases": 444,
     "seven_day_moving_average": 30,
     "swab_count": 2067,
-    "positivity_rate": 1.257861635220126
+    "positivity_rate": 1.257861635220126,
+    "seven_day_moving_average_positivity": 1.4209639971016246
   },
   {
     "date": "02-Sep-2020",
@@ -1988,7 +2168,8 @@
     "active_cases": 428,
     "seven_day_moving_average": 29,
     "swab_count": 2438,
-    "positivity_rate": 0.9023789991796556
+    "positivity_rate": 0.9023789991796556,
+    "seven_day_moving_average_positivity": 1.352211311449841
   },
   {
     "date": "03-Sep-2020",
@@ -1999,7 +2180,8 @@
     "active_cases": 424,
     "seven_day_moving_average": 25,
     "swab_count": 1869,
-    "positivity_rate": 1.8191546281433921
+    "positivity_rate": 1.8191546281433921,
+    "seven_day_moving_average_positivity": 1.2226084911685489
   },
   {
     "date": "04-Sep-2020",
@@ -2010,7 +2192,8 @@
     "active_cases": 406,
     "seven_day_moving_average": 25,
     "swab_count": 1703,
-    "positivity_rate": 1.1156782149148563
+    "positivity_rate": 1.1156782149148563,
+    "seven_day_moving_average_positivity": 1.231861157344422
   },
   {
     "date": "05-Sep-2020",
@@ -2021,7 +2204,8 @@
     "active_cases": 399,
     "seven_day_moving_average": 23,
     "swab_count": 1551,
-    "positivity_rate": 1.9342359767891684
+    "positivity_rate": 1.9342359767891684,
+    "seven_day_moving_average_positivity": 1.1916180576660078
   },
   {
     "date": "06-Sep-2020",
@@ -2032,7 +2216,8 @@
     "active_cases": 398,
     "seven_day_moving_average": 23,
     "swab_count": 1640,
-    "positivity_rate": 1.524390243902439
+    "positivity_rate": 1.524390243902439,
+    "seven_day_moving_average_positivity": 1.265887045145655
   },
   {
     "date": "07-Sep-2020",
@@ -2043,7 +2228,8 @@
     "active_cases": 372,
     "seven_day_moving_average": 25,
     "swab_count": 1363,
-    "positivity_rate": 2.714600146735143
+    "positivity_rate": 2.714600146735143,
+    "seven_day_moving_average_positivity": 1.3786150631821374
   },
   {
     "date": "08-Sep-2020",
@@ -2054,7 +2240,8 @@
     "active_cases": 356,
     "seven_day_moving_average": 27,
     "swab_count": 2043,
-    "positivity_rate": 1.1257953989231522
+    "positivity_rate": 1.1257953989231522,
+    "seven_day_moving_average_positivity": 1.6097571206978256
   },
   {
     "date": "09-Sep-2020",
@@ -2065,7 +2252,8 @@
     "active_cases": 388,
     "seven_day_moving_average": 27,
     "swab_count": 1957,
-    "positivity_rate": 3.2192130812468065
+    "positivity_rate": 3.2192130812468065,
+    "seven_day_moving_average_positivity": 1.590890515512544
   },
   {
     "date": "10-Sep-2020",
@@ -2076,7 +2264,8 @@
     "active_cases": 387,
     "seven_day_moving_average": 33,
     "swab_count": 2094,
-    "positivity_rate": 2.005730659025788
+    "positivity_rate": 2.005730659025788,
+    "seven_day_moving_average_positivity": 1.9218668129507084
   },
   {
     "date": "11-Sep-2020",
@@ -2087,7 +2276,8 @@
     "active_cases": 399,
     "seven_day_moving_average": 34,
     "swab_count": 1647,
-    "positivity_rate": 2.610807528840316
+    "positivity_rate": 2.610807528840316,
+    "seven_day_moving_average_positivity": 1.9485205316481935
   },
   {
     "date": "12-Sep-2020",
@@ -2098,7 +2288,8 @@
     "active_cases": 409,
     "seven_day_moving_average": 37,
     "swab_count": 2404,
-    "positivity_rate": 1.123128119800333
+    "positivity_rate": 1.123128119800333,
+    "seven_day_moving_average_positivity": 2.1621104336375447
   },
   {
     "date": "13-Sep-2020",
@@ -2109,7 +2300,8 @@
     "active_cases": 465,
     "seven_day_moving_average": 37,
     "swab_count": 1736,
-    "positivity_rate": 4.493087557603687
+    "positivity_rate": 4.493087557603687,
+    "seven_day_moving_average_positivity": 2.0462378826391396
   },
   {
     "date": "14-Sep-2020",
@@ -2120,7 +2312,8 @@
     "active_cases": 499,
     "seven_day_moving_average": 44,
     "swab_count": 1665,
-    "positivity_rate": 3.183183183183183
+    "positivity_rate": 3.183183183183183,
+    "seven_day_moving_average_positivity": 2.4703374988821745
   },
   {
     "date": "15-Sep-2020",
@@ -2131,7 +2324,8 @@
     "active_cases": 507,
     "seven_day_moving_average": 47,
     "swab_count": 2470,
-    "positivity_rate": 1.9838056680161944
+    "positivity_rate": 1.9838056680161944,
+    "seven_day_moving_average_positivity": 2.5372779326604666
   },
   {
     "date": "16-Sep-2020",
@@ -2142,7 +2336,8 @@
     "active_cases": 591,
     "seven_day_moving_average": 50,
     "swab_count": 2535,
-    "positivity_rate": 4.181459566074951
+    "positivity_rate": 4.181459566074951,
+    "seven_day_moving_average_positivity": 2.659850828245187
   },
   {
     "date": "17-Sep-2020",
@@ -2153,7 +2348,8 @@
     "active_cases": 601,
     "seven_day_moving_average": 56,
     "swab_count": 2632,
-    "positivity_rate": 1.3297872340425532
+    "positivity_rate": 1.3297872340425532,
+    "seven_day_moving_average_positivity": 2.797314611792064
   },
   {
     "date": "18-Sep-2020",
@@ -2164,7 +2360,8 @@
     "active_cases": 621,
     "seven_day_moving_average": 55,
     "swab_count": 2922,
-    "positivity_rate": 1.3347022587268993
+    "positivity_rate": 1.3347022587268993,
+    "seven_day_moving_average_positivity": 2.700751265365888
   },
   {
     "date": "19-Sep-2020",
@@ -2175,7 +2372,8 @@
     "active_cases": 663,
     "seven_day_moving_average": 55,
     "swab_count": 2196,
-    "positivity_rate": 2.959927140255009
+    "positivity_rate": 2.959927140255009,
+    "seven_day_moving_average_positivity": 2.5184505124925427
   },
   {
     "date": "20-Sep-2020",
@@ -2186,7 +2384,8 @@
     "active_cases": 664,
     "seven_day_moving_average": 60,
     "swab_count": 1783,
-    "positivity_rate": 1.79472798653954
+    "positivity_rate": 1.79472798653954,
+    "seven_day_moving_average_positivity": 2.7808503725574965
   },
   {
     "date": "21-Sep-2020",
@@ -2197,7 +2396,8 @@
     "active_cases": 676,
     "seven_day_moving_average": 54,
     "swab_count": 2409,
-    "positivity_rate": 1.86799501867995
+    "positivity_rate": 1.86799501867995,
+    "seven_day_moving_average_positivity": 2.395370433834047
   },
   {
     "date": "22-Sep-2020",
@@ -2208,7 +2408,8 @@
     "active_cases": 678,
     "seven_day_moving_average": 53,
     "swab_count": 2443,
-    "positivity_rate": 1.5554645927138764
+    "positivity_rate": 1.5554645927138764,
+    "seven_day_moving_average_positivity": 2.2074864103335856
   },
   {
     "date": "23-Sep-2020",
@@ -2219,7 +2420,8 @@
     "active_cases": 658,
     "seven_day_moving_average": 51,
     "swab_count": 2301,
-    "positivity_rate": 1.8252933507170794
+    "positivity_rate": 1.8252933507170794,
+    "seven_day_moving_average_positivity": 2.14629482814754
   },
   {
     "date": "24-Sep-2020",
@@ -2230,7 +2432,8 @@
     "active_cases": 680,
     "seven_day_moving_average": 42,
     "swab_count": 2544,
-    "positivity_rate": 1.650943396226415
+    "positivity_rate": 1.650943396226415,
+    "seven_day_moving_average_positivity": 1.8096996545249868
   },
   {
     "date": "25-Sep-2020",
@@ -2241,7 +2444,8 @@
     "active_cases": 639,
     "seven_day_moving_average": 43,
     "swab_count": 2096,
-    "positivity_rate": 1.4790076335877862
+    "positivity_rate": 1.4790076335877862,
+    "seven_day_moving_average_positivity": 1.8555791062655385
   },
   {
     "date": "26-Sep-2020",
@@ -2252,7 +2456,8 @@
     "active_cases": 623,
     "seven_day_moving_average": 42,
     "swab_count": 2326,
-    "positivity_rate": 1.246775580395529
+    "positivity_rate": 1.246775580395529,
+    "seven_day_moving_average_positivity": 1.8761941598170935
   },
   {
     "date": "27-Sep-2020",
@@ -2263,7 +2468,8 @@
     "active_cases": 590,
     "seven_day_moving_average": 37,
     "swab_count": 2302,
-    "positivity_rate": 0.9122502172024326
+    "positivity_rate": 0.9122502172024326,
+    "seven_day_moving_average_positivity": 1.6314582226943108
   },
   {
     "date": "28-Sep-2020",
@@ -2274,7 +2480,8 @@
     "active_cases": 575,
     "seven_day_moving_average": 35,
     "swab_count": 2116,
-    "positivity_rate": 1.275992438563327
+    "positivity_rate": 1.275992438563327,
+    "seven_day_moving_average_positivity": 1.505389969931867
   },
   {
     "date": "29-Sep-2020",
@@ -2285,7 +2492,8 @@
     "active_cases": 517,
     "seven_day_moving_average": 32,
     "swab_count": 2211,
-    "positivity_rate": 1.3116236996834012
+    "positivity_rate": 1.3116236996834012,
+    "seven_day_moving_average_positivity": 1.4208181727723492
   },
   {
     "date": "30-Sep-2020",
@@ -2296,7 +2504,8 @@
     "active_cases": 462,
     "seven_day_moving_average": 31,
     "swab_count": 2566,
-    "positivity_rate": 0.8963367108339828
+    "positivity_rate": 0.8963367108339828,
+    "seven_day_moving_average_positivity": 1.3859837594822815
   },
   {
     "date": "01-Oct-2020",
@@ -2307,7 +2516,8 @@
     "active_cases": 455,
     "seven_day_moving_average": 28,
     "swab_count": 2260,
-    "positivity_rate": 1.6371681415929202
+    "positivity_rate": 1.6371681415929202,
+    "seven_day_moving_average_positivity": 1.2532756680704102
   },
   {
     "date": "02-Oct-2020",
@@ -2318,7 +2528,8 @@
     "active_cases": 434,
     "seven_day_moving_average": 28,
     "swab_count": 2108,
-    "positivity_rate": 2.0872865275142316
+    "positivity_rate": 2.0872865275142316,
+    "seven_day_moving_average_positivity": 1.2513077745513397
   },
   {
     "date": "03-Oct-2020",
@@ -2329,7 +2540,8 @@
     "active_cases": 455,
     "seven_day_moving_average": 30,
     "swab_count": 2537,
-    "positivity_rate": 2.5620811982656684
+    "positivity_rate": 2.5620811982656684,
+    "seven_day_moving_average_positivity": 1.338204759397975
   },
   {
     "date": "04-Oct-2020",
@@ -2340,7 +2552,8 @@
     "active_cases": 473,
     "seven_day_moving_average": 35,
     "swab_count": 2176,
-    "positivity_rate": 3.0330882352941178
+    "positivity_rate": 3.0330882352941178,
+    "seven_day_moving_average_positivity": 1.526105561950852
   },
   {
     "date": "05-Oct-2020",
@@ -2351,7 +2564,8 @@
     "active_cases": 518,
     "seven_day_moving_average": 41,
     "swab_count": 1961,
-    "positivity_rate": 2.9066802651708312
+    "positivity_rate": 2.9066802651708312,
+    "seven_day_moving_average_positivity": 1.8290824216782355
   },
   {
     "date": "06-Oct-2020",
@@ -2362,7 +2576,8 @@
     "active_cases": 522,
     "seven_day_moving_average": 45,
     "swab_count": 2497,
-    "positivity_rate": 1.8822587104525432
+    "positivity_rate": 1.8822587104525432,
+    "seven_day_moving_average_positivity": 2.0620378254793073
   },
   {
     "date": "07-Oct-2020",
@@ -2373,7 +2588,8 @@
     "active_cases": 536,
     "seven_day_moving_average": 48,
     "swab_count": 2490,
-    "positivity_rate": 2.7309236947791167
+    "positivity_rate": 2.7309236947791167,
+    "seven_day_moving_average_positivity": 2.1435571127320423
   },
   {
     "date": "08-Oct-2020",
@@ -2384,7 +2600,8 @@
     "active_cases": 581,
     "seven_day_moving_average": 54,
     "swab_count": 2732,
-    "positivity_rate": 2.342606149341142
+    "positivity_rate": 2.342606149341142,
+    "seven_day_moving_average_positivity": 2.405640967581347
   },
   {
     "date": "09-Oct-2020",
@@ -2395,7 +2612,8 @@
     "active_cases": 625,
     "seven_day_moving_average": 58,
     "swab_count": 2315,
-    "positivity_rate": 3.2397408207343417
+    "positivity_rate": 3.2397408207343417,
+    "seven_day_moving_average_positivity": 2.506417825831093
   },
   {
     "date": "10-Oct-2020",
@@ -2406,7 +2624,8 @@
     "active_cases": 703,
     "seven_day_moving_average": 63,
     "swab_count": 2529,
-    "positivity_rate": 3.9541320680110714
+    "positivity_rate": 3.9541320680110714,
+    "seven_day_moving_average_positivity": 2.6710541534339654
   },
   {
     "date": "11-Oct-2020",
@@ -2417,7 +2636,8 @@
     "active_cases": 768,
     "seven_day_moving_average": 68,
     "swab_count": 1940,
-    "positivity_rate": 4.896907216494846
+    "positivity_rate": 4.896907216494846,
+    "seven_day_moving_average_positivity": 2.8699185633975945
   },
   {
     "date": "12-Oct-2020",
@@ -2428,7 +2648,8 @@
     "active_cases": 820,
     "seven_day_moving_average": 72,
     "swab_count": 2257,
-    "positivity_rate": 3.0128489144882584
+    "positivity_rate": 3.0128489144882584,
+    "seven_day_moving_average_positivity": 3.136178417854842
   },
   {
     "date": "13-Oct-2020",
@@ -2439,7 +2660,8 @@
     "active_cases": 881,
     "seven_day_moving_average": 73,
     "swab_count": 2761,
-    "positivity_rate": 3.3683448026077505
+    "positivity_rate": 3.3683448026077505,
+    "seven_day_moving_average_positivity": 3.1513453677573318
   },
   {
     "date": "14-Oct-2020",
@@ -2450,7 +2672,8 @@
     "active_cases": 940,
     "seven_day_moving_average": 80,
     "swab_count": 2481,
-    "positivity_rate": 4.474002418379685
+    "positivity_rate": 4.474002418379685,
+    "seven_day_moving_average_positivity": 3.3636433809223614
   },
   {
     "date": "15-Oct-2020",
@@ -2461,7 +2684,8 @@
     "active_cases": 1009,
     "seven_day_moving_average": 86,
     "swab_count": 2882,
-    "positivity_rate": 3.8861901457321304
+    "positivity_rate": 3.8861901457321304,
+    "seven_day_moving_average_positivity": 3.6126546271510134
   },
   {
     "date": "16-Oct-2020",
@@ -2472,7 +2696,8 @@
     "active_cases": 1095,
     "seven_day_moving_average": 93,
     "swab_count": 2885,
-    "positivity_rate": 4.2287694974003465
+    "positivity_rate": 4.2287694974003465,
+    "seven_day_moving_average_positivity": 3.833166626635441
   },
   {
     "date": "17-Oct-2020",
@@ -2483,7 +2708,8 @@
     "active_cases": 1257,
     "seven_day_moving_average": 100,
     "swab_count": 2404,
-    "positivity_rate": 8.48585690515807
+    "positivity_rate": 8.48585690515807,
+    "seven_day_moving_average_positivity": 3.9744564375877265
   },
   {
     "date": "18-Oct-2020",
@@ -2494,7 +2720,8 @@
     "active_cases": 1347,
     "seven_day_moving_average": 115,
     "swab_count": 2561,
-    "positivity_rate": 5.544709098008591
+    "positivity_rate": 5.544709098008591,
+    "seven_day_moving_average_positivity": 4.621845700037298
   },
   {
     "date": "19-Oct-2020",
@@ -2505,7 +2732,8 @@
     "active_cases": 1450,
     "seven_day_moving_average": 121,
     "swab_count": 2689,
-    "positivity_rate": 4.05355150613611
+    "positivity_rate": 4.05355150613611,
+    "seven_day_moving_average_positivity": 4.714388825967832
   },
   {
     "date": "20-Oct-2020",
@@ -2516,7 +2744,8 @@
     "active_cases": 1543,
     "seven_day_moving_average": 127,
     "swab_count": 2823,
-    "positivity_rate": 4.746723343960326
+    "positivity_rate": 4.746723343960326,
+    "seven_day_moving_average_positivity": 4.863060624774668
   },
   {
     "date": "21-Oct-2020",
@@ -2527,7 +2756,8 @@
     "active_cases": 1649,
     "seven_day_moving_average": 133,
     "swab_count": 2951,
-    "positivity_rate": 5.252456794307014
+    "positivity_rate": 5.252456794307014,
+    "seven_day_moving_average_positivity": 5.059971844967895
   },
   {
     "date": "22-Oct-2020",
@@ -2538,7 +2768,8 @@
     "active_cases": 1704,
     "seven_day_moving_average": 139,
     "swab_count": 2685,
-    "positivity_rate": 4.134078212290502
+    "positivity_rate": 4.134078212290502,
+    "seven_day_moving_average_positivity": 5.171179612957512
   },
   {
     "date": "23-Oct-2020",
@@ -2549,7 +2780,8 @@
     "active_cases": 1770,
     "seven_day_moving_average": 139,
     "swab_count": 3144,
-    "positivity_rate": 3.848600508905852
+    "positivity_rate": 3.848600508905852,
+    "seven_day_moving_average_positivity": 5.206592193894423
   },
   {
     "date": "24-Oct-2020",
@@ -2560,7 +2792,8 @@
     "active_cases": 1845,
     "seven_day_moving_average": 139,
     "swab_count": 3284,
-    "positivity_rate": 3.501827040194884
+    "positivity_rate": 3.501827040194884,
+    "seven_day_moving_average_positivity": 5.15228233839521
   },
   {
     "date": "25-Oct-2020",
@@ -2571,7 +2804,8 @@
     "active_cases": 1880,
     "seven_day_moving_average": 126,
     "swab_count": 2811,
-    "positivity_rate": 4.446816079686943
+    "positivity_rate": 4.446816079686943,
+    "seven_day_moving_average_positivity": 4.440278071971897
   },
   {
     "date": "26-Oct-2020",
@@ -2582,7 +2816,8 @@
     "active_cases": 1895,
     "seven_day_moving_average": 124,
     "swab_count": 2912,
-    "positivity_rate": 2.7472527472527473
+    "positivity_rate": 2.7472527472527473,
+    "seven_day_moving_average_positivity": 4.2834362122116625
   },
   {
     "date": "27-Oct-2020",
@@ -2593,7 +2828,8 @@
     "active_cases": 1915,
     "seven_day_moving_average": 120,
     "swab_count": 2946,
-    "positivity_rate": 3.63204344874406
+    "positivity_rate": 3.63204344874406,
+    "seven_day_moving_average_positivity": 4.096822103799753
   },
   {
     "date": "28-Oct-2020",
@@ -2604,7 +2840,8 @@
     "active_cases": 1915,
     "seven_day_moving_average": 116,
     "swab_count": 2964,
-    "positivity_rate": 2.5303643724696356
+    "positivity_rate": 2.5303643724696356,
+    "seven_day_moving_average_positivity": 3.9375821187688578
   },
   {
     "date": "29-Oct-2020",
@@ -2615,7 +2852,8 @@
     "active_cases": 1927,
     "seven_day_moving_average": 104,
     "swab_count": 3075,
-    "positivity_rate": 3.447154471544715
+    "positivity_rate": 3.447154471544715,
+    "seven_day_moving_average_positivity": 3.548711772792089
   },
   {
     "date": "30-Oct-2020",
@@ -2626,7 +2864,8 @@
     "active_cases": 1891,
     "seven_day_moving_average": 104,
     "swab_count": 3698,
-    "positivity_rate": 2.055164954029205
+    "positivity_rate": 2.055164954029205,
+    "seven_day_moving_average_positivity": 3.450579809828405
   },
   {
     "date": "31-Oct-2020",
@@ -2637,7 +2876,8 @@
     "active_cases": 1825,
     "seven_day_moving_average": 97,
     "swab_count": 3414,
-    "positivity_rate": 2.9291154071470418
+    "positivity_rate": 2.9291154071470418,
+    "seven_day_moving_average_positivity": 3.1943747305603125
   },
   {
     "date": "01-Nov-2020",
@@ -2648,7 +2888,8 @@
     "active_cases": 1832,
     "seven_day_moving_average": 95,
     "swab_count": 3557,
-    "positivity_rate": 3.9359010402024177
+    "positivity_rate": 3.9359010402024177,
+    "seven_day_moving_average_positivity": 3.11255878298205
   },
   {
     "date": "02-Nov-2020",
@@ -2659,7 +2900,8 @@
     "active_cases": 1939,
     "seven_day_moving_average": 97,
     "swab_count": 2816,
-    "positivity_rate": 7.7414772727272725
+    "positivity_rate": 7.7414772727272725,
+    "seven_day_moving_average_positivity": 3.039570920198546
   },
   {
     "date": "03-Nov-2020",
@@ -2670,7 +2912,8 @@
     "active_cases": 1937,
     "seven_day_moving_average": 117,
     "swab_count": 3046,
-    "positivity_rate": 3.4799737360472753
+    "positivity_rate": 3.4799737360472753,
+    "seven_day_moving_average_positivity": 3.753031566694907
   },
   {
     "date": "04-Nov-2020",
@@ -2681,7 +2924,8 @@
     "active_cases": 1853,
     "seven_day_moving_average": 117,
     "swab_count": 2842,
-    "positivity_rate": 2.955665024630542
+    "positivity_rate": 2.955665024630542,
+    "seven_day_moving_average_positivity": 3.7313073220239374
   },
   {
     "date": "05-Nov-2020",
@@ -2692,7 +2936,8 @@
     "active_cases": 1929,
     "seven_day_moving_average": 118,
     "swab_count": 3522,
-    "positivity_rate": 4.940374787052811
+    "positivity_rate": 4.940374787052811,
+    "seven_day_moving_average_positivity": 3.792064558046924
   },
   {
     "date": "06-Nov-2020",
@@ -2703,7 +2948,8 @@
     "active_cases": 1988,
     "seven_day_moving_average": 128,
     "swab_count": 2941,
-    "positivity_rate": 4.386263175790547
+    "positivity_rate": 4.386263175790547,
+    "seven_day_moving_average_positivity": 4.005381745976652
   },
   {
     "date": "07-Nov-2020",
@@ -2714,7 +2960,8 @@
     "active_cases": 1965,
     "seven_day_moving_average": 135,
     "swab_count": 2943,
-    "positivity_rate": 4.960924226979273
+    "positivity_rate": 4.960924226979273,
+    "seven_day_moving_average_positivity": 4.338395777656843
   },
   {
     "date": "08-Nov-2020",
@@ -2725,7 +2972,8 @@
     "active_cases": 1962,
     "seven_day_moving_average": 142,
     "swab_count": 2850,
-    "positivity_rate": 3.578947368421052
+    "positivity_rate": 3.578947368421052,
+    "seven_day_moving_average_positivity": 4.628654180490019
   },
   {
     "date": "09-Nov-2020",
@@ -2736,7 +2984,8 @@
     "active_cases": 1980,
     "seven_day_moving_average": 137,
     "swab_count": 3296,
-    "positivity_rate": 3.0946601941747574
+    "positivity_rate": 3.0946601941747574,
+    "seven_day_moving_average_positivity": 4.577660798806967
   },
   {
     "date": "10-Nov-2020",
@@ -2747,7 +2996,8 @@
     "active_cases": 2041,
     "seven_day_moving_average": 120,
     "swab_count": 3012,
-    "positivity_rate": 5.079681274900398
+    "positivity_rate": 5.079681274900398,
+    "seven_day_moving_average_positivity": 3.9138297875851795
   },
   {
     "date": "11-Nov-2020",
@@ -2758,7 +3008,8 @@
     "active_cases": 2081,
     "seven_day_moving_average": 127,
     "swab_count": 3460,
-    "positivity_rate": 4.075144508670521
+    "positivity_rate": 4.075144508670521,
+    "seven_day_moving_average_positivity": 4.142359435992768
   },
   {
     "date": "12-Nov-2020",
@@ -2769,7 +3020,8 @@
     "active_cases": 2079,
     "seven_day_moving_average": 135,
     "swab_count": 3035,
-    "positivity_rate": 3.5914332784184517
+    "positivity_rate": 3.5914332784184517,
+    "seven_day_moving_average_positivity": 4.302285076569908
   },
   {
     "date": "13-Nov-2020",
@@ -2780,7 +3032,8 @@
     "active_cases": 2124,
     "seven_day_moving_average": 126,
     "swab_count": 2656,
-    "positivity_rate": 5.647590361445784
+    "positivity_rate": 5.647590361445784,
+    "seven_day_moving_average_positivity": 4.109579146764999
   },
   {
     "date": "14-Nov-2020",
@@ -2791,7 +3044,8 @@
     "active_cases": 2120,
     "seven_day_moving_average": 129,
     "swab_count": 3120,
-    "positivity_rate": 3.878205128205128
+    "positivity_rate": 3.878205128205128,
+    "seven_day_moving_average_positivity": 4.289768744715748
   },
   {
     "date": "15-Nov-2020",
@@ -2802,7 +3056,8 @@
     "active_cases": 2172,
     "seven_day_moving_average": 125,
     "swab_count": 3189,
-    "positivity_rate": 3.6688617121354654
+    "positivity_rate": 3.6688617121354654,
+    "seven_day_moving_average_positivity": 4.1350945877480125
   },
   {
     "date": "16-Nov-2020",
@@ -2813,7 +3068,8 @@
     "active_cases": 2151,
     "seven_day_moving_average": 127,
     "swab_count": 2340,
-    "positivity_rate": 4.401709401709402
+    "positivity_rate": 4.401709401709402,
+    "seven_day_moving_average_positivity": 4.147939493992929
   },
   {
     "date": "17-Nov-2020",
@@ -2824,7 +3080,8 @@
     "active_cases": 2097,
     "seven_day_moving_average": 127,
     "swab_count": 3380,
-    "positivity_rate": 3.2544378698224854
+    "positivity_rate": 3.2544378698224854,
+    "seven_day_moving_average_positivity": 4.334660809355022
   },
   {
     "date": "18-Nov-2020",
@@ -2835,7 +3092,8 @@
     "active_cases": 2133,
     "seven_day_moving_average": 121,
     "swab_count": 3050,
-    "positivity_rate": 5.672131147540983
+    "positivity_rate": 5.672131147540983,
+    "seven_day_moving_average_positivity": 4.073911751486748
   },
   {
     "date": "19-Nov-2020",
@@ -2846,7 +3104,8 @@
     "active_cases": 2155,
     "seven_day_moving_average": 126,
     "swab_count": 3377,
-    "positivity_rate": 4.14569144210838
+    "positivity_rate": 4.14569144210838,
+    "seven_day_moving_average_positivity": 4.302052699896814
   },
   {
     "date": "20-Nov-2020",
@@ -2857,7 +3116,8 @@
     "active_cases": 2167,
     "seven_day_moving_average": 130,
     "swab_count": 3393,
-    "positivity_rate": 3.566165635131152
+    "positivity_rate": 3.566165635131152,
+    "seven_day_moving_average_positivity": 4.381232437566804
   },
   {
     "date": "21-Nov-2020",
@@ -2868,7 +3128,8 @@
     "active_cases": 2146,
     "seven_day_moving_average": 126,
     "swab_count": 3221,
-    "positivity_rate": 4.377522508537721
+    "positivity_rate": 4.377522508537721,
+    "seven_day_moving_average_positivity": 4.0838860480932855
   },
   {
     "date": "22-Nov-2020",
@@ -2879,7 +3140,8 @@
     "active_cases": 2159,
     "seven_day_moving_average": 129,
     "swab_count": 2192,
-    "positivity_rate": 4.653284671532846
+    "positivity_rate": 4.653284671532846,
+    "seven_day_moving_average_positivity": 4.155217102426513
   },
   {
     "date": "23-Nov-2020",
@@ -2890,7 +3152,8 @@
     "active_cases": 2060,
     "seven_day_moving_average": 127,
     "swab_count": 2664,
-    "positivity_rate": 3.003003003003003
+    "positivity_rate": 3.003003003003003,
+    "seven_day_moving_average_positivity": 4.295848953768996
   },
   {
     "date": "24-Nov-2020",
@@ -2901,7 +3164,8 @@
     "active_cases": 2082,
     "seven_day_moving_average": 123,
     "swab_count": 3028,
-    "positivity_rate": 4.3923381770145316
+    "positivity_rate": 4.3923381770145316,
+    "seven_day_moving_average_positivity": 4.096033753953796
   },
   {
     "date": "25-Nov-2020",
@@ -2912,7 +3176,8 @@
     "active_cases": 2069,
     "seven_day_moving_average": 127,
     "swab_count": 2960,
-    "positivity_rate": 3.9189189189189193
+    "positivity_rate": 3.9189189189189193,
+    "seven_day_moving_average_positivity": 4.258590940695517
   },
   {
     "date": "26-Nov-2020",
@@ -2923,7 +3188,8 @@
     "active_cases": 2115,
     "seven_day_moving_average": 119,
     "swab_count": 3049,
-    "positivity_rate": 4.98524106264349
+    "positivity_rate": 4.98524106264349,
+    "seven_day_moving_average_positivity": 4.008132050892365
   },
   {
     "date": "27-Nov-2020",
@@ -2934,7 +3200,8 @@
     "active_cases": 2076,
     "seven_day_moving_average": 120,
     "swab_count": 2870,
-    "positivity_rate": 3.3449477351916377
+    "positivity_rate": 3.3449477351916377,
+    "seven_day_moving_average_positivity": 4.128067710968809
   },
   {
     "date": "28-Nov-2020",
@@ -2945,7 +3212,8 @@
     "active_cases": 2059,
     "seven_day_moving_average": 117,
     "swab_count": 3033,
-    "positivity_rate": 3.5608308605341246
+    "positivity_rate": 3.5608308605341246,
+    "seven_day_moving_average_positivity": 4.096465153834592
   },
   {
     "date": "29-Nov-2020",
@@ -2956,7 +3224,8 @@
     "active_cases": 2062,
     "seven_day_moving_average": 112,
     "swab_count": 3091,
-    "positivity_rate": 4.6263345195729535
+    "positivity_rate": 4.6263345195729535,
+    "seven_day_moving_average_positivity": 3.9797949184055073
   },
   {
     "date": "30-Nov-2020",
@@ -2967,7 +3236,8 @@
     "active_cases": 2071,
     "seven_day_moving_average": 118,
     "swab_count": 2768,
-    "positivity_rate": 4.371387283236994
+    "positivity_rate": 4.371387283236994,
+    "seven_day_moving_average_positivity": 3.9759448966969515
   },
   {
     "date": "01-Dec-2020",
@@ -2978,7 +3248,8 @@
     "active_cases": 2086,
     "seven_day_moving_average": 124,
     "swab_count": 2686,
-    "positivity_rate": 3.79746835443038
+    "positivity_rate": 3.79746835443038,
+    "seven_day_moving_average_positivity": 4.171428365301808
   },
   {
     "date": "02-Dec-2020",
@@ -2989,7 +3260,8 @@
     "active_cases": 2068,
     "seven_day_moving_average": 119,
     "swab_count": 2910,
-    "positivity_rate": 4.329896907216495
+    "positivity_rate": 4.329896907216495,
+    "seven_day_moving_average_positivity": 4.0864469620755
   },
   {
     "date": "03-Dec-2020",
@@ -3000,7 +3272,8 @@
     "active_cases": 2034,
     "seven_day_moving_average": 121,
     "swab_count": 3100,
-    "positivity_rate": 3.096774193548387
+    "positivity_rate": 3.096774193548387,
+    "seven_day_moving_average_positivity": 4.145158103260868
   },
   {
     "date": "04-Dec-2020",
@@ -3011,7 +3284,8 @@
     "active_cases": 2051,
     "seven_day_moving_average": 113,
     "swab_count": 3010,
-    "positivity_rate": 4.086378737541528
+    "positivity_rate": 4.086378737541528,
+    "seven_day_moving_average_positivity": 3.875377121961567
   },
   {
     "date": "05-Dec-2020",
@@ -3022,7 +3296,8 @@
     "active_cases": 1985,
     "seven_day_moving_average": 117,
     "swab_count": 2907,
-    "positivity_rate": 3.543171654626763
+    "positivity_rate": 3.543171654626763,
+    "seven_day_moving_average_positivity": 3.98129583658298
   },
   {
     "date": "06-Dec-2020",
@@ -3033,7 +3308,8 @@
     "active_cases": 1985,
     "seven_day_moving_average": 116,
     "swab_count": 3192,
-    "positivity_rate": 3.0388471177944862
+    "positivity_rate": 3.0388471177944862,
+    "seven_day_moving_average_positivity": 3.9787730928819296
   },
   {
     "date": "07-Dec-2020",
@@ -3044,7 +3320,8 @@
     "active_cases": 2007,
     "seven_day_moving_average": 109,
     "swab_count": 1776,
-    "positivity_rate": 7.826576576576577
+    "positivity_rate": 7.826576576576577,
+    "seven_day_moving_average_positivity": 3.7519891783421477
   },
   {
     "date": "08-Dec-2020",
@@ -3055,7 +3332,8 @@
     "active_cases": 1901,
     "seven_day_moving_average": 112,
     "swab_count": 2909,
-    "positivity_rate": 1.3750429700928153
+    "positivity_rate": 1.3750429700928153,
+    "seven_day_moving_average_positivity": 4.245587648819231
   },
   {
     "date": "09-Dec-2020",
@@ -3066,7 +3344,8 @@
     "active_cases": 1898,
     "seven_day_moving_average": 103,
     "swab_count": 2625,
-    "positivity_rate": 3.0095238095238095
+    "positivity_rate": 3.0095238095238095,
+    "seven_day_moving_average_positivity": 3.89952687962815
   },
   {
     "date": "10-Dec-2020",
@@ -3077,7 +3356,8 @@
     "active_cases": 1872,
     "seven_day_moving_average": 96,
     "swab_count": 2841,
-    "positivity_rate": 3.7310806054206265
+    "positivity_rate": 3.7310806054206265,
+    "seven_day_moving_average_positivity": 3.710902151386338
   },
   {
     "date": "11-Dec-2020",
@@ -3088,7 +3368,8 @@
     "active_cases": 1879,
     "seven_day_moving_average": 98,
     "swab_count": 3033,
-    "positivity_rate": 3.165182987141444
+    "positivity_rate": 3.165182987141444,
+    "seven_day_moving_average_positivity": 3.801517353082372
   },
   {
     "date": "12-Dec-2020",
@@ -3099,7 +3380,8 @@
     "active_cases": 1856,
     "seven_day_moving_average": 94,
     "swab_count": 2659,
-    "positivity_rate": 4.550582925911997
+    "positivity_rate": 4.550582925911997,
+    "seven_day_moving_average_positivity": 3.6699179601680743
   },
   {
     "date": "13-Dec-2020",
@@ -3110,7 +3392,8 @@
     "active_cases": 1815,
     "seven_day_moving_average": 96,
     "swab_count": 2978,
-    "positivity_rate": 1.7461383478844863
+    "positivity_rate": 1.7461383478844863,
+    "seven_day_moving_average_positivity": 3.813833856065965
   },
   {
     "date": "14-Dec-2020",
@@ -3121,7 +3404,8 @@
     "active_cases": 1761,
     "seven_day_moving_average": 90,
     "swab_count": 2446,
-    "positivity_rate": 4.129190515126738
+    "positivity_rate": 4.129190515126738,
+    "seven_day_moving_average_positivity": 3.62916117465025
   },
   {
     "date": "15-Dec-2020",
@@ -3132,7 +3416,8 @@
     "active_cases": 1706,
     "seven_day_moving_average": 85,
     "swab_count": 3049,
-    "positivity_rate": 1.6070842899311248
+    "positivity_rate": 1.6070842899311248,
+    "seven_day_moving_average_positivity": 3.100963165871702
   },
   {
     "date": "16-Dec-2020",
@@ -3143,7 +3428,8 @@
     "active_cases": 1719,
     "seven_day_moving_average": 86,
     "swab_count": 2637,
-    "positivity_rate": 4.247250663632916
+    "positivity_rate": 4.247250663632916,
+    "seven_day_moving_average_positivity": 3.1341119258486034
   },
   {
     "date": "17-Dec-2020",
@@ -3154,7 +3440,8 @@
     "active_cases": 1623,
     "seven_day_moving_average": 91,
     "swab_count": 3557,
-    "positivity_rate": 1.686814731515322
+    "positivity_rate": 1.686814731515322,
+    "seven_day_moving_average_positivity": 3.3109300478641903
   },
   {
     "date": "18-Dec-2020",
@@ -3165,7 +3452,8 @@
     "active_cases": 1606,
     "seven_day_moving_average": 84,
     "swab_count": 2612,
-    "positivity_rate": 3.5987748851454824
+    "positivity_rate": 3.5987748851454824,
+    "seven_day_moving_average_positivity": 3.0188920658777185
   },
   {
     "date": "19-Dec-2020",
@@ -3176,7 +3464,8 @@
     "active_cases": 1553,
     "seven_day_moving_average": 84,
     "swab_count": 3941,
-    "positivity_rate": 1.319462065465618
+    "positivity_rate": 1.319462065465618,
+    "seven_day_moving_average_positivity": 3.080833765592581
   },
   {
     "date": "20-Dec-2020",
@@ -3187,7 +3476,8 @@
     "active_cases": 1546,
     "seven_day_moving_average": 74,
     "swab_count": 2868,
-    "positivity_rate": 3.2426778242677825
+    "positivity_rate": 3.2426778242677825,
+    "seven_day_moving_average_positivity": 2.6192450712430984
   },
   {
     "date": "21-Dec-2020",
@@ -3198,7 +3488,8 @@
     "active_cases": 1493,
     "seven_day_moving_average": 80,
     "swab_count": 2788,
-    "positivity_rate": 3.1563845050215207
+    "positivity_rate": 3.1563845050215207,
+    "seven_day_moving_average_positivity": 2.8330364250121405
   },
   {
     "date": "22-Dec-2020",
@@ -3209,7 +3500,8 @@
     "active_cases": 1553,
     "seven_day_moving_average": 78,
     "swab_count": 2610,
-    "positivity_rate": 4.137931034482759
+    "positivity_rate": 4.137931034482759,
+    "seven_day_moving_average_positivity": 2.6940641378542525
   },
   {
     "date": "23-Dec-2020",
@@ -3220,7 +3512,8 @@
     "active_cases": 1498,
     "seven_day_moving_average": 86,
     "swab_count": 2928,
-    "positivity_rate": 2.800546448087432
+    "positivity_rate": 2.800546448087432,
+    "seven_day_moving_average_positivity": 3.0556136727902
   },
   {
     "date": "24-Dec-2020",
@@ -3231,7 +3524,8 @@
     "active_cases": 1436,
     "seven_day_moving_average": 82,
     "swab_count": 2495,
-    "positivity_rate": 2.80561122244489
+    "positivity_rate": 2.80561122244489,
+    "seven_day_moving_average_positivity": 2.848941641997988
   },
   {
     "date": "25-Dec-2020",
@@ -3242,7 +3536,8 @@
     "active_cases": 1362,
     "seven_day_moving_average": 83,
     "swab_count": 2071,
-    "positivity_rate": 2.4142926122646067
+    "positivity_rate": 2.4142926122646067,
+    "seven_day_moving_average_positivity": 3.0087697121307833
   },
   {
     "date": "26-Dec-2020",
@@ -3253,7 +3548,8 @@
     "active_cases": 1485,
     "seven_day_moving_average": 77,
     "swab_count": 2249,
-    "positivity_rate": 5.735882614495331
+    "positivity_rate": 5.735882614495331,
+    "seven_day_moving_average_positivity": 2.839557958862087
   },
   {
     "date": "27-Dec-2020",
@@ -3264,7 +3560,8 @@
     "active_cases": 1447,
     "seven_day_moving_average": 88,
     "swab_count": 2399,
-    "positivity_rate": 3.5014589412255104
+    "positivity_rate": 3.5014589412255104,
+    "seven_day_moving_average_positivity": 3.4704751801520457
   },
   {
     "date": "28-Dec-2020",
@@ -3275,7 +3572,8 @@
     "active_cases": 1420,
     "seven_day_moving_average": 87,
     "swab_count": 2797,
-    "positivity_rate": 3.6110117983553804
+    "positivity_rate": 3.6110117983553804,
+    "seven_day_moving_average_positivity": 3.5074439111460074
   },
   {
     "date": "29-Dec-2020",
@@ -3286,7 +3584,8 @@
     "active_cases": 1407,
     "seven_day_moving_average": 89,
     "swab_count": 3043,
-    "positivity_rate": 3.7791652974038774
+    "positivity_rate": 3.7791652974038774,
+    "seven_day_moving_average_positivity": 3.572390667336559
   },
   {
     "date": "30-Dec-2020",
@@ -3297,7 +3596,8 @@
     "active_cases": 1392,
     "seven_day_moving_average": 90,
     "swab_count": 2858,
-    "positivity_rate": 4.338698390482855
+    "positivity_rate": 4.338698390482855,
+    "seven_day_moving_average_positivity": 3.521138419182433
   },
   {
     "date": "31-Dec-2020",
@@ -3308,7 +3608,8 @@
     "active_cases": 1434,
     "seven_day_moving_average": 96,
     "swab_count": 2779,
-    "positivity_rate": 3.922274199352285
+    "positivity_rate": 3.922274199352285,
+    "seven_day_moving_average_positivity": 3.7408744109532073
   },
   {
     "date": "01-Jan-2021",
@@ -3319,7 +3620,8 @@
     "active_cases": 1512,
     "seven_day_moving_average": 101,
     "swab_count": 1810,
-    "positivity_rate": 7.458563535911603
+    "positivity_rate": 7.458563535911603,
+    "seven_day_moving_average_positivity": 3.9003976933685496
   },
   {
     "date": "02-Jan-2021",
@@ -3330,7 +3632,8 @@
     "active_cases": 1566,
     "seven_day_moving_average": 113,
     "swab_count": 1995,
-    "positivity_rate": 4.4110275689223055
+    "positivity_rate": 4.4110275689223055,
+    "seven_day_moving_average_positivity": 4.621007825318121
   },
   {
     "date": "03-Jan-2021",
@@ -3341,7 +3644,8 @@
     "active_cases": 1587,
     "seven_day_moving_average": 108,
     "swab_count": 2915,
-    "positivity_rate": 2.9159519725557463
+    "positivity_rate": 2.9159519725557463,
+    "seven_day_moving_average_positivity": 4.431742818807687
   },
   {
     "date": "04-Jan-2021",
@@ -3352,7 +3656,8 @@
     "active_cases": 1622,
     "seven_day_moving_average": 108,
     "swab_count": 2600,
-    "positivity_rate": 5.6923076923076925
+    "positivity_rate": 5.6923076923076925,
+    "seven_day_moving_average_positivity": 4.3480989661405784
   },
   {
     "date": "05-Jan-2021",
@@ -3363,7 +3668,8 @@
     "active_cases": 1702,
     "seven_day_moving_average": 114,
     "swab_count": 3364,
-    "positivity_rate": 4.69678953626635
+    "positivity_rate": 4.69678953626635,
+    "seven_day_moving_average_positivity": 4.64542695099091
   },
   {
     "date": "06-Jan-2021",
@@ -3374,7 +3680,8 @@
     "active_cases": 1845,
     "seven_day_moving_average": 121,
     "swab_count": 2806,
-    "positivity_rate": 7.982893799002139
+    "positivity_rate": 7.982893799002139,
+    "seven_day_moving_average_positivity": 4.776516127971263
   },
   {
     "date": "07-Jan-2021",
@@ -3385,7 +3692,8 @@
     "active_cases": 1935,
     "seven_day_moving_average": 135,
     "swab_count": 3639,
-    "positivity_rate": 4.506732618851332
+    "positivity_rate": 4.506732618851332,
+    "seven_day_moving_average_positivity": 5.297115472045447
   },
   {
     "date": "08-Jan-2021",
@@ -3396,7 +3704,8 @@
     "active_cases": 2047,
     "seven_day_moving_average": 143,
     "swab_count": 3592,
-    "positivity_rate": 5.317371937639198
+    "positivity_rate": 5.317371937639198,
+    "seven_day_moving_average_positivity": 5.380609531973882
   },
   {
     "date": "09-Jan-2021",
@@ -3407,7 +3716,8 @@
     "active_cases": 2221,
     "seven_day_moving_average": 151,
     "swab_count": 3299,
-    "positivity_rate": 7.426492876629282
+    "positivity_rate": 7.426492876629282,
+    "seven_day_moving_average_positivity": 5.074725017934966
   },
   {
     "date": "10-Jan-2021",
@@ -3418,7 +3728,8 @@
     "active_cases": 2322,
     "seven_day_moving_average": 173,
     "swab_count": 3355,
-    "positivity_rate": 5.484351713859911
+    "positivity_rate": 5.484351713859911,
+    "seven_day_moving_average_positivity": 5.50550577617882
   },
   {
     "date": "11-Jan-2021",
@@ -3429,7 +3740,8 @@
     "active_cases": 2360,
     "seven_day_moving_average": 187,
     "swab_count": 3354,
-    "positivity_rate": 3.9654144305307093
+    "positivity_rate": 3.9654144305307093,
+    "seven_day_moving_average_positivity": 5.872420024936558
   },
   {
     "date": "12-Jan-2021",
@@ -3440,7 +3752,8 @@
     "active_cases": 2519,
     "seven_day_moving_average": 185,
     "swab_count": 3403,
-    "positivity_rate": 7.052600646488393
+    "positivity_rate": 7.052600646488393,
+    "seven_day_moving_average_positivity": 5.625720987539846
   },
   {
     "date": "13-Jan-2021",
@@ -3451,7 +3764,8 @@
     "active_cases": 2601,
     "seven_day_moving_average": 197,
     "swab_count": 3512,
-    "positivity_rate": 5.381548974943053
+    "positivity_rate": 5.381548974943053,
+    "seven_day_moving_average_positivity": 5.962265431857281
   },
   {
     "date": "14-Jan-2021",
@@ -3462,7 +3776,8 @@
     "active_cases": 2594,
     "seven_day_moving_average": 192,
     "swab_count": 3602,
-    "positivity_rate": 3.359244863964464
+    "positivity_rate": 3.359244863964464,
+    "seven_day_moving_average_positivity": 5.590644742705982
   },
   {
     "date": "15-Jan-2021",
@@ -3473,7 +3788,8 @@
     "active_cases": 2643,
     "seven_day_moving_average": 186,
     "swab_count": 3293,
-    "positivity_rate": 5.860917096872153
+    "positivity_rate": 5.860917096872153,
+    "seven_day_moving_average_positivity": 5.4267179205792875
   },
   {
     "date": "16-Jan-2021",
@@ -3484,7 +3800,8 @@
     "active_cases": 2749,
     "seven_day_moving_average": 186,
     "swab_count": 2866,
-    "positivity_rate": 6.106071179344034
+    "positivity_rate": 6.106071179344034,
+    "seven_day_moving_average_positivity": 5.504367229041137
   },
   {
     "date": "17-Jan-2021",
@@ -3496,6 +3813,7 @@
     "seven_day_moving_average": 176,
     "swab_count": 3239,
     "positivity_rate": 4.353195430688484,
+    "seven_day_moving_average_positivity": 5.315735558000388,
     "first_dose_count": 11705,
     "second_dose_count": 0
   },
@@ -3509,6 +3827,7 @@
     "seven_day_moving_average": 170,
     "swab_count": 3481,
     "positivity_rate": 4.424016087331227,
+    "seven_day_moving_average_positivity": 5.154141803261614,
     "first_dose_count": 13002,
     "second_dose_count": 0
   },
@@ -3522,6 +3841,7 @@
     "seven_day_moving_average": 173,
     "swab_count": 3879,
     "positivity_rate": 5.155968032998196,
+    "seven_day_moving_average_positivity": 5.219656325661687,
     "first_dose_count": 14276,
     "second_dose_count": 0
   },
@@ -3535,6 +3855,7 @@
     "seven_day_moving_average": 167,
     "swab_count": 3208,
     "positivity_rate": 5.829177057356608,
+    "seven_day_moving_average_positivity": 4.948708809448802,
     "first_dose_count": 15316,
     "second_dose_count": 0
   },
@@ -3548,6 +3869,7 @@
     "seven_day_moving_average": 167,
     "swab_count": 3111,
     "positivity_rate": 4.853744776599164,
+    "seven_day_moving_average_positivity": 5.012655678365023,
     "first_dose_count": 16531,
     "second_dose_count": 0
   },
@@ -3561,6 +3883,7 @@
     "seven_day_moving_average": 171,
     "swab_count": 2571,
     "positivity_rate": 5.562038117464022,
+    "seven_day_moving_average_positivity": 5.226155665884266,
     "first_dose_count": 17767,
     "second_dose_count": 0
   },
@@ -3574,6 +3897,7 @@
     "seven_day_moving_average": 164,
     "swab_count": 3111,
     "positivity_rate": 3.825136612021858,
+    "seven_day_moving_average_positivity": 5.1834586688259625,
     "first_dose_count": 18930,
     "second_dose_count": 0
   },
@@ -3587,6 +3911,7 @@
     "seven_day_moving_average": 156,
     "swab_count": 3345,
     "positivity_rate": 3.4678624813153958,
+    "seven_day_moving_average_positivity": 4.857610873494223,
     "first_dose_count": 19981,
     "second_dose_count": 1198
   },
@@ -3600,6 +3925,7 @@
     "seven_day_moving_average": 152,
     "swab_count": 3248,
     "positivity_rate": 6.25,
+    "seven_day_moving_average_positivity": 4.731134737869495,
     "first_dose_count": 21172,
     "second_dose_count": 1463
   },
@@ -3613,6 +3939,7 @@
     "seven_day_moving_average": 159,
     "swab_count": 3324,
     "positivity_rate": 4.1516245487364625,
+    "seven_day_moving_average_positivity": 4.991989582536464,
     "first_dose_count": 22371,
     "second_dose_count": 1694
   },
@@ -3626,6 +3953,7 @@
     "seven_day_moving_average": 151,
     "swab_count": 3565,
     "positivity_rate": 5.41374474053296,
+    "seven_day_moving_average_positivity": 4.848511941927645,
     "first_dose_count": 23512,
     "second_dose_count": 2095
   },
@@ -3639,6 +3967,7 @@
     "seven_day_moving_average": 151,
     "swab_count": 3280,
     "positivity_rate": 6.341463414634147,
+    "seven_day_moving_average_positivity": 4.789164468095694,
     "first_dose_count": 24680,
     "second_dose_count": 2518
   },
@@ -3652,6 +3981,7 @@
     "seven_day_moving_average": 160,
     "swab_count": 3429,
     "positivity_rate": 5.395158938466025,
+    "seven_day_moving_average_positivity": 5.001695702100691,
     "first_dose_count": 25822,
     "second_dose_count": 2969
   },
@@ -3665,6 +3995,7 @@
     "seven_day_moving_average": 166,
     "swab_count": 2843,
     "positivity_rate": 4.783679212099894,
+    "seven_day_moving_average_positivity": 4.977855819386692,
     "first_dose_count": 26847,
     "second_dose_count": 3456
   },
@@ -3678,6 +4009,7 @@
     "seven_day_moving_average": 168,
     "swab_count": 3037,
     "positivity_rate": 5.992756009219625,
+    "seven_day_moving_average_positivity": 5.114790476540699,
     "first_dose_count": 27759,
     "second_dose_count": 3948
   },
@@ -3691,6 +4023,7 @@
     "seven_day_moving_average": 177,
     "swab_count": 2836,
     "positivity_rate": 4.372355430183357,
+    "seven_day_moving_average_positivity": 5.4754895519555875,
     "first_dose_count": 29002,
     "second_dose_count": 4476
   },
@@ -3704,6 +4037,7 @@
     "seven_day_moving_average": 166,
     "swab_count": 2972,
     "positivity_rate": 4.744279946164199,
+    "seven_day_moving_average_positivity": 5.207254613410352,
     "first_dose_count": 30252,
     "second_dose_count": 4891
   },
@@ -3717,6 +4051,7 @@
     "seven_day_moving_average": 167,
     "swab_count": 2944,
     "positivity_rate": 4.6875,
+    "seven_day_moving_average_positivity": 5.291919670185743,
     "first_dose_count": 31633,
     "second_dose_count": 5410
   },
@@ -3730,6 +4065,7 @@
     "seven_day_moving_average": 159,
     "swab_count": 3237,
     "positivity_rate": 2.4405313561940067,
+    "seven_day_moving_average_positivity": 5.188170421538179,
     "first_dose_count": 33477,
     "second_dose_count": 6457
   },
@@ -3743,6 +4079,7 @@
     "seven_day_moving_average": 140,
     "swab_count": 2772,
     "positivity_rate": 2.0562770562770565,
+    "seven_day_moving_average_positivity": 4.630894413189587,
     "first_dose_count": 35676,
     "second_dose_count": 7594
   },
@@ -3756,6 +4093,7 @@
     "seven_day_moving_average": 122,
     "swab_count": 3084,
     "positivity_rate": 4.345006485084306,
+    "seven_day_moving_average_positivity": 4.153911287162591,
     "first_dose_count": 37586,
     "second_dose_count": 8749
   },
@@ -3769,6 +4107,7 @@
     "seven_day_moving_average": 122,
     "swab_count": 3266,
     "positivity_rate": 3.061849357011635,
+    "seven_day_moving_average_positivity": 4.091243754731793,
     "first_dose_count": 39257,
     "second_dose_count": 9918
   },
@@ -3782,6 +4121,7 @@
     "seven_day_moving_average": 110,
     "swab_count": 3206,
     "positivity_rate": 4.273237679351216,
+    "seven_day_moving_average_positivity": 3.672542804416366,
     "first_dose_count": 41285,
     "second_dose_count": 11050
   },
@@ -3795,6 +4135,7 @@
     "seven_day_moving_average": 112,
     "swab_count": 2217,
     "positivity_rate": 9.111411817771764,
+    "seven_day_moving_average_positivity": 3.65838312572606,
     "first_dose_count": 43337,
     "second_dose_count": 12135
   },
@@ -3808,6 +4149,7 @@
     "seven_day_moving_average": 121,
     "swab_count": 3491,
     "positivity_rate": 4.78372959037525,
+    "seven_day_moving_average_positivity": 4.2822591073842835,
     "first_dose_count": 44598,
     "second_dose_count": 12928
   },
@@ -3821,6 +4163,7 @@
     "seven_day_moving_average": 125,
     "swab_count": 2872,
     "positivity_rate": 5.257660167130919,
+    "seven_day_moving_average_positivity": 4.296006191723605,
     "first_dose_count": 46344,
     "second_dose_count": 13820
   },
@@ -3834,6 +4177,7 @@
     "seven_day_moving_average": 135,
     "swab_count": 2639,
     "positivity_rate": 6.214475179992421,
+    "seven_day_moving_average_positivity": 4.698453164714593,
     "first_dose_count": 48474,
     "second_dose_count": 14739
   },
@@ -3847,6 +4191,7 @@
     "seven_day_moving_average": 150,
     "swab_count": 2830,
     "positivity_rate": 5.4416961130742045,
+    "seven_day_moving_average_positivity": 5.292481468102502,
     "first_dose_count": 50175,
     "second_dose_count": 15601
   },
@@ -3860,6 +4205,7 @@
     "seven_day_moving_average": 153,
     "swab_count": 2817,
     "positivity_rate": 4.898828541001065,
+    "seven_day_moving_average_positivity": 5.449151414958201,
     "first_dose_count": 51641,
     "second_dose_count": 16265
   },
@@ -3873,6 +4219,7 @@
     "seven_day_moving_average": 159,
     "swab_count": 2115,
     "positivity_rate": 7.375886524822695,
+    "seven_day_moving_average_positivity": 5.711577012670978,
     "first_dose_count": 53647,
     "second_dose_count": 17102
   },
@@ -3886,6 +4233,7 @@
     "seven_day_moving_average": 161,
     "swab_count": 3207,
     "positivity_rate": 3.1805425631431246,
+    "seven_day_moving_average_positivity": 6.154812562024046,
     "first_dose_count": 55709,
     "second_dose_count": 17843
   },
@@ -3899,6 +4247,7 @@
     "seven_day_moving_average": 147,
     "swab_count": 3209,
     "positivity_rate": 6.201308818946712,
+    "seven_day_moving_average_positivity": 5.307545525648527,
     "first_dose_count": 57683,
     "second_dose_count": 18536
   },
@@ -3912,6 +4261,7 @@
     "seven_day_moving_average": 152,
     "swab_count": 3282,
     "positivity_rate": 4.966483851310176,
+    "seven_day_moving_average_positivity": 5.510056844015878,
     "first_dose_count": 59702,
     "second_dose_count": 19199
   },
@@ -3925,6 +4275,7 @@
     "seven_day_moving_average": 153,
     "swab_count": 3099,
     "positivity_rate": 4.969344949983865,
+    "seven_day_moving_average_positivity": 5.4684602274700564,
     "first_dose_count": 62059,
     "second_dose_count": 19828
   },
@@ -3938,6 +4289,7 @@
     "seven_day_moving_average": 152,
     "swab_count": 2660,
     "positivity_rate": 7.481203007518797,
+    "seven_day_moving_average_positivity": 5.290584480325977,
     "first_dose_count": 63308,
     "second_dose_count": 20189
   },
@@ -3951,6 +4303,7 @@
     "seven_day_moving_average": 158,
     "swab_count": 2781,
     "positivity_rate": 4.674577490111471,
+    "seven_day_moving_average_positivity": 5.581942608103778,
     "first_dose_count": 64419,
     "second_dose_count": 20531
   },
@@ -3964,6 +4317,7 @@
     "seven_day_moving_average": 157,
     "swab_count": 2924,
     "positivity_rate": 6.600547195622434,
+    "seven_day_moving_average_positivity": 5.549906743690978,
     "first_dose_count": 66334,
     "second_dose_count": 21160
   },
@@ -3977,6 +4331,7 @@
     "seven_day_moving_average": 162,
     "swab_count": 2324,
     "positivity_rate": 9.50946643717728,
+    "seven_day_moving_average_positivity": 5.439143982376654,
     "first_dose_count": 68779,
     "second_dose_count": 21767
   },
@@ -3990,6 +4345,7 @@
     "seven_day_moving_average": 179,
     "swab_count": 3296,
     "positivity_rate": 6.856796116504854,
+    "seven_day_moving_average_positivity": 6.343275964381534,
     "first_dose_count": 71562,
     "second_dose_count": 22501
   },
@@ -4011,7 +4367,9 @@
     "recovered": 19087,
     "deaths": 313,
     "active_cases": 2582,
-    "seven_day_moving_average": 187
+    "seven_day_moving_average": 187,
+    "first_dose_count": 76159,
+    "second_dose_count": 25118
   },
   {
     "date": "27-Feb-2021",
@@ -4020,6 +4378,17 @@
     "recovered": 19255,
     "deaths": 313,
     "active_cases": 2651,
-    "seven_day_moving_average": 202
+    "seven_day_moving_average": 202,
+    "first_dose_count": 77967,
+    "second_dose_count": 26781
+  },
+  {
+    "date": "28-Feb-2021",
+    "new_cases": 263,
+    "total_cases": 22482,
+    "recovered": 19447,
+    "deaths": 315,
+    "active_cases": 2720,
+    "seven_day_moving_average": 208
   }
 ]

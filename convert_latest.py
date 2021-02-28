@@ -36,6 +36,16 @@ def extract_seven_day_average(last_seven_days):
     return sum([x['new_cases'] for x in last_seven_days]) // len(last_seven_days)
 
 
+def extract_seven_day_average_positivity(last_seven_days):
+    if len(last_seven_days) == 0:
+        return 0
+    # Not all days may have positivity rates, so if we do not have them all, do not provide an incorrect calculation
+    positivity_rates = [x['positivity_rate'] for x in last_seven_days]
+    if len(positivity_rates) != 7:
+        return 0
+    return sum([x for x in positivity_rates]) / len(positivity_rates)
+
+
 month_number_name_map = {
     '01': 'Jan',
     '02': 'Feb',
@@ -91,6 +101,7 @@ with open(f'./data/{latest_file}', 'r') as file:
 # Get swabs data and append
 first_line_skipped = False
 with open(f'./data/{latest_swabs_file}', 'r') as file:
+    last_seven_days = []
     for line in file:
         if not first_line_skipped:
             first_line_skipped = True
@@ -105,10 +116,17 @@ with open(f'./data/{latest_swabs_file}', 'r') as file:
         for i, data in enumerate(output_data):
             if data['date'] == formatted_date:
                 new_case_count = output_data[i]["new_cases"]
-                output_data[i]['swab_count'] = int(change_cumulative_total)
-                output_data[i]['positivity_rate'] = (
+                swab_count = int(change_cumulative_total)
+                positivty_rate = (
                     new_case_count / int(change_cumulative_total)) * 100.0
-
+                output_data[i]['swab_count'] = swab_count
+                output_data[i]['positivity_rate'] = positivty_rate
+                output_data[i]['seven_day_moving_average_positivity'] = float(
+                    extract_seven_day_average_positivity(last_seven_days=last_seven_days))
+                last_seven_days.append(
+                    dict(swab_count=swab_count, positivity_rate=positivty_rate))
+                if len(last_seven_days) > 7:
+                    last_seven_days.pop(0)
 
 # Get vaccine data and append
 first_line_skipped = False
