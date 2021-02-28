@@ -46,6 +46,7 @@ export default ({ caseData }: CaseCountChartProps) => {
             y: cd.active_cases,
           }))}
           color="#1261a0"
+          onNearestX={(p) => setNearestPoint(p)}
         />
         <LineSeries
           key="Deaths"
@@ -55,12 +56,7 @@ export default ({ caseData }: CaseCountChartProps) => {
           }))}
           color="red"
         />
-        <MarkSeries
-          data={marksData}
-          strokeWidth={0.5}
-          color="#00b300"
-          onNearestX={(p) => setNearestPoint(p)}
-        />
+        <MarkSeries data={marksData} strokeWidth={0.5} color="#00b300" />
         {nearestPoint && (
           <LineSeries
             key={`measure-${nearestPoint.x}-${nearestPoint.y}`}
