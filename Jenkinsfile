@@ -21,7 +21,7 @@ pipeline {
                 dir('website') {
                     sh 'yarn'
                     sh 'yarn run build'
-                    archiveArtifacts artifacts: 'public/**/*'
+                    // archiveArtifacts artifacts: 'public/**/*'
                     stash(name: 'website', includes: 'public/**/*')
                 }
             }
@@ -38,7 +38,6 @@ pipeline {
                             configName: 'devvps',
                             transfers: [
                                 sshTransfer(
-                                    cleanRemote: true,
                                     excludes: '',
                                     execCommand: '',
                                     execTimeout: 120000,
@@ -46,9 +45,9 @@ pipeline {
                                     makeEmptyDirs: true,
                                     noDefaultExcludes: false,
                                     patternSeparator: '[, ]+',
-                                    remoteDirectory: '/root/home/testjenkinsdeploy',
+                                    remoteDirectory: '/home/testjenkinsdeploy',
                                     remoteDirectorySDF: false,
-                                    sourceFiles: 'public/website/**/*'
+                                    sourceFiles: 'public/**/*'
                                 )
                             ],
                             usePromotionTimestamp: false,
