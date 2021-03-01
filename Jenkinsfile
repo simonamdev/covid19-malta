@@ -18,10 +18,11 @@ pipeline {
                 docker { image 'node:14-alpine' }
             }
             steps {
-                sh 'cd website'
-                sh 'yarn'
-                sh 'yarn run build'
-                archiveArtifacts artifacts: 'website/public'
+                dir('website') {
+                    sh 'yarn'
+                    sh 'yarn run build'
+                    archiveArtifacts artifacts: 'website/public'
+                }
             }
         }
     }
