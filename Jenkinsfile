@@ -38,21 +38,23 @@ pipeline {
                             configName: 'devvps',
                             transfers: [
                                 sshTransfer(
+                                    cleanRemote: true,
                                     excludes: '',
                                     execCommand: '',
                                     execTimeout: 120000,
+                                    cle
                                     flatten: false,
                                     makeEmptyDirs: true,
                                     noDefaultExcludes: false,
                                     patternSeparator: '[, ]+',
-                                    remoteDirectory: '/home/testjenkinsdeploy',
+                                    remoteDirectory: '/home/covid19/website',
                                     remoteDirectorySDF: false,
                                     sourceFiles: 'public/**/*'
                                 )
                             ],
                             usePromotionTimestamp: false,
                             useWorkspaceInPromotion: false,
-                            verbose: true
+                            verbose: false
                         )
                     ]
                 )
