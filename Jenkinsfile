@@ -32,8 +32,32 @@ pipeline {
             }
             steps {
                 unstash('website')
-                sh 'du -h public'
-                sh 'echo TODO!'
+                sshPublisher(
+                    publishers: [
+                        sshPublisherDesc(
+                            configName: 'devvps',
+                            transfers: [
+                                sshTransfer(
+                                    cleanRemote: true,
+                                    excludes: '',
+                                    execCommand: '',
+                                    execTimeout: 120000,
+                                    flatten: false,
+                                    makeEmptyDirs: true,
+                                    noDefaultExcludes: false,
+                                    patternSeparator: '[, ]+',
+                                    remoteDirectory: '/home/testjenkinsdeploy',
+                                    remoteDirectorySDF: false,
+                                    removePrefix: 'public',
+                                    sourceFiles: 'public/website/**/*'
+                                )
+                            ],
+                            usePromotionTimestamp: false,
+                            useWorkspaceInPromotion: false,
+                            verbose: true
+                        )
+                    ]
+                )
             }
         }
     }
