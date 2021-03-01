@@ -4389,6 +4389,17 @@
     "recovered": 19447,
     "deaths": 315,
     "active_cases": 2720,
-    "seven_day_moving_average": 208
+    "seven_day_moving_average": 208,
+    "first_dose_count": 79624,
+    "second_dose_count": 28048
+  },
+  {
+    "date": "01-Mar-2021",
+    "new_cases": 175,
+    "total_cases": 22657,
+    "recovered": 19663,
+    "deaths": 316,
+    "active_cases": 2678,
+    "seven_day_moving_average": 227
   }
 ]
