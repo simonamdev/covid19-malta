@@ -20,7 +20,7 @@ pipeline {
                 dir('website') {
                     sh 'yarn'
                     sh 'yarn run build'
-                    archiveArtifacts artifacts: 'public'
+                    archiveArtifacts artifacts: 'public/**/*'
                 }
             }
         }
