@@ -46,9 +46,8 @@ pipeline {
                                     makeEmptyDirs: true,
                                     noDefaultExcludes: false,
                                     patternSeparator: '[, ]+',
-                                    remoteDirectory: '/home/testjenkinsdeploy',
+                                    remoteDirectory: '/root/home/testjenkinsdeploy',
                                     remoteDirectorySDF: false,
-                                    removePrefix: 'public',
                                     sourceFiles: 'public/website/**/*'
                                 )
                             ],
