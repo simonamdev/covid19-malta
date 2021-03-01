@@ -6,7 +6,7 @@ pipeline {
                 docker { image 'python:3' }
             }
             steps {
-                sh 'python -m pip install --upgrade pipe'
+                sh 'python -m pip install --upgrade pip'
                 sh 'pip install -r requirements.txt'
                 sh 'python download_latest.py'
                 sh 'python convert_latest.py'
