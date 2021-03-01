@@ -27,6 +27,9 @@ pipeline {
             }
         }
         stage('Deploy to VPS') {
+            agent {
+                docker { image 'ubuntu' }
+            }
             steps {
                 unstash('website')
                 sh 'du -h public'
