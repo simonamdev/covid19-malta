@@ -1,11 +1,26 @@
 pipeline {
-    agent {
-        docker { image 'node:14-alpine' }
-    }
     stages {
-        stage('Test') {
+        stage('Retrieve Latest Data') {
+            agent {
+                docker { image 'python:3' }
+            }
             steps {
-                sh 'node --version'
+                sh 'python -m pip install --upgrade pipe'
+                sh 'pip install -r requirements.txt'
+                sh 'python download_latest.py'
+                sh 'python convert_latest.py'
+                archiveArtifacts artifacts: 'data/latest_data.json'
+            }
+        }
+        stage('Build Website') {
+            agent {
+                docker { image 'node:14-alpine' }
+            }
+            steps {
+                sh 'cd website'
+                sh 'yarn'
+                sh 'yarn run build'
+                archiveArtifacts artifacts: 'website/public'
             }
         }
     }
