@@ -316,5 +316,104 @@
             "Gozo Ferry will operate at half capacity",
             "Holiday Rentals will be fined for overcrowding "
         ]
+    },
+    {
+        "date": "2021/02/08",
+        "measures": [
+            "21 new Covid-19 vaccination centres opened",
+            "Church cancels Lenten, Holy Week processions"
+        ]
+    },
+    {
+        "date": "2021/02/15",
+        "measures": [
+            "No one found breaching Covid-19 rules on holiday properties in Gozo"
+        ]
+    },
+    {
+        "date": "2021/02/19",
+        "measures": [
+            "Industrial action ordered for more than 1,300 Allied Health workers",
+            "Vulnerable Gozo residents no longer have to travel to Malta for a vaccine dose"
+        ]
+    },
+    {
+        "date": "2021/02/24",
+        "measures": [
+            "Bar closure extended for another month",
+            "Measures relaxed at care homes"
+        ]
+    },
+    {
+        "date": "2021/02/25",
+        "measures": [
+            "Doctors warn MDH 'soon unable to cope' with Covid-19 caseload",
+            "30 year old becomes Malta's youngest Covid-19 victim"
+        ]
+    },
+    {
+        "date": "2021/03/01",
+        "measures": [
+            "Prime Minister Robert Abela: 'I will follow health authorities' advice'",
+            "Covid-19 Rave organiser will be charged",
+            "Most Covid-19 patients at ITU are in their 50s and 60s"
+        ]
+    },
+    {
+        "date": "2021/03/02",
+        "measures": [
+            "MUMN: 'Lockdown could be the only solution'"
+        ]
+    },
+    {
+        "date": "2021/03/03",
+        "measures": [
+            "Prime Minister rules out 'draconian' lockdown",
+            "UK variant is the biggest cause of the virus case surge"
+        ]
+    },
+    {
+        "date": "2021/03/04",
+        "measures": [
+            "New measures announced until April 11th",
+            "Restaurants can only offer take-aways",
+            "Only four households can mix in private residences",
+            "Contact sport for under 16s stopped",
+            "Mass events banned except for weddings and religious events",
+            "Public Workers must work from home where possible",
+            "Wage supplement extended to June",
+            "Fines for establishments doubled to €6,000"
+        ]
+    },
+    {
+        "date": "2021/03/05",
+        "measures": [
+            "Vaccination programme concluded for homes of the elderly"
+        ]
+    },
+    {
+        "date": "2021/03/06",
+        "measures": [
+            "Over 60s to start receiving vaccine appointments",
+            "AstraZeneca approved for people between 55 and 70 years of age"
+        ]
+    },
+    {
+        "date": "2021/03/07",
+        "measures": [
+            "Transport Malta halts tombola event attended by ~60 people, mainly elderly"
+        ]
+    },
+    {
+        "date": "2021/03/08",
+        "measures": [
+            "Woman fined for removing mask to eat triggers mask rule revision"
+        ]
+    },
+    {
+        "date": "2021/03/09",
+        "measures": [
+            "Malta hits global top 10 for new virus case count"
+        ]
     }
 ]
