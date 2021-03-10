@@ -46,6 +46,23 @@ def extract_seven_day_average_positivity(last_seven_days):
     return sum([x for x in positivity_rates]) / len(positivity_rates)
 
 
+def extract_seven_day_average_deaths(last_seven_days):
+    if len(last_seven_days) == 0:
+        return 0
+    return sum([x['deaths_diff'] for x in last_seven_days]) / len(last_seven_days)
+
+
+def extract_seven_day_average_vaccine_doses(last_seven_days):
+    if len(last_seven_days) == 0:
+        return dict(first=0, second=0)
+    return dict(
+        first=sum([x['first_dose_diff']
+                   for x in last_seven_days]) / len(last_seven_days),
+        second=sum([x['second_dose_diff']
+                    for x in last_seven_days]) / len(last_seven_days)
+    )
+
+
 month_number_name_map = {
     '01': 'Jan',
     '02': 'Feb',
@@ -66,6 +83,7 @@ first_line_skipped = False
 with open(f'./data/{latest_file}', 'r') as file:
     print(latest_file)
     last_seven_days = []
+    previous_line = None
     for line in file:
         if not first_line_skipped:
             first_line_skipped = True
@@ -78,6 +96,10 @@ with open(f'./data/{latest_file}', 'r') as file:
 #         new_version = comma_count == 6
 #         if new_version:
         date, new_cases, total_cases, recovered, deaths, active_cases = line.strip().split(',')
+        deaths_diff = 0
+        if previous_line is not None:
+            _, _, _, _, previous_deaths, _ = previous_line.strip().split(',')
+            deaths_diff = max(int(deaths) - int(previous_deaths), 0)
         day, month, year = date.split('/')
         date = f'{day}-{month_number_name_map[month]}-{year}'
 #         else:
@@ -89,13 +111,16 @@ with open(f'./data/{latest_file}', 'r') as file:
             'total_cases': int(total_cases),
             'recovered': int(recovered),
             'deaths': int(deaths),
+            'deaths_diff': deaths_diff,
             'active_cases': int(active_cases),
-            'seven_day_moving_average': int(extract_seven_day_average(last_seven_days=last_seven_days))
+            'seven_day_moving_average': int(extract_seven_day_average(last_seven_days=last_seven_days)),
+            'seven_day_moving_average_deaths': extract_seven_day_average_deaths(last_seven_days=last_seven_days)
         }
         last_seven_days.append(data)
         if len(last_seven_days) > 7:
             last_seven_days.pop(0)
         output_data.append(data)
+        previous_line = line
 
 
 # Get swabs data and append
@@ -131,6 +156,8 @@ with open(f'./data/{latest_swabs_file}', 'r') as file:
 # Get vaccine data and append
 first_line_skipped = False
 with open(f'./data/{latest_vaccines_file}', 'r') as file:
+    last_seven_days = []
+    previous_line = None
     for line in file:
         if not first_line_skipped:
             first_line_skipped = True
@@ -142,10 +169,30 @@ with open(f'./data/{latest_vaccines_file}', 'r') as file:
         day, month, year = date.split('/')
         month_name = month_number_name_map[month]
         formatted_date = f'{day}-{month_name}-{year}'
+
+        first_dose_diff = 0
+        second_dose_diff = 0
+
+        if previous_line is not None:
+            _, prev_first_dose_count, prev_second_dose_count = previous_line.strip().split(',')
+            first_dose_diff = int(first_dose_count) - \
+                int(prev_first_dose_count)
+            second_dose_diff = int(second_dose_count) - \
+                int(prev_second_dose_count)
         for i, data in enumerate(output_data):
             if data['date'] == formatted_date:
                 output_data[i]['first_dose_count'] = int(first_dose_count)
                 output_data[i]['second_dose_count'] = int(second_dose_count)
+                output_data[i]['first_dose_diff'] = int(first_dose_diff)
+                output_data[i]['second_dose_diff'] = int(second_dose_diff)
+                seven_day_moving_averages = extract_seven_day_average_vaccine_doses(
+                    last_seven_days=last_seven_days)
+                output_data[i]['seven_day_moving_average_first_dose'] = seven_day_moving_averages['first']
+                output_data[i]['seven_day_moving_average_second_dose'] = seven_day_moving_averages['second']
+                last_seven_days.append(output_data[i])
+        if len(last_seven_days) > 7:
+            last_seven_days.pop(0)
+        previous_line = line
 
 
 print(output_data)
