@@ -127,11 +127,15 @@ export default (props: IndexPageProps) => {
           />
         </div>
         <div style={{ height: "85vh", width: "15vw" }}>
-          {nearestPoint && (
+          {nearestPoint ? (
             <SituationDataVisual
               caseData={parsedData}
               nearestPoint={nearestPoint}
             />
+          ) : (
+            <h3 style={{ marginTop: "2em" }}>
+              ⬅️ Hover over the chart to see data for a specific day
+            </h3>
           )}
         </div>
       </div>
