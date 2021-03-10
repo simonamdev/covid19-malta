@@ -14,6 +14,7 @@ module.exports = {
         // locale: 'fr', // string, defaults to null, which date-and-time defaults as "en" - whether to localize the date or not, can use any available date-and-time localization
       },
     },
+    `gatsby-plugin-fontawesome-css`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-no-sourcemaps`,
     `gatsby-plugin-webpack-size`
