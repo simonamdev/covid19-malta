@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { graphql } from "gatsby";
-import { LineSeriesPoint } from "react-vis";
+import { LineSeriesPoint, MarkSeriesPoint } from "react-vis";
 import { Helmet } from "react-helmet";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faCheckSquare, faCoffee } from "@fortawesome/free-solid-svg-icons";
+import * as Icons from "@fortawesome/free-solid-svg-icons";
 
 import "../../node_modules/react-vis/dist/style.css";
 
@@ -11,12 +14,18 @@ import {
   MeasuresData,
   CaseData,
 } from "../components/types";
-import MultipleCountChart from "../components/MultipleCountChart";
 import Counters from "../components/Counters";
 
 import latestData from "../../../data/latest_data.json";
 import measuresData from "../../../data/measures.json";
 import SituationChart from "../components/SituationChart";
+import SituationDataVisual from "../components/SituationDataVisual";
+
+const iconList = Object.keys(Icons)
+  .filter((key) => key !== "fas" && key !== "prefix")
+  .map((icon) => (Icons as any)[icon]);
+
+library.add(...iconList);
 
 interface RawMeasuresData {
   date: string;
@@ -80,6 +89,9 @@ const data: CountChartData[] = [
 ];
 
 export default (props: IndexPageProps) => {
+  const [nearestPoint, setNearestPoint] = useState<MarkSeriesPoint | null>(
+    null
+  );
   return (
     <div style={{ width: "100%", height: "100%", margin: 0, padding: 0 }}>
       <Helmet>
@@ -107,16 +119,22 @@ export default (props: IndexPageProps) => {
         </div>
         <Counters activeCasesData={activeCasesData} deathsData={deathsData} />
       </div>
-      <div style={{ height: "85vh" }}>
-        {/* <MultipleCountChart
-          countChartData={data}
-          sevenDayMovingAverageData={sevenDayMovingAverageData}
-          measuresData={parsedMeasuresData}
-        /> */}
-        <SituationChart caseData={parsedData} />
-        {/* <ControllableMultipleCountChart countChartData={data} measuresData={parsedMeasuresData} /> */}
+      <div style={{ display: "flex", flexDirection: "row" }}>
+        <div style={{ height: "85vh", width: "85vw" }}>
+          <SituationChart
+            caseData={parsedData}
+            onSetNearestPoint={setNearestPoint}
+          />
+        </div>
+        <div style={{ height: "85vh", width: "15vw" }}>
+          {nearestPoint && (
+            <SituationDataVisual
+              caseData={parsedData}
+              nearestPoint={nearestPoint}
+            />
+          )}
+        </div>
       </div>
-      {/* <Link to="/active-cases/">Active Cases</Link> */}
     </div>
   );
 };
