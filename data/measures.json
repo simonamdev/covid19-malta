@@ -1,10 +1,28 @@
 [
     {
+        "date": "2020/03/06",
+        "measures": [
+            "First confirmed case"
+        ]
+    },
+    {
+        "date": "2020/03/13",
+        "measures": [
+            "First confirmed recovery"
+        ]
+    },
+    {
         "date": "2020/03/23",
         "measures": [
             "Non-essential retail closed, €3,000 fine attached",
             "Health Care services restricted",
             "Groups in public limited to 4"
+        ]
+    },
+    {
+        "date": "2020/04/08",
+        "measures": [
+            "First confirmed death"
         ]
     },
     {
