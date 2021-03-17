@@ -48,18 +48,21 @@ export default (props: SituationDataProps) => {
         {data?.seven_day_moving_average_positivity?.toFixed(2) || "N/A"}%
       </li>
       <h4>Vaccines</h4>
+      {data.total_dose_diff > 0 && (
+        <li>{data.total_dose_diff.toLocaleString()} New Doses given</li>
+      )}
       <li>
         {data.first_dose_count ? data.first_dose_count.toLocaleString() : "N/A"}{" "}
         First Doses{" "}
-        {data.first_dose_diff &&
+        {data.first_dose_diff > 0 &&
           `(⬆️ ${data.first_dose_diff.toLocaleString()})`}
       </li>
       <li>
-        {data.second_dose_count
+        {data.second_dose_count > 0
           ? data.second_dose_count.toLocaleString()
           : "N/A"}{" "}
         Second Doses{" "}
-        {data.second_dose_diff &&
+        {data.second_dose_diff > 0 &&
           `(⬆️ ${data.second_dose_diff.toLocaleString()})`}
       </li>
       {data?.events && data.events.length > 0 && <h4>Notable Events</h4>}

@@ -32,6 +32,7 @@ export interface CaseData {
   second_dose_count?: number;
   first_dose_diff?: number;
   second_dose_diff?: number;
+  total_dose_diff?: number;
   seven_day_moving_average_first_dose?: number;
   seven_day_moving_average_second_dose?: number;
   swab_count?: number;
