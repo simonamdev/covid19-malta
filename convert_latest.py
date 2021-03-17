@@ -185,6 +185,8 @@ with open(f'./data/{latest_vaccines_file}', 'r') as file:
                 output_data[i]['second_dose_count'] = int(second_dose_count)
                 output_data[i]['first_dose_diff'] = int(first_dose_diff)
                 output_data[i]['second_dose_diff'] = int(second_dose_diff)
+                output_data[i]['total_dose_diff'] = int(
+                    first_dose_diff) + int(second_dose_diff)
                 seven_day_moving_averages = extract_seven_day_average_vaccine_doses(
                     last_seven_days=last_seven_days)
                 output_data[i]['seven_day_moving_average_first_dose'] = seven_day_moving_averages['first']
@@ -195,7 +197,7 @@ with open(f'./data/{latest_vaccines_file}', 'r') as file:
         previous_line = line
 
 
-print(output_data)
+print(f'{len(output_data)} entries processed')
 output_file_path = './data/latest_data.json'
 
 with open(output_file_path, 'w') as file:
