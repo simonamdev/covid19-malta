@@ -32,12 +32,19 @@ export default (props: SituationDataProps) => {
       <p>{daysAgoText}</p>
       <h4>Cases</h4>
       <li>{data.total_cases.toLocaleString()} Total Cases</li>
-      <li>{data.recovered.toLocaleString()} Recoveries</li>
+      <li>
+        {data.recovered.toLocaleString()} Recoveries{" "}
+        {data.recovered_diff > 0 &&
+          `(⬆️ ${data.recovered_diff.toLocaleString()})`}
+      </li>
       <li>{data.active_cases.toLocaleString()} Active Cases</li>
       <li>{data.new_cases.toLocaleString()} New Cases</li>
       <li>{data?.swab_count?.toLocaleString() || "N/A"} Swabs</li>
       <li>{data?.positivity_rate?.toFixed(1) || "N/A"}% Positivity Rate</li>
-      <li>{data?.deaths || "N/A"} Deaths</li>
+      <li>
+        {data?.deaths || "N/A"} Deaths{" "}
+        {data.deaths_diff > 0 && `(⬆️ ${data.deaths_diff.toLocaleString()})`}
+      </li>
       <h4>Seven Day Moving Averages</h4>
       <li>New Cases: {data?.seven_day_moving_average || "N/A"} </li>
       <li>

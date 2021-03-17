@@ -23,7 +23,9 @@ export interface CaseData {
   new_cases: number;
   total_cases: number;
   recovered: number;
+  recovered_diff: number;
   deaths: number;
+  deaths_diff: number;
   active_cases: number;
   seven_day_moving_average: number;
   seven_day_moving_average_deaths: number;
@@ -36,6 +38,7 @@ export interface CaseData {
   seven_day_moving_average_first_dose?: number;
   seven_day_moving_average_second_dose?: number;
   swab_count?: number;
+  swab_diff?: number;
   positivity_rate?: number;
   events: string[];
 }

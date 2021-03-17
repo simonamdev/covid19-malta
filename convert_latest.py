@@ -97,9 +97,11 @@ with open(f'./data/{latest_file}', 'r') as file:
 #         if new_version:
         date, new_cases, total_cases, recovered, deaths, active_cases = line.strip().split(',')
         deaths_diff = 0
+        recovered_diff = 0
         if previous_line is not None:
-            _, _, _, _, previous_deaths, _ = previous_line.strip().split(',')
+            _, _, _, previous_recovered, previous_deaths, _ = previous_line.strip().split(',')
             deaths_diff = max(int(deaths) - int(previous_deaths), 0)
+            recovered_diff = max(int(recovered) - int(previous_recovered), 0)
         day, month, year = date.split('/')
         date = f'{day}-{month_number_name_map[month]}-{year}'
 #         else:
@@ -110,6 +112,7 @@ with open(f'./data/{latest_file}', 'r') as file:
             'new_cases': int(new_cases),
             'total_cases': int(total_cases),
             'recovered': int(recovered),
+            'recovered_diff': int(recovered_diff),
             'deaths': int(deaths),
             'deaths_diff': deaths_diff,
             'active_cases': int(active_cases),
@@ -127,6 +130,7 @@ with open(f'./data/{latest_file}', 'r') as file:
 first_line_skipped = False
 with open(f'./data/{latest_swabs_file}', 'r') as file:
     last_seven_days = []
+    previous_line = None
     for line in file:
         if not first_line_skipped:
             first_line_skipped = True
@@ -138,6 +142,11 @@ with open(f'./data/{latest_swabs_file}', 'r') as file:
         day, month, year = date.split(' ')[0].split('/')
         month_name = month_number_name_map[month]
         formatted_date = f'{day}-{month_name}-{year}'
+        swab_diff = 0
+        if previous_line is not None:
+            _, _, _, _, previous_change_cumulative_total, _, _, _, _ = line.strip().split(',')
+            swab_diff = int(change_cumulative_total) - \
+                int(previous_change_cumulative_total)
         for i, data in enumerate(output_data):
             if data['date'] == formatted_date:
                 new_case_count = output_data[i]["new_cases"]
@@ -145,6 +154,7 @@ with open(f'./data/{latest_swabs_file}', 'r') as file:
                 positivty_rate = (
                     new_case_count / int(change_cumulative_total)) * 100.0
                 output_data[i]['swab_count'] = swab_count
+                output_data[i]['swab_diff'] = swab_count
                 output_data[i]['positivity_rate'] = positivty_rate
                 output_data[i]['seven_day_moving_average_positivity'] = float(
                     extract_seven_day_average_positivity(last_seven_days=last_seven_days))
