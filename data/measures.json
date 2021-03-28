@@ -434,11 +434,19 @@
             "Malta hits global top 10 for new virus case count"
         ]
     },
-        {
+    {
         "date": "2021/03/10",
         "measures": [
             "New record of daily case count reached: 510",
             "Mater Dei Hospital forced to open fifth ITU to deal with patient influx"
+        ]
+    },
+    {
+        "date": "2021/03/31",
+        "measures": [
+            "Public Gatherings limited to 2 people if not from the same household",
+            "Fine for public gatherings raised to 300 Euro per person",
+            "All countries added to the amber list"
         ]
     }
 ]
