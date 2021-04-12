@@ -448,5 +448,52 @@
             "Fine for public gatherings raised to 300 Euro per person",
             "All countries added to the amber list"
         ]
-    }
+    },
+    {
+        "date": "2021/04/10",
+        "measures": [
+            "Vaccine registration system changed to be by SMS/Online",
+            "Health Minister pledges first dose for all by 15th August",
+            "Herd immunity expected by June"
+        ]
+    },
+    {
+        "date": "2021/04/12",
+        "measures": [
+            "Childcare Centres, Kindergarden and Primary Schools reopen",
+            "Elective surgeries restart at Mater Dei Hospital",
+            "Visits to Eldery homes resume"
+        ]
+    },
+    {
+        "date": "2021/04/14",
+        "measures": [
+            "Middle schools reopen"
+        ]
+    },
+    {
+        "date": "2021/04/16",
+        "measures": [
+            "Secondary schools reopen"
+        ]
+    },
+    {
+        "date": "2021/04/18",
+        "measures": [
+            "Mass Celebrations resume"
+        ]
+    },
+    {
+        "date": "2021/04/26",
+        "measures": [
+            "Non-essential shops and services reopen",
+            "Groups of up to 4 can meet in public (from two households)"
+        ]
+    },
+    {
+        "date": "2021/06/01",
+        "measures": [
+            "Tourism expected to restart"
+    },
+    
 ]
