@@ -25,9 +25,19 @@ if len(files) == 0:
     exit(1)
 latest_vaccines_file = files[0]
 
+
+files = os.listdir("data")
+files = sorted(
+    [file for file in files if file.endswith('csv') and 'owid' in file], reverse=True)
+if len(files) == 0:
+    print('Error: no owid files found')
+    exit(1)
+latest_owid_file = files[0]
+
 print(latest_file)
 print(latest_swabs_file)
 print(latest_vaccines_file)
+print(latest_owid_file)
 
 
 def extract_seven_day_average(last_seven_days):
@@ -104,11 +114,13 @@ with open(f'./data/{latest_file}', 'r') as file:
             recovered_diff = max(int(recovered) - int(previous_recovered), 0)
         day, month, year = date.split('/')
         date = f'{day}-{month_number_name_map[month]}-{year}'
+        date_formatted = f'{year}-{month}-{day}'
 #         else:
 #             date, year, new_cases, total_cases, recovered, deaths, active_cases = line.strip().split(',')
 #             date = f'{date}-{year}'
         data = {
             'date': date,
+            'date_formatted': date_formatted,
             'new_cases': int(new_cases),
             'total_cases': int(total_cases),
             'recovered': int(recovered),
@@ -154,7 +166,7 @@ with open(f'./data/{latest_swabs_file}', 'r') as file:
                 positivty_rate = (
                     new_case_count / int(change_cumulative_total)) * 100.0
                 output_data[i]['swab_count'] = swab_count
-                output_data[i]['swab_diff'] = swab_count
+                output_data[i]['swab_diff'] = swab_diff
                 output_data[i]['positivity_rate'] = positivty_rate
                 output_data[i]['seven_day_moving_average_positivity'] = float(
                     extract_seven_day_average_positivity(last_seven_days=last_seven_days))
@@ -162,6 +174,7 @@ with open(f'./data/{latest_swabs_file}', 'r') as file:
                     dict(swab_count=swab_count, positivity_rate=positivty_rate))
                 if len(last_seven_days) > 7:
                     last_seven_days.pop(0)
+
 
 # Get vaccine data and append
 first_line_skipped = False
@@ -205,6 +218,67 @@ with open(f'./data/{latest_vaccines_file}', 'r') as file:
         if len(last_seven_days) > 7:
             last_seven_days.pop(0)
         previous_line = line
+
+
+# Integrate OWID data
+with open(f'./data/{latest_owid_file}', 'r') as file:
+    malta_data = []
+    for line in file:
+        data = line.strip().replace('\n', '').split(',')
+        isocode = data[0]
+        if isocode == 'MLT':
+            malta_data.append(
+                dict(
+                    date=data[3],
+                    total_cases=data[4],
+                    new_cases=data[5],
+                    total_deaths=data[7],
+                    new_deaths=data[8],
+                    icu_patients=data[17],
+                    hosp_patients=data[19],
+                    new_tests=data[25],
+                    total_tests=data[26],
+                    strigency_index=data[43]
+                )
+            )
+    for data in malta_data:
+        for key, value in data.items():
+            data[key] = value if not value == '' else None
+    # print(malta_data)
+    for output in output_data:
+        for day_data in malta_data:
+            if output['date_formatted'] == day_data['date']:
+                # print(output)
+                if ('swab_count' not in output.keys() or output['swab_count'] is None) and day_data['new_tests'] is not None:
+                    output['swab_count'] = int(float(day_data['new_tests']))
+
+
+# Calculate positivty rate
+
+
+# Get swabs data and append
+last_seven_days = []
+previous_day = None
+for i, data in enumerate(output_data):
+    if i > 0:
+        previous_day = output_data[i-1]
+    if 'swab_count' not in data.keys():
+        continue
+    swab_count = data['swab_count']
+    previous_swab_count = 0 if previous_day is None else previous_day['swab_count']
+    swab_diff = swab_count - previous_swab_count
+    new_case_count = data["new_cases"]
+    positivty_rate = (
+        new_case_count / swab_count) * 100.0
+    data['swab_count'] = swab_count
+    data['swab_diff'] = swab_diff
+    data['positivity_rate'] = positivty_rate
+    data['seven_day_moving_average_positivity'] = float(
+        extract_seven_day_average_positivity(last_seven_days=last_seven_days))
+    last_seven_days.append(
+        dict(swab_count=swab_count, positivity_rate=positivty_rate))
+    if len(last_seven_days) > 7:
+        last_seven_days.pop(0)
 
 
 print(f'{len(output_data)} entries processed')

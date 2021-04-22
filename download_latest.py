@@ -39,5 +39,17 @@ if response.status_code == 200:
 else:
     print(f'Non 200 status code for case data: {response.status_code}')
 
+print('Downloading OWID data...')
 
-print('Done :)')
+owid_url = 'https://covid.ourworldindata.org/data/owid-covid-data.csv'
+response = requests.get(owid_url)
+
+if response.status_code == 200:
+    filename = '{0:%Y-%m-%d_%H:%M:%S}_owid.csv'.format(datetime.now())
+    with open(f'./data/{filename}', 'w') as file:
+        file.write(response.text)
+else:
+    print(f'Non 200 status code for case data: {response.status_code}')
+
+
+print('Done!')
