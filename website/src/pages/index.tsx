@@ -108,6 +108,10 @@ export default (props: IndexPageProps) => {
             <a href="https://github.com/COVID19-Malta/COVID19-Cases">
               Public Health Open Dataset
             </a>
+            , combined with the{" "}
+            <a href="https://github.com/owid/covid-19-data/tree/master/public/data">
+              OWID Dataset
+            </a>
             . Last updated:{" "}
             {new Date(
               props.data.currentBuildDate.currentDate
