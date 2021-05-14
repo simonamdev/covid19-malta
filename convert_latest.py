@@ -150,7 +150,7 @@ with open(f'./data/{latest_swabs_file}', 'r') as file:
         # Skip empty lines
         if len(line.split()) == 0:
             continue
-        entity, isocode, date, source_url, change_cumulative_total, _, _, _, _ = line.strip().split(',')
+        entity, isocode, date, source_url, change_cumulative_total, _, _, _, _, _ = line.strip().split(',')
         day, month, year = date.split(' ')[0].split('/')
         month_name = month_number_name_map[month]
         formatted_date = f'{day}-{month_name}-{year}'
@@ -188,7 +188,11 @@ with open(f'./data/{latest_vaccines_file}', 'r') as file:
         # Skip empty lines
         if len(line.split()) == 0:
             continue
-        date, first_dose_count, second_dose_count = line.strip().split(',')
+        split_line = line.strip().split(',')
+        if len(split_line) == 4:
+            date, first_dose_count, second_dose_count, _ = split_line
+        else:
+            date, first_dose_count, second_dose_count, _, _ = split_line
         day, month, year = date.split('/')
         month_name = month_number_name_map[month]
         formatted_date = f'{day}-{month_name}-{year}'
@@ -197,7 +201,7 @@ with open(f'./data/{latest_vaccines_file}', 'r') as file:
         second_dose_diff = 0
 
         if previous_line is not None:
-            _, prev_first_dose_count, prev_second_dose_count = previous_line.strip().split(',')
+            _, prev_first_dose_count, prev_second_dose_count, _ = previous_line.strip().split(',')
             first_dose_diff = int(first_dose_count) - \
                 int(prev_first_dose_count)
             second_dose_diff = int(second_dose_count) - \
