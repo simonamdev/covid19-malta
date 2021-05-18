@@ -193,6 +193,10 @@ with open(f'./data/{latest_vaccines_file}', 'r') as file:
             date, first_dose_count, second_dose_count, _ = split_line
         else:
             date, first_dose_count, second_dose_count, _, _ = split_line
+        first_dose_count = int(
+            first_dose_count) if not first_dose_count == '' else 0
+        second_dose_count = int(
+            second_dose_count) if not second_dose_count == '' else 0
         day, month, year = date.split('/')
         month_name = month_number_name_map[month]
         formatted_date = f'{day}-{month_name}-{year}'
@@ -202,14 +206,20 @@ with open(f'./data/{latest_vaccines_file}', 'r') as file:
 
         if previous_line is not None:
             _, prev_first_dose_count, prev_second_dose_count, _ = previous_line.strip().split(',')
+            prev_first_dose_count = int(
+                prev_first_dose_count) if not prev_first_dose_count == '' else 0
+            prev_second_dose_count = int(
+                prev_second_dose_count) if not prev_second_dose_count == '' else 0
             first_dose_diff = int(first_dose_count) - \
                 int(prev_first_dose_count)
             second_dose_diff = int(second_dose_count) - \
                 int(prev_second_dose_count)
         for i, data in enumerate(output_data):
             if data['date'] == formatted_date:
-                output_data[i]['first_dose_count'] = int(first_dose_count)
-                output_data[i]['second_dose_count'] = int(second_dose_count)
+                output_data[i]['first_dose_count'] = int(
+                    first_dose_count) if not first_dose_count == '' else 0
+                output_data[i]['second_dose_count'] = int(
+                    second_dose_count) if not second_dose_count == '' else 0
                 output_data[i]['first_dose_diff'] = int(first_dose_diff)
                 output_data[i]['second_dose_diff'] = int(second_dose_diff)
                 output_data[i]['total_dose_diff'] = int(
