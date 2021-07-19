@@ -495,5 +495,43 @@
         "measures": [
             "Tourism expected to restart"
         ]
+    },
+    {
+        "date": "2021/07/01",
+        "measures": [
+            "Mask related measures relaxed",
+            "Two fully vaccinated individuals can remove thier masks in public places"
+        ]
+    },
+    {
+        "date": "2021/07/09",
+        "measures": [
+            "Language schools closed",
+            "Un-vaccinated travellers to be banned"
+        ]
+    },
+    {
+        "date": "2021/07/14",
+        "measures": [
+            "Quarantine made mandatory for un-vaccinated individuals entering the country"
+        ]
+    },
+    {
+        "date": "2021/07/15",
+        "measures": [
+            "Covid-19 testing obligatory for travel from Malta to Sicily"
+        ]
+    },
+    {
+        "date": "2021/07/16",
+        "measures": [
+            "Lost & Found Festival cancelled & moved to 2022"
+        ]
+    },
+    {
+        "date": "2021/07/19",
+        "measures": [
+            "ECDC re-adds Malta to EU Travel Red List"
+        ]
     }
 ]
