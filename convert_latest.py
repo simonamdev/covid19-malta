@@ -189,6 +189,7 @@ with open(f'./data/{latest_vaccines_file}', 'r') as file:
         if len(line.split()) == 0:
             continue
         split_line = line.strip().split(',')
+        # print(split_line, len(split_line))
         if len(split_line) == 4:
             date, first_dose_count, second_dose_count, _ = split_line
         else:
@@ -205,7 +206,10 @@ with open(f'./data/{latest_vaccines_file}', 'r') as file:
         second_dose_diff = 0
 
         if previous_line is not None:
-            _, prev_first_dose_count, prev_second_dose_count, _ = previous_line.strip().split(',')
+            if len(split_line) == 4:
+                _, prev_first_dose_count, prev_second_dose_count, _ = previous_line.strip().split(',')
+            else:
+                _, prev_first_dose_count, prev_second_dose_count, _, _ = previous_line.strip().split(',')
             prev_first_dose_count = int(
                 prev_first_dose_count) if not prev_first_dose_count == '' else 0
             prev_second_dose_count = int(
@@ -276,7 +280,7 @@ previous_day = None
 for i, data in enumerate(output_data):
     if i > 0:
         previous_day = output_data[i-1]
-    if 'swab_count' not in data.keys():
+    if 'swab_count' not in data.keys() or (previous_day and 'swab_count' not in previous_day.keys()):
         continue
     swab_count = data['swab_count']
     previous_swab_count = 0 if previous_day is None else previous_day['swab_count']
