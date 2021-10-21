@@ -15,7 +15,7 @@ else:
     print(f'Non 200 status code for case data: {response.status_code}')
     exit(1)
 
-swabs_url = 'https://raw.githubusercontent.com/COVID19-Malta/COVID19-Cases/master/COVID-19%20Malta%20-%20Number%20of%20Swabs%20Tests%20by%20Date%20Performed.csv'
+swabs_url = 'https://raw.githubusercontent.com/COVID19-Malta/COVID19-Data/master/COVID-19%20Malta%20-%20COVID%20Tests.csv'
 
 print('Downloading Swabs...')
 response = requests.get(swabs_url)
