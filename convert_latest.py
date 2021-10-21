@@ -150,21 +150,22 @@ with open(f'./data/{latest_swabs_file}', 'r') as file:
         # Skip empty lines
         if len(line.split()) == 0:
             continue
-        entity, isocode, date, source_url, change_cumulative_total, _, _, _, _, _ = line.strip().split(',')
+        date, pcr_previous_day, total_pcr, rapid_previous_day, total_rapid, total_tests_previous_day, total_tests = line.strip().split(',')
         day, month, year = date.split(' ')[0].split('/')
         month_name = month_number_name_map[month]
         formatted_date = f'{day}-{month_name}-{year}'
         swab_diff = 0
         if previous_line is not None:
-            _, _, _, _, previous_change_cumulative_total, _, _, _, _ = line.strip().split(',')
-            swab_diff = int(change_cumulative_total) - \
-                int(previous_change_cumulative_total)
+            _, _, _, _, _, _, previous_total_tests = line.strip().split(',')
+            swab_diff = int(total_tests) - \
+                int(previous_total_tests)
         for i, data in enumerate(output_data):
             if data['date'] == formatted_date:
                 new_case_count = output_data[i]["new_cases"]
-                swab_count = int(change_cumulative_total)
+                swab_count = int(total_tests_previous_day)
                 positivty_rate = (
-                    new_case_count / int(change_cumulative_total)) * 100.0
+                    new_case_count / swab_count
+                ) * 100.0
                 output_data[i]['swab_count'] = swab_count
                 output_data[i]['swab_diff'] = swab_diff
                 output_data[i]['positivity_rate'] = positivty_rate
