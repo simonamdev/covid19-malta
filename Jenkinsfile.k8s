@@ -19,7 +19,7 @@ podTemplate(inheritFrom: 'jenkins-agent', containers: [
       }
       stage('Build Website') {
         unstash('latest_data')
-        dir('gatsby-starter-blog') {
+        dir('website') {
             sh 'yarn install --network-timeout 100000'
             sh 'yarn run build'
             stash(name: 'website', includes: 'public/**/*')
