@@ -21,14 +21,16 @@ podTemplate(inheritFrom: 'jenkins-agent', containers: [
     }
     container('node') {
       stage('Build Website') {
-        git branch: "master",
-            credentialsId: 'github',
-            url: 'git@github.com:simonamdev/covid19-malta.git'
-        unstash('latest_data')
-        dir('website') {
-            sh 'yarn install --network-timeout 100000'
-            sh 'yarn run build'
-            stash(name: 'website', includes: 'public/**/*')
+        sh 'mkdir ./build'
+        dir('build') {
+            git branch: "master",
+                credentialsId: 'github',
+                url: 'git@github.com:simonamdev/covid19-malta.git'
+            dir('website') {
+                sh 'yarn install --network-timeout 100000'
+                sh 'yarn run build'
+                stash(name: 'website', includes: 'public/**/*')
+            }
         }
       }
     }
