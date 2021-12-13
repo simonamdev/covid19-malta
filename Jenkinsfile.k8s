@@ -1,5 +1,6 @@
 podTemplate(inheritFrom: 'jenkins-agent', containers: [
     containerTemplate(name: 'python', image: 'python:3.9.9-slim-buster', command: 'sleep', args: '99d'),
+    containerTemplate(name: 'node', image: 'node:14-alpine3.12', command: 'sleep', args: '99d'),
     containerTemplate(name: 'ubuntu', image: 'ubuntu', command: 'sleep', args: '99d'),
   ]) {
   node(POD_LABEL) {
@@ -17,7 +18,12 @@ podTemplate(inheritFrom: 'jenkins-agent', containers: [
           sh 'python convert_latest.py'
           stash(name: 'latest_data', includes: 'data/latest_data.json')
       }
+    }
+    container('node') {
       stage('Build Website') {
+        git branch: "master",
+            credentialsId: 'github',
+            url: 'git@github.com:simonamdev/covid19-malta.git'
         unstash('latest_data')
         dir('website') {
             sh 'yarn install --network-timeout 100000'
