@@ -1,0 +1,63 @@
+podTemplate(inheritFrom: 'jenkins-agent', containers: [
+    containerTemplate(name: 'python', image: 'python:3.9.9-slim-buster', command: 'sleep', args: '99d'),
+    containerTemplate(name: 'ubuntu', image: 'ubuntu', command: 'sleep', args: '99d'),
+  ]) {
+  node(POD_LABEL) {
+    container('python') {
+      stage('git Checkout') {
+        git branch: "master",
+            credentialsId: 'github',
+            url: 'git@github.com:simonamdev/website.git'
+      }
+      stage('Prepare Dependencies') {
+          sh 'pip install -r requirements.txt'
+      }
+      stage('Download Data') {
+          sh 'python download_latest.py'
+          sh 'python convert_latest.py'
+          stash(name: 'latest_data', includes: 'data/latest_data.json')
+      }
+      stage('Build Website') {
+        unstash('latest_data')
+        dir('gatsby-starter-blog') {
+            sh 'yarn install --network-timeout 100000'
+            sh 'yarn run build'
+            stash(name: 'website', includes: 'public/**/*')
+        }
+      }
+    }
+    container('ubuntu') {
+        stage('Deploy to VPS') {
+            steps {
+                unstash('website')
+                sshPublisher(
+                    publishers: [
+                        sshPublisherDesc(
+                            configName: 'devvps',
+                            transfers: [
+                                sshTransfer(
+                                    cleanRemote: true,
+                                    excludes: '',
+                                    execCommand: '',
+                                    execTimeout: 120000,
+                                    flatten: false,
+                                    makeEmptyDirs: true,
+                                    noDefaultExcludes: false,
+                                    patternSeparator: '[, ]+',
+                                    remoteDirectory: '/home/covid19/website',
+                                    remoteDirectorySDF: false,
+                                    sourceFiles: 'public/**/*'
+                                )
+                            ],
+                            usePromotionTimestamp: false,
+                            useWorkspaceInPromotion: false,
+                            verbose: true
+                        )
+                    ]
+                )
+            }
+        }
+
+    }
+  }
+}
