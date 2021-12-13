@@ -22,7 +22,8 @@ podTemplate(inheritFrom: 'jenkins-agent', containers: [
     container('node') {
       stage('Build Website') {
         sh 'mkdir ./build'
-        dir('build') {
+        sh 'chmod -R 777 ./build'
+        dir('./build') {
             git branch: "master",
                 credentialsId: 'github',
                 url: 'git@github.com:simonamdev/covid19-malta.git'
