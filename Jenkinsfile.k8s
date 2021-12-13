@@ -4,10 +4,10 @@ podTemplate(inheritFrom: 'jenkins-agent', containers: [
   ]) {
   node(POD_LABEL) {
     container('python') {
-      stage('git Checkout') {
+      stage('Git Checkout') {
         git branch: "master",
             credentialsId: 'github',
-            url: 'git@github.com:simonamdev/website.git'
+            url: 'git@github.com:simonamdev/covid19-malta.git'
       }
       stage('Prepare Dependencies') {
           sh 'pip install -r requirements.txt'
