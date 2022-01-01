@@ -3,7 +3,7 @@ import os
 import json
 
 from dataclasses import dataclass
-from typing import Any, List, Optional, Union
+from typing import Any, List, Optional, Tuple, Union
 
 files = os.listdir("data")
 csv_files = [file for file in files if file.endswith('csv')]
@@ -190,7 +190,6 @@ class OutputData:
     received_one_dose_diff: int
     received_both_doses_diff: int
     received_booster_dose_diff: int
-    new_doses_previous_day: int
 
 
 output_data: List[OutputData] = []
@@ -215,6 +214,17 @@ def get_previous_data_point(date: str, data: List[Union[CasesData, SwabsData, Va
 def calculate_seven_day_moving_average(data_last_seven_days: List[float]) -> float:
     return sum(data_last_seven_days) / len(data_last_seven_days)
 
+
+@dataclass
+class SevenDayValues:
+    date: str
+    new_cases: int
+    positivity_rate: float
+    deaths: int
+
+
+# Keep a moving window of seven days of data for seven day moving averages
+last_seven_days: List[SevenDayValues] = []
 
 for i, case_data in enumerate(cases_data):
     previous_case_data: Optional[CasesData] = None
@@ -250,7 +260,7 @@ for i, case_data in enumerate(cases_data):
         previous_relevant_swabs_data.total_pcr_and_rapid_tests if swabs_data_found and previous_swabs_data_found else 0
 
     total_swab_count = 0
-    positivty_rate = 0
+    positivty_rate: float = 0.0
     if swabs_data_found:
         total_swab_count = relevant_swabs_data.total_pcr_and_rapid_tests
         positivty_rate = (
@@ -286,9 +296,29 @@ for i, case_data in enumerate(cases_data):
         booster_doses_diff = none_to_zero(relevant_vaccine_data.total_boosters) - \
             none_to_zero(previous_relevant_vaccine_data.total_boosters)
 
-    seven_day_moving_average_new_cases = 0
-    seven_day_moving_average_deaths = 0
-    seven_day_moving_average_positivity_rate = 0  # TODO
+    seven_day_moving_average_new_cases = None
+    seven_day_moving_average_deaths = None
+    seven_day_moving_average_positivity_rate = None
+
+    # To maintain the window of seven days, add the current day at the end and if we end up with more than seven, remove the oldest one
+    last_seven_days.append(
+        SevenDayValues(
+            case_data.date,
+            case_data.new_cases,
+            positivty_rate,
+            deaths_diff
+        )
+    )
+    if len(last_seven_days) > 7:
+        last_seven_days.pop(0)
+
+    if len(last_seven_days) == 7:
+        seven_day_moving_average_new_cases = sum(
+            [d.new_cases for d in last_seven_days]) / 7
+        seven_day_moving_average_deaths = sum(
+            [d.deaths for d in last_seven_days]) / 7
+        seven_day_moving_average_positivity_rate = sum(
+            [d.positivity_rate for d in last_seven_days]) / 7
 
     output_data.append(
         OutputData(
