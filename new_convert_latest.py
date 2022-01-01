@@ -3,7 +3,7 @@ import os
 import json
 
 from dataclasses import dataclass
-from typing import List, Optional, Union
+from typing import Any, List, Optional, Union
 
 files = os.listdir("data")
 csv_files = [file for file in files if file.endswith('csv')]
@@ -33,9 +33,11 @@ def read_all_lines(file_path: str) -> List[str]:
             lines.append(clean_line)
     return lines
 
+
 def format_date_correctly(day_month_year_date: str) -> str:
     day, month, year = day_month_year_date.split('/')
     return f'{year}-{month}-{day}'
+
 
 @dataclass
 class CasesData:
@@ -45,6 +47,7 @@ class CasesData:
     recovered: int
     deaths: int
     active_cases: int
+
 
 cases_raw_data: List[str] = read_all_lines(f'./data/{latest_cases_file}')
 cases_data: List[CasesData] = []
@@ -71,7 +74,7 @@ class SwabsData:
     previous_day_rapid_tests: Optional[int]
     total_rapid_tests: Optional[int]
     previous_day_pcr_and_rapid_tests: int
-    total_pcr_and_rapid_tests: int 
+    total_pcr_and_rapid_tests: int
 
 
 swabs_raw_data: List[str] = read_all_lines(f'./data/{latest_swabs_file}')
@@ -115,7 +118,6 @@ for raw_vaccine_line in vaccines_raw_data[1:]:
             int(split_line[4]) if split_line[4] != '' else None,
         )
     )
-
 
 
 month_number_name_map = {
@@ -162,7 +164,6 @@ Sample output data:
 """
 
 
-
 @dataclass
 class OutputData:
     date: str
@@ -189,6 +190,7 @@ class OutputData:
     received_one_dose_diff: int
     received_both_doses_diff: int
     received_booster_dose_diff: int
+    new_doses_previous_day: int
 
 
 output_data: List[OutputData] = []
@@ -201,22 +203,54 @@ def get_relevant_data_point(date: str, data: List[Union[CasesData, SwabsData, Va
     return None
 
 
-for case_data in cases_data:
+def get_previous_data_point(date: str, data: List[Union[CasesData, SwabsData, VaccinesData]]) -> Optional[Union[CasesData, SwabsData, VaccinesData]]:
+    for i, row in enumerate(data):
+        if date == row.date:
+            if i == 0:
+                return None
+            return data[i-1]
+    return None
 
-    relevant_swabs_data: Optional[SwabsData] = get_relevant_data_point(case_data.date, swabs_data)
-    relevant_vaccine_data: Optional[VaccinesData] = get_relevant_data_point(case_data.date, vaccines_data)
+
+def calculate_seven_day_moving_average(data_last_seven_days: List[float]) -> float:
+    return sum(data_last_seven_days) / len(data_last_seven_days)
+
+
+for i, case_data in enumerate(cases_data):
+    previous_case_data: Optional[CasesData] = None
+    if i != 0:
+        previous_case_data = cases_data[i - 1]
+
+    # get relevant data if we have it available
+    relevant_swabs_data: Optional[SwabsData] = get_relevant_data_point(
+        case_data.date, swabs_data)
+    relevant_vaccine_data: Optional[VaccinesData] = get_relevant_data_point(
+        case_data.date, vaccines_data)
+
+    # get the previous datapoint for diff calculations
+    previous_relevant_swabs_data: Optional[SwabsData] = get_previous_data_point(
+        case_data.date, swabs_data)
+    previous_relevant_vaccine_data: Optional[VaccinesData] = get_previous_data_point(
+        case_data.date, vaccines_data)
 
     swabs_data_found = relevant_swabs_data is not None
     vaccine_data_found = relevant_vaccine_data is not None
 
-    recovered_diff = 0
-    deaths_diff = 0
-    active_cases_diff = 0
-    swab_count_diff = 0
-    positivty_rate = 0
+    previous_cases_data_found = previous_case_data is not None
+    previous_swabs_data_found = previous_relevant_swabs_data is not None
+    previous_vaccines_data_found = previous_relevant_vaccine_data is not None
+
+    recovered_diff = case_data.recovered - \
+        previous_case_data.recovered if previous_cases_data_found else 0
+    deaths_diff = case_data.deaths - \
+        previous_case_data.deaths if previous_cases_data_found else 0
+    active_cases_diff = case_data.active_cases - \
+        previous_case_data.active_cases if previous_cases_data_found else 0
+    swab_count_diff = relevant_swabs_data.total_pcr_and_rapid_tests - \
+        previous_relevant_swabs_data.total_pcr_and_rapid_tests if swabs_data_found and previous_swabs_data_found else 0
 
     total_swab_count = 0
-
+    positivty_rate = 0
     if swabs_data_found:
         total_swab_count = relevant_swabs_data.total_pcr_and_rapid_tests
         positivty_rate = (
@@ -225,23 +259,36 @@ for case_data in cases_data:
 
     total_doses = 0
     received_one_dose = 0
-    received_all_doses= 0
+    received_all_doses = 0
     booster_doses_given = 0
 
     total_doses_diff = 0
     received_one_dose_diff = 0
-    received_all_doses_diff= 0
+    received_all_doses_diff = 0
     booster_doses_diff = 0
-    
+
     if vaccine_data_found:
         total_doses = relevant_vaccine_data.total_vaccination_doses
         received_one_dose = relevant_vaccine_data.received_one_dose
         received_all_doses = relevant_vaccine_data.fully_vaccinated
         booster_doses_given = relevant_vaccine_data.total_boosters
 
+    def none_to_zero(value: Optional[Any]) -> int:
+        return value if value is not None else 0
+
+    if vaccine_data_found and previous_vaccines_data_found:
+        total_doses_diff = relevant_vaccine_data.total_vaccination_doses - \
+            previous_relevant_vaccine_data.total_vaccination_doses
+        received_one_dose_diff = none_to_zero(relevant_vaccine_data.received_one_dose) - \
+            none_to_zero(previous_relevant_vaccine_data.received_one_dose)
+        received_all_doses_diff = none_to_zero(relevant_vaccine_data.fully_vaccinated) - \
+            none_to_zero(previous_relevant_vaccine_data.fully_vaccinated)
+        booster_doses_diff = none_to_zero(relevant_vaccine_data.total_boosters) - \
+            none_to_zero(previous_relevant_vaccine_data.total_boosters)
+
     seven_day_moving_average_new_cases = 0
     seven_day_moving_average_deaths = 0
-    seven_day_moving_average_positivity_rate = 0 # TODO
+    seven_day_moving_average_positivity_rate = 0  # TODO
 
     output_data.append(
         OutputData(
@@ -275,4 +322,5 @@ print(f'{len(output_data)} entries processed')
 output_file_path = './data/latest_data.json'
 
 with open(output_file_path, 'w') as file:
-    file.write(json.dumps([dataclasses.asdict(data) for data in output_data], indent=2))
+    file.write(json.dumps([dataclasses.asdict(data)
+               for data in output_data], indent=2))

@@ -17,7 +17,7 @@ export default (props: SituationDataProps) => {
   const data = getDateData(caseData, new Date(nearestPoint.x));
   const numberOfDaysAgo = Math.floor(
     (new Date().getTime() - new Date(nearestPoint.x).getTime()) /
-      (1000 * 3600 * 24)
+    (1000 * 3600 * 24)
   );
   const daysAgoText =
     numberOfDaysAgo > 0
@@ -55,22 +55,32 @@ export default (props: SituationDataProps) => {
         {data?.seven_day_moving_average_positivity?.toFixed(2) || "N/A"}%
       </li>
       <h4>Vaccines</h4>
-      {data.total_dose_diff > 0 && (
-        <li>{data.total_dose_diff.toLocaleString()} New Doses given</li>
+      {data.total_doses_diff > 0 && (
+        <li>{data.total_doses_diff.toLocaleString()} New Doses given</li>
       )}
       <li>
-        {data.first_dose_count ? data.first_dose_count.toLocaleString() : "N/A"}{" "}
+        {data.received_one_dose
+          ? data.received_one_dose.toLocaleString()
+          : "N/A"}{" "}
         First Doses{" "}
-        {data.first_dose_diff > 0 &&
-          `(⬆️ ${data.first_dose_diff.toLocaleString()})`}
+        {data?.received_one_dose_diff > 0 &&
+          `(⬆️ ${data?.received_one_dose_diff.toLocaleString()})`}
       </li>
       <li>
-        {data.second_dose_count > 0
-          ? data.second_dose_count.toLocaleString()
+        {data.received_both_doses
+          ? data.received_both_doses.toLocaleString()
           : "N/A"}{" "}
-        Second Doses{" "}
-        {data.second_dose_diff > 0 &&
-          `(⬆️ ${data.second_dose_diff.toLocaleString()})`}
+        Both Doses{" "}
+        {data?.received_both_doses_diff > 0 &&
+          `(⬆️ ${data?.received_both_doses_diff.toLocaleString()})`}
+      </li>
+      <li>
+        {data.received_booster_dose
+          ? data.received_booster_dose.toLocaleString()
+          : "N/A"}{" "}
+        Booster Doses{" "}
+        {data?.received_booster_dose_diff > 0 &&
+          `(⬆️ ${data?.received_booster_dose_diff.toLocaleString()})`}
       </li>
       {data?.events && data.events.length > 0 && <h4>Notable Events</h4>}
       {(data?.events || []).map((measure, i) => (

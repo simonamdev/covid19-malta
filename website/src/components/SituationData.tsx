@@ -16,7 +16,7 @@ export default (props: SituationDataProps) => {
   const data = getDateData(caseData, new Date(nearestPoint.x));
   const numberOfDaysAgo = Math.floor(
     (new Date().getTime() - new Date(nearestPoint.x).getTime()) /
-      (1000 * 3600 * 24)
+    (1000 * 3600 * 24)
   );
   const daysAgoText =
     numberOfDaysAgo > 0
@@ -52,20 +52,28 @@ export default (props: SituationDataProps) => {
       <p>Vaccines:</p>
       <ul>
         <li>
-          {data.first_dose_count
-            ? data.first_dose_count.toLocaleString()
+          {data.received_one_dose
+            ? data.received_one_dose.toLocaleString()
             : "N/A"}{" "}
           First Doses{" "}
-          {data?.first_dose_diff &&
-            `(⬆️ ${data?.first_dose_diff.toLocaleString()})`}
+          {data?.received_one_dose_diff &&
+            `(⬆️ ${data?.received_one_dose_diff.toLocaleString()})`}
         </li>
         <li>
-          {data.second_dose_count
-            ? data.second_dose_count.toLocaleString()
+          {data.received_both_doses
+            ? data.received_both_doses.toLocaleString()
             : "N/A"}{" "}
-          Second Doses{" "}
-          {data?.second_dose_diff &&
-            `(⬆️ ${data?.second_dose_diff.toLocaleString()})`}
+          Both Doses (1 of 1 or 2 of 2){" "}
+          {data?.received_both_doses_diff &&
+            `(⬆️ ${data?.received_both_doses_diff.toLocaleString()})`}
+        </li>
+        <li>
+          {data.received_booster_dose
+            ? data.received_booster_dose.toLocaleString()
+            : "N/A"}{" "}
+          Booster Doses{" "}
+          {data?.received_booster_dose_diff &&
+            `(⬆️ ${data?.received_booster_dose_diff.toLocaleString()})`}
         </li>
       </ul>
       {data?.events && data.events.length > 0 && <p>Notable Events:</p>}
