@@ -17,7 +17,7 @@ export default (props: SituationDataProps) => {
   const data = getDateData(caseData, new Date(nearestPoint.x));
   const numberOfDaysAgo = Math.floor(
     (new Date().getTime() - new Date(nearestPoint.x).getTime()) /
-    (1000 * 3600 * 24)
+      (1000 * 3600 * 24)
   );
   const daysAgoText =
     numberOfDaysAgo > 0
@@ -46,13 +46,30 @@ export default (props: SituationDataProps) => {
         {data.deaths_diff > 0 && `(⬆️ ${data.deaths_diff.toLocaleString()})`}
       </li>
       <h4>Seven Day Moving Averages</h4>
-      <li>New Cases: {data?.seven_day_moving_average || "N/A"} </li>
       <li>
-        Deaths: {data?.seven_day_moving_average_deaths.toFixed(2) || "N/A"}{" "}
+        New Cases:{" "}
+        {data.seven_day_moving_average_new_cases
+          ? Number(
+              data.seven_day_moving_average_new_cases.toFixed(2)
+            ).toLocaleString()
+          : "N/A"}{" "}
+      </li>
+      <li>
+        Deaths:{" "}
+        {data.seven_day_moving_average_deaths
+          ? Number(
+              data.seven_day_moving_average_deaths.toFixed(2)
+            ).toLocaleString()
+          : "N/A"}{" "}
       </li>
       <li>
         Positivity Rate:{" "}
-        {data?.seven_day_moving_average_positivity?.toFixed(2) || "N/A"}%
+        {data.seven_day_moving_average_positivity_rate
+          ? Number(
+              data.seven_day_moving_average_positivity_rate.toFixed(2)
+            ).toLocaleString()
+          : "N/A"}
+        %
       </li>
       <h4>Vaccines</h4>
       {data.total_doses_diff > 0 && (

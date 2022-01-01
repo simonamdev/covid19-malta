@@ -6,7 +6,8 @@ from dataclasses import dataclass
 from typing import Any, List, Optional, Tuple, Union
 
 files = os.listdir("data")
-csv_files = [file for file in files if file.endswith('csv')]
+csv_files = sorted(
+    [file for file in files if file.endswith('csv')], reverse=True)
 cases_files = [file for file in csv_files if 'cases' in file]
 swabs_files = [file for file in csv_files if 'swabs' in file]
 vaccines_files = [file for file in csv_files if 'vaccines' in file]

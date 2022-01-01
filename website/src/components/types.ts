@@ -27,9 +27,9 @@ export interface CaseData {
   deaths: number;
   deaths_diff: number;
   active_cases: number;
-  seven_day_moving_average: number;
+  seven_day_moving_average_new_cases: number;
   seven_day_moving_average_deaths: number;
-  seven_day_moving_average_positivity?: number;
+  seven_day_moving_average_positivity_rate?: number;
   total_doses: number;
   received_one_dose: number;
   received_both_doses: number;
