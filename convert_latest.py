@@ -182,6 +182,7 @@ class OutputData:
     swab_count: int
     swab_count_diff: int
     positivity_rate: float
+    positivity_rate_diff: float
     seven_day_moving_average_positivity_rate: float
     total_doses: int
     received_one_dose: int
@@ -262,11 +263,18 @@ for i, case_data in enumerate(cases_data):
 
     total_swab_count = 0
     positivty_rate: float = 0.0
+    positivity_rate_diff: float = 0.0
     if swabs_data_found:
         total_swab_count = relevant_swabs_data.total_pcr_and_rapid_tests
         positivty_rate = (
             case_data.new_cases / relevant_swabs_data.previous_day_pcr_and_rapid_tests
         ) * 100.0
+    if previous_cases_data_found and previous_swabs_data_found:
+        previous_positivty_rate = (
+            previous_case_data.new_cases /
+            previous_relevant_swabs_data.previous_day_pcr_and_rapid_tests
+        ) * 100.0
+        positivity_rate_diff = positivty_rate - previous_positivty_rate
 
     total_doses = 0
     received_one_dose = 0
@@ -337,6 +345,7 @@ for i, case_data in enumerate(cases_data):
             total_swab_count,
             swab_count_diff,
             positivty_rate,
+            positivity_rate_diff,
             seven_day_moving_average_positivity_rate,
             total_doses,
             received_one_dose,

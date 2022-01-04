@@ -41,7 +41,8 @@ export interface CaseData {
   seven_day_moving_average_first_dose?: number;
   seven_day_moving_average_second_dose?: number;
   swab_count?: number;
-  swab_diff?: number;
+  swab_count_diff?: number;
   positivity_rate?: number;
+  positivity_rate_diff?: number;
   events: string[];
 }
