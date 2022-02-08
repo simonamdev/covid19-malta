@@ -108,7 +108,7 @@ class VaccinesData:
 vaccines_raw_data: List[str] = read_all_lines(f'./data/{latest_vaccines_file}')
 vaccines_data: List[VaccinesData] = []
 
-for raw_vaccine_line in vaccines_raw_data[1:]:
+for raw_vaccine_line in vaccines_raw_data[2:]:
     split_line = raw_vaccine_line.split(',')
     vaccines_data.append(
         VaccinesData(
