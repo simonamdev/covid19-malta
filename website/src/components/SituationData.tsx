@@ -16,7 +16,7 @@ export default (props: SituationDataProps) => {
   const data = getDateData(caseData, new Date(nearestPoint.x));
   const numberOfDaysAgo = Math.floor(
     (new Date().getTime() - new Date(nearestPoint.x).getTime()) /
-    (1000 * 3600 * 24)
+      (1000 * 3600 * 24)
   );
   const daysAgoText =
     numberOfDaysAgo > 0
@@ -68,12 +68,12 @@ export default (props: SituationDataProps) => {
             `(⬆️ ${data?.received_both_doses_diff.toLocaleString()})`}
         </li>
         <li>
-          {data.received_booster_dose
-            ? data.received_booster_dose.toLocaleString()
+          {data.received_first_booster_dose
+            ? data.received_first_booster_dose.toLocaleString()
             : "N/A"}{" "}
           Booster Doses{" "}
-          {data?.received_booster_dose_diff &&
-            `(⬆️ ${data?.received_booster_dose_diff.toLocaleString()})`}
+          {data?.received_first_booster_dose_diff &&
+            `(⬆️ ${data?.received_first_booster_dose_diff.toLocaleString()})`}
         </li>
       </ul>
       {data?.events && data.events.length > 0 && <p>Notable Events:</p>}

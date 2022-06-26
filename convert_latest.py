@@ -102,7 +102,8 @@ class VaccinesData:
     total_vaccination_doses: int
     fully_vaccinated: Optional[int]
     received_one_dose: Optional[int]
-    total_boosters: Optional[int]
+    total_first_boosters: Optional[int]
+    total_second_boosters: Optional[int]
 
 
 vaccines_raw_data: List[str] = read_all_lines(f'./data/{latest_vaccines_file}')
@@ -117,6 +118,7 @@ for raw_vaccine_line in vaccines_raw_data[2:]:
             int(split_line[2]) if split_line[2] != '' else None,
             int(split_line[3]) if split_line[3] != '' else None,
             int(split_line[4]) if split_line[4] != '' else None,
+            int(split_line[5]) if split_line[5] != '' else None,
         )
     )
 
@@ -187,11 +189,13 @@ class OutputData:
     total_doses: int
     received_one_dose: int
     received_both_doses: int
-    received_booster_dose: int
+    received_first_booster_dose: int
+    received_second_booster_dose: int
     total_doses_diff: int
     received_one_dose_diff: int
     received_both_doses_diff: int
-    received_booster_dose_diff: int
+    received_first_booster_dose_diff: int
+    received_second_booster_dose_diff: int
 
 
 output_data: List[OutputData] = []
@@ -279,18 +283,21 @@ for i, case_data in enumerate(cases_data):
     total_doses = 0
     received_one_dose = 0
     received_all_doses = 0
-    booster_doses_given = 0
+    first_booster_doses_given = 0
+    second_booster_doses_given = 0
 
     total_doses_diff = 0
     received_one_dose_diff = 0
     received_all_doses_diff = 0
-    booster_doses_diff = 0
+    first_booster_doses_diff = 0
+    second_booster_doses_diff = 0
 
     if vaccine_data_found:
         total_doses = relevant_vaccine_data.total_vaccination_doses
         received_one_dose = relevant_vaccine_data.received_one_dose
         received_all_doses = relevant_vaccine_data.fully_vaccinated
-        booster_doses_given = relevant_vaccine_data.total_boosters
+        first_booster_doses_given = relevant_vaccine_data.total_first_boosters
+        second_booster_doses_given = relevant_vaccine_data.total_second_boosters
 
     def none_to_zero(value: Optional[Any]) -> int:
         return value if value is not None else 0
@@ -302,8 +309,10 @@ for i, case_data in enumerate(cases_data):
             none_to_zero(previous_relevant_vaccine_data.received_one_dose)
         received_all_doses_diff = none_to_zero(relevant_vaccine_data.fully_vaccinated) - \
             none_to_zero(previous_relevant_vaccine_data.fully_vaccinated)
-        booster_doses_diff = none_to_zero(relevant_vaccine_data.total_boosters) - \
-            none_to_zero(previous_relevant_vaccine_data.total_boosters)
+        first_booster_doses_diff = none_to_zero(relevant_vaccine_data.total_first_boosters) - \
+            none_to_zero(previous_relevant_vaccine_data.total_first_boosters)
+        second_booster_doses_diff = none_to_zero(relevant_vaccine_data.total_second_boosters) - \
+            none_to_zero(previous_relevant_vaccine_data.total_second_boosters)
 
     seven_day_moving_average_new_cases = None
     seven_day_moving_average_deaths = None
@@ -350,11 +359,13 @@ for i, case_data in enumerate(cases_data):
             total_doses,
             received_one_dose,
             received_all_doses,
-            booster_doses_given,
+            first_booster_doses_given,
+            second_booster_doses_given,
             total_doses_diff,
             received_one_dose_diff,
             received_all_doses_diff,
-            booster_doses_diff
+            first_booster_doses_diff,
+            second_booster_doses_diff
         )
     )
 

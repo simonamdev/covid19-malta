@@ -33,11 +33,13 @@ export interface CaseData {
   total_doses: number;
   received_one_dose: number;
   received_both_doses: number;
-  received_booster_dose: number;
+  received_first_booster_dose: number;
+  received_second_booster_dose: number;
   total_doses_diff: number;
   received_one_dose_diff: number;
   received_both_doses_diff: number;
-  received_booster_dose_diff: number;
+  received_first_booster_dose_diff: number;
+  received_second_booster_dose_diff: number;
   seven_day_moving_average_first_dose?: number;
   seven_day_moving_average_second_dose?: number;
   swab_count?: number;
