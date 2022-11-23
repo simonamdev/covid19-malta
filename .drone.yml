@@ -26,8 +26,9 @@ steps:
       - name: c19-store
         path: /root/.c19-store
     commands:
-      - yarn
       - mv /root/.c19-store/latest_data.json ./data/latest_data.json
+      - cd website
+      - yarn
       - yarn run build
       - mv ./public /root/.c19-store/public
   - name: upload
