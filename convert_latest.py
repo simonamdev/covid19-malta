@@ -111,6 +111,8 @@ vaccines_data: List[VaccinesData] = []
 
 for raw_vaccine_line in vaccines_raw_data[2:]:
     split_line = raw_vaccine_line.split(',')
+    if split_line[1] == 'na':
+        continue
     vaccines_data.append(
         VaccinesData(
             format_date_correctly(split_line[0]),
