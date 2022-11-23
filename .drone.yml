@@ -21,7 +21,7 @@ steps:
       - python3 convert_latest.py
       - mv ./data/latest_data.json /root/.c19-store/latest_data.json
   - name: build
-    image: node14-alpine
+    image: node:14-alpine
     volumes:
       - name: c19-store
         path: /root/.c19-store
