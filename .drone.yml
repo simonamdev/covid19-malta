@@ -27,7 +27,6 @@ steps:
         path: /root/.c19-store
     commands:
       - yarn
-      - mkdir data
       - mv /root/.c19-store/latest_data.json ./data/latest_data.json
       - yarn run build
       - mv ./public /root/.c19-store/public
