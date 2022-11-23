@@ -42,6 +42,8 @@ steps:
       password: 
       key: 
         from_secret: vps_key
+      passphrase:
+        from_secret: ssh_passphrase
       port: 22
       target: /home/covid19-test/website
       source: /root/.c19-store/public
