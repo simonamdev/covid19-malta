@@ -31,6 +31,7 @@ steps:
       - yarn
       - yarn run build
       - mv ./public /root/.c19-store/public
+      - ls /root/.c19-store/public
   - name: upload
     image: appleboy/drone-scp
     volumes:
@@ -46,7 +47,7 @@ steps:
         from_secret: ssh_passphrase
       port: 22
       target: /home/covid19-test/website
-      source: /root/.c19-store/public/**/*
+      source: /root/.c19-store/public
 
 volumes:
 - name: c19-store
