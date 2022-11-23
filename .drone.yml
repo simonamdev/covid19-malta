@@ -1,0 +1,42 @@
+kind: pipeline
+type: docker
+name: full
+
+concurrency:
+  limit: 1
+
+platform:
+  os: linux
+  arch: amd64
+
+steps:
+  - name: data
+    image: python:3
+    commands:
+      - pip3 install -r requirements.txt
+      - python3 download_latest.py
+      - python3 convert_latest.py
+      - mv ./data/latest_data.json ./c19-store/latest_data.json
+  - name: build
+    image: node14-alpine
+    commands:
+      - yarn
+      - mkdir data
+      - mv ./c19-store/latest_data.json ./data/latest_data.json
+      - yarn run build
+      - mv ./public ./c19-store/public
+  - name: upload
+    image: appleboy/drone-scp
+    settings:
+      host: simonam.dev
+      username: root
+      password: 
+      key: 
+        from_secret: vps_key
+      port: 22
+      target: /home/covid19-test/website
+      source: ./c19-store/public
+
+volumes:
+- name: c19-store
+  temp: {}
