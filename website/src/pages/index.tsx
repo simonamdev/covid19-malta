@@ -104,7 +104,7 @@ export default (props: IndexPageProps) => {
         <div>
           <p style={{ margin: 0 }}>
             Website by <a href="https://simonam.dev">Simon Agius Muscat</a>.
-            Data retrieved from the{" "}
+            Data is retrieved from the{" "}
             <a href="https://github.com/COVID19-Malta/COVID19-Cases">
               Public Health Open Dataset
             </a>

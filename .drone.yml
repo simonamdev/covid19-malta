@@ -46,9 +46,10 @@ steps:
       passphrase:
         from_secret: ssh_passphrase
       port: 22
-      target: /home/covid19-test/website
+      target: /home/covid19/website
       source: /root/.c19-store/public
       strip_components: 2
+      overwrite: true
 
 volumes:
 - name: c19-store
