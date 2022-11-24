@@ -49,7 +49,6 @@ steps:
       target: /home/covid19-test/website
       source: /root/.c19-store/public
       strip_components: 2
-      rm: true
 
 volumes:
 - name: c19-store
