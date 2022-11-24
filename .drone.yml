@@ -48,6 +48,7 @@ steps:
       port: 22
       target: /home/covid19-test/website
       source: /root/.c19-store/public
+      rm: true
 
 volumes:
 - name: c19-store
